@@ -112,3 +112,6 @@ test_logs.txt
 dumped_armips/
 dumped_c/
 test_filter.txt
+
+# reference-only clone, not part of the hg-engine build
+/scrcmd-database/
