@@ -200,6 +200,9 @@ work, not something this hack should plan to build itself. Practical levers we a
       wild-caught coverage by default, but it's a soft preference, not a hard rule. TM/tutor
       moves onto an off-type mon or a starter's own movepool can satisfy the audit when a wild
       option doesn't fit the biome/route naturally.
+- [ ] Starter swap — **decided to do it, species/lines not yet chosen.** Replaces vanilla
+      Chikorita/Cyndaquil/Totodile; see Milestones (new milestone 5) for sequencing — after gym
+      leader rosters are locked, before rival/E4/trainer-competency work.
 
 ## Biome Map (Phase 1 — Johto; Kanto post-game gyms/E4 rematch are Phase 2, see Phased approach)
 
@@ -252,7 +255,11 @@ phase starts — not drafted yet, see Phased approach above.
    iterating with playtesting (use `data/battle_tests/` for mechanic-level checks, manual
    playtesting in an emulator for feel). Re-run the coverage audit if a gym's final archetype
    shifts its effective typing (e.g. a mixed-type archetype changes what actually threatens it).
-5. **Trainer competency pass**: designate one Ace Trainer/route boss per route (5 mon) and bring
+5. **Starter swap**: replace the vanilla Chikorita/Cyndaquil/Totodile line-up. Sequenced after the
+   gym leader rosters above (not rival/E4, which are biome-independent) so the new starters'
+   typing/movepool can be checked against the finalized gym archetypes and folded into the Pillar 3
+   type-coverage audit as a counter-access path. Species/lines TBD — open decision.
+6. **Trainer competency pass**: designate one Ace Trainer/route boss per route (5 mon) and bring
    the rest of that route's trainers up to the 3-mon/coherent-team floor — see Open Decisions for
    the full roster-size spec.
-6. **Polish**: flavor text/dialogue pass, QoL verification, full playthrough test.
+7. **Polish**: flavor text/dialogue pass, QoL verification, full playthrough test.
