@@ -48,7 +48,9 @@ building on the last rather than in parallel:
 ## Pillars
 
 1. **Ace-trainer gym/rival/E4 rebuilds** — real archetypes, biome-appropriate rosters, movesets
-   and items that support the archetype (not just STAB spam).
+   and items that support the archetype (not just STAB spam). Roster size: gym leaders minimum 4
+   mon, most likely 6 (a realistic full roster); Elite Four/Champion/Silver likewise default to 6
+   unless a specific fight calls for fewer.
 2. **Biome-grounded, curated dex** — trim the "everything through Gen 9" default roster down to
    what fits each area's ecology; support this through the game's actual Regional Dex vs
    National Dex mechanism (see Technical Approach) rather than deleting species data.
@@ -58,9 +60,11 @@ building on the last rather than in parallel:
    home biome doesn't naturally contain those counters, the counter-types get placed on the
    route(s) leading into that gym rather than forcing an ecologically-wrong mon into the gym's
    own biome. See Technical Approach for how this gets checked per gym.
-4. **Trainer competency pass (non-gym)** — route/gym-adjacent trainers get better flag
-   configurations (`aiFlags` in `data/Trainers.c`) and less thrown-together teams, scaled below
-   the gym/rival/E4 tier.
+4. **Trainer competency pass (non-gym)** — not every route trainer needs a rebuild, but every
+   route gets one designated "Ace Trainer" acting as a route boss (5 mon, real archetype, better
+   `aiFlags`) plus a competency floor for the rest of that route's trainers (minimum 3 mon, still
+   coherent teams rather than thrown-together ones). See Open Decisions for the full roster-size
+   spec and the reasoning on why no auto-heal QoL feature is needed to support this.
 5. **QoL modernization** — lean on existing `CONFIG.md` toggles (reusable TMs, deletable HMs,
    EV/IV viewer, reusable repels, capture experience, critical captures, etc.) rather than
    building new QoL systems from scratch.
@@ -117,22 +121,81 @@ work, not something this hack should plan to build itself. Practical levers we a
 
 ## Open decisions (fill in as we go)
 
-- [ ] Working title for the hack.
+- [x] Working title for the hack — **Pokémon Vibrant Gold** (see top of doc).
 - [x] Biome map (Johto) — **Johto gyms + E4 + Champion + Silver drafted**, see Biome Map section
       below. Kanto post-game gyms are explicitly **deferred to Phase 2** (see Phased approach
       above), not part of this pass.
-- [ ] Regional dex size/target — how curated is "curated"? (e.g. Kanto/Johto-plausible species
-      only, vs. a stricter per-biome cap.)
-- [ ] Which `CONFIG.md` toggles are in/out for v1 (draft a concrete list rather than "most of
-      them").
-- [ ] How far the "trainer competency pass" extends below gym/rival/E4 tier (every route trainer?
-      just gym-adjacent ones? Elite Four rematch/post-game trainers?).
+- [x] Regional dex size/target — **resolved: no fixed target, hard ceiling of &lt;300.** Vanilla
+      HGSS `data/RegionalDex.c` baseline is 256 entries (1–256, Johto-first order, includes the
+      pre-National-Dex legendaries). That number is vanilla parity, not an engine limit — Dex Flag
+      Expansion (see wiki) supports up to 2048 species flags. Build the dex from the biome map: add
+      whatever species each area's ecology calls for, and freely **drop existing Johto/Kanto
+      natives** that don't fit a biome's tone even though they were in the vanilla dex. Stay under
+      300 total. Mechanism unchanged: edit `data/RegionalDex.c` directly (species → dex number,
+      `0` = not in regional dex), keep full species data intact so National Dex completion still
+      works.
+- [x] Which `CONFIG.md` toggles are in/out for v1 — **resolved, applied to `include/config.h` /
+      `armips/include/config.s`.** Already-on defaults (Fairy/Mega/Primal/Hidden Abilities,
+      `ALLOW_SAVE_CHANGES`, `REUSABLE_TMS`, `NO_PARTNER_DOUBLE_BATTLES`, `APPLY_ANTIPIRACY`,
+      EV/IV viewer, capture exp/critical capture, expanded PC boxes, modern EV caps/friendship
+      threshold, `RESTORE_ITEMS_AT_BATTLE_END`, `UPDATE_OVERWORLD_POISON`, `STATIC_HP_BAR`) are
+      kept as-is. Changes made this pass:
+      - **On:** `DELETABLE_HMS` (pairs with `REUSABLE_TMS` per the doc's own recommendation —
+        otherwise HMs are stuck in the bag forever), `IMPLEMENT_TRANSPARENT_TEXTBOXES`,
+        `DISABLE_END_OF_TURN_WEATHER_MESSAGE`, `PLAY_MON_VICTORY_POSE`,
+        `BATTLES_UNCAPPED_FRAME_RATE` — all pure QoL/visual, no downside.
+      - **On, ties to Pillar 5 (difficulty from team construction, not AI outplay or item spam):**
+        `DISABLE_ITEMS_IN_TRAINER_BATTLE`.
+      - **On, new v1 pillar — badge-gated level cap:** `IMPLEMENT_LEVEL_CAP` +
+        `UNCAP_CANDIES_FROM_LEVEL_CAP` + `ALLOW_LEVEL_CAP_EVOLVE` (`LEVEL_CAP_VARIABLE` left at its
+        default `0x416F` free script variable). Config-level toggle only — actually writing the
+        cap value into that variable at each badge gate is real script work, deferred to the
+        gym/rival/E4 rebuild milestone, not done in this pass.
+      - **Left off, deliberately:** `BATTLE_MODE_FORCE_SET` (keep vanilla player choice of
+        Set/Switch — difficulty should come from trainer design, not removing a vanilla option),
+        `ALWAYS_HAVE_NATIONAL_DEX` (keep the curated regional dex meaningful pre-Kanto),
+        `FAST_TEXT_PRINTING` (removes player choice; fast text speed is already a vanilla option),
+        `ALWAYS_UNCAPPED_FRAME_RATE` (buggy per the doc), `IMPLEMENT_WILD_DOUBLE_BATTLES`
+        (upstream-flagged broken, see `include/config.h` comment/GH issue #86).
+      - **Noted, not decided now:** `THUNDER_STORM_WEATHER_ELECTRIC_TERRAIN` /
+        `FOG_WEATHER_MISTY_TERRAIN` are a zero-map-editing way to give specific weather-map
+        locations a mechanical identity (free biome flavor) — worth considering per-location during
+        the gym/biome rebuild rather than as a blanket toggle now.
+- [x] How far the "trainer competency pass" extends below gym/rival/E4 tier — **resolved.** Not
+      every route trainer gets touched, but every route gets one designated **Ace Trainer / route
+      boss** (5 mon, real archetype). Baseline for the rest of that route's trainers: minimum 3 mon,
+      still a coherent team (not thrown-together). Roster-size ladder overall: regular route
+      trainer 3+ → route Ace Trainer 5 → gym leader 4, most likely 6 (full realistic roster) →
+      Elite Four/Champion/Silver default to 6 as well (see Pillar 1).
+      - **Auto-heal-after-battle investigated and rejected for now.** Searched `config.h`,
+        `armips/include/config.s`, the wiki, and `src`/`armips` for any restore-party-HP-after-
+        battle hook — none exists in this engine (`RESTORE_ITEMS_AT_BATTLE_END` only restocks
+        single-use *items*, not HP/PP). Not needed anyway: `DISABLE_ITEMS_IN_TRAINER_BATTLE` only
+        blocks item use *during* a battle — the player can still freely heal via the Pokémon menu
+        between route trainers using their own item stock, same as vanilla. Bigger route gauntlets
+        just make that stock management part of the challenge (fits Pillar 5). Revisit only if
+        playtesting shows the route gauntlets are actually too punishing — a true engine-level
+        auto-heal would be new C/ASM work off the same hook point `RESTORE_ITEMS_AT_BATTLE_END`
+        uses, not a config flip.
 - [x] Mega Evolution / Primal Reversion / Fairy type / Hidden Abilities — **resolved: all
       enabled.** Fairy type is core to the "vibrant Johto" vision (not just inherited default).
       Mega Evolution stays on as a showcase moment for ace-trainer fights (gym leaders/rivals/
       champion). Hidden Abilities stay on for build diversity on both player and trainer rosters.
-- [ ] Any species exclusions/inclusions driven by story tone rather than biome (legendaries,
-      pseudo-legendaries, event mons).
+- [x] Any species exclusions/inclusions driven by story tone rather than biome (legendaries,
+      pseudo-legendaries, event mons) — **resolved.**
+      - **Confirmed in:** Hisuian Typhlosion (`SPECIES_TYPHLOSION_HISUIAN`). All Eeveelutions
+        confirmed obtainable to the player (Vaporeon/Jolteon/Flareon/Espeon/Umbreon/Leafeon/
+        Glaceon/Sylveon) — all already exist as species data, this is a curation/availability
+        decision (regional dex + encounter/evolution-item access), not new species work.
+      - **Legendary candidate pool (flexible, not a hard-include mandate):** Lugia, Ho-Oh,
+        Articuno, Zapdos, Moltres, Raikou, Entei, Suicune, Kubfu, Xerneas, Mew, Mewtwo, Celebi,
+        Diancie, Zeraora — all confirmed to already exist as species data. Treat as a pool to draw
+        from as the biome/story work develops rather than a commitment that all of them appear;
+        first eight (birds/beasts/Lugia/Ho-Oh/Mew/Mewtwo/Celebi) are already in the vanilla 256
+        regional dex, the rest (Kubfu, Xerneas, Diancie, Zeraora) would be new additions to it.
+      - **Non-legendary story-tone inclusions:** Glimmet + evolution line (`SPECIES_GLIMMET` →
+        `SPECIES_GLIMMORA`) confirmed in. Confirmed complete — no further non-legendary
+        inclusions/exclusions pending.
 - [x] How strict "obtainable" counts for the type-coverage audit — **resolved:** prefer
       wild-caught coverage by default, but it's a soft preference, not a hard rule. TM/tutor
       moves onto an off-type mon or a starter's own movepool can satisfy the audit when a wild
@@ -151,9 +214,9 @@ on the way in, and where that plausibly comes from.
 | **Whitney** (Goldenrod City) | Normal | Bulky pivot / status-stall around a hard-hitting wallbreaker (keep Miltank as the signature threat, build real support around it) | Goldenrod's surrounding farmland (Route 34 / National Park edge) fits Normal-type livestock/common-critter ecology well already | Fighting needed (Normal's only weakness). Ensure Mankey or another Fighting-type is genuinely available on the Route 32–34 corridor before Goldenrod, not just after. |
 | **Morty** (Ecruteak City) | Ghost | Trick Room / status-stall (Will-O-Wisp burn stall, trapping) | Burned Tower / old-town lore is already a strong ghost biome, no change needed | Dark needed (Ghost's other weakness besides Ghost itself). Murkrow (Dark/Flying) already spawns near National Park at night in vanilla — confirm it's reachable *before* Ecruteak, not after. |
 | **Chuck** (Cianwood City) | Fighting | Bulky rain-abuse (Rain Dance + Swift Swim, keep Poliwrath as signature) | Cianwood is a stormy coastal island reached by Surf — genuinely fits a rain/ocean archetype | Flying/Psychic/Fairy needed. Flying already covered (Zubat/Golbat on the water route). Fairy is a good fit here too — Jigglypuff/Igglybuff already spawn on the Route 47/48 approach; confirm availability before Cianwood. |
-| **Jasmine** (Olivine City) | Steel | Defensive wall core (Toxic/Protect stall, Steelix as signature) | Olivine's port/lighthouse industrial setting fits Steel ecology well already | Fire/Fighting/Ground needed (post-Fairy Steel weaknesses). All three should already be available via earlier additions (Growlithe, Machop/Mankey, Sandshrew/Geodude) — verify during the audit rather than assume. |
+| **Jasmine** (Olivine City) | Steel | Defensive wall core (Toxic/Protect stall, Steelix as signature) + **signature double battle**: Steel ace + Electric-type partner — Steel no-sells Electric outright, so the Electric partner can spam a spread attack (e.g. Discharge) without any risk of hitting Jasmine's own ace | Olivine's port/lighthouse industrial setting fits Steel ecology well already; an Electric partner (lighthouse/generator flavor) fits too | Fire/Fighting/Ground needed (post-Fairy Steel weaknesses). All three should already be available via earlier additions (Growlithe, Machop/Mankey, Sandshrew/Geodude) — verify during the audit rather than assume. |
 | **Pryce** (Mahogany Town) | Ice | Hail support / bulky ice wall (Piloswine/Slush Rush as signature) | Ice Path / Lake of Rage area is a genuinely icy mountain biome already | Fire/Fighting/Rock/Steel — Ice has many weaknesses, should be well-covered by this point; still worth the audit pass. |
-| **Clair** (Blackthorn City) | Dragon | Dragon Dance power core with priority backup (Kingdra as signature) | Blackthorn / Dragon's Den is mountain-and-dragon-lore biome already, canon-correct | Ice/Dragon/Fairy needed. Fairy is a nice callback here too — Snubbull/Granbull (now Fairy-type) fit a wilder mountain-forest approach; consider placing them on a pre-Blackthorn route. |
+| **Clair** (Blackthorn City) | Dragon | Dragon Dance power core with priority backup (Kingdra as signature) + **signature double battle**: Dragon ace + Fairy/Steel-type partner — the partner's typing patches over Dragon's own Ice/Dragon/Fairy weaknesses right at this fight, so the pairing reads as deliberately built rather than just "two dragons" | Blackthorn / Dragon's Den is mountain-and-dragon-lore biome already, canon-correct | Ice/Dragon/Fairy needed. Fairy is a nice callback here too — Snubbull/Granbull (now Fairy-type) fit a wilder mountain-forest approach; consider placing them on a pre-Blackthorn route. This also doubles as the partner-mon candidate for Clair's own double-battle pairing above. |
 | **Elite Four: Will** | Psychic | Bulky special core with Calm Mind setup | Indoor/Indigo Plateau — no strong biome tie, character-driven instead | Dark/Ghost/Bug needed — post-game roster should already have full access. |
 | **Elite Four: Koga** | Poison | Trapping/hazard stall (Toxic Spikes, Sludge Bomb spread, screens) | Indoor — character-driven (ninja/poison theme carries over from Fuchsia lore) | Ground/Psychic needed — should be well covered post-game. |
 | **Elite Four: Bruno** | Fighting | Physical power core, priority + setup sweepers | Indoor — character-driven | Flying/Psychic/Fairy needed — Fairy again relevant at this tier. |
@@ -164,6 +227,13 @@ on the way in, and where that plausibly comes from.
 **Note on Fairy type placement**: Fairy shows up meaningfully at three points above (Chuck/Cianwood
 approach, Clair/Blackthorn approach, and Bruno/Karen at E4 tier) rather than being clustered in
 one area — keeps it feeling woven into the world rather than bolted on as a single "fairy zone."
+
+**Note on signature double battles**: **resolved — Jasmine and Clair** get a `NO_PARTNER_DOUBLE_BATTLES`-enabled
+signature double battle built around a real type-synergy pair (see their Archetype cells above —
+Steel+Electric for Jasmine, Dragon+Fairy/Steel for Clair), so the pairing reads as a deliberately
+built team rather than just "two Pokémon." Falkner (Flying+Ground) and Whitney (Normal+Ghost) were
+considered as equally clean synergy fits but **not chosen** — they stay single battles for v1, kept
+in reserve as options if a Phase 2/3 rematch tier wants its own double-battle showcase.
 
 ## Milestones — Phase 1 (Johto)
 
@@ -182,5 +252,7 @@ phase starts — not drafted yet, see Phased approach above.
    iterating with playtesting (use `data/battle_tests/` for mechanic-level checks, manual
    playtesting in an emulator for feel). Re-run the coverage audit if a gym's final archetype
    shifts its effective typing (e.g. a mixed-type archetype changes what actually threatens it).
-5. **Trainer competency pass**: extend improved flag configs/team quality to non-gym trainers.
+5. **Trainer competency pass**: designate one Ace Trainer/route boss per route (5 mon) and bring
+   the rest of that route's trainers up to the 3-mon/coherent-team floor — see Open Decisions for
+   the full roster-size spec.
 6. **Polish**: flavor text/dialogue pass, QoL verification, full playthrough test.
