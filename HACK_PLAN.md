@@ -125,15 +125,19 @@ work, not something this hack should plan to build itself. Practical levers we a
 - [x] Biome map (Johto) — **Johto gyms + E4 + Champion + Silver drafted**, see Biome Map section
       below. Kanto post-game gyms are explicitly **deferred to Phase 2** (see Phased approach
       above), not part of this pass.
-- [x] Regional dex size/target — **resolved: no fixed target, hard ceiling of &lt;300.** Vanilla
-      HGSS `data/RegionalDex.c` baseline is 256 entries (1–256, Johto-first order, includes the
-      pre-National-Dex legendaries). That number is vanilla parity, not an engine limit — Dex Flag
-      Expansion (see wiki) supports up to 2048 species flags. Build the dex from the biome map: add
+- [x] Regional dex size/target — **resolved: no fixed target, no hard ceiling.** (Superseded two
+      prior attempts at a fixed ceiling — &lt;300, then &lt;350 — both undershot once the curation
+      sheet's actual `keep`/`no`/`maybe` decisions were fully synced to `data/RegionalDex.c` and
+      landed at 366.) Vanilla HGSS `data/RegionalDex.c` baseline is 256 entries (1–256, Johto-first
+      order, includes the pre-National-Dex legendaries). That number is vanilla parity, not an
+      engine limit — Dex Flag Expansion (see wiki) supports up to 2048 species flags. The sheet's
+      per-species `keep` decision (`data/generated/species_dex_meta.csv`,
+      `scripts/apply_regional_dex_curation.py` to sync) is now the sole source of truth for dex
+      membership — no target count to hit or stay under. Build the dex from the biome map: add
       whatever species each area's ecology calls for, and freely **drop existing Johto/Kanto
-      natives** that don't fit a biome's tone even though they were in the vanilla dex. Stay under
-      300 total. Mechanism unchanged: edit `data/RegionalDex.c` directly (species → dex number,
-      `0` = not in regional dex), keep full species data intact so National Dex completion still
-      works.
+      natives** that don't fit a biome's tone even though they were in the vanilla dex. Mechanism
+      unchanged: edit `data/RegionalDex.c` directly (species → dex number, `0` = not in regional
+      dex), keep full species data intact so National Dex completion still works.
 - [x] Which `CONFIG.md` toggles are in/out for v1 — **resolved, applied to `include/config.h` /
       `armips/include/config.s`.** Already-on defaults (Fairy/Mega/Primal/Hidden Abilities,
       `ALLOW_SAVE_CHANGES`, `REUSABLE_TMS`, `NO_PARTNER_DOUBLE_BATTLES`, `APPLY_ANTIPIRACY`,
