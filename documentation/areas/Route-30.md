@@ -11,9 +11,10 @@ areas.
 - **Leads toward:** Falkner (Violet City) — second leg of the New Bark → Cherrygrove → Route 30 →
   Route 31 → Violet City path.
 - **Biome Map tie-in:** `HACK_PLAN.md`'s Falkner entry calls for Rock/Electric/Ice counter access
-  on the way in. Suggests "consider pulling Mareep earlier onto Route 32's farmland edge" for
-  Electric — not this route. Route 30 itself isn't singled out for a specific counter placement,
-  but its surf table (Poliwag/Poliwhirl) is worth keeping in mind for Water-leaning options.
+  on the way in. Route 30 wasn't originally singled out for a specific counter placement (the doc
+  suggests Mareep on Route 32 as a secondary Electric path instead), but this route ended up being
+  where the Electric gap actually got closed — see the Rattata → Shinx swap in Notes below. Its
+  surf table (Poliwag/Poliwhirl) is also worth keeping in mind for Water-leaning options.
 
 ## Encounter methods active
 

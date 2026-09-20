@@ -53,9 +53,9 @@ Identical across morning/day/night — caves have no time-of-day variation here.
 **Surf (rate 10):** Magikarp in all 5 slots (60/30/5/4/1%, levels 10–20/5–15/2–10/2–10/2–10) —
 a small underground stream, not a real water route.
 **Rock Smash (rate 50, 90/10):** Dunsparce (4–8), Geodude (8–14)
-**Old Rod (60/30/5/4/1):** Magikarp ×3, Goldeen ×2 (all level 10)
-**Good Rod (40/40/15/4/1):** Magikarp, Goldeen ×4 (all level 20)
-**Super Rod (40/40/15/4/1):** Goldeen ×2, Magikarp, Seaking, Magikarp (all level 40)
+**Old Rod (60/30/5/4/1):** Magikarp ×3, Wooper ×2 (all level 10)
+**Good Rod (40/40/15/4/1):** Magikarp, Wooper ×4 (all level 20)
+**Super Rod (40/40/15/4/1):** Wooper ×2, Magikarp, Quagsire, Magikarp (all level 40)
 
 ## Rustling grass (Hoenn/Sinnoh sound species)
 
@@ -71,7 +71,7 @@ grass underground.
 ## Swarm
 
 - `landSwarm = SPECIES_DUNSPARCE`, `surfSwarm = SPECIES_MAGIKARP`, `fishSwarm = SPECIES_MAGIKARP`,
-  `nightFish = SPECIES_GOLDEEN`
+  `nightFish = SPECIES_WOOPER`
 - **Active, unlike every other Falkner-approach area documented so far:** `MAP_D42R0102` **is** in
   `sSwarmMapLUT` (`src/swarms.c`, `SWARM_GRASS` type). On the days this map rolls for the swarm,
   wild Geodude/Zubat/Dunsparce encounters here are replaced with a Dunsparce swarm. Worth knowing
@@ -85,8 +85,8 @@ grass underground.
 | Zubat | Poison/Flying | **not in regional dex** | Walk | All |
 | Dunsparce | Normal | 45 | Walk/Rock Smash | All |
 | Magikarp | Water | 65 | Surf/Fish | — |
-| Goldeen | Water | **not in regional dex** | Fish | — |
-| Seaking | Water | **not in regional dex** | Fish | — |
+| Wooper | Water/Ground | 49 | Fish | — |
+| Quagsire | Water/Ground | 50 | Fish | — |
 | Absol | Dark | 228 | Rustling grass (Hoenn) | — |
 | Makuhita | Fighting | **not in regional dex** | Rustling grass (Hoenn) | — |
 | Bronzor | Steel/Psychic | **not in regional dex** | Rustling grass (Sinnoh) | — |
@@ -105,12 +105,23 @@ dex is renumbered again before this area's table is finalized.
 - **Geodude confirms the Biome Map's Falkner counter-access note** — it's genuinely the dominant
   species here (2 of the top-2 slot weights), so the "Rock via Geodude, already vanilla-natural"
   claim in `HACK_PLAN.md` holds up against the actual data.
-- Goldeen/Seaking dex-less is consistent with the same pattern on Route 30/31/Cherrygrove
-  fishing tables — routine, not a bug (`keep=No` in the sheet).
-- **Type-coverage relevance (Pillar 3) — this closes out the Falkner pre-gym audit:** across
-  Routes 29/30/31 + this cave, the player has Rock (Geodude, here) and, as of the Cutiefly swap,
-  a Fairy-typed mon on Route 29 (not itself an Ice/Electric/Rock counter, but notable for the
-  hack's Fairy presence). **Electric is still not covered anywhere on the critical path** — the
-  Biome Map's own suggestion ("pull Mareep earlier onto Route 32's farmland edge") is Route 32,
-  which is *after* Falkner, not before. Worth a decision: accept Rock-only coverage into Falkner,
-  or pull an Electric option earlier (e.g. onto Route 30/31) before finalizing these tables.
+- **Resolved — Goldeen/Seaking → Wooper/Quagsire**, across all Old/Good/Super Rod slots that held
+  them (Goldeen in Old Rod ×2, Good Rod ×4, Super Rod ×2; Seaking in Super Rod ×1) plus
+  `nightFish`. Both were dex-less (`keep=No` in the curation sheet) — note this is *not* the same
+  pattern as Route 30/31's fishing tables, which only ever carried Magikarp/Poliwag, not
+  Goldeen/Seaking; that cross-reference in an earlier draft of this note was wrong. Wooper/Quagsire
+  (Water/Ground, #49/#50, both `keep=Yes`) replace them: thematically a better fit for a cave
+  stream than an open-water fish line, and stat-comparable (Wooper BST 210 vs. Goldeen 320 — a
+  power *decrease*; Quagsire BST 430 vs. Seaking 450 — near-identical), so the Super Rod's rare
+  Quagsire slot still reads as "the evolved form as an uncommon catch," same as vanilla Rod-table
+  design.
+- **Type-coverage relevance (Pillar 3) — this closes out the Falkner pre-gym audit.** Status as of
+  Route 30's Rattata → Shinx swap (see that doc's Notes): Rock is covered here (Geodude, dominant
+  land species) and Electric is covered by Route 30's night-only Shinx — both wild-caught, both
+  reachable before Violet City. As of the Route 29 Cutiefly swap there's also a Fairy-typed mon on
+  the approach (not itself a Rock/Electric/Ice counter, but notable for the hack's Fairy presence).
+  **Ice is the one type in Falkner's Rock/Electric/Ice weakness set with no pre-gym wild option**,
+  and that's accepted rather than an open gap to fix: vanilla Johto has no naturally-occurring wild
+  Ice type this early either (first one is out past Ice Path), and Pillar 3 is explicitly a soft
+  preference, not a hard gate — Rock + Electric is a real, wild-caught counter path into Falkner,
+  which is what the audit requires. Nothing further to change on this area for the Falkner pass.

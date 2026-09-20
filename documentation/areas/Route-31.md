@@ -30,13 +30,13 @@ areas.
 | Slot | % | Level | Morning | Day | Night |
 |---|---|---|---|---|---|
 | 1 | 20 | 3 | Pidgey | Pidgey | Spinarak |
-| 2 | 20 | 4 | Caterpie | Caterpie | Rattata |
+| 2 | 20 | 4 | Caterpie | Caterpie | **Hoppip** |
 | 3 | 10 | 3 | Pidgey | Pidgey | Spinarak |
-| 4 | 10 | 4 | Caterpie | Caterpie | Rattata |
+| 4 | 10 | 4 | Caterpie | Caterpie | **Hoppip** |
 | 5 | 10 | 3 | Bellsprout | Bellsprout | Bellsprout |
 | 6 | 10 | 3 | Bellsprout | Bellsprout | Bellsprout |
-| 7 | 5 | 5 | Metapod | Metapod | Rattata |
-| 8 | 5 | 5 | Metapod | Metapod | Rattata |
+| 7 | 5 | 5 | Metapod | Metapod | **Hoppip** |
+| 8 | 5 | 5 | Metapod | Metapod | **Hoppip** |
 | 9 | 4 | 5 | Caterpie | Caterpie | Hoothoot |
 | 10 | 4 | 5 | Metapod | Metapod | Hoothoot |
 | 11 | 1 | 5 | Caterpie | Caterpie | Hoothoot |
@@ -72,7 +72,7 @@ levels 15–25/15–25/32).
 | Metapod | Bug | 21 | Walk | Morning/Day/Night |
 | Bellsprout | Grass/Poison | 57 | Walk | Morning/Day/Night |
 | Spinarak | Bug/Poison | 28 | Walk | Night |
-| Rattata | Normal | **not in regional dex** | Walk | Night |
+| Hoppip | Grass/Flying | 60 | Walk | Night |
 | Hoothoot | Normal/Flying | 13 | Walk | Night |
 | Poliwag | Water | 346 | Surf/Fish | — |
 | Poliwhirl | Water | 347 | Surf | — |
@@ -87,13 +87,22 @@ dex is renumbered again before this route's table is finalized.
 
 ## Notes
 
-- **Rattata dex-less, same pattern as Routes 29/30** — 4 night slots (2, 4, 7, 8). Not resolved
-  here; only Route 29's has been swapped so far. See [[feedback_dex_encounter_mismatches]].
+- **Resolved — Rattata → Hoppip**, across all 4 night slots (2, 4, 7, 8), same slot weights
+  (20/10/5/5%) and levels. Hoppip was chosen over another Sentret backfill (already reused on
+  Sprout Tower and Route 29) for variety, and over Oddish (also considered, nocturnal-bloom flavor
+  fits "night" well) because Hoppip's BST (250) sits *below* Rattata's (253) — no power increase,
+  matching the standard set by the Route 30 Shinx swap — while Oddish's 320 would've been a step
+  up. Also already dex-tracked (#60) and already used one route over on Route 32
+  (`ENCDATA_R32_ROUTE_32`), so this reads as a bridge between the two routes' meadow/forest-edge
+  flavor rather than an unrelated new addition.
 - Bellsprout is the one land species unique to this route vs. Route 30 (all-day-parts, slots
   5–6) — matches the vanilla "forest edge approaching Violet City" read.
-- **Type-coverage relevance (Pillar 3):** this route's own table still has no Rock/Electric/Ice —
-  the Rock counter for Falkner comes from the adjacent Dark Cave entrance, not this table (see
-  that doc). Worth re-running the full audit once all three Falkner-approach docs exist.
+- **Type-coverage relevance (Pillar 3):** this route's own table carries no Rock/Electric/Ice —
+  the Rock counter for Falkner comes from the adjacent Dark Cave entrance and Electric from
+  Route 30's Shinx (see that doc's Notes), not from this table. All four Falkner-approach docs
+  (Routes 29/30/31 + Dark Cave) now exist and the audit is closed: Rock + Electric are both
+  wild-caught before Violet City; Ice has no pre-gym wild option and is an accepted gap (see the
+  Dark Cave doc's Notes for the full reasoning).
 - Surf/fish tables are byte-for-byte identical to Route 30's — worth knowing if either gets
   rebalanced, since keeping them in sync (or deliberately diverging them) is a call worth making
   explicitly rather than by accident.
