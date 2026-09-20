@@ -1,0 +1,1477 @@
+dex_index,species_key,name,type1,type2,ability1,ability2,hp,attack,defense,sp_attack,sp_defense,speed,bst,catch_rate,gender_ratio,egg_group1,egg_group2,in_regional_dex,regional_dex_number,generation,keep,first_region_encountered,notes,count
+0,SPECIES_NONE,None,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,,,,,
+1,SPECIES_BULBASAUR,Bulbasaur,Grass,Poison,Overgrow,,45,49,49,65,65,45,318,45,31,Monster,Grass,TRUE,231,1,Yes,Kanto,,1
+2,SPECIES_IVYSAUR,Ivysaur,Grass,Poison,Overgrow,,60,62,63,80,80,60,405,45,31,Monster,Grass,TRUE,232,1,Yes,Kanto,,1
+3,SPECIES_VENUSAUR,Venusaur,Grass,Poison,Overgrow,,80,82,83,100,100,80,525,45,31,Monster,Grass,TRUE,233,1,Yes,Kanto,,1
+4,SPECIES_CHARMANDER,Charmander,Fire,,Blaze,,39,52,43,60,50,65,309,45,31,Monster,Dragon,TRUE,234,1,Yes,Kanto,,1
+5,SPECIES_CHARMELEON,Charmeleon,Fire,,Blaze,,58,64,58,80,65,80,405,45,31,Monster,Dragon,TRUE,235,1,Yes,Kanto,,1
+6,SPECIES_CHARIZARD,Charizard,Fire,Flying,Blaze,,78,84,78,109,85,100,534,45,31,Monster,Dragon,TRUE,236,1,Yes,Kanto,,1
+7,SPECIES_SQUIRTLE,Squirtle,Water,,Torrent,,44,48,65,50,64,43,314,45,31,Monster,Water 1,TRUE,237,1,Yes,Kanto,,1
+8,SPECIES_WARTORTLE,Wartortle,Water,,Torrent,,59,63,80,65,80,58,405,45,31,Monster,Water 1,TRUE,238,1,Yes,Kanto,,1
+9,SPECIES_BLASTOISE,Blastoise,Water,,Torrent,,79,83,100,85,105,78,530,45,31,Monster,Water 1,TRUE,239,1,Yes,Kanto,,1
+10,SPECIES_CATERPIE,Caterpie,Bug,,Shield Dust,,45,30,35,20,20,45,195,255,127,Bug,Bug,TRUE,24,1,Yes,Johto,,1
+11,SPECIES_METAPOD,Metapod,Bug,,Shed Skin,,50,20,55,25,25,30,205,120,127,Bug,Bug,TRUE,25,1,Yes,Johto,,1
+12,SPECIES_BUTTERFREE,Butterfree,Bug,Flying,Compound Eyes,,60,45,50,90,80,70,395,45,127,Bug,Bug,TRUE,26,1,Yes,Johto,,1
+13,SPECIES_WEEDLE,Weedle,Bug,Poison,Shield Dust,,40,35,30,20,20,50,195,255,127,Bug,Bug,TRUE,27,1,Yes,Johto,,1
+14,SPECIES_KAKUNA,Kakuna,Bug,Poison,Shed Skin,,45,25,50,25,25,35,205,120,127,Bug,Bug,TRUE,28,1,Yes,Johto,,1
+15,SPECIES_BEEDRILL,Beedrill,Bug,Poison,Swarm,,65,90,40,45,80,75,395,45,127,Bug,Bug,TRUE,29,1,Yes,Johto,,1
+16,SPECIES_PIDGEY,Pidgey,Normal,Flying,Keen Eye,Tangled Feet,40,45,40,35,35,56,251,255,127,Flying,Flying,TRUE,10,1,Yes,Kanto,,1
+17,SPECIES_PIDGEOTTO,Pidgeotto,Normal,Flying,Keen Eye,Tangled Feet,63,60,55,50,50,71,349,120,127,Flying,Flying,TRUE,11,1,Yes,Kanto,,1
+18,SPECIES_PIDGEOT,Pidgeot,Normal,Flying,Keen Eye,Tangled Feet,83,80,75,70,70,101,479,45,127,Flying,Flying,TRUE,12,1,Yes,Kanto,,1
+19,SPECIES_RATTATA,Rattata,Normal,,Run Away,Guts,30,56,35,25,35,72,253,255,127,Field,Field,TRUE,17,1,No,,,1
+20,SPECIES_RATICATE,Raticate,Normal,,Run Away,Guts,55,81,60,50,70,97,413,127,127,Field,Field,TRUE,18,1,No,,,1
+21,SPECIES_SPEAROW,Spearow,Normal,Flying,Keen Eye,,40,60,30,31,31,70,262,255,127,Flying,Flying,TRUE,13,1,No,,,1
+22,SPECIES_FEAROW,Fearow,Normal,Flying,Keen Eye,,65,90,65,61,61,100,442,90,127,Flying,Flying,TRUE,14,1,No,,,1
+23,SPECIES_EKANS,Ekans,Poison,,Intimidate,Shed Skin,35,60,44,40,54,55,288,255,127,Field,Dragon,TRUE,50,1,Yes,Johto,,1
+24,SPECIES_ARBOK,Arbok,Poison,,Intimidate,Shed Skin,60,95,69,65,79,80,448,90,127,Field,Dragon,TRUE,51,1,Yes,Johto,,1
+25,SPECIES_PIKACHU,Pikachu,Electric,,Static,,35,55,40,50,50,90,320,190,127,Field,Fairy,TRUE,22,1,Yes,Kanto,,1
+26,SPECIES_RAICHU,Raichu,Electric,,Static,,60,90,55,90,80,110,485,75,127,Field,Fairy,TRUE,23,1,Yes,Kanto,,1
+27,SPECIES_SANDSHREW,Sandshrew,Ground,,Sand Veil,,50,75,85,20,30,40,300,255,127,Field,Field,TRUE,48,1,Yes,,,1
+28,SPECIES_SANDSLASH,Sandslash,Ground,,Sand Veil,,75,100,110,45,55,65,450,90,127,Field,Field,TRUE,49,1,Yes,,,1
+29,SPECIES_NIDORAN_F,Nidoran♀,Poison,,Poison Point,Rivalry,55,47,52,40,40,41,275,235,254,Monster,Field,TRUE,95,1,No,,,1
+30,SPECIES_NIDORINA,Nidorina,Poison,,Poison Point,Rivalry,70,62,67,55,55,56,365,120,254,Undiscovered,Undiscovered,TRUE,96,1,No,,,1
+31,SPECIES_NIDOQUEEN,Nidoqueen,Poison,Ground,Poison Point,Rivalry,90,92,87,75,85,76,505,45,254,Undiscovered,Undiscovered,TRUE,97,1,No,,,1
+32,SPECIES_NIDORAN_M,Nidoran♂,Poison,,Poison Point,Rivalry,46,57,40,40,40,50,273,235,0,Monster,Field,TRUE,98,1,No,,,1
+33,SPECIES_NIDORINO,Nidorino,Poison,,Poison Point,Rivalry,61,72,57,55,55,65,365,120,0,Monster,Field,TRUE,99,1,No,,,1
+34,SPECIES_NIDOKING,Nidoking,Poison,Ground,Poison Point,Rivalry,81,102,77,85,75,85,505,45,0,Monster,Field,TRUE,100,1,No,,,1
+35,SPECIES_CLEFAIRY,Clefairy,Fairy,,Cute Charm,Magic Guard,70,45,48,60,65,35,323,150,190,Fairy,Fairy,TRUE,41,1,Yes,Johto,,1
+36,SPECIES_CLEFABLE,Clefable,Fairy,,Cute Charm,Magic Guard,95,70,73,95,90,60,483,25,190,Fairy,Fairy,TRUE,42,1,Yes,Johto,,1
+37,SPECIES_VULPIX,Vulpix,Fire,,Flash Fire,,38,41,40,50,65,65,299,190,190,Field,Field,TRUE,127,1,Yes,Kanto,,1
+38,SPECIES_NINETALES,Ninetales,Fire,,Flash Fire,,73,76,75,81,100,100,505,75,190,Field,Field,TRUE,128,1,Yes,Kanto,,1
+39,SPECIES_JIGGLYPUFF,Jigglypuff,Normal,Fairy,Cute Charm,Competitive,115,45,20,45,25,20,270,170,190,Fairy,Fairy,TRUE,44,1,Yes,Kanto,,1
+40,SPECIES_WIGGLYTUFF,Wigglytuff,Normal,Fairy,Cute Charm,Competitive,140,70,45,85,50,45,435,50,190,Fairy,Fairy,TRUE,45,1,Yes,Kanto,,1
+41,SPECIES_ZUBAT,Zubat,Poison,Flying,Inner Focus,,40,45,35,30,40,55,245,255,127,Flying,Flying,TRUE,37,1,No,,,1
+42,SPECIES_GOLBAT,Golbat,Poison,Flying,Inner Focus,,75,80,70,65,75,90,455,90,127,Flying,Flying,TRUE,38,1,No,,,1
+43,SPECIES_ODDISH,Oddish,Grass,Poison,Chlorophyll,,45,50,55,75,65,30,320,255,127,Grass,Grass,TRUE,83,1,Yes,Johto,,1
+44,SPECIES_GLOOM,Gloom,Grass,Poison,Chlorophyll,,60,65,70,85,75,40,395,120,127,Grass,Grass,TRUE,84,1,Yes,Johto,,1
+45,SPECIES_VILEPLUME,Vileplume,Grass,Poison,Chlorophyll,,75,80,85,110,90,50,490,45,127,Grass,Grass,TRUE,85,1,Yes,Johto,,1
+46,SPECIES_PARAS,Paras,Bug,Grass,Effect Spore,Dry Skin,35,70,55,45,55,25,285,190,127,Bug,Grass,TRUE,70,1,Yes,Kanto,,1
+47,SPECIES_PARASECT,Parasect,Bug,Grass,Effect Spore,Dry Skin,60,95,80,60,80,30,405,75,127,Bug,Grass,TRUE,71,1,Yes,,,1
+48,SPECIES_VENONAT,Venonat,Bug,Poison,Compound Eyes,Tinted Lens,60,55,50,40,55,45,305,190,127,Bug,Bug,TRUE,109,1,No,,,1
+49,SPECIES_VENOMOTH,Venomoth,Bug,Poison,Shield Dust,Tinted Lens,70,65,60,90,75,90,450,75,127,Bug,Bug,TRUE,110,1,No,,,1
+50,SPECIES_DIGLETT,Diglett,Ground,,Sand Veil,Arena Trap,10,55,25,35,45,95,265,255,127,Field,Field,TRUE,134,1,No,,,1
+51,SPECIES_DUGTRIO,Dugtrio,Ground,,Sand Veil,Arena Trap,35,100,50,50,70,120,425,50,127,Field,Field,TRUE,135,1,No,,,1
+52,SPECIES_MEOWTH,Meowth,Normal,,Pickup,Technician,40,45,35,40,40,90,290,255,127,Field,Field,TRUE,138,1,No,,,1
+53,SPECIES_PERSIAN,Persian,Normal,,Limber,Technician,65,70,60,65,65,115,440,90,127,Field,Field,TRUE,139,1,No,,,1
+54,SPECIES_PSYDUCK,Psyduck,Water,,Damp,Cloud Nine,50,52,48,65,50,55,320,190,127,Water 1,Field,TRUE,140,1,No,,,1
+55,SPECIES_GOLDUCK,Golduck,Water,,Damp,Cloud Nine,80,82,78,95,80,85,500,75,127,Water 1,Field,TRUE,141,1,No,,,1
+56,SPECIES_MANKEY,Mankey,Fighting,,Vital Spirit,Anger Point,40,80,35,35,45,70,305,190,127,Field,Field,TRUE,136,1,Yes,Kanto,,1
+57,SPECIES_PRIMEAPE,Primeape,Fighting,,Vital Spirit,Anger Point,65,105,60,60,70,95,455,75,127,Field,Field,TRUE,137,1,Yes,Kanto,,1
+58,SPECIES_GROWLITHE,Growlithe,Fire,,Intimidate,Flash Fire,55,70,45,70,50,60,350,190,63,Field,Field,TRUE,129,1,Yes,Kanto,,1
+59,SPECIES_ARCANINE,Arcanine,Fire,,Intimidate,Flash Fire,90,110,80,100,80,95,555,75,63,Field,Field,TRUE,130,1,Yes,Kanto,,1
+60,SPECIES_POLIWAG,Poliwag,Water,,Water Absorb,Damp,40,50,40,40,40,90,300,255,127,Water 1,Water 1,TRUE,72,1,Yes,,,1
+61,SPECIES_POLIWHIRL,Poliwhirl,Water,,Water Absorb,Damp,65,65,65,50,50,90,385,120,127,Water 1,Water 1,TRUE,73,1,Yes,,,1
+62,SPECIES_POLIWRATH,Poliwrath,Water,Fighting,Water Absorb,Damp,90,95,95,70,90,70,510,45,127,Water 1,Water 1,TRUE,74,1,Yes,,,1
+63,SPECIES_ABRA,Abra,Psychic,,Synchronize,Inner Focus,25,20,15,105,55,90,310,200,63,Human Like,Human Like,TRUE,89,1,Yes,Kanto,,1
+64,SPECIES_KADABRA,Kadabra,Psychic,,Synchronize,Inner Focus,40,35,30,120,70,105,400,100,63,Human Like,Human Like,TRUE,90,1,Yes,Kanto,,1
+65,SPECIES_ALAKAZAM,Alakazam,Psychic,,Synchronize,Inner Focus,55,50,45,135,95,120,500,50,63,Human Like,Human Like,TRUE,91,1,Yes,Kanto,,1
+66,SPECIES_MACHOP,Machop,Fighting,,Guts,No Guard,70,80,50,35,35,35,305,180,63,Human Like,Human Like,TRUE,142,1,Yes,Kanto,,1
+67,SPECIES_MACHOKE,Machoke,Fighting,,Guts,No Guard,80,100,70,50,60,45,405,90,63,Human Like,Human Like,TRUE,143,1,Yes,Kanto,,1
+68,SPECIES_MACHAMP,Machamp,Fighting,,Guts,No Guard,90,130,80,65,85,55,505,45,63,Human Like,Human Like,TRUE,144,1,Yes,Kanto,,1
+69,SPECIES_BELLSPROUT,Bellsprout,Grass,Poison,Chlorophyll,,50,75,35,70,30,40,300,255,127,Grass,Grass,TRUE,64,1,Yes,Kanto,,1
+70,SPECIES_WEEPINBELL,Weepinbell,Grass,Poison,Chlorophyll,,65,90,50,85,45,55,390,120,127,Grass,Grass,TRUE,65,1,Yes,Kanto,,1
+71,SPECIES_VICTREEBEL,Victreebel,Grass,Poison,Chlorophyll,,80,105,65,100,70,70,490,45,127,Grass,Grass,TRUE,66,1,Yes,Kanto,,1
+72,SPECIES_TENTACOOL,Tentacool,Water,Poison,Clear Body,Liquid Ooze,40,40,35,50,100,70,335,190,127,Water 3,Water 3,TRUE,164,1,No,,,1
+73,SPECIES_TENTACRUEL,Tentacruel,Water,Poison,Clear Body,Liquid Ooze,80,70,65,80,120,100,515,60,127,Water 3,Water 3,TRUE,165,1,No,,,1
+74,SPECIES_GEODUDE,Geodude,Rock,Ground,Rock Head,Sturdy,40,80,100,30,30,20,300,255,127,Mineral,Mineral,TRUE,34,1,Yes,Johto,Good foil for first gym,1
+75,SPECIES_GRAVELER,Graveler,Rock,Ground,Rock Head,Sturdy,55,95,115,45,45,35,390,120,127,Mineral,Mineral,TRUE,35,1,Yes,Johto,,1
+76,SPECIES_GOLEM,Golem,Rock,Ground,Rock Head,Sturdy,80,120,130,55,65,45,495,45,127,Mineral,Mineral,TRUE,36,1,Yes,Johto,,1
+77,SPECIES_PONYTA,Ponyta,Fire,,Run Away,Flash Fire,50,85,55,65,65,90,410,190,127,Field,Field,TRUE,206,1,Yes,Johto,,1
+78,SPECIES_RAPIDASH,Rapidash,Fire,,Run Away,Flash Fire,65,100,70,80,80,105,500,60,127,Field,Field,TRUE,207,1,Yes,Johto,,1
+79,SPECIES_SLOWPOKE,Slowpoke,Water,Psychic,Oblivious,Own Tempo,90,65,65,40,40,15,315,190,127,Monster,Water 1,TRUE,80,1,No,,,1
+80,SPECIES_SLOWBRO,Slowbro,Water,Psychic,Oblivious,Own Tempo,95,75,110,100,80,30,490,75,127,Monster,Water 1,TRUE,81,1,Yes,,,1
+81,SPECIES_MAGNEMITE,Magnemite,Electric,Steel,Magnet Pull,Sturdy,25,35,70,95,55,45,325,190,255,Mineral,Mineral,TRUE,119,1,Yes,Kanto,,1
+82,SPECIES_MAGNETON,Magneton,Electric,Steel,Magnet Pull,Sturdy,50,60,95,120,70,70,465,60,255,Mineral,Mineral,TRUE,120,1,Yes,Kanto,,1
+83,SPECIES_FARFETCHD,Farfetch’d,Normal,Flying,Keen Eye,Inner Focus,52,90,55,58,62,60,377,45,127,Flying,Field,TRUE,160,1,Yes,Kanto,,1
+84,SPECIES_DODUO,Doduo,Normal,Flying,Run Away,Early Bird,35,85,45,35,35,75,310,190,127,Flying,Flying,TRUE,204,1,No,Kanto,,1
+85,SPECIES_DODRIO,Dodrio,Normal,Flying,Run Away,Early Bird,60,110,70,60,60,110,470,45,127,Flying,Flying,TRUE,205,1,No,Kanto,,1
+86,SPECIES_SEEL,Seel,Water,,Thick Fat,Hydration,65,45,55,45,70,45,325,190,127,Water 1,Field,TRUE,178,1,Yes,Kanto,,1
+87,SPECIES_DEWGONG,Dewgong,Water,Ice,Thick Fat,Hydration,90,70,80,70,95,70,475,75,127,Water 1,Field,TRUE,179,1,Yes,Kanto,,1
+88,SPECIES_GRIMER,Grimer,Poison,,Stench,Sticky Hold,80,80,50,40,50,25,325,190,127,Amorphous,Amorphous,TRUE,117,1,Yes,Kanto,,1
+89,SPECIES_MUK,Muk,Poison,,Stench,Sticky Hold,105,105,75,65,100,50,500,75,127,Amorphous,Amorphous,TRUE,118,1,Yes,Kanto,,1
+90,SPECIES_SHELLDER,Shellder,Water,,Shell Armor,Skill Link,30,65,100,45,25,40,305,190,127,Water 3,Water 3,TRUE,171,1,Yes,Kanto,,1
+91,SPECIES_CLOYSTER,Cloyster,Water,Ice,Shell Armor,Skill Link,50,95,180,85,45,70,525,60,127,Water 3,Water 3,TRUE,172,1,Yes,Kanto,,1
+92,SPECIES_GASTLY,Gastly,Ghost,Poison,Levitate,,30,35,30,100,35,80,310,190,127,Amorphous,Amorphous,TRUE,58,1,Yes,Kanto,,1
+93,SPECIES_HAUNTER,Haunter,Ghost,Poison,Levitate,,45,50,45,115,55,95,405,90,127,Amorphous,Amorphous,TRUE,59,1,Yes,Kanto,,1
+94,SPECIES_GENGAR,Gengar,Ghost,Poison,Cursed Body,,60,65,60,130,75,110,500,45,127,Amorphous,Amorphous,TRUE,60,1,Yes,Kanto,,1
+95,SPECIES_ONIX,Onix,Rock,Ground,Rock Head,Sturdy,35,45,160,30,45,70,385,45,127,Mineral,Mineral,TRUE,62,1,Yes,Kanto,,1
+96,SPECIES_DROWZEE,Drowzee,Psychic,,Insomnia,Forewarn,60,48,45,43,90,42,328,190,127,Human Like,Human Like,TRUE,87,1,No,,,1
+97,SPECIES_HYPNO,Hypno,Psychic,,Insomnia,Forewarn,85,73,70,73,115,67,483,75,127,Human Like,Human Like,TRUE,88,1,No,,,1
+98,SPECIES_KRABBY,Krabby,Water,,Hyper Cutter,Shell Armor,30,105,90,25,25,50,325,225,127,Water 3,Water 3,TRUE,166,1,No,,,1
+99,SPECIES_KINGLER,Kingler,Water,,Hyper Cutter,Shell Armor,55,130,115,50,50,75,475,60,127,Water 3,Water 3,TRUE,167,1,No,,,1
+100,SPECIES_VOLTORB,Voltorb,Electric,,Soundproof,Static,40,30,50,55,55,100,330,190,255,Mineral,Mineral,TRUE,121,1,No,,,1
+101,SPECIES_ELECTRODE,Electrode,Electric,,Soundproof,Static,60,50,70,80,80,150,490,60,255,Mineral,Mineral,TRUE,122,1,No,,,1
+102,SPECIES_EXEGGCUTE,Exeggcute,Grass,Psychic,Chlorophyll,,60,40,80,60,45,40,325,90,127,Grass,Grass,TRUE,105,1,Yes,,,1
+103,SPECIES_EXEGGUTOR,Exeggutor,Grass,Psychic,Chlorophyll,,95,95,85,125,75,55,530,45,127,Grass,Grass,TRUE,106,1,Yes,,,1
+104,SPECIES_CUBONE,Cubone,Ground,,Rock Head,Lightning Rod,50,50,95,40,50,35,320,190,127,Monster,Monster,TRUE,208,1,Yes,Johto,Regional form would be more common,1
+105,SPECIES_MAROWAK,Marowak,Ground,,Rock Head,Lightning Rod,60,80,110,50,80,45,425,75,127,Monster,Monster,TRUE,209,1,Yes,Johto,,1
+106,SPECIES_HITMONLEE,Hitmonlee,Fighting,,Limber,Reckless,50,120,53,35,110,87,455,45,0,Human Like,Human Like,TRUE,146,1,Yes,Kanto,,1
+107,SPECIES_HITMONCHAN,Hitmonchan,Fighting,,Keen Eye,Iron Fist,50,105,79,35,110,76,455,45,0,Human Like,Human Like,TRUE,147,1,Yes,Kanto,,1
+108,SPECIES_LICKITUNG,Lickitung,Normal,,Own Tempo,Oblivious,90,55,75,60,75,30,385,45,127,Monster,Monster,TRUE,180,1,Yes,Johto,,1
+109,SPECIES_KOFFING,Koffing,Poison,,Levitate,Neutralizing Gas,40,65,95,60,45,35,340,190,127,Amorphous,Amorphous,TRUE,115,1,No,Kanto,,1
+110,SPECIES_WEEZING,Weezing,Poison,,Levitate,Neutralizing Gas,65,90,120,85,70,60,490,60,127,Amorphous,Amorphous,TRUE,116,1,No,Kanto,,1
+111,SPECIES_RHYHORN,Rhyhorn,Ground,Rock,Lightning Rod,Rock Head,80,85,95,30,30,25,345,120,127,Monster,Field,TRUE,211,1,Yes,Kanto,,1
+112,SPECIES_RHYDON,Rhydon,Ground,Rock,Lightning Rod,Rock Head,105,130,120,45,45,40,485,60,127,Monster,Field,TRUE,212,1,Yes,Kanto,,1
+113,SPECIES_CHANSEY,Chansey,Normal,,Natural Cure,Serene Grace,250,5,5,35,105,50,450,30,254,Fairy,Fairy,TRUE,222,1,Yes,Johto,,1
+114,SPECIES_TANGELA,Tangela,Grass,,Chlorophyll,Leaf Guard,65,55,115,100,40,60,435,45,127,Grass,Grass,TRUE,182,1,Yes,Johto,,1
+115,SPECIES_KANGASKHAN,Kangaskhan,Normal,,Early Bird,Scrappy,105,95,80,40,80,90,490,45,254,Monster,Monster,TRUE,210,1,No,Kanto,,1
+116,SPECIES_HORSEA,Horsea,Water,,Swift Swim,Sniper,30,40,70,70,25,60,295,225,127,Water 1,Dragon,TRUE,190,1,No,Kanto,,1
+117,SPECIES_SEADRA,Seadra,Water,,Poison Point,Sniper,55,65,95,95,45,85,440,75,127,Water 1,Dragon,TRUE,191,1,No,Kanto,,1
+118,SPECIES_GOLDEEN,Goldeen,Water,,Swift Swim,Water Veil,45,67,60,35,50,63,320,225,127,Water 2,Water 2,TRUE,78,1,No,Kanto,,1
+119,SPECIES_SEAKING,Seaking,Water,,Swift Swim,Water Veil,80,92,65,65,80,68,450,60,127,Water 2,Water 2,TRUE,79,1,No,Kanto,,1
+120,SPECIES_STARYU,Staryu,Water,,Illuminate,Natural Cure,30,45,55,70,55,85,340,225,255,Water 3,Water 3,TRUE,169,1,Yes,Kanto,,1
+121,SPECIES_STARMIE,Starmie,Water,Psychic,Illuminate,Natural Cure,60,75,85,100,85,115,520,60,255,Water 3,Water 3,TRUE,170,1,Yes,Kanto,,1
+122,SPECIES_MR_MIME,Mr. Mime,Psychic,Fairy,Soundproof,Filter,40,45,65,100,120,90,460,45,127,Human Like,Human Like,TRUE,158,1,Yes,Johto,,1
+123,SPECIES_SCYTHER,Scyther,Bug,Flying,Swarm,Technician,70,110,80,55,80,105,500,45,127,Bug,Bug,TRUE,111,1,Yes,Johto,,1
+124,SPECIES_JYNX,Jynx,Ice,Psychic,Oblivious,Forewarn,65,50,35,115,95,95,455,45,254,Human Like,Human Like,TRUE,155,1,Yes,Kanto,,1
+125,SPECIES_ELECTABUZZ,Electabuzz,Electric,,Static,,65,83,57,95,85,105,490,45,63,Human Like,Human Like,TRUE,157,1,Yes,Kanto,,1
+126,SPECIES_MAGMAR,Magmar,Fire,,Flame Body,,65,95,57,100,85,93,495,45,63,Human Like,Human Like,TRUE,153,1,Yes,Kanto,,1
+127,SPECIES_PINSIR,Pinsir,Bug,,Hyper Cutter,Mold Breaker,65,125,100,55,70,85,500,45,127,Bug,Bug,TRUE,113,1,No,Kanto,,1
+128,SPECIES_TAUROS,Tauros,Normal,,Intimidate,Anger Point,75,100,95,40,70,110,490,45,0,Field,Field,TRUE,150,1,No,Kanto,,1
+129,SPECIES_MAGIKARP,Magikarp,Water,,Swift Swim,,20,10,55,15,20,80,200,255,127,Water 2,Dragon,TRUE,76,1,Yes,Johto,Maybe replace with another fish?,1
+130,SPECIES_GYARADOS,Gyarados,Water,Flying,Intimidate,,95,125,79,60,100,81,540,45,127,Water 2,Dragon,TRUE,77,1,Yes,Johto,,1
+131,SPECIES_LAPRAS,Lapras,Water,Ice,Water Absorb,Shell Armor,130,85,80,85,95,60,535,45,127,Monster,Water 1,TRUE,224,1,Yes,Kanto,,1
+132,SPECIES_DITTO,Ditto,Normal,,Limber,,48,48,48,48,48,48,288,35,255,Ditto,Ditto,TRUE,92,1,Yes,Kanto,,1
+133,SPECIES_EEVEE,Eevee,Normal,,Run Away,Adaptability,55,55,50,45,65,55,325,45,31,Field,Field,TRUE,184,1,Yes,Johto,,1
+134,SPECIES_VAPOREON,Vaporeon,Water,,Water Absorb,,130,65,60,110,95,65,525,45,31,Field,Field,TRUE,185,1,Yes,Johto,,1
+135,SPECIES_JOLTEON,Jolteon,Electric,,Volt Absorb,,65,65,60,110,95,130,525,45,31,Field,Field,TRUE,186,1,Yes,Johto,,1
+136,SPECIES_FLAREON,Flareon,Fire,,Flash Fire,,65,130,60,95,110,65,525,45,31,Field,Field,TRUE,187,1,Yes,Johto,,1
+137,SPECIES_PORYGON,Porygon,Normal,,Trace,Download,65,60,70,85,75,40,395,45,255,Mineral,Mineral,TRUE,220,1,Yes,Kanto,,1
+138,SPECIES_OMANYTE,Omanyte,Rock,Water,Swift Swim,Shell Armor,35,40,100,90,55,35,355,45,31,Water 1,Water 3,TRUE,225,1,No,Kanto,,1
+139,SPECIES_OMASTAR,Omastar,Rock,Water,Swift Swim,Shell Armor,70,60,125,115,70,55,495,45,31,Water 1,Water 3,TRUE,226,1,No,Kanto,,1
+140,SPECIES_KABUTO,Kabuto,Rock,Water,Swift Swim,Battle Armor,30,80,90,55,45,55,355,45,31,Water 1,Water 3,TRUE,227,1,No,Kanto,,1
+141,SPECIES_KABUTOPS,Kabutops,Rock,Water,Swift Swim,Battle Armor,60,115,105,65,70,80,495,45,31,Water 1,Water 3,TRUE,228,1,No,Kanto,,1
+142,SPECIES_AERODACTYL,Aerodactyl,Rock,Flying,Rock Head,Pressure,80,105,65,60,75,130,515,45,31,Flying,Flying,TRUE,229,1,No,Kanto,,1
+143,SPECIES_SNORLAX,Snorlax,Normal,,Immunity,Thick Fat,160,110,65,65,110,30,540,25,31,Monster,Monster,TRUE,230,1,Yes,Kanto,,1
+144,SPECIES_ARTICUNO,Articuno,Ice,Flying,Pressure,,90,85,100,95,125,85,580,3,255,Undiscovered,Undiscovered,TRUE,240,1,Yes,Kanto,,1
+145,SPECIES_ZAPDOS,Zapdos,Electric,Flying,Pressure,,90,90,85,125,90,100,580,3,255,Undiscovered,Undiscovered,TRUE,241,1,Yes,Kanto,,1
+146,SPECIES_MOLTRES,Moltres,Fire,Flying,Pressure,,90,100,90,125,85,90,580,3,255,Undiscovered,Undiscovered,TRUE,242,1,Yes,Kanto,,1
+147,SPECIES_DRATINI,Dratini,Dragon,,Shed Skin,,41,64,45,50,50,50,300,45,127,Water 1,Dragon,TRUE,246,1,Yes,Kanto,Make sure we have another dragon for Johto,1
+148,SPECIES_DRAGONAIR,Dragonair,Dragon,,Shed Skin,,61,84,65,70,70,70,420,45,127,Water 1,Dragon,TRUE,247,1,Yes,Kanto,,1
+149,SPECIES_DRAGONITE,Dragonite,Dragon,Flying,Inner Focus,,91,134,95,100,100,80,600,45,127,Water 1,Dragon,TRUE,248,1,Yes,Kanto,,1
+150,SPECIES_MEWTWO,Mewtwo,Psychic,,Pressure,,106,110,90,154,90,130,680,3,255,Undiscovered,Undiscovered,TRUE,254,1,Yes,Kanto,,1
+151,SPECIES_MEW,Mew,Psychic,,Synchronize,,100,100,100,100,100,100,600,45,255,Undiscovered,Undiscovered,TRUE,255,1,Yes,Kanto,,1
+152,SPECIES_CHIKORITA,Chikorita,Grass,,Overgrow,,45,49,65,49,65,45,318,45,31,Monster,Grass,TRUE,1,2,Yes,Johto,,1
+153,SPECIES_BAYLEEF,Bayleef,Grass,,Overgrow,,60,62,80,63,80,60,405,45,31,Monster,Grass,TRUE,2,2,Yes,Johto,,1
+154,SPECIES_MEGANIUM,Meganium,Grass,,Overgrow,,80,82,100,83,100,80,525,45,31,Monster,Grass,TRUE,3,2,Yes,Johto,,1
+155,SPECIES_CYNDAQUIL,Cyndaquil,Fire,,Blaze,,39,52,43,60,50,65,309,45,31,Field,Field,TRUE,4,2,Yes,Johto,,1
+156,SPECIES_QUILAVA,Quilava,Fire,,Blaze,,58,64,58,80,65,80,405,45,31,Field,Field,TRUE,5,2,Yes,Johto,,1
+157,SPECIES_TYPHLOSION,Typhlosion,Fire,,Blaze,,78,84,78,109,85,100,534,45,31,Field,Field,TRUE,6,2,Yes,Johto,,1
+158,SPECIES_TOTODILE,Totodile,Water,,Torrent,,50,65,64,44,48,43,314,45,31,Monster,Water 1,TRUE,7,2,Yes,Johto,,1
+159,SPECIES_CROCONAW,Croconaw,Water,,Torrent,,65,80,80,59,63,58,405,45,31,Monster,Water 1,TRUE,8,2,Yes,Johto,,1
+160,SPECIES_FERALIGATR,Feraligatr,Water,,Torrent,,85,105,100,79,83,78,530,45,31,Monster,Water 1,TRUE,9,2,Yes,Johto,,1
+161,SPECIES_SENTRET,Sentret,Normal,,Run Away,Keen Eye,35,46,34,35,45,20,215,255,127,Field,Field,TRUE,19,2,Yes,Johto,,1
+162,SPECIES_FURRET,Furret,Normal,,Run Away,Keen Eye,85,76,64,45,55,90,415,90,127,Field,Field,TRUE,20,2,Yes,Johto,,1
+163,SPECIES_HOOTHOOT,Hoothoot,Normal,Flying,Insomnia,Keen Eye,60,30,30,36,56,50,262,255,127,Flying,Flying,TRUE,15,2,Yes,Johto,,1
+164,SPECIES_NOCTOWL,Noctowl,Normal,Flying,Insomnia,Keen Eye,100,50,50,86,96,70,452,90,127,Flying,Flying,TRUE,16,2,Yes,Johto,,1
+165,SPECIES_LEDYBA,Ledyba,Bug,Flying,Swarm,Early Bird,40,20,30,40,80,55,265,255,127,Bug,Bug,TRUE,30,2,Yes,Johto,,1
+166,SPECIES_LEDIAN,Ledian,Bug,Flying,Swarm,Early Bird,55,35,50,55,110,85,390,90,127,Bug,Bug,TRUE,31,2,Yes,Johto,,1
+167,SPECIES_SPINARAK,Spinarak,Bug,Poison,Swarm,Insomnia,40,60,40,40,40,30,250,255,127,Bug,Bug,TRUE,32,2,Yes,Johto,,1
+168,SPECIES_ARIADOS,Ariados,Bug,Poison,Swarm,Insomnia,70,90,70,60,70,40,400,90,127,Bug,Bug,TRUE,33,2,Yes,Johto,,1
+169,SPECIES_CROBAT,Crobat,Poison,Flying,Inner Focus,,85,90,80,70,80,130,535,90,127,Flying,Flying,TRUE,39,2,No,Johto,,1
+170,SPECIES_CHINCHOU,Chinchou,Water,Electric,Volt Absorb,Illuminate,75,38,38,56,56,67,330,190,127,Water 2,Water 2,TRUE,176,2,Yes,Johto,,1
+171,SPECIES_LANTURN,Lanturn,Water,Electric,Volt Absorb,Illuminate,125,58,58,76,76,67,460,75,127,Water 2,Water 2,TRUE,177,2,Yes,Johto,,1
+172,SPECIES_PICHU,Pichu,Electric,,Static,,20,40,15,35,35,60,205,190,127,Undiscovered,Undiscovered,TRUE,21,2,Yes,Johto,,1
+173,SPECIES_CLEFFA,Cleffa,Fairy,,Cute Charm,Magic Guard,50,25,28,45,55,15,218,150,190,Undiscovered,Undiscovered,TRUE,40,2,Yes,Johto,,1
+174,SPECIES_IGGLYBUFF,Igglybuff,Normal,Fairy,Cute Charm,Competitive,90,30,15,40,20,15,210,170,190,Undiscovered,Undiscovered,TRUE,43,2,Yes,Johto,,1
+175,SPECIES_TOGEPI,Togepi,Fairy,,Hustle,Serene Grace,35,20,65,40,65,20,245,190,31,Undiscovered,Undiscovered,TRUE,46,2,Yes,Johto,,1
+176,SPECIES_TOGETIC,Togetic,Fairy,Flying,Hustle,Serene Grace,55,40,85,80,105,40,405,75,31,Flying,Fairy,TRUE,47,2,Yes,Johto,,1
+177,SPECIES_NATU,Natu,Psychic,Flying,Synchronize,Early Bird,40,50,45,70,45,70,320,190,127,Flying,Flying,TRUE,161,2,Yes,Johto,,1
+178,SPECIES_XATU,Xatu,Psychic,Flying,Synchronize,Early Bird,65,75,70,95,70,95,470,75,127,Flying,Flying,TRUE,162,2,Yes,Johto,,1
+179,SPECIES_MAREEP,Mareep,Electric,,Static,,55,40,40,65,45,35,280,235,127,Monster,Field,TRUE,53,2,Yes,Johto,,1
+180,SPECIES_FLAAFFY,Flaaffy,Electric,,Static,,70,55,55,80,60,45,365,120,127,Monster,Field,TRUE,54,2,Yes,Johto,,1
+181,SPECIES_AMPHAROS,Ampharos,Electric,,Static,,90,75,85,115,90,55,510,45,127,Monster,Field,TRUE,55,2,Yes,Johto,,1
+182,SPECIES_BELLOSSOM,Bellossom,Grass,,Chlorophyll,,75,80,95,90,100,50,490,45,127,Grass,Grass,TRUE,86,2,Yes,Johto,,1
+183,SPECIES_MARILL,Marill,Water,Fairy,Thick Fat,Huge Power,70,20,50,20,50,40,250,190,127,Water 1,Fairy,TRUE,132,2,Yes,Johto,,1
+184,SPECIES_AZUMARILL,Azumarill,Water,Fairy,Thick Fat,Huge Power,100,50,80,60,80,50,420,75,127,Water 1,Fairy,TRUE,133,2,Yes,Johto,,1
+185,SPECIES_SUDOWOODO,Sudowoodo,Rock,,Sturdy,Rock Head,70,100,115,30,65,30,410,65,127,Mineral,Mineral,TRUE,107,2,Yes,Johto,,1
+186,SPECIES_POLITOED,Politoed,Water,,Water Absorb,Damp,90,75,75,90,100,70,500,45,127,Water 1,Water 1,TRUE,75,2,Yes,Johto,,1
+187,SPECIES_HOPPIP,Hoppip,Grass,Flying,Chlorophyll,Leaf Guard,35,35,40,35,55,50,250,255,127,Fairy,Grass,TRUE,67,2,Yes,Johto,,1
+188,SPECIES_SKIPLOOM,Skiploom,Grass,Flying,Chlorophyll,Leaf Guard,55,45,50,45,65,80,340,120,127,Fairy,Grass,TRUE,68,2,Yes,Johto,,1
+189,SPECIES_JUMPLUFF,Jumpluff,Grass,Flying,Chlorophyll,Leaf Guard,75,55,70,55,95,110,460,45,127,Fairy,Grass,TRUE,69,2,Yes,Johto,,1
+190,SPECIES_AIPOM,Aipom,Normal,,Run Away,Pickup,55,70,55,40,55,85,360,45,127,Field,Field,TRUE,123,2,Yes,Johto,,1
+191,SPECIES_SUNKERN,Sunkern,Grass,,Chlorophyll,Solar Power,30,30,30,30,30,30,180,235,127,Grass,Grass,TRUE,103,2,Yes,Johto,,1
+192,SPECIES_SUNFLORA,Sunflora,Grass,,Chlorophyll,Solar Power,75,75,55,105,85,30,425,120,127,Grass,Grass,TRUE,104,2,Yes,Johto,,1
+193,SPECIES_YANMA,Yanma,Bug,Flying,Speed Boost,Compound Eyes,65,65,45,75,45,95,390,75,127,Bug,Bug,TRUE,101,2,Yes,Johto,,1
+194,SPECIES_WOOPER,Wooper,Water,Ground,Damp,Water Absorb,55,45,45,25,25,15,210,255,127,Water 1,Field,TRUE,56,2,Yes,Johto,,1
+195,SPECIES_QUAGSIRE,Quagsire,Water,Ground,Damp,Water Absorb,95,85,85,65,65,35,430,90,127,Water 1,Field,TRUE,57,2,Yes,Johto,,1
+196,SPECIES_ESPEON,Espeon,Psychic,,Synchronize,,65,65,60,130,95,110,525,45,31,Field,Field,TRUE,188,2,Yes,Johto,,1
+197,SPECIES_UMBREON,Umbreon,Dark,,Synchronize,,95,65,110,60,130,65,525,45,31,Field,Field,TRUE,189,2,Yes,Johto,,1
+198,SPECIES_MURKROW,Murkrow,Dark,Flying,Insomnia,Super Luck,60,85,42,85,42,91,405,30,127,Flying,Flying,TRUE,213,2,Yes,Johto,,1
+199,SPECIES_SLOWKING,Slowking,Water,Psychic,Oblivious,Own Tempo,95,75,80,100,110,30,490,70,127,Monster,Water 1,TRUE,82,2,Yes,Johto,,1
+200,SPECIES_MISDREAVUS,Misdreavus,Ghost,,Levitate,,60,60,60,85,85,85,435,45,127,Amorphous,Amorphous,TRUE,219,2,Yes,Johto,,1
+201,SPECIES_UNOWN,Unown,Psychic,,Levitate,,48,72,48,72,48,48,336,225,255,Undiscovered,Undiscovered,TRUE,61,2,Yes,Johto,,1
+202,SPECIES_WOBBUFFET,Wobbuffet,Psychic,,Shadow Tag,,190,33,58,33,58,33,405,45,127,Amorphous,Amorphous,TRUE,108,2,Yes,Johto,,1
+203,SPECIES_GIRAFARIG,Girafarig,Normal,Psychic,Inner Focus,Early Bird,70,80,65,90,65,85,455,60,127,Field,Field,TRUE,149,2,Yes,Johto,,1
+204,SPECIES_PINECO,Pineco,Bug,,Sturdy,,50,65,90,35,35,15,290,190,127,Bug,Bug,TRUE,93,2,Yes,Johto,,1
+205,SPECIES_FORRETRESS,Forretress,Bug,Steel,Sturdy,,75,90,140,60,60,40,465,75,127,Bug,Bug,TRUE,94,2,Yes,Johto,,1
+206,SPECIES_DUNSPARCE,Dunsparce,Normal,,Serene Grace,Run Away,100,70,70,65,65,45,415,190,127,Field,Field,TRUE,52,2,Yes,Johto,,1
+207,SPECIES_GLIGAR,Gligar,Ground,Flying,Hyper Cutter,Sand Veil,65,75,105,35,65,85,430,60,127,Bug,Bug,TRUE,193,2,Yes,Johto,,1
+208,SPECIES_STEELIX,Steelix,Steel,Ground,Rock Head,Sturdy,75,85,200,55,65,30,510,25,127,Mineral,Mineral,TRUE,63,2,Yes,Johto,,1
+209,SPECIES_SNUBBULL,Snubbull,Fairy,,Intimidate,Run Away,60,80,50,40,40,30,300,190,190,Field,Fairy,TRUE,125,2,Yes,Johto,,1
+210,SPECIES_GRANBULL,Granbull,Fairy,,Intimidate,Quick Feet,90,120,75,60,60,45,450,75,190,Field,Fairy,TRUE,126,2,Yes,Johto,,1
+211,SPECIES_QWILFISH,Qwilfish,Water,Poison,Poison Point,Swift Swim,65,95,85,55,55,85,440,45,127,Water 2,Water 2,TRUE,163,2,Yes,Johto,,1
+212,SPECIES_SCIZOR,Scizor,Bug,Steel,Swarm,Technician,70,130,100,55,80,65,500,25,127,Bug,Bug,TRUE,112,2,Yes,Johto,,1
+213,SPECIES_SHUCKLE,Shuckle,Bug,Rock,Sturdy,Gluttony,20,10,230,10,230,5,505,190,127,Bug,Bug,TRUE,168,2,Yes,Johto,,1
+214,SPECIES_HERACROSS,Heracross,Bug,Fighting,Swarm,Guts,80,125,75,40,95,85,500,45,127,Bug,Bug,TRUE,114,2,Yes,Johto,,1
+215,SPECIES_SNEASEL,Sneasel,Dark,Ice,Inner Focus,Keen Eye,55,95,55,35,75,115,430,60,127,Field,Field,TRUE,218,2,Yes,Johto,,1
+216,SPECIES_TEDDIURSA,Teddiursa,Normal,,Pickup,Quick Feet,60,80,50,50,50,40,330,120,127,Field,Field,TRUE,198,2,Yes,Johto,,1
+217,SPECIES_URSARING,Ursaring,Normal,,Guts,Quick Feet,90,130,75,75,75,55,500,60,127,Field,Field,TRUE,199,2,Yes,Johto,,1
+218,SPECIES_SLUGMA,Slugma,Fire,,Magma Armor,Flame Body,40,40,40,70,40,20,250,190,127,Amorphous,Amorphous,TRUE,216,2,Yes,Johto,,1
+219,SPECIES_MAGCARGO,Magcargo,Fire,Rock,Magma Armor,Flame Body,60,50,120,90,80,30,430,75,127,Amorphous,Amorphous,TRUE,217,2,Yes,Johto,,1
+220,SPECIES_SWINUB,Swinub,Ice,Ground,Oblivious,Snow Cloak,50,50,40,30,30,50,250,225,127,Field,Field,TRUE,195,2,Yes,Johto,,1
+221,SPECIES_PILOSWINE,Piloswine,Ice,Ground,Oblivious,Snow Cloak,100,100,80,60,60,50,450,75,127,Field,Field,TRUE,196,2,Yes,Johto,,1
+222,SPECIES_CORSOLA,Corsola,Water,Rock,Hustle,Natural Cure,65,55,95,65,95,35,410,60,190,Water 1,Water 3,TRUE,173,2,Yes,Johto,,1
+223,SPECIES_REMORAID,Remoraid,Water,,Hustle,Sniper,35,65,35,65,35,65,300,190,127,Water 1,Water 2,TRUE,174,2,Yes,Johto,,1
+224,SPECIES_OCTILLERY,Octillery,Water,,Suction Cups,Sniper,75,105,75,105,75,45,480,75,127,Water 1,Water 2,TRUE,175,2,Yes,Johto,,1
+225,SPECIES_DELIBIRD,Delibird,Ice,Flying,Vital Spirit,Hustle,45,55,45,65,45,75,330,45,127,Water 1,Field,TRUE,194,2,Yes,Johto,,1
+226,SPECIES_MANTINE,Mantine,Water,Flying,Swift Swim,Water Absorb,85,40,70,80,140,70,485,25,127,Water 1,Water 1,TRUE,202,2,Yes,Johto,,1
+227,SPECIES_SKARMORY,Skarmory,Steel,Flying,Keen Eye,Sturdy,65,80,140,40,70,70,465,25,127,Flying,Flying,TRUE,203,2,Yes,Johto,,1
+228,SPECIES_HOUNDOUR,Houndour,Dark,Fire,Early Bird,Flash Fire,45,60,30,80,50,65,330,120,127,Field,Field,TRUE,214,2,Yes,Johto,,1
+229,SPECIES_HOUNDOOM,Houndoom,Dark,Fire,Early Bird,Flash Fire,75,90,50,110,80,95,500,45,127,Field,Field,TRUE,215,2,Yes,Johto,,1
+230,SPECIES_KINGDRA,Kingdra,Water,Dragon,Swift Swim,Sniper,75,95,95,95,95,85,540,45,127,Water 1,Dragon,TRUE,192,2,No,Johto,,1
+231,SPECIES_PHANPY,Phanpy,Ground,,Pickup,,90,60,60,40,40,40,330,120,127,Field,Field,TRUE,200,2,Yes,Johto,,1
+232,SPECIES_DONPHAN,Donphan,Ground,,Sturdy,,90,120,120,60,60,50,500,60,127,Field,Field,TRUE,201,2,Yes,Johto,,1
+233,SPECIES_PORYGON2,Porygon2,Normal,,Trace,Download,85,80,90,105,95,60,515,45,255,Mineral,Mineral,TRUE,221,2,Yes,Johto,,1
+234,SPECIES_STANTLER,Stantler,Normal,,Intimidate,Frisk,73,95,62,85,65,85,465,45,127,Field,Field,TRUE,131,2,Yes,Johto,,1
+235,SPECIES_SMEARGLE,Smeargle,Normal,,Own Tempo,Technician,55,20,35,20,45,75,250,45,127,Field,Field,TRUE,159,2,Yes,Johto,,1
+236,SPECIES_TYROGUE,Tyrogue,Fighting,,Guts,Steadfast,35,35,35,35,35,35,210,75,0,Undiscovered,Undiscovered,TRUE,145,2,Yes,Johto,,1
+237,SPECIES_HITMONTOP,Hitmontop,Fighting,,Intimidate,Technician,50,95,95,35,110,70,455,45,0,Human Like,Human Like,TRUE,148,2,Yes,Johto,,1
+238,SPECIES_SMOOCHUM,Smoochum,Ice,Psychic,Oblivious,Forewarn,45,30,15,85,65,65,305,45,254,Undiscovered,Undiscovered,TRUE,154,2,Yes,Johto,,1
+239,SPECIES_ELEKID,Elekid,Electric,,Static,,45,63,37,65,55,95,360,45,63,Undiscovered,Undiscovered,TRUE,156,2,Yes,Johto,,1
+240,SPECIES_MAGBY,Magby,Fire,,Flame Body,,45,75,37,70,55,83,365,45,63,Undiscovered,Undiscovered,TRUE,152,2,Yes,Johto,,1
+241,SPECIES_MILTANK,Miltank,Normal,,Thick Fat,Scrappy,95,80,105,40,70,100,490,45,254,Field,Field,TRUE,151,2,Yes,Johto,,1
+242,SPECIES_BLISSEY,Blissey,Normal,,Natural Cure,Serene Grace,255,10,10,75,135,55,540,30,254,Fairy,Fairy,TRUE,223,2,Yes,Johto,,1
+243,SPECIES_RAIKOU,Raikou,Electric,,Pressure,,90,85,75,115,100,115,580,3,255,Undiscovered,Undiscovered,TRUE,243,2,Yes,Johto,,1
+244,SPECIES_ENTEI,Entei,Fire,,Pressure,,115,115,85,90,75,100,580,3,255,Undiscovered,Undiscovered,TRUE,244,2,Yes,Johto,,1
+245,SPECIES_SUICUNE,Suicune,Water,,Pressure,,100,75,115,90,115,85,580,3,255,Undiscovered,Undiscovered,TRUE,245,2,Yes,Johto,,1
+246,SPECIES_LARVITAR,Larvitar,Rock,Ground,Guts,,50,64,50,45,50,41,300,45,127,Monster,Monster,TRUE,249,2,Yes,Johto,,1
+247,SPECIES_PUPITAR,Pupitar,Rock,Ground,Shed Skin,,70,84,70,65,70,51,410,45,127,Monster,Monster,TRUE,250,2,Yes,Johto,,1
+248,SPECIES_TYRANITAR,Tyranitar,Rock,Dark,Sand Stream,,100,134,110,95,100,61,600,45,127,Monster,Monster,TRUE,251,2,Yes,Johto,,1
+249,SPECIES_LUGIA,Lugia,Psychic,Flying,Pressure,,106,90,130,90,154,110,680,3,255,Undiscovered,Undiscovered,TRUE,252,2,Yes,Johto,,1
+250,SPECIES_HO_OH,Ho-oh,Fire,Flying,Pressure,,106,130,90,110,154,90,680,3,255,Undiscovered,Undiscovered,TRUE,253,2,Yes,Johto,,1
+251,SPECIES_CELEBI,Celebi,Psychic,Grass,Natural Cure,,100,100,100,100,100,100,600,45,255,Undiscovered,Undiscovered,TRUE,256,2,Yes,Johto,,1
+252,SPECIES_TREECKO,Treecko,Grass,,Overgrow,,40,45,35,65,55,70,310,45,31,Monster,Dragon,FALSE,,3,Maybe,,,1
+253,SPECIES_GROVYLE,Grovyle,Grass,,Overgrow,,50,65,45,85,65,95,405,45,31,Monster,Dragon,FALSE,,3,Maybe,,,1
+254,SPECIES_SCEPTILE,Sceptile,Grass,,Overgrow,,70,85,65,105,85,120,530,45,31,Monster,Dragon,FALSE,,3,Maybe,,,1
+255,SPECIES_TORCHIC,Torchic,Fire,,Blaze,,45,60,40,70,50,45,310,45,31,Field,Field,FALSE,,3,Maybe,,,1
+256,SPECIES_COMBUSKEN,Combusken,Fire,Fighting,Blaze,,60,85,60,85,60,55,405,45,31,Field,Field,FALSE,,3,Maybe,,,1
+257,SPECIES_BLAZIKEN,Blaziken,Fire,Fighting,Blaze,,80,120,70,110,70,80,530,45,31,Field,Field,FALSE,,3,Maybe,,,1
+258,SPECIES_MUDKIP,Mudkip,Water,,Torrent,,50,70,50,50,50,40,310,45,31,Monster,Water 1,FALSE,,3,Maybe,,,1
+259,SPECIES_MARSHTOMP,Marshtomp,Water,Ground,Torrent,,70,85,70,60,70,50,405,45,31,Monster,Water 1,FALSE,,3,Maybe,,,1
+260,SPECIES_SWAMPERT,Swampert,Water,Ground,Torrent,,100,110,90,85,90,60,535,45,31,Monster,Water 1,FALSE,,3,Maybe,,,1
+261,SPECIES_POOCHYENA,Poochyena,Dark,,Run Away,Quick Feet,35,55,35,30,30,35,220,255,127,Field,Field,FALSE,,3,Yes,,,1
+262,SPECIES_MIGHTYENA,Mightyena,Dark,,Intimidate,Quick Feet,70,90,70,60,60,70,420,127,127,Field,Field,FALSE,,3,Yes,,,1
+263,SPECIES_ZIGZAGOON,Zigzagoon,Normal,,Pickup,Gluttony,38,30,41,30,41,60,240,255,127,Field,Field,FALSE,,3,No,,,1
+264,SPECIES_LINOONE,Linoone,Normal,,Pickup,Gluttony,78,70,61,50,61,100,420,90,127,Field,Field,FALSE,,3,No,,,1
+265,SPECIES_WURMPLE,Wurmple,Bug,,Shield Dust,,45,45,35,20,30,20,195,255,127,Bug,Bug,FALSE,,3,Yes,,,1
+266,SPECIES_SILCOON,Silcoon,Bug,,Shed Skin,,50,35,55,25,25,15,205,120,127,Bug,Bug,FALSE,,3,Yes,,,1
+267,SPECIES_BEAUTIFLY,Beautifly,Bug,Flying,Swarm,,60,70,50,100,50,65,395,45,127,Bug,Bug,FALSE,,3,Yes,,,1
+268,SPECIES_CASCOON,Cascoon,Bug,,Shed Skin,,50,35,55,25,25,15,205,120,127,Bug,Bug,FALSE,,3,Yes,,,1
+269,SPECIES_DUSTOX,Dustox,Bug,Poison,Shield Dust,,60,50,70,50,90,65,385,45,127,Bug,Bug,FALSE,,3,Yes,,,1
+270,SPECIES_LOTAD,Lotad,Water,Grass,Swift Swim,Rain Dish,40,30,30,40,50,30,220,255,127,Water 1,Grass,FALSE,,3,No,,,1
+271,SPECIES_LOMBRE,Lombre,Water,Grass,Swift Swim,Rain Dish,60,50,50,60,70,50,340,120,127,Water 1,Grass,FALSE,,3,No,,,1
+272,SPECIES_LUDICOLO,Ludicolo,Water,Grass,Swift Swim,Rain Dish,80,70,70,90,100,70,480,45,127,Water 1,Grass,FALSE,,3,No,,,1
+273,SPECIES_SEEDOT,Seedot,Grass,,Chlorophyll,Early Bird,40,40,50,30,30,30,220,255,127,Field,Grass,FALSE,,3,No,,,1
+274,SPECIES_NUZLEAF,Nuzleaf,Grass,Dark,Chlorophyll,Early Bird,70,70,40,60,40,60,340,120,127,Field,Grass,FALSE,,3,No,,,1
+275,SPECIES_SHIFTRY,Shiftry,Grass,Dark,Chlorophyll,Wind Rider,90,100,60,90,60,80,480,45,127,Field,Grass,FALSE,,3,No,,,1
+276,SPECIES_TAILLOW,Taillow,Normal,Flying,Guts,,40,55,30,30,30,85,270,200,127,Flying,Flying,FALSE,,3,Yes,,,1
+277,SPECIES_SWELLOW,Swellow,Normal,Flying,Guts,,60,85,60,75,50,125,455,45,127,Flying,Flying,FALSE,,3,Yes,,,1
+278,SPECIES_WINGULL,Wingull,Water,Flying,Keen Eye,Hydration,40,30,30,55,30,85,270,190,127,Water 1,Flying,FALSE,,3,Yes,,,1
+279,SPECIES_PELIPPER,Pelipper,Water,Flying,Keen Eye,Drizzle,60,50,100,95,70,65,440,45,127,Water 1,Flying,FALSE,,3,Yes,,,1
+280,SPECIES_RALTS,Ralts,Psychic,Fairy,Synchronize,Trace,28,25,25,45,35,40,198,235,127,Human Like,Amorphous,FALSE,,3,No,,,1
+281,SPECIES_KIRLIA,Kirlia,Psychic,Fairy,Synchronize,Trace,38,35,35,65,55,50,278,120,127,Human Like,Amorphous,FALSE,,3,No,,,1
+282,SPECIES_GARDEVOIR,Gardevoir,Psychic,Fairy,Synchronize,Trace,68,65,65,125,115,80,518,45,127,Human Like,Amorphous,FALSE,,3,No,,,1
+283,SPECIES_SURSKIT,Surskit,Bug,Water,Swift Swim,,40,30,32,50,52,65,269,200,127,Water 1,Bug,FALSE,,3,Yes,,,1
+284,SPECIES_MASQUERAIN,Masquerain,Bug,Flying,Intimidate,,70,60,62,100,82,80,454,75,127,Water 1,Bug,FALSE,,3,Yes,,,1
+285,SPECIES_SHROOMISH,Shroomish,Grass,,Effect Spore,Poison Heal,60,40,60,40,60,35,295,255,127,Fairy,Grass,FALSE,,3,Yes,,,1
+286,SPECIES_BRELOOM,Breloom,Grass,Fighting,Effect Spore,Poison Heal,60,130,80,60,60,70,460,90,127,Fairy,Grass,FALSE,,3,Yes,,,1
+287,SPECIES_SLAKOTH,Slakoth,Normal,,Truant,,60,60,60,35,35,30,280,255,127,Field,Field,FALSE,,3,Yes,,,1
+288,SPECIES_VIGOROTH,Vigoroth,Normal,,Vital Spirit,,80,80,80,55,55,90,440,120,127,Field,Field,FALSE,,3,Yes,,,1
+289,SPECIES_SLAKING,Slaking,Normal,,Truant,,150,160,100,95,65,100,670,45,127,Field,Field,FALSE,,3,Yes,,,1
+290,SPECIES_NINCADA,Nincada,Bug,Ground,Compound Eyes,,31,45,90,30,30,40,266,255,127,Bug,Bug,FALSE,,3,No,,,1
+291,SPECIES_NINJASK,Ninjask,Bug,Flying,Speed Boost,,61,90,45,50,50,160,456,120,127,Bug,Bug,FALSE,,3,No,,,1
+292,SPECIES_SHEDINJA,Shedinja,Bug,Ghost,Wonder Guard,,1,90,45,30,30,40,236,45,255,Mineral,Mineral,FALSE,,3,no,,,1
+293,SPECIES_WHISMUR,Whismur,Normal,,Soundproof,,64,51,23,51,23,28,240,190,127,Monster,Field,FALSE,,3,No,,,1
+294,SPECIES_LOUDRED,Loudred,Normal,,Soundproof,,84,71,43,71,43,48,360,120,127,Monster,Field,FALSE,,3,No,,,1
+295,SPECIES_EXPLOUD,Exploud,Normal,,Soundproof,,104,91,63,91,73,68,490,45,127,Monster,Field,FALSE,,3,No,,,1
+296,SPECIES_MAKUHITA,Makuhita,Fighting,,Thick Fat,Guts,72,60,30,20,30,25,237,180,63,Human Like,Human Like,FALSE,,3,No,,,1
+297,SPECIES_HARIYAMA,Hariyama,Fighting,,Thick Fat,Guts,144,120,60,40,60,50,474,200,63,Human Like,Human Like,FALSE,,3,No,,,1
+298,SPECIES_AZURILL,Azurill,Normal,Fairy,Thick Fat,Huge Power,50,20,40,20,40,20,190,150,190,Undiscovered,Undiscovered,FALSE,,3,Yes,,Encountered early on,1
+299,SPECIES_NOSEPASS,Nosepass,Rock,,Sturdy,Magnet Pull,30,45,135,45,90,30,375,255,127,Mineral,Mineral,FALSE,,3,No,,,1
+300,SPECIES_SKITTY,Skitty,Normal,,Cute Charm,Normalize,50,45,45,35,35,50,260,255,190,Field,Fairy,FALSE,,3,No,,,1
+301,SPECIES_DELCATTY,Delcatty,Normal,,Cute Charm,Normalize,70,65,65,55,55,90,400,60,190,Field,Fairy,FALSE,,3,No,,,1
+302,SPECIES_SABLEYE,Sableye,Dark,Ghost,Keen Eye,Stall,50,75,75,65,65,50,380,45,127,Human Like,Human Like,FALSE,,3,No,,,1
+303,SPECIES_MAWILE,Mawile,Steel,Fairy,Hyper Cutter,Intimidate,50,85,85,55,55,50,380,45,127,Field,Fairy,FALSE,,3,Maybe,,,1
+304,SPECIES_ARON,Aron,Steel,Rock,Sturdy,Rock Head,50,70,100,40,40,30,330,180,127,Monster,Monster,FALSE,,3,Maybe,,,1
+305,SPECIES_LAIRON,Lairon,Steel,Rock,Sturdy,Rock Head,60,90,140,50,50,40,430,90,127,Monster,Monster,FALSE,,3,Maybe,,,1
+306,SPECIES_AGGRON,Aggron,Steel,Rock,Sturdy,Rock Head,70,110,180,60,60,50,530,45,127,Monster,Monster,FALSE,,3,Maybe,,,1
+307,SPECIES_MEDITITE,Meditite,Fighting,Psychic,Pure Power,,30,40,55,40,55,60,280,180,127,Human Like,Human Like,FALSE,,3,Maybe,,,1
+308,SPECIES_MEDICHAM,Medicham,Fighting,Psychic,Pure Power,,60,60,75,60,75,80,410,90,127,Human Like,Human Like,FALSE,,3,Maybe,,,1
+309,SPECIES_ELECTRIKE,Electrike,Electric,,Static,Lightning Rod,40,45,40,65,40,65,295,120,127,Field,Field,FALSE,,3,No,,,1
+310,SPECIES_MANECTRIC,Manectric,Electric,,Static,Lightning Rod,70,75,60,105,60,105,475,45,127,Field,Field,FALSE,,3,No,,,1
+311,SPECIES_PLUSLE,Plusle,Electric,,Plus,,60,50,40,85,75,95,405,200,127,Fairy,Fairy,FALSE,,3,Yes,,,1
+312,SPECIES_MINUN,Minun,Electric,,Minus,,60,40,50,75,85,95,405,200,127,Fairy,Fairy,FALSE,,3,Yes,,,1
+313,SPECIES_VOLBEAT,Volbeat,Bug,,Illuminate,Swarm,65,73,75,47,85,85,430,150,0,Bug,Human Like,FALSE,,3,No,,,1
+314,SPECIES_ILLUMISE,Illumise,Bug,,Oblivious,Tinted Lens,65,47,75,73,85,85,430,150,254,Bug,Human Like,FALSE,,3,No,,,1
+315,SPECIES_ROSELIA,Roselia,Grass,Poison,Natural Cure,Poison Point,50,60,45,100,80,65,400,150,127,Fairy,Grass,FALSE,,3,No,,,1
+316,SPECIES_GULPIN,Gulpin,Poison,,Liquid Ooze,Sticky Hold,70,43,53,43,53,40,302,225,127,Amorphous,Amorphous,FALSE,,3,Yes,,,1
+317,SPECIES_SWALOT,Swalot,Poison,,Liquid Ooze,Sticky Hold,100,73,83,73,83,55,467,75,127,Amorphous,Amorphous,FALSE,,3,Yes,,,1
+318,SPECIES_CARVANHA,Carvanha,Water,Dark,Rough Skin,,45,90,20,65,20,65,305,225,127,Water 2,Water 2,FALSE,,3,Maybe,,,1
+319,SPECIES_SHARPEDO,Sharpedo,Water,Dark,Rough Skin,,70,120,40,95,40,95,460,60,127,Water 2,Water 2,FALSE,,3,Maybe,,,1
+320,SPECIES_WAILMER,Wailmer,Water,,Water Veil,Oblivious,130,70,35,70,35,60,400,125,127,Field,Water 2,FALSE,,3,Maybe,,,1
+321,SPECIES_WAILORD,Wailord,Water,,Water Veil,Oblivious,170,90,45,90,45,60,500,60,127,Field,Water 2,FALSE,,3,Maybe,,,1
+322,SPECIES_NUMEL,Numel,Fire,Ground,Oblivious,Simple,60,60,40,65,45,35,305,255,127,Field,Field,FALSE,,3,No,,,1
+323,SPECIES_CAMERUPT,Camerupt,Fire,Ground,Magma Armor,Solid Rock,70,100,70,105,75,40,460,150,127,Field,Field,FALSE,,3,No,,,1
+324,SPECIES_TORKOAL,Torkoal,Fire,,White Smoke,Drought,70,85,140,85,70,20,470,90,127,Field,Field,FALSE,,3,Yes,,,1
+325,SPECIES_SPOINK,Spoink,Psychic,,Thick Fat,Own Tempo,60,25,35,70,80,60,330,255,127,Field,Field,FALSE,,3,Yes,,,1
+326,SPECIES_GRUMPIG,Grumpig,Psychic,,Thick Fat,Own Tempo,80,45,65,90,110,80,470,60,127,Field,Field,FALSE,,3,Yes,,,1
+327,SPECIES_SPINDA,Spinda,Normal,,Own Tempo,Tangled Feet,60,60,60,60,60,60,360,255,127,Field,Human Like,FALSE,,3,No,,,1
+328,SPECIES_TRAPINCH,Trapinch,Ground,,Hyper Cutter,Arena Trap,45,100,45,45,45,10,290,255,127,Bug,Dragon,FALSE,,3,No,,,1
+329,SPECIES_VIBRAVA,Vibrava,Ground,Dragon,Levitate,,50,70,50,50,50,70,340,120,127,Bug,Dragon,FALSE,,3,,,,1
+330,SPECIES_FLYGON,Flygon,Ground,Dragon,Levitate,,80,100,80,80,80,100,520,45,127,Bug,Dragon,FALSE,,3,,,,1
+331,SPECIES_CACNEA,Cacnea,Grass,,Sand Veil,,50,85,40,85,40,35,335,190,127,Grass,Human Like,FALSE,,3,,,,1
+332,SPECIES_CACTURNE,Cacturne,Grass,Dark,Sand Veil,,70,115,60,115,60,55,475,60,127,Grass,Human Like,FALSE,,3,,,,1
+333,SPECIES_SWABLU,Swablu,Normal,Flying,Natural Cure,,45,40,60,40,75,50,310,255,127,Flying,Dragon,FALSE,,3,,,,1
+334,SPECIES_ALTARIA,Altaria,Dragon,Flying,Natural Cure,,75,70,90,70,105,80,490,45,127,Flying,Dragon,FALSE,,3,,,,1
+335,SPECIES_ZANGOOSE,Zangoose,Normal,,Immunity,,73,115,60,60,60,90,458,90,127,Field,Field,FALSE,,3,,,,1
+336,SPECIES_SEVIPER,Seviper,Poison,,Shed Skin,,73,100,60,100,60,65,458,90,127,Field,Dragon,FALSE,,3,,,,1
+337,SPECIES_LUNATONE,Lunatone,Rock,Psychic,Levitate,,90,55,65,95,85,70,460,45,255,Mineral,Mineral,FALSE,,3,,,,1
+338,SPECIES_SOLROCK,Solrock,Rock,Psychic,Levitate,,90,95,85,55,65,70,460,45,255,Mineral,Mineral,FALSE,,3,,,,1
+339,SPECIES_BARBOACH,Barboach,Water,Ground,Oblivious,Anticipation,50,48,43,46,41,60,288,190,127,Water 2,Water 2,FALSE,,3,,,,1
+340,SPECIES_WHISCASH,Whiscash,Water,Ground,Oblivious,Anticipation,110,78,73,76,71,60,468,75,127,Water 2,Water 2,FALSE,,3,,,,1
+341,SPECIES_CORPHISH,Corphish,Water,,Hyper Cutter,Shell Armor,43,80,65,50,35,35,308,205,127,Water 1,Water 3,FALSE,,3,,,,1
+342,SPECIES_CRAWDAUNT,Crawdaunt,Water,Dark,Hyper Cutter,Shell Armor,63,120,85,90,55,55,468,155,127,Water 1,Water 3,FALSE,,3,,,,1
+343,SPECIES_BALTOY,Baltoy,Ground,Psychic,Levitate,,40,40,55,40,70,55,300,255,255,Mineral,Mineral,FALSE,,3,,,,1
+344,SPECIES_CLAYDOL,Claydol,Ground,Psychic,Levitate,,60,70,105,70,120,75,500,90,255,Mineral,Mineral,FALSE,,3,,,,1
+345,SPECIES_LILEEP,Lileep,Rock,Grass,Suction Cups,,66,41,77,61,87,23,355,45,31,Water 3,Water 3,FALSE,,3,,,,1
+346,SPECIES_CRADILY,Cradily,Rock,Grass,Suction Cups,,86,81,97,81,107,43,495,45,31,Water 3,Water 3,FALSE,,3,,,,1
+347,SPECIES_ANORITH,Anorith,Rock,Bug,Battle Armor,,45,95,50,40,50,75,355,45,31,Water 3,Water 3,FALSE,,3,,,,1
+348,SPECIES_ARMALDO,Armaldo,Rock,Bug,Battle Armor,,75,125,100,70,80,45,495,45,31,Water 3,Water 3,FALSE,,3,,,,1
+349,SPECIES_FEEBAS,Feebas,Water,,Swift Swim,Oblivious,20,15,20,10,55,80,200,255,127,Water 1,Dragon,FALSE,,3,Yes,,,1
+350,SPECIES_MILOTIC,Milotic,Water,,Marvel Scale,Competitive,95,60,79,100,125,81,540,60,127,Water 1,Dragon,FALSE,,3,Yes,,,1
+351,SPECIES_CASTFORM,Castform,Normal,,Forecast,,70,70,70,70,70,70,420,45,127,Fairy,Amorphous,FALSE,,3,,,,1
+352,SPECIES_KECLEON,Kecleon,Normal,,Color Change,,60,90,70,60,120,40,440,200,127,Field,Field,FALSE,,3,,,,1
+353,SPECIES_SHUPPET,Shuppet,Ghost,,Insomnia,Frisk,44,75,35,63,33,45,295,225,127,Amorphous,Amorphous,FALSE,,3,,,,1
+354,SPECIES_BANETTE,Banette,Ghost,,Insomnia,Frisk,64,115,65,83,63,65,455,45,127,Amorphous,Amorphous,FALSE,,3,,,,1
+355,SPECIES_DUSKULL,Duskull,Ghost,,Levitate,,20,40,90,30,90,25,295,190,127,Amorphous,Amorphous,FALSE,,3,,,,1
+356,SPECIES_DUSCLOPS,Dusclops,Ghost,,Pressure,,40,70,130,60,130,25,455,90,127,Amorphous,Amorphous,FALSE,,3,,,,1
+357,SPECIES_TROPIUS,Tropius,Grass,Flying,Chlorophyll,Solar Power,99,68,83,72,87,51,460,200,127,Monster,Grass,FALSE,,3,,,,1
+358,SPECIES_CHIMECHO,Chimecho,Psychic,,Levitate,,75,50,80,95,90,65,455,45,127,Amorphous,Amorphous,FALSE,,3,,,,1
+359,SPECIES_ABSOL,Absol,Dark,,Pressure,Super Luck,65,130,60,75,60,75,465,30,127,Field,Field,FALSE,,3,Yes,,,1
+360,SPECIES_WYNAUT,Wynaut,Psychic,,Shadow Tag,,95,23,48,23,48,23,260,125,127,Undiscovered,Undiscovered,FALSE,,3,Yes,,,1
+361,SPECIES_SNORUNT,Snorunt,Ice,,Inner Focus,Ice Body,50,50,50,50,50,50,300,190,127,Fairy,Mineral,FALSE,,3,Yes,,,1
+362,SPECIES_GLALIE,Glalie,Ice,,Inner Focus,Ice Body,80,80,80,80,80,80,480,75,127,Fairy,Mineral,FALSE,,3,Yes,,,1
+363,SPECIES_SPHEAL,Spheal,Ice,Water,Thick Fat,Ice Body,70,40,50,55,50,25,290,255,127,Water 1,Field,FALSE,,3,Yes,,,1
+364,SPECIES_SEALEO,Sealeo,Ice,Water,Thick Fat,Ice Body,90,60,70,75,70,45,410,120,127,Water 1,Field,FALSE,,3,Yes,,,1
+365,SPECIES_WALREIN,Walrein,Ice,Water,Thick Fat,Ice Body,110,80,90,95,90,65,530,45,127,Water 1,Field,FALSE,,3,Yes,,,1
+366,SPECIES_CLAMPERL,Clamperl,Water,,Shell Armor,,35,64,85,74,55,32,345,255,127,Water 1,Water 1,FALSE,,3,No,,,1
+367,SPECIES_HUNTAIL,Huntail,Water,,Swift Swim,,55,104,105,94,75,52,485,60,127,Water 1,Water 1,FALSE,,3,No,,,1
+368,SPECIES_GOREBYSS,Gorebyss,Water,,Swift Swim,,55,84,105,114,75,52,485,60,127,Water 1,Water 1,FALSE,,3,,,,1
+369,SPECIES_RELICANTH,Relicanth,Water,Rock,Swift Swim,Rock Head,100,90,130,45,65,55,485,25,31,Water 1,Water 2,FALSE,,3,,,,1
+370,SPECIES_LUVDISC,Luvdisc,Water,,Swift Swim,,43,30,55,40,65,97,330,225,190,Water 2,Water 2,FALSE,,3,,,,1
+371,SPECIES_BAGON,Bagon,Dragon,,Rock Head,,45,75,60,40,30,50,300,45,127,Dragon,Dragon,FALSE,,3,Maybe,,,1
+372,SPECIES_SHELGON,Shelgon,Dragon,,Rock Head,,65,95,100,60,50,50,420,45,127,Dragon,Dragon,FALSE,,3,Maybe,,,1
+373,SPECIES_SALAMENCE,Salamence,Dragon,Flying,Intimidate,,95,135,80,110,80,100,600,45,127,Dragon,Dragon,FALSE,,3,Maybe,,,1
+374,SPECIES_BELDUM,Beldum,Steel,Psychic,Clear Body,,40,55,80,35,60,30,300,3,255,Mineral,Mineral,FALSE,,3,No,,,1
+375,SPECIES_METANG,Metang,Steel,Psychic,Clear Body,,60,75,100,55,80,50,420,3,255,Mineral,Mineral,FALSE,,3,No,,,1
+376,SPECIES_METAGROSS,Metagross,Steel,Psychic,Clear Body,,80,135,130,95,90,70,600,3,255,Mineral,Mineral,FALSE,,3,No,,,1
+377,SPECIES_REGIROCK,Regirock,Rock,,Clear Body,,80,100,200,50,100,50,580,3,255,Undiscovered,Undiscovered,FALSE,,3,,,,1
+378,SPECIES_REGICE,Regice,Ice,,Clear Body,,80,50,100,100,200,50,580,3,255,Undiscovered,Undiscovered,FALSE,,3,,,,1
+379,SPECIES_REGISTEEL,Registeel,Steel,,Clear Body,,80,75,150,75,150,50,580,3,255,Undiscovered,Undiscovered,FALSE,,3,,,,1
+380,SPECIES_LATIAS,Latias,Dragon,Psychic,Levitate,,80,80,90,110,130,110,600,3,254,Undiscovered,Undiscovered,FALSE,,3,Maybe,,,1
+381,SPECIES_LATIOS,Latios,Dragon,Psychic,Levitate,,80,90,80,130,110,110,600,3,0,Undiscovered,Undiscovered,FALSE,,3,Maybe,,,1
+382,SPECIES_KYOGRE,Kyogre,Water,,Drizzle,,100,100,90,150,140,90,670,3,255,Undiscovered,Undiscovered,FALSE,,3,No,,,1
+383,SPECIES_GROUDON,Groudon,Ground,,Drought,,100,150,140,100,90,90,670,3,255,Undiscovered,Undiscovered,FALSE,,3,No,,,1
+384,SPECIES_RAYQUAZA,Rayquaza,Dragon,Flying,Air Lock,,105,150,90,150,90,95,680,45,255,Undiscovered,Undiscovered,FALSE,,3,No,,,1
+385,SPECIES_JIRACHI,Jirachi,Steel,Psychic,Serene Grace,,100,100,100,100,100,100,600,3,255,Undiscovered,Undiscovered,FALSE,,3,Maybe,,,1
+386,SPECIES_DEOXYS,Deoxys,Psychic,,Pressure,,50,150,50,150,50,150,600,3,255,Undiscovered,Undiscovered,FALSE,,3,No,,,1
+387,SPECIES_TURTWIG,Turtwig,Grass,,Overgrow,,55,68,64,45,55,31,318,45,31,Monster,Grass,FALSE,,4,Maybe,,,1
+388,SPECIES_GROTLE,Grotle,Grass,,Overgrow,,75,89,85,55,65,36,405,45,31,Monster,Grass,FALSE,,4,Maybe,,,1
+389,SPECIES_TORTERRA,Torterra,Grass,Ground,Overgrow,,95,109,105,75,85,56,525,45,31,Monster,Grass,FALSE,,4,Maybe,,,1
+390,SPECIES_CHIMCHAR,Chimchar,Fire,,Blaze,,44,58,44,58,44,61,309,45,31,Field,Human Like,FALSE,,4,Maybe,,,1
+391,SPECIES_MONFERNO,Monferno,Fire,Fighting,Blaze,,64,78,52,78,52,81,405,45,31,Field,Human Like,FALSE,,4,Maybe,,,1
+392,SPECIES_INFERNAPE,Infernape,Fire,Fighting,Blaze,,76,104,71,104,71,108,534,45,31,Field,Human Like,FALSE,,4,Maybe,,,1
+393,SPECIES_PIPLUP,Piplup,Water,,Torrent,,53,51,53,61,56,40,314,45,31,Water 1,Field,FALSE,,4,Maybe,,,1
+394,SPECIES_PRINPLUP,Prinplup,Water,,Torrent,,64,66,68,81,76,50,405,45,31,Water 1,Field,FALSE,,4,Maybe,,,1
+395,SPECIES_EMPOLEON,Empoleon,Water,Steel,Torrent,,84,86,88,111,101,60,530,45,31,Water 1,Field,FALSE,,4,Maybe,,,1
+396,SPECIES_STARLY,Starly,Normal,Flying,Keen Eye,,40,55,30,30,30,60,245,255,127,Flying,Flying,FALSE,,4,,,,1
+397,SPECIES_STARAVIA,Staravia,Normal,Flying,Intimidate,,55,75,50,40,40,80,340,120,127,Flying,Flying,FALSE,,4,,,,1
+398,SPECIES_STARAPTOR,Staraptor,Normal,Flying,Intimidate,,85,120,70,50,60,100,485,45,127,Flying,Flying,FALSE,,4,,,,1
+399,SPECIES_BIDOOF,Bidoof,Normal,,Simple,Unaware,59,45,40,35,40,31,250,255,127,Water 1,Field,FALSE,,4,,,,1
+400,SPECIES_BIBAREL,Bibarel,Normal,Water,Simple,Unaware,79,85,60,55,60,71,410,127,127,Water 1,Field,FALSE,,4,,,,1
+401,SPECIES_KRICKETOT,Kricketot,Bug,,Shed Skin,,37,25,41,25,41,25,194,255,127,Bug,Bug,FALSE,,4,,,,1
+402,SPECIES_KRICKETUNE,Kricketune,Bug,,Swarm,,77,85,51,55,51,65,384,45,127,Bug,Bug,FALSE,,4,,,,1
+403,SPECIES_SHINX,Shinx,Electric,,Rivalry,Intimidate,45,65,34,40,34,45,263,235,127,Field,Field,FALSE,,4,Yes,,,1
+404,SPECIES_LUXIO,Luxio,Electric,,Rivalry,Intimidate,60,85,49,60,49,60,363,120,127,Field,Field,FALSE,,4,Yes,,,1
+405,SPECIES_LUXRAY,Luxray,Electric,,Rivalry,Intimidate,80,120,79,95,79,70,523,45,127,Field,Field,FALSE,,4,Yes,,,1
+406,SPECIES_BUDEW,Budew,Grass,Poison,Natural Cure,Poison Point,40,30,35,50,70,55,280,255,127,Undiscovered,Undiscovered,FALSE,,4,,,,1
+407,SPECIES_ROSERADE,Roserade,Grass,Poison,Natural Cure,Poison Point,60,70,65,125,105,90,515,75,127,Fairy,Grass,FALSE,,4,,,,1
+408,SPECIES_CRANIDOS,Cranidos,Rock,,Mold Breaker,,67,125,40,30,30,58,350,45,31,Monster,Monster,FALSE,,4,,,,1
+409,SPECIES_RAMPARDOS,Rampardos,Rock,,Mold Breaker,,97,165,60,65,50,58,495,45,31,Monster,Monster,FALSE,,4,,,,1
+410,SPECIES_SHIELDON,Shieldon,Rock,Steel,Sturdy,,30,42,118,42,88,30,350,45,31,Monster,Monster,FALSE,,4,,,,1
+411,SPECIES_BASTIODON,Bastiodon,Rock,Steel,Sturdy,,60,52,168,47,138,30,495,45,31,Monster,Monster,FALSE,,4,,,,1
+412,SPECIES_BURMY,Burmy,Bug,,Shed Skin,,40,29,45,29,45,36,224,120,127,Bug,Bug,FALSE,,4,,,,1
+413,SPECIES_WORMADAM,Wormadam,Bug,Grass,Anticipation,,60,59,85,79,105,36,424,45,254,Bug,Bug,FALSE,,4,,,,1
+414,SPECIES_MOTHIM,Mothim,Bug,Flying,Swarm,,70,94,50,94,50,66,424,45,0,Bug,Bug,FALSE,,4,,,,1
+415,SPECIES_COMBEE,Combee,Bug,Flying,Honey Gather,,30,30,42,30,42,70,244,120,31,Bug,Bug,FALSE,,4,,,,1
+416,SPECIES_VESPIQUEN,Vespiquen,Bug,Flying,Pressure,,70,80,102,80,102,40,474,45,254,Bug,Bug,FALSE,,4,,,,1
+417,SPECIES_PACHIRISU,Pachirisu,Electric,,Run Away,Pickup,60,45,70,45,90,95,405,200,127,Field,Fairy,FALSE,,4,,,,1
+418,SPECIES_BUIZEL,Buizel,Water,,Swift Swim,,55,65,35,60,30,85,330,190,127,Water 1,Field,FALSE,,4,,,,1
+419,SPECIES_FLOATZEL,Floatzel,Water,,Swift Swim,,85,105,55,85,50,115,495,75,127,Water 1,Field,FALSE,,4,,,,1
+420,SPECIES_CHERUBI,Cherubi,Grass,,Chlorophyll,,45,35,45,62,53,35,275,190,127,Fairy,Grass,FALSE,,4,,,,1
+421,SPECIES_CHERRIM,Cherrim,Grass,,Flower Gift,,70,60,70,87,78,85,450,75,127,Fairy,Grass,FALSE,,4,,,,1
+422,SPECIES_SHELLOS,Shellos,Water,,Sticky Hold,Storm Drain,76,48,48,57,62,34,325,190,127,Water 1,Amorphous,FALSE,,4,,,,1
+423,SPECIES_GASTRODON,Gastrodon,Water,Ground,Sticky Hold,Storm Drain,111,83,68,92,82,39,475,75,127,Water 1,Amorphous,FALSE,,4,,,,1
+424,SPECIES_AMBIPOM,Ambipom,Normal,,Technician,Pickup,75,100,66,60,66,115,482,45,127,Field,Field,TRUE,124,4,Yes,,,1
+425,SPECIES_DRIFLOON,Drifloon,Ghost,Flying,Aftermath,Unburden,90,50,34,60,44,70,348,125,127,Amorphous,Amorphous,FALSE,,4,Yes,,,1
+426,SPECIES_DRIFBLIM,Drifblim,Ghost,Flying,Aftermath,Unburden,150,80,44,90,54,80,498,60,127,Amorphous,Amorphous,FALSE,,4,Yes,,,1
+427,SPECIES_BUNEARY,Buneary,Normal,,Run Away,Klutz,55,66,44,44,56,85,350,190,127,Field,Human Like,FALSE,,4,,,,1
+428,SPECIES_LOPUNNY,Lopunny,Normal,,Cute Charm,Klutz,65,76,84,54,96,105,480,60,127,Field,Human Like,FALSE,,4,,,,1
+429,SPECIES_MISMAGIUS,Mismagius,Ghost,,Levitate,,60,60,60,105,105,105,495,45,127,Amorphous,Amorphous,FALSE,,4,Yes,,,1
+430,SPECIES_HONCHKROW,Honchkrow,Dark,Flying,Insomnia,Super Luck,100,125,52,105,52,71,505,30,127,Flying,Flying,FALSE,,4,Yes,,,1
+431,SPECIES_GLAMEOW,Glameow,Normal,,Limber,Own Tempo,49,55,42,42,37,85,310,190,190,Field,Field,FALSE,,4,Yes,,,1
+432,SPECIES_PURUGLY,Purugly,Normal,,Thick Fat,Own Tempo,71,82,64,64,59,112,452,75,190,Field,Field,FALSE,,4,Yes,,,1
+433,SPECIES_CHINGLING,Chingling,Psychic,,Levitate,,45,30,50,65,50,45,285,120,127,Undiscovered,Undiscovered,FALSE,,4,,,,1
+434,SPECIES_STUNKY,Stunky,Poison,Dark,Stench,Aftermath,63,63,47,41,41,74,329,225,127,Field,Field,FALSE,,4,,,,1
+435,SPECIES_SKUNTANK,Skuntank,Poison,Dark,Stench,Aftermath,103,93,67,71,61,84,479,60,127,Field,Field,FALSE,,4,,,,1
+436,SPECIES_BRONZOR,Bronzor,Steel,Psychic,Levitate,Heatproof,57,24,86,24,86,23,300,255,255,Mineral,Mineral,FALSE,,4,,,,1
+437,SPECIES_BRONZONG,Bronzong,Steel,Psychic,Levitate,Heatproof,67,89,116,79,116,33,500,90,255,Mineral,Mineral,FALSE,,4,,,,1
+438,SPECIES_BONSLY,Bonsly,Rock,,Sturdy,Rock Head,50,80,95,10,45,10,290,255,127,Undiscovered,Undiscovered,FALSE,,4,Yes,,,1
+439,SPECIES_MIME_JR,Mime Jr.,Psychic,Fairy,Soundproof,Filter,20,25,45,70,90,60,310,145,127,Undiscovered,Undiscovered,FALSE,,4,Yes,,,1
+440,SPECIES_HAPPINY,Happiny,Normal,,Natural Cure,Serene Grace,100,5,5,15,65,30,220,130,254,Undiscovered,Undiscovered,FALSE,,4,Yes,,,1
+441,SPECIES_CHATOT,Chatot,Normal,Flying,Keen Eye,Tangled Feet,76,65,45,92,42,91,411,30,127,Flying,Flying,FALSE,,4,,,,1
+442,SPECIES_SPIRITOMB,Spiritomb,Ghost,Dark,Pressure,,50,92,108,92,108,35,485,100,127,Amorphous,Amorphous,FALSE,,4,,,,1
+443,SPECIES_GIBLE,Gible,Dragon,Ground,Sand Veil,,58,70,45,40,45,42,300,45,127,Monster,Dragon,FALSE,,4,Yes,,,1
+444,SPECIES_GABITE,Gabite,Dragon,Ground,Sand Veil,,68,90,65,50,55,82,410,45,127,Monster,Dragon,FALSE,,4,Yes,,,1
+445,SPECIES_GARCHOMP,Garchomp,Dragon,Ground,Sand Veil,,108,130,95,80,85,102,600,45,127,Monster,Dragon,FALSE,,4,Yes,,,1
+446,SPECIES_MUNCHLAX,Munchlax,Normal,,Pickup,Thick Fat,135,85,40,40,85,5,390,50,31,Undiscovered,Undiscovered,FALSE,,4,Yes,,,1
+447,SPECIES_RIOLU,Riolu,Fighting,,Steadfast,Inner Focus,40,70,40,35,40,60,285,75,31,Undiscovered,Undiscovered,FALSE,,4,Yes,,,1
+448,SPECIES_LUCARIO,Lucario,Fighting,Steel,Steadfast,Inner Focus,70,110,70,115,70,90,525,45,31,Field,Human Like,FALSE,,4,Yes,,,1
+449,SPECIES_HIPPOPOTAS,Hippopotas,Ground,,Sand Stream,,68,72,78,38,42,32,330,140,127,Field,Field,FALSE,,4,No,,,1
+450,SPECIES_HIPPOWDON,Hippowdon,Ground,,Sand Stream,,108,112,118,68,72,47,525,60,127,Field,Field,FALSE,,4,No,,,1
+451,SPECIES_SKORUPI,Skorupi,Poison,Bug,Battle Armor,Sniper,40,50,90,30,55,65,330,120,127,Bug,Water 3,FALSE,,4,,,,1
+452,SPECIES_DRAPION,Drapion,Poison,Dark,Battle Armor,Sniper,70,90,110,60,75,95,500,45,127,Bug,Water 3,FALSE,,4,,,,1
+453,SPECIES_CROAGUNK,Croagunk,Poison,Fighting,Anticipation,Dry Skin,48,61,40,61,40,50,300,140,127,Human Like,Human Like,FALSE,,4,Yes,,,1
+454,SPECIES_TOXICROAK,Toxicroak,Poison,Fighting,Anticipation,Dry Skin,83,106,65,86,65,85,490,75,127,Human Like,Human Like,FALSE,,4,Yes,,,1
+455,SPECIES_CARNIVINE,Carnivine,Grass,,Levitate,,74,100,72,90,72,46,454,200,127,Grass,Grass,FALSE,,4,,,,1
+456,SPECIES_FINNEON,Finneon,Water,,Swift Swim,Storm Drain,49,49,56,49,61,66,330,190,127,Water 2,Water 2,FALSE,,4,,,,1
+457,SPECIES_LUMINEON,Lumineon,Water,,Swift Swim,Storm Drain,69,69,76,69,86,91,460,75,127,Water 2,Water 2,FALSE,,4,,,,1
+458,SPECIES_MANTYKE,Mantyke,Water,Flying,Swift Swim,Water Absorb,45,20,50,60,120,50,345,25,127,Undiscovered,Undiscovered,FALSE,,4,Yes,,,1
+459,SPECIES_SNOVER,Snover,Grass,Ice,Snow Warning,,60,62,50,62,60,40,334,120,127,Monster,Grass,FALSE,,4,Yes,,,1
+460,SPECIES_ABOMASNOW,Abomasnow,Grass,Ice,Snow Warning,,90,92,75,92,85,60,494,60,127,Monster,Grass,FALSE,,4,Yes,,,1
+461,SPECIES_WEAVILE,Weavile,Dark,Ice,Pressure,,70,120,65,45,85,125,510,45,127,Field,Field,FALSE,,4,Yes,,,1
+462,SPECIES_MAGNEZONE,Magnezone,Electric,Steel,Magnet Pull,Sturdy,70,70,115,130,90,60,535,30,255,Mineral,Mineral,FALSE,,4,Yes,,,1
+463,SPECIES_LICKILICKY,Lickilicky,Normal,,Own Tempo,Oblivious,110,85,95,80,95,50,515,30,127,Monster,Monster,TRUE,181,4,Yes,Johto,,1
+464,SPECIES_RHYPERIOR,Rhyperior,Ground,Rock,Lightning Rod,Solid Rock,115,140,130,55,55,40,535,30,127,Monster,Field,FALSE,,4,Yes,,,1
+465,SPECIES_TANGROWTH,Tangrowth,Grass,,Chlorophyll,Leaf Guard,100,100,125,110,50,50,535,30,127,Grass,Grass,TRUE,183,4,Yes,Johto,,1
+466,SPECIES_ELECTIVIRE,Electivire,Electric,,Motor Drive,,75,123,67,95,85,95,540,30,63,Human Like,Human Like,FALSE,,4,Yes,,,1
+467,SPECIES_MAGMORTAR,Magmortar,Fire,,Flame Body,,75,95,67,125,95,83,540,30,63,Human Like,Human Like,FALSE,,4,Yes,,,1
+468,SPECIES_TOGEKISS,Togekiss,Fairy,Flying,Hustle,Serene Grace,85,50,95,120,115,80,545,30,31,Flying,Fairy,FALSE,,4,Yes,Johto,,1
+469,SPECIES_YANMEGA,Yanmega,Bug,Flying,Speed Boost,Tinted Lens,86,76,86,116,56,95,515,30,127,Bug,Bug,TRUE,102,4,Yes,Johto,,1
+470,SPECIES_LEAFEON,Leafeon,Grass,,Leaf Guard,,65,110,130,60,65,95,525,45,31,Field,Field,FALSE,,4,Yes,,,1
+471,SPECIES_GLACEON,Glaceon,Ice,,Snow Cloak,,65,60,110,130,95,65,525,45,31,Field,Field,FALSE,,4,Yes,,,1
+472,SPECIES_GLISCOR,Gliscor,Ground,Flying,Hyper Cutter,Sand Veil,75,95,125,45,75,95,510,30,127,Bug,Bug,FALSE,,4,Yes,,,1
+473,SPECIES_MAMOSWINE,Mamoswine,Ice,Ground,Oblivious,Snow Cloak,110,130,80,70,60,80,530,50,127,Field,Field,TRUE,197,4,Yes,Johto,,1
+474,SPECIES_PORYGON_Z,Porygon-Z,Normal,,Adaptability,Download,85,80,70,135,75,90,535,30,255,Mineral,Mineral,FALSE,,4,Yes,,,1
+475,SPECIES_GALLADE,Gallade,Psychic,Fighting,Steadfast,Sharpness,68,125,65,65,115,80,518,45,0,Human Like,Amorphous,FALSE,,4,No,,,1
+476,SPECIES_PROBOPASS,Probopass,Rock,Steel,Sturdy,Magnet Pull,60,55,145,75,150,40,525,60,127,Mineral,Mineral,FALSE,,4,,,,1
+477,SPECIES_DUSKNOIR,Dusknoir,Ghost,,Pressure,,45,100,135,65,135,45,525,45,127,Amorphous,Amorphous,FALSE,,4,,,,1
+478,SPECIES_FROSLASS,Froslass,Ice,Ghost,Snow Cloak,,70,80,70,80,70,110,480,75,254,Fairy,Mineral,FALSE,,4,YEs,,,1
+479,SPECIES_ROTOM,Rotom,Electric,Ghost,Levitate,,50,50,77,95,77,91,440,45,255,Amorphous,Amorphous,FALSE,,4,Yes,,,1
+480,SPECIES_UXIE,Uxie,Psychic,,Levitate,,75,75,130,75,130,95,580,3,255,Undiscovered,Undiscovered,FALSE,,4,Yes,,,1
+481,SPECIES_MESPRIT,Mesprit,Psychic,,Levitate,,80,105,105,105,105,80,580,3,255,Undiscovered,Undiscovered,FALSE,,4,Yes,,,1
+482,SPECIES_AZELF,Azelf,Psychic,,Levitate,,75,125,70,125,70,115,580,3,255,Undiscovered,Undiscovered,FALSE,,4,Yes,,,1
+483,SPECIES_DIALGA,Dialga,Steel,Dragon,Pressure,,100,120,120,150,100,90,680,3,255,Undiscovered,Undiscovered,FALSE,,4,,,,1
+484,SPECIES_PALKIA,Palkia,Water,Dragon,Pressure,,90,120,100,150,120,100,680,3,255,Undiscovered,Undiscovered,FALSE,,4,,,,1
+485,SPECIES_HEATRAN,Heatran,Fire,Steel,Flash Fire,,91,90,106,130,106,77,600,3,127,Undiscovered,Undiscovered,FALSE,,4,,,,1
+486,SPECIES_REGIGIGAS,Regigigas,Normal,,Slow Start,,110,160,110,80,110,100,670,3,255,Undiscovered,Undiscovered,FALSE,,4,,,,1
+487,SPECIES_GIRATINA,Giratina,Ghost,Dragon,Pressure,,150,100,120,100,120,90,680,3,255,Undiscovered,Undiscovered,FALSE,,4,,,,1
+488,SPECIES_CRESSELIA,Cresselia,Psychic,,Levitate,,120,70,110,75,120,85,580,3,254,Undiscovered,Undiscovered,FALSE,,4,Maybe,,,1
+489,SPECIES_PHIONE,Phione,Water,,Hydration,,80,80,80,80,80,80,480,30,255,Water 1,Fairy,FALSE,,4,Maybe,,,1
+490,SPECIES_MANAPHY,Manaphy,Water,,Hydration,,100,100,100,100,100,100,600,3,255,Water 1,Fairy,FALSE,,4,Maybe,,,1
+491,SPECIES_DARKRAI,Darkrai,Dark,,Bad Dreams,,70,90,90,135,90,125,600,3,255,Undiscovered,Undiscovered,FALSE,,4,,,,1
+492,SPECIES_SHAYMIN,Shaymin,Grass,,Natural Cure,,100,100,100,100,100,100,600,45,255,Undiscovered,Undiscovered,FALSE,,4,,,,1
+493,SPECIES_ARCEUS,Arceus,Normal,,Multitype,,120,120,120,120,120,120,720,3,255,Undiscovered,Undiscovered,FALSE,,4,,,,1
+494,SPECIES_EGG,Egg,Normal,,,,10,10,10,10,10,10,60,3,255,Undiscovered,Undiscovered,FALSE,,,,,,1
+495,SPECIES_BAD_EGG,Bad Egg,Normal,,,,10,10,10,10,10,10,60,3,255,Undiscovered,Undiscovered,FALSE,,,,,,1
+496,SPECIES_496,496,Psychic,,Pressure,,50,180,20,180,20,150,600,3,255,Undiscovered,Undiscovered,FALSE,,5,No,,,1
+497,SPECIES_497,497,Psychic,,Pressure,,50,70,160,70,160,90,600,3,255,Undiscovered,Undiscovered,FALSE,,5,No,,,1
+498,SPECIES_498,498,Psychic,,Pressure,,50,95,90,95,90,180,600,3,255,Undiscovered,Undiscovered,FALSE,,5,No,,,1
+499,SPECIES_499,499,Bug,Ground,Anticipation,,60,79,105,59,85,36,424,45,254,Bug,Bug,FALSE,,5,No,,,1
+500,SPECIES_500,500,Bug,Steel,Anticipation,,60,69,95,69,95,36,424,45,254,Bug,Bug,FALSE,,5,No,,,1
+501,SPECIES_501,501,Ghost,Dragon,Levitate,,150,120,100,120,100,90,680,3,255,Undiscovered,Undiscovered,FALSE,,5,No,,,1
+502,SPECIES_502,502,Grass,Flying,Serene Grace,,100,103,75,120,75,127,600,45,255,Undiscovered,Undiscovered,FALSE,,5,No,,,1
+503,SPECIES_503,503,Electric,Fire,Levitate,,50,65,107,105,107,86,520,45,255,Amorphous,Amorphous,FALSE,,5,No,,,1
+504,SPECIES_504,504,Electric,Water,Levitate,,50,65,107,105,107,86,520,45,255,Amorphous,Amorphous,FALSE,,5,No,,,1
+505,SPECIES_505,505,Electric,Ice,Levitate,,50,65,107,105,107,86,520,45,255,Amorphous,Amorphous,FALSE,,5,No,,,1
+506,SPECIES_506,506,Electric,Flying,Levitate,,50,65,107,105,107,86,520,45,255,Amorphous,Amorphous,FALSE,,5,No,,,1
+507,SPECIES_507,507,Electric,Grass,Levitate,,50,65,107,105,107,86,520,45,255,Amorphous,Amorphous,FALSE,,5,No,,,1
+508,SPECIES_508,508,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+509,SPECIES_509,509,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+510,SPECIES_510,510,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+511,SPECIES_511,511,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+512,SPECIES_512,512,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+513,SPECIES_513,513,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+514,SPECIES_514,514,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+515,SPECIES_515,515,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+516,SPECIES_516,516,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+517,SPECIES_517,517,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+518,SPECIES_518,518,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+519,SPECIES_519,519,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+520,SPECIES_520,520,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+521,SPECIES_521,521,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+522,SPECIES_522,522,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+523,SPECIES_523,523,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+524,SPECIES_524,524,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+525,SPECIES_525,525,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+526,SPECIES_526,526,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+527,SPECIES_527,527,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+528,SPECIES_528,528,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+529,SPECIES_529,529,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+530,SPECIES_530,530,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+531,SPECIES_531,531,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+532,SPECIES_532,532,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+533,SPECIES_533,533,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+534,SPECIES_534,534,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+535,SPECIES_535,535,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+536,SPECIES_536,536,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+537,SPECIES_537,537,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+538,SPECIES_538,538,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+539,SPECIES_539,539,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+540,SPECIES_540,540,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+541,SPECIES_541,541,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+542,SPECIES_542,542,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+543,SPECIES_543,543,Normal,,,,0,0,0,0,0,0,0,0,0,,,FALSE,,5,No,,,1
+544,SPECIES_VICTINI,Victini,Psychic,Fire,Victory Star,,100,100,100,100,100,100,600,3,255,Undiscovered,Undiscovered,FALSE,,5,Yes,,,1
+545,SPECIES_SNIVY,Snivy,Grass,,Overgrow,,45,45,55,45,55,63,308,45,31,Field,Grass,FALSE,,5,Maybe,,,1
+546,SPECIES_SERVINE,Servine,Grass,,Overgrow,,60,60,75,60,75,83,413,45,31,Field,Grass,FALSE,,5,Maybe,,,1
+547,SPECIES_SERPERIOR,Serperior,Grass,,Overgrow,,75,75,95,75,95,113,528,45,31,Field,Grass,FALSE,,5,Maybe,,,1
+548,SPECIES_TEPIG,Tepig,Fire,,Blaze,,65,63,45,45,45,45,308,45,31,Field,Field,FALSE,,5,Maybe,,,1
+549,SPECIES_PIGNITE,Pignite,Fire,Fighting,Blaze,,90,93,55,70,55,55,418,45,31,Field,Field,FALSE,,5,Maybe,,,1
+550,SPECIES_EMBOAR,Emboar,Fire,Fighting,Blaze,,110,123,65,100,65,65,528,45,31,Field,Field,FALSE,,5,Maybe,,,1
+551,SPECIES_OSHAWOTT,Oshawott,Water,,Torrent,,55,55,45,63,45,45,308,45,31,Field,Field,FALSE,,5,Maybe,,,1
+552,SPECIES_DEWOTT,Dewott,Water,,Torrent,,75,75,60,83,60,60,413,45,31,Field,Field,FALSE,,5,Maybe,,,1
+553,SPECIES_SAMUROTT,Samurott,Water,,Torrent,,95,100,85,108,70,70,528,45,31,Field,Field,FALSE,,5,Maybe,,,1
+554,SPECIES_PATRAT,Patrat,Normal,,Run Away,Keen Eye,45,55,39,35,39,42,255,255,127,Field,Field,FALSE,,5,,,,1
+555,SPECIES_WATCHOG,Watchog,Normal,,Illuminate,Keen Eye,60,85,69,60,69,77,420,255,127,Field,Field,FALSE,,5,,,,1
+556,SPECIES_LILLIPUP,Lillipup,Normal,,Vital Spirit,Pickup,45,60,45,25,45,55,275,255,127,Field,Field,FALSE,,5,,,,1
+557,SPECIES_HERDIER,Herdier,Normal,,Intimidate,Sand Rush,65,80,65,35,65,60,370,120,127,Field,Field,FALSE,,5,,,,1
+558,SPECIES_STOUTLAND,Stoutland,Normal,,Intimidate,Sand Rush,85,110,90,45,90,80,500,45,127,Field,Field,FALSE,,5,,,,1
+559,SPECIES_PURRLOIN,Purrloin,Dark,,Limber,Unburden,41,50,37,50,37,66,281,255,127,Field,Field,FALSE,,5,,,,1
+560,SPECIES_LIEPARD,Liepard,Dark,,Limber,Unburden,64,88,50,88,50,106,446,90,127,Field,Field,FALSE,,5,,,,1
+561,SPECIES_PANSAGE,Pansage,Grass,,Gluttony,,50,53,48,53,48,64,316,190,31,Field,Field,FALSE,,5,,,,1
+562,SPECIES_SIMISAGE,Simisage,Grass,,Gluttony,,75,98,63,98,63,101,498,75,31,Field,Field,FALSE,,5,,,,1
+563,SPECIES_PANSEAR,Pansear,Fire,,Gluttony,,50,53,48,53,48,64,316,190,31,Field,Field,FALSE,,5,,,,1
+564,SPECIES_SIMISEAR,Simisear,Fire,,Gluttony,,75,98,63,98,63,101,498,75,31,Field,Field,FALSE,,5,,,,1
+565,SPECIES_PANPOUR,Panpour,Water,,Gluttony,,50,53,48,53,48,64,316,190,31,Field,Field,FALSE,,5,,,,1
+566,SPECIES_SIMIPOUR,Simipour,Water,,Gluttony,,75,98,63,98,63,101,498,75,31,Field,Field,FALSE,,5,,,,1
+567,SPECIES_MUNNA,Munna,Psychic,,Forewarn,Synchronize,76,25,45,67,55,24,292,190,127,Field,Field,FALSE,,5,Yes,,,1
+568,SPECIES_MUSHARNA,Musharna,Psychic,,Forewarn,Synchronize,116,55,85,107,95,29,487,75,127,Field,Field,FALSE,,5,Yes,,,1
+569,SPECIES_PIDOVE,Pidove,Normal,Flying,Big Pecks,Super Luck,50,55,50,36,30,43,264,255,127,Flying,Flying,FALSE,,5,Yes,,,1
+570,SPECIES_TRANQUILL,Tranquill,Normal,Flying,Big Pecks,Super Luck,62,77,62,50,42,65,358,120,127,Flying,Flying,FALSE,,5,Yes,,,1
+571,SPECIES_UNFEZANT,Unfezant,Normal,Flying,Big Pecks,Super Luck,80,115,80,65,55,93,488,45,0,Flying,Flying,FALSE,,5,Yes,,,1
+572,SPECIES_BLITZLE,Blitzle,Electric,,Lightning Rod,Motor Drive,45,60,32,50,32,76,295,190,127,Field,Field,FALSE,,5,,,,1
+573,SPECIES_ZEBSTRIKA,Zebstrika,Electric,,Lightning Rod,Motor Drive,75,100,63,80,63,116,497,75,127,Field,Field,FALSE,,5,,,,1
+574,SPECIES_ROGGENROLA,Roggenrola,Rock,,Sturdy,Weak Armor,55,75,85,25,25,15,280,255,127,Mineral,Mineral,FALSE,,5,,,,1
+575,SPECIES_BOLDORE,Boldore,Rock,,Sturdy,Weak Armor,70,105,105,50,40,20,390,120,127,Mineral,Mineral,FALSE,,5,,,,1
+576,SPECIES_GIGALITH,Gigalith,Rock,,Sturdy,Sand Stream,85,135,130,60,80,25,515,45,127,Mineral,Mineral,FALSE,,5,,,,1
+577,SPECIES_WOOBAT,Woobat,Psychic,Flying,Unaware,Klutz,65,45,43,55,43,72,323,190,127,Field,Flying,FALSE,,5,Yes,,,1
+578,SPECIES_SWOOBAT,Swoobat,Psychic,Flying,Unaware,Klutz,67,57,55,77,55,114,425,45,127,Field,Flying,FALSE,,5,Yes,,,1
+579,SPECIES_DRILBUR,Drilbur,Ground,,Sand Rush,Sand Force,60,85,40,30,45,68,328,120,127,Field,Field,FALSE,,5,Yes,,,1
+580,SPECIES_EXCADRILL,Excadrill,Ground,Steel,Sand Rush,Sand Force,110,135,60,50,65,88,508,60,127,Field,Field,FALSE,,5,Yes,,,1
+581,SPECIES_AUDINO,Audino,Normal,,Healer,Regenerator,103,60,86,60,86,50,445,255,127,Fairy,Fairy,FALSE,,5,YEs,,,1
+582,SPECIES_TIMBURR,Timburr,Fighting,,Guts,Sheer Force,75,80,55,25,35,35,305,180,63,Human Like,Human Like,FALSE,,5,,,,1
+583,SPECIES_GURDURR,Gurdurr,Fighting,,Guts,Sheer Force,85,105,85,40,50,40,405,90,63,Human Like,Human Like,FALSE,,5,,,,1
+584,SPECIES_CONKELDURR,Conkeldurr,Fighting,,Guts,Sheer Force,105,140,95,55,65,45,505,45,63,Human Like,Human Like,FALSE,,5,,,,1
+585,SPECIES_TYMPOLE,Tympole,Water,,Swift Swim,Hydration,50,50,40,50,40,64,294,255,127,Water 1,Water 1,FALSE,,5,Yes,,,1
+586,SPECIES_PALPITOAD,Palpitoad,Water,Ground,Swift Swim,Hydration,75,65,55,65,55,69,384,120,127,Water 1,Water 1,FALSE,,5,Yes,,,1
+587,SPECIES_SEISMITOAD,Seismitoad,Water,Ground,Swift Swim,Poison Touch,105,95,75,85,75,74,509,45,127,Water 1,Water 1,FALSE,,5,Yes,,,1
+588,SPECIES_THROH,Throh,Fighting,,Guts,Inner Focus,120,100,85,30,85,45,465,45,0,Human Like,Human Like,FALSE,,5,,,,1
+589,SPECIES_SAWK,Sawk,Fighting,,Sturdy,Inner Focus,75,125,75,30,75,85,465,45,0,Human Like,Human Like,FALSE,,5,,,,1
+590,SPECIES_SEWADDLE,Sewaddle,Bug,Grass,Swarm,Chlorophyll,45,53,70,40,60,42,310,255,127,Bug,Bug,FALSE,,5,,,,1
+591,SPECIES_SWADLOON,Swadloon,Bug,Grass,Leaf Guard,Chlorophyll,55,63,90,50,80,42,380,120,127,Bug,Bug,FALSE,,5,,,,1
+592,SPECIES_LEAVANNY,Leavanny,Bug,Grass,Swarm,Chlorophyll,75,103,80,70,80,92,500,45,127,Bug,Bug,FALSE,,5,,,,1
+593,SPECIES_VENIPEDE,Venipede,Bug,Poison,Poison Point,Swarm,30,45,59,30,39,57,260,255,127,Bug,Bug,FALSE,,5,,,,1
+594,SPECIES_WHIRLIPEDE,Whirlipede,Bug,Poison,Poison Point,Swarm,40,55,99,40,79,47,360,120,127,Bug,Bug,FALSE,,5,,,,1
+595,SPECIES_SCOLIPEDE,Scolipede,Bug,Poison,Poison Point,Swarm,60,100,89,55,69,112,485,45,127,Bug,Bug,FALSE,,5,,,,1
+596,SPECIES_COTTONEE,Cottonee,Grass,Fairy,Prankster,Infiltrator,40,27,60,37,50,66,280,190,127,Grass,Fairy,FALSE,,5,,,,1
+597,SPECIES_WHIMSICOTT,Whimsicott,Grass,Fairy,Prankster,Infiltrator,60,67,85,77,75,116,480,75,127,Grass,Fairy,FALSE,,5,,,,1
+598,SPECIES_PETILIL,Petilil,Grass,,Chlorophyll,Own Tempo,45,35,50,70,50,30,280,190,254,Grass,Grass,FALSE,,5,,,,1
+599,SPECIES_LILLIGANT,Lilligant,Grass,,Chlorophyll,Own Tempo,70,60,75,110,75,90,480,75,254,Grass,Grass,FALSE,,5,,,,1
+600,SPECIES_BASCULIN,Basculin,Water,,Reckless,Adaptability,70,92,65,80,55,98,460,25,127,Water 2,Water 2,FALSE,,5,,,,1
+601,SPECIES_SANDILE,Sandile,Ground,Dark,Intimidate,Moxie,50,72,35,35,35,65,292,180,127,Field,Field,FALSE,,5,,,,1
+602,SPECIES_KROKOROK,Krokorok,Ground,Dark,Intimidate,Moxie,60,82,45,45,45,74,351,90,127,Field,Field,FALSE,,5,,,,1
+603,SPECIES_KROOKODILE,Krookodile,Ground,Dark,Intimidate,Moxie,95,117,80,65,70,92,519,45,127,Field,Field,FALSE,,5,,,,1
+604,SPECIES_DARUMAKA,Darumaka,Fire,,Hustle,,70,90,45,15,45,50,315,120,127,Field,Field,FALSE,,5,,,,1
+605,SPECIES_DARMANITAN,Darmanitan,Fire,,Sheer Force,,105,140,55,30,55,95,480,60,127,Field,Field,FALSE,,5,,,,1
+606,SPECIES_MARACTUS,Maractus,Grass,,Water Absorb,Chlorophyll,75,86,67,106,67,60,461,255,127,Grass,Grass,FALSE,,5,,,,1
+607,SPECIES_DWEBBLE,Dwebble,Bug,Rock,Sturdy,Shell Armor,50,65,85,35,35,55,325,190,127,Bug,Mineral,FALSE,,5,,,,1
+608,SPECIES_CRUSTLE,Crustle,Bug,Rock,Sturdy,Shell Armor,70,105,125,65,75,45,485,75,127,Bug,Mineral,FALSE,,5,,,,1
+609,SPECIES_SCRAGGY,Scraggy,Dark,Fighting,Shed Skin,Moxie,50,75,70,35,70,48,348,180,127,Field,Dragon,FALSE,,5,,,,1
+610,SPECIES_SCRAFTY,Scrafty,Dark,Fighting,Shed Skin,Moxie,65,90,115,45,115,58,488,90,127,Field,Dragon,FALSE,,5,,,,1
+611,SPECIES_SIGILYPH,Sigilyph,Psychic,Flying,Wonder Skin,Magic Guard,72,58,80,103,80,97,490,45,127,Flying,Flying,FALSE,,5,,,,1
+612,SPECIES_YAMASK,Yamask,Ghost,,Mummy,,38,30,85,55,65,30,303,190,127,Mineral,Amorphous,FALSE,,5,,,,1
+613,SPECIES_COFAGRIGUS,Cofagrigus,Ghost,,Mummy,,58,50,145,95,105,30,483,90,127,Mineral,Amorphous,FALSE,,5,,,,1
+614,SPECIES_TIRTOUGA,Tirtouga,Water,Rock,Solid Rock,Sturdy,54,78,103,53,45,22,355,45,31,Water 1,Water 3,FALSE,,5,,,,1
+615,SPECIES_CARRACOSTA,Carracosta,Water,Rock,Solid Rock,Sturdy,74,108,133,83,65,32,495,45,31,Water 1,Water 3,FALSE,,5,,,,1
+616,SPECIES_ARCHEN,Archen,Rock,Flying,Defeatist,,55,112,45,74,45,70,401,45,31,Flying,Water 3,FALSE,,5,,,,1
+617,SPECIES_ARCHEOPS,Archeops,Rock,Flying,Defeatist,,75,140,65,112,65,110,567,45,31,Flying,Water 3,FALSE,,5,,,,1
+618,SPECIES_TRUBBISH,Trubbish,Poison,,Stench,Sticky Hold,50,50,62,40,62,65,329,190,127,Mineral,Mineral,FALSE,,5,,,,1
+619,SPECIES_GARBODOR,Garbodor,Poison,,Stench,Weak Armor,80,95,82,60,82,75,474,60,127,Mineral,Mineral,FALSE,,5,,,,1
+620,SPECIES_ZORUA,Zorua,Dark,,Illusion,,40,65,40,80,40,65,330,75,31,Field,Field,FALSE,,5,,,,1
+621,SPECIES_ZOROARK,Zoroark,Dark,,Illusion,,60,105,60,120,60,105,510,45,31,Field,Field,FALSE,,5,,,,1
+622,SPECIES_MINCCINO,Minccino,Normal,,Cute Charm,Technician,55,50,40,40,40,75,300,255,190,Field,Field,FALSE,,5,,,,1
+623,SPECIES_CINCCINO,Cinccino,Normal,,Cute Charm,Technician,75,95,60,65,60,115,470,60,190,Field,Field,FALSE,,5,,,,1
+624,SPECIES_GOTHITA,Gothita,Psychic,,Frisk,Competitive,45,30,50,55,65,45,290,200,190,Human Like,Human Like,FALSE,,5,,,,1
+625,SPECIES_GOTHORITA,Gothorita,Psychic,,Frisk,Competitive,60,45,70,75,85,55,390,100,190,Human Like,Human Like,FALSE,,5,,,,1
+626,SPECIES_GOTHITELLE,Gothitelle,Psychic,,Frisk,Competitive,70,55,95,95,110,65,490,50,190,Human Like,Human Like,FALSE,,5,,,,1
+627,SPECIES_SOLOSIS,Solosis,Psychic,,Overcoat,Magic Guard,45,30,40,105,50,20,290,200,127,Amorphous,Amorphous,FALSE,,5,,,,1
+628,SPECIES_DUOSION,Duosion,Psychic,,Overcoat,Magic Guard,65,40,50,125,60,30,370,100,127,Amorphous,Amorphous,FALSE,,5,,,,1
+629,SPECIES_REUNICLUS,Reuniclus,Psychic,,Overcoat,Magic Guard,110,65,75,125,85,30,490,50,127,Amorphous,Amorphous,FALSE,,5,,,,1
+630,SPECIES_DUCKLETT,Ducklett,Water,Flying,Keen Eye,Big Pecks,62,44,50,44,50,55,305,190,127,Water 1,Flying,FALSE,,5,,,,1
+631,SPECIES_SWANNA,Swanna,Water,Flying,Keen Eye,Big Pecks,75,87,63,87,63,98,473,45,127,Water 1,Flying,FALSE,,5,,,,1
+632,SPECIES_VANILLITE,Vanillite,Ice,,Ice Body,Snow Cloak,36,50,50,65,60,44,305,255,127,Mineral,Mineral,FALSE,,5,Maybe,,,1
+633,SPECIES_VANILLISH,Vanillish,Ice,,Ice Body,Snow Cloak,51,65,65,80,75,59,395,120,127,Mineral,Mineral,FALSE,,5,Maybe,,,1
+634,SPECIES_VANILLUXE,Vanilluxe,Ice,,Ice Body,Snow Warning,71,95,85,110,95,79,535,45,127,Mineral,Mineral,FALSE,,5,Maybe,,,1
+635,SPECIES_DEERLING,Deerling,Normal,Grass,Chlorophyll,Sap Sipper,60,60,50,40,50,75,335,190,127,Field,Field,FALSE,,5,No,,,1
+636,SPECIES_SAWSBUCK,Sawsbuck,Normal,Grass,Chlorophyll,Sap Sipper,80,100,70,60,70,95,475,75,127,Field,Field,FALSE,,5,,,,1
+637,SPECIES_EMOLGA,Emolga,Electric,Flying,Static,,55,75,60,75,60,103,428,200,127,Field,Field,FALSE,,5,Maybe,,,1
+638,SPECIES_KARRABLAST,Karrablast,Bug,,Swarm,Shed Skin,50,75,45,40,45,60,315,200,127,Bug,Bug,FALSE,,5,Maybe,,,1
+639,SPECIES_ESCAVALIER,Escavalier,Bug,Steel,Swarm,Shell Armor,70,135,105,60,105,20,495,75,127,Bug,Bug,FALSE,,5,Maybe,,,1
+640,SPECIES_FOONGUS,Foongus,Grass,Poison,Effect Spore,,69,55,45,55,55,15,294,190,127,Grass,Grass,FALSE,,5,Yes,,,1
+641,SPECIES_AMOONGUSS,Amoonguss,Grass,Poison,Effect Spore,,114,85,70,85,80,30,464,75,127,Grass,Grass,FALSE,,5,Yes,,,1
+642,SPECIES_FRILLISH,Frillish,Water,Ghost,Water Absorb,Cursed Body,55,40,50,65,85,40,335,190,0,Amorphous,Amorphous,FALSE,,5,Yes,,,1
+643,SPECIES_JELLICENT,Jellicent,Water,Ghost,Water Absorb,Cursed Body,100,60,70,85,105,60,480,60,0,Amorphous,Amorphous,FALSE,,5,Yes,,,1
+644,SPECIES_ALOMOMOLA,Alomomola,Water,,Healer,Hydration,165,75,80,40,45,65,470,75,127,Water 1,Water 2,FALSE,,5,,,,1
+645,SPECIES_JOLTIK,Joltik,Bug,Electric,Compound Eyes,Unnerve,50,47,50,57,50,65,319,190,127,Bug,Bug,FALSE,,5,,,,1
+646,SPECIES_GALVANTULA,Galvantula,Bug,Electric,Compound Eyes,Unnerve,70,77,60,97,60,108,472,75,127,Bug,Bug,FALSE,,5,,,,1
+647,SPECIES_FERROSEED,Ferroseed,Grass,Steel,Iron Barbs,,44,50,91,24,86,10,305,255,127,Grass,Mineral,FALSE,,5,,,,1
+648,SPECIES_FERROTHORN,Ferrothorn,Grass,Steel,Iron Barbs,,74,94,131,54,116,20,489,90,127,Grass,Mineral,FALSE,,5,,,,1
+649,SPECIES_KLINK,Klink,Steel,,Plus,Minus,40,55,70,45,60,30,300,130,255,Mineral,Mineral,FALSE,,5,,,,1
+650,SPECIES_KLANG,Klang,Steel,,Plus,Minus,60,80,95,70,85,50,440,60,255,Mineral,Mineral,FALSE,,5,,,,1
+651,SPECIES_KLINKLANG,Klinklang,Steel,,Plus,Minus,60,100,115,70,85,90,520,30,255,Mineral,Mineral,FALSE,,5,,,,1
+652,SPECIES_TYNAMO,Tynamo,Electric,,Levitate,,35,55,40,45,40,60,275,190,127,Amorphous,Amorphous,FALSE,,5,,,,1
+653,SPECIES_EELEKTRIK,Eelektrik,Electric,,Levitate,,65,85,70,75,70,40,405,60,127,Amorphous,Amorphous,FALSE,,5,,,,1
+654,SPECIES_EELEKTROSS,Eelektross,Electric,,Levitate,,85,115,80,105,80,50,515,30,127,Amorphous,Amorphous,FALSE,,5,,,,1
+655,SPECIES_ELGYEM,Elgyem,Psychic,,Telepathy,Synchronize,55,55,55,85,55,30,335,255,127,Human Like,Human Like,FALSE,,5,,,,1
+656,SPECIES_BEHEEYEM,Beheeyem,Psychic,,Telepathy,Synchronize,75,75,75,125,95,40,485,90,127,Human Like,Human Like,FALSE,,5,,,,1
+657,SPECIES_LITWICK,Litwick,Ghost,Fire,Flash Fire,Flame Body,50,30,55,65,55,20,275,190,127,Amorphous,Amorphous,FALSE,,5,,,,1
+658,SPECIES_LAMPENT,Lampent,Ghost,Fire,Flash Fire,Flame Body,60,40,60,95,60,55,370,90,127,Amorphous,Amorphous,FALSE,,5,,,,1
+659,SPECIES_CHANDELURE,Chandelure,Ghost,Fire,Flash Fire,Flame Body,60,55,90,145,90,80,520,45,127,Amorphous,Amorphous,FALSE,,5,,,,1
+660,SPECIES_AXEW,Axew,Dragon,,Rivalry,Mold Breaker,46,87,60,30,40,57,320,75,127,Monster,Dragon,FALSE,,5,,,,1
+661,SPECIES_FRAXURE,Fraxure,Dragon,,Rivalry,Mold Breaker,66,117,70,40,50,67,410,60,127,Monster,Dragon,FALSE,,5,,,,1
+662,SPECIES_HAXORUS,Haxorus,Dragon,,Rivalry,Mold Breaker,76,147,90,60,70,97,540,45,127,Monster,Dragon,FALSE,,5,,,,1
+663,SPECIES_CUBCHOO,Cubchoo,Ice,,Snow Cloak,Slush Rush,55,70,40,60,40,40,305,120,127,Field,Field,FALSE,,5,,,,1
+664,SPECIES_BEARTIC,Beartic,Ice,,Snow Cloak,Slush Rush,95,130,80,70,80,50,505,60,127,Field,Field,FALSE,,5,,,,1
+665,SPECIES_CRYOGONAL,Cryogonal,Ice,,Levitate,,80,50,50,95,135,105,515,25,255,Mineral,Mineral,FALSE,,5,,,,1
+666,SPECIES_SHELMET,Shelmet,Bug,,Hydration,Shell Armor,50,40,85,40,65,25,305,200,127,Bug,Bug,FALSE,,5,,,,1
+667,SPECIES_ACCELGOR,Accelgor,Bug,,Hydration,Sticky Hold,80,70,40,100,60,145,495,75,127,Bug,Bug,FALSE,,5,,,,1
+668,SPECIES_STUNFISK,Stunfisk,Ground,Electric,Static,Limber,109,66,84,81,99,32,471,75,127,Water 1,Amorphous,FALSE,,5,,,,1
+669,SPECIES_MIENFOO,Mienfoo,Fighting,,Inner Focus,Regenerator,45,85,50,55,50,65,350,180,127,Field,Human Like,FALSE,,5,,,,1
+670,SPECIES_MIENSHAO,Mienshao,Fighting,,Inner Focus,Regenerator,65,125,60,95,60,105,510,45,127,Field,Human Like,FALSE,,5,,,,1
+671,SPECIES_DRUDDIGON,Druddigon,Dragon,,Rough Skin,Sheer Force,77,120,90,60,90,48,485,45,127,Dragon,Monster,FALSE,,5,,,,1
+672,SPECIES_GOLETT,Golett,Ground,Ghost,Iron Fist,Klutz,59,74,50,35,50,35,303,190,255,Mineral,Mineral,FALSE,,5,,,,1
+673,SPECIES_GOLURK,Golurk,Ground,Ghost,Iron Fist,Klutz,89,124,80,55,80,55,483,90,255,Mineral,Mineral,FALSE,,5,,,,1
+674,SPECIES_PAWNIARD,Pawniard,Dark,Steel,Defiant,Inner Focus,45,85,70,40,40,60,340,120,127,Human Like,Human Like,FALSE,,5,,,,1
+675,SPECIES_BISHARP,Bisharp,Dark,Steel,Defiant,Inner Focus,65,125,100,60,70,70,490,45,127,Human Like,Human Like,FALSE,,5,,,,1
+676,SPECIES_BOUFFALANT,Bouffalant,Normal,,Reckless,Sap Sipper,95,110,95,40,95,55,490,45,127,Field,Field,FALSE,,5,,,,1
+677,SPECIES_RUFFLET,Rufflet,Normal,Flying,Keen Eye,Sheer Force,70,83,50,37,50,60,350,190,0,Flying,Flying,FALSE,,5,,,,1
+678,SPECIES_BRAVIARY,Braviary,Normal,Flying,Keen Eye,Sheer Force,100,123,75,57,75,80,510,60,0,Flying,Flying,FALSE,,5,,,,1
+679,SPECIES_VULLABY,Vullaby,Dark,Flying,Big Pecks,Overcoat,70,55,75,45,65,60,370,190,254,Flying,Flying,FALSE,,5,,,,1
+680,SPECIES_MANDIBUZZ,Mandibuzz,Dark,Flying,Big Pecks,Overcoat,110,65,105,55,95,80,510,60,254,Flying,Flying,FALSE,,5,,,,1
+681,SPECIES_HEATMOR,Heatmor,Fire,,Gluttony,Flash Fire,85,97,66,105,66,65,484,90,127,Field,Field,FALSE,,5,,,,1
+682,SPECIES_DURANT,Durant,Bug,Steel,Swarm,Hustle,58,109,112,48,48,109,484,90,127,Bug,Bug,FALSE,,5,,,,1
+683,SPECIES_DEINO,Deino,Dark,Dragon,Hustle,,52,65,50,45,50,38,300,45,127,Dragon,Dragon,FALSE,,5,,,,1
+684,SPECIES_ZWEILOUS,Zweilous,Dark,Dragon,Hustle,,72,85,70,65,70,58,420,45,127,Dragon,Dragon,FALSE,,5,,,,1
+685,SPECIES_HYDREIGON,Hydreigon,Dark,Dragon,Levitate,,92,105,90,125,90,98,600,45,127,Dragon,Dragon,FALSE,,5,,,,1
+686,SPECIES_LARVESTA,Larvesta,Bug,Fire,Flame Body,,55,85,55,50,55,60,360,45,127,Bug,Bug,FALSE,,5,Yes,,,1
+687,SPECIES_VOLCARONA,Volcarona,Bug,Fire,Flame Body,,85,60,65,135,105,100,550,15,127,Bug,Bug,FALSE,,5,Yes,,,1
+688,SPECIES_COBALION,Cobalion,Steel,Fighting,Justified,,91,90,129,90,72,108,580,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+689,SPECIES_TERRAKION,Terrakion,Rock,Fighting,Justified,,91,129,90,72,90,108,580,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+690,SPECIES_VIRIZION,Virizion,Grass,Fighting,Justified,,91,90,72,90,129,108,580,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+691,SPECIES_TORNADUS,Tornadus,Flying,,Prankster,,79,115,70,125,80,111,580,3,0,Undiscovered,Undiscovered,FALSE,,5,,,,1
+692,SPECIES_THUNDURUS,Thundurus,Electric,Flying,Prankster,,79,115,70,125,80,111,580,3,0,Undiscovered,Undiscovered,FALSE,,5,,,,1
+693,SPECIES_RESHIRAM,Reshiram,Dragon,Fire,Turboblaze,,100,120,100,150,120,90,680,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+694,SPECIES_ZEKROM,Zekrom,Dragon,Electric,Teravolt,,100,150,120,120,100,90,680,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+695,SPECIES_LANDORUS,Landorus,Ground,Flying,Sand Force,,89,125,90,115,80,101,600,3,0,Undiscovered,Undiscovered,FALSE,,5,,,,1
+696,SPECIES_KYUREM,Kyurem,Dragon,Ice,Pressure,,125,130,90,130,90,95,660,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+697,SPECIES_KELDEO,Keldeo,Water,Fighting,Justified,,91,72,90,129,90,108,580,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+698,SPECIES_MELOETTA,Meloetta,Normal,Psychic,Serene Grace,,100,77,77,128,128,90,600,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+699,SPECIES_GENESECT,Genesect,Bug,Steel,Download,,71,120,95,120,95,99,600,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+700,SPECIES_CHESPIN,Chespin,Grass,,Overgrow,,56,61,65,48,45,38,313,45,31,Field,Field,FALSE,,6,Maybe,,,1
+701,SPECIES_QUILLADIN,Quilladin,Grass,,Overgrow,,61,78,95,56,58,57,405,45,31,Field,Field,FALSE,,6,Maybe,,,1
+702,SPECIES_CHESNAUGHT,Chesnaught,Grass,Fighting,Overgrow,,88,107,122,74,75,64,530,45,31,Field,Field,FALSE,,6,Maybe,,,1
+703,SPECIES_FENNEKIN,Fennekin,Fire,,Blaze,,40,45,40,62,60,60,307,45,31,Field,Field,FALSE,,6,Maybe,,,1
+704,SPECIES_BRAIXEN,Braixen,Fire,,Blaze,,59,59,58,90,70,73,409,45,31,Field,Field,FALSE,,6,Maybe,,,1
+705,SPECIES_DELPHOX,Delphox,Fire,Psychic,Blaze,,75,69,72,114,100,104,534,45,31,Field,Field,FALSE,,6,Maybe,,,1
+706,SPECIES_FROAKIE,Froakie,Water,,Torrent,,41,56,40,62,44,71,314,45,31,Water 1,Water 1,FALSE,,6,Maybe,,,1
+707,SPECIES_FROGADIER,Frogadier,Water,,Torrent,,54,63,52,83,56,97,405,45,31,Water 1,Water 1,FALSE,,6,Maybe,,,1
+708,SPECIES_GRENINJA,Greninja,Water,Dark,Torrent,,72,95,67,103,71,122,530,45,31,Water 1,Water 1,FALSE,,6,Maybe,,,1
+709,SPECIES_BUNNELBY,Bunnelby,Normal,,Pickup,Cheek Pouch,38,36,38,32,36,57,237,255,127,Field,Field,FALSE,,6,,,,1
+710,SPECIES_DIGGERSBY,Diggersby,Normal,Ground,Pickup,Cheek Pouch,85,56,77,50,77,78,423,127,127,Field,Field,FALSE,,6,,,,1
+711,SPECIES_FLETCHLING,Fletchling,Normal,Flying,Big Pecks,,45,50,43,40,38,62,278,255,127,Flying,Flying,FALSE,,6,Yes,,,1
+712,SPECIES_FLETCHINDER,Flechinder,Fire,Flying,Flame Body,,62,73,55,56,52,84,382,120,127,Flying,Flying,FALSE,,6,Yes,,,1
+713,SPECIES_TALONFLAME,Talonflame,Fire,Flying,Flame Body,,78,81,71,74,69,126,499,45,127,Flying,Flying,FALSE,,6,Yes,,,1
+714,SPECIES_SCATTERBUG,Scatterbug,Bug,,Shield Dust,Compound Eyes,38,35,40,27,25,35,200,255,127,Bug,Bug,FALSE,,6,,,,1
+715,SPECIES_SPEWPA,Spewpa,Bug,,Shed Skin,,45,22,60,27,30,29,213,120,127,Bug,Bug,FALSE,,6,,,,1
+716,SPECIES_VIVILLON,Vivillon,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+717,SPECIES_LITLEO,Litleo,Fire,Normal,Rivalry,Unnerve,62,50,58,73,54,72,369,220,222,Field,Field,FALSE,,6,,,,1
+718,SPECIES_PYROAR,Pyroar,Fire,Normal,Rivalry,Unnerve,86,68,72,109,66,106,507,65,0,Field,Field,FALSE,,6,,,,1
+719,SPECIES_FLABEBE,Flabébé,Fairy,,Flower Veil,,44,38,39,61,79,42,303,225,254,Fairy,Fairy,FALSE,,6,Yes,Johto,,1
+720,SPECIES_FLOETTE,Floette,Fairy,,Flower Veil,,54,45,47,75,98,52,371,120,254,Fairy,Fairy,FALSE,,6,Yes,Johto,,1
+721,SPECIES_FLORGES,Florges,Fairy,,Flower Veil,,78,65,68,112,154,75,552,45,254,Fairy,Fairy,FALSE,,6,Yes,Johto,,1
+722,SPECIES_SKIDDO,Skiddo,Grass,,Sap Sipper,,66,65,48,62,57,52,350,200,127,Field,Field,FALSE,,6,,,,1
+723,SPECIES_GOGOAT,Gogoat,Grass,,Sap Sipper,,123,100,62,97,81,68,531,45,127,Field,Field,FALSE,,6,,,,1
+724,SPECIES_PANCHAM,Pancham,Fighting,,Iron Fist,Mold Breaker,67,82,62,46,48,43,348,220,127,Field,Human Like,FALSE,,6,,,,1
+725,SPECIES_PANGORO,Pangoro,Fighting,Dark,Iron Fist,Mold Breaker,95,124,78,69,71,58,495,65,127,Field,Human Like,FALSE,,6,,,,1
+726,SPECIES_FURFROU,Furfrou,Normal,,Fur Coat,,75,80,60,65,90,102,472,160,127,Field,Field,FALSE,,6,,,,1
+727,SPECIES_ESPURR,Espurr,Psychic,,Keen Eye,Infiltrator,62,48,54,63,60,68,355,190,127,Field,Field,FALSE,,6,,,,1
+728,SPECIES_MEOWSTIC,Meowstic,Psychic,,Keen Eye,Infiltrator,74,48,76,83,81,104,466,75,0,Field,Field,FALSE,,6,,,,1
+729,SPECIES_HONEDGE,Honedge,Steel,Ghost,No Guard,,45,80,100,35,37,28,325,180,127,Mineral,Mineral,FALSE,,6,,,,1
+730,SPECIES_DOUBLADE,Doublade,Steel,Ghost,No Guard,,59,110,150,45,49,35,448,90,127,Mineral,Mineral,FALSE,,6,,,,1
+731,SPECIES_AEGISLASH,Aegislash,Steel,Ghost,Stance Change,,60,50,140,50,140,60,500,45,127,Mineral,Mineral,FALSE,,6,,,,1
+732,SPECIES_SPRITZEE,Spritzee,Fairy,,Healer,,78,52,60,63,65,23,341,200,127,Fairy,Fairy,FALSE,,6,Yes,Johto,,1
+733,SPECIES_AROMATISSE,Aromatisse,Fairy,,Healer,,101,72,72,99,89,29,462,140,127,Fairy,Fairy,FALSE,,6,Yes,Johto,,1
+734,SPECIES_SWIRLIX,Swirlix,Fairy,,Sweet Veil,,62,48,66,59,57,49,341,200,127,Fairy,Fairy,FALSE,,6,Yes,Johto,,1
+735,SPECIES_SLURPUFF,Slurpuff,Fairy,,Sweet Veil,,82,80,86,85,75,72,480,140,127,Fairy,Fairy,FALSE,,6,Yes,Johto,,1
+736,SPECIES_INKAY,Inkay,Dark,Psychic,Contrary,Suction Cups,53,54,53,37,46,45,288,190,127,Water 1,Water 2,FALSE,,6,,,,1
+737,SPECIES_MALAMAR,Malamar,Dark,Psychic,Contrary,Suction Cups,86,92,88,68,75,73,482,80,127,Water 1,Water 2,FALSE,,6,,,,1
+738,SPECIES_BINACLE,Binacle,Rock,Water,Tough Claws,Sniper,42,52,67,39,56,50,306,120,127,Water 3,Water 3,FALSE,,6,,,,1
+739,SPECIES_BARBARACLE,Barbaracle,Rock,Water,Tough Claws,Sniper,72,105,115,54,86,68,500,45,127,Water 3,Water 3,FALSE,,6,,,,1
+740,SPECIES_SKRELP,Skrelp,Poison,Water,Poison Point,Poison Touch,50,60,60,60,60,30,320,225,127,Water 1,Dragon,FALSE,,6,,,,1
+741,SPECIES_DRAGALGE,Dragalge,Poison,Dragon,Poison Point,Poison Touch,65,75,90,97,123,44,494,55,127,Water 1,Dragon,FALSE,,6,,,,1
+742,SPECIES_CLAUNCHER,Clauncher,Water,,Mega Launcher,,50,53,62,58,63,44,330,225,127,Water 1,Water 3,FALSE,,6,,,,1
+743,SPECIES_CLAWITZER,Clawitzer,Water,,Mega Launcher,,71,73,88,120,89,59,500,55,127,Water 1,Water 3,FALSE,,6,,,,1
+744,SPECIES_HELIOPTILE,Helioptile,Electric,Normal,Dry Skin,Sand Veil,44,38,33,61,43,70,289,190,127,Monster,Dragon,FALSE,,6,,,,1
+745,SPECIES_HELIOLISK,Heliolisk,Electric,Normal,Dry Skin,Sand Veil,62,55,52,109,94,109,481,75,127,Monster,Dragon,FALSE,,6,,,,1
+746,SPECIES_TYRUNT,Tyrunt,Rock,Dragon,Strong Jaw,,58,89,77,45,45,48,362,45,31,Monster,Dragon,FALSE,,6,,,,1
+747,SPECIES_TYRANTRUM,Tyrantrum,Rock,Dragon,Strong Jaw,,82,121,119,69,59,71,521,45,31,Monster,Dragon,FALSE,,6,,,,1
+748,SPECIES_AMAURA,Amaura,Rock,Ice,Refrigerate,,77,59,50,67,63,46,362,45,31,Monster,Monster,FALSE,,6,,,,1
+749,SPECIES_AURORUS,Aurorus,Rock,Ice,Refrigerate,,123,77,72,99,92,58,521,45,31,Monster,Monster,FALSE,,6,,,,1
+750,SPECIES_SYLVEON,Sylveon,Fairy,,Cute Charm,,95,65,65,110,130,60,525,45,31,Field,Field,FALSE,,6,Yes,Johto,,1
+751,SPECIES_HAWLUCHA,Hawlucha,Fighting,Flying,Limber,Unburden,78,92,75,74,63,118,500,100,127,Flying,Human Like,FALSE,,6,,,,1
+752,SPECIES_DEDENNE,Dedenne,Electric,Fairy,Cheek Pouch,Pickup,67,58,57,81,67,101,431,180,127,Field,Fairy,FALSE,,6,,,,1
+753,SPECIES_CARBINK,Carbink,Rock,Fairy,Clear Body,,50,50,150,50,150,50,500,60,255,Fairy,Mineral,FALSE,,6,,,,1
+754,SPECIES_GOOMY,Goomy,Dragon,,Sap Sipper,Hydration,45,50,35,55,75,40,300,45,127,Dragon,Dragon,FALSE,,6,,,,1
+755,SPECIES_SLIGGOO,Sliggoo,Dragon,,Sap Sipper,Hydration,68,75,53,83,113,60,452,45,127,Dragon,Dragon,FALSE,,6,,,,1
+756,SPECIES_GOODRA,Goodra,Dragon,,Sap Sipper,Hydration,90,100,70,110,150,80,600,45,127,Dragon,Dragon,FALSE,,6,,,,1
+757,SPECIES_KLEFKI,Klefki,Steel,Fairy,Prankster,,57,80,91,80,87,75,470,75,127,Mineral,Mineral,FALSE,,6,,,,1
+758,SPECIES_PHANTUMP,Phantump,Ghost,Grass,Natural Cure,Frisk,43,70,48,50,60,38,309,120,127,Grass,Amorphous,FALSE,,6,Maybe,,,1
+759,SPECIES_TREVENANT,Trevenant,Ghost,Grass,Natural Cure,Frisk,85,110,76,65,82,56,474,60,127,Grass,Amorphous,FALSE,,6,Maybe,,,1
+760,SPECIES_PUMPKABOO,Pumpkaboo,Ghost,Grass,Pickup,Frisk,49,66,70,44,55,51,335,120,127,Amorphous,Amorphous,FALSE,,6,Maybe,,,1
+761,SPECIES_GOURGEIST,Gourgeist,Ghost,Grass,Pickup,Frisk,65,90,122,58,75,84,494,60,127,Amorphous,Amorphous,FALSE,,6,Maybe,,,1
+762,SPECIES_BERGMITE,Bergmite,Ice,,Own Tempo,Ice Body,55,69,85,32,35,28,304,190,127,Monster,Mineral,FALSE,,6,,,,1
+763,SPECIES_AVALUGG,Avalugg,Ice,,Own Tempo,Ice Body,95,117,184,44,46,28,514,55,127,Monster,Mineral,FALSE,,6,,,,1
+764,SPECIES_NOIBAT,Noibat,Flying,Dragon,Frisk,Infiltrator,40,30,35,45,40,55,245,190,127,Flying,Dragon,FALSE,,6,,,,1
+765,SPECIES_NOIVERN,Noivern,Flying,Dragon,Frisk,Infiltrator,85,70,80,97,80,123,535,45,127,Flying,Dragon,FALSE,,6,,,,1
+766,SPECIES_XERNEAS,Xerneas,Fairy,,Fairy Aura,,126,131,95,131,98,99,680,45,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+767,SPECIES_YVELTAL,Yveltal,Dark,Flying,Dark Aura,,126,131,95,131,98,99,680,45,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+768,SPECIES_ZYGARDE,Zygarde,Dragon,Ground,Aura Break,,108,100,121,81,95,95,600,3,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+769,SPECIES_DIANCIE,Diancie,Rock,Fairy,Clear Body,,50,100,150,100,150,50,600,3,255,Undiscovered,Undiscovered,FALSE,,6,Maybe,,,1
+770,SPECIES_HOOPA,Hoopa,Psychic,Ghost,Magician,,80,110,60,150,130,70,600,3,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+771,SPECIES_VOLCANION,Volcanion,Fire,Water,Water Absorb,,80,110,120,130,90,70,600,3,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+772,SPECIES_ROWLET,Rowlet,Grass,Flying,Overgrow,,68,55,55,50,50,42,320,45,31,Flying,Flying,FALSE,,7,Maybe,,,1
+773,SPECIES_DARTRIX,Dartrix,Grass,Flying,Overgrow,,78,75,75,70,70,52,420,45,31,Flying,Flying,FALSE,,7,Maybe,,,1
+774,SPECIES_DECIDUEYE,Decidueye,Grass,Ghost,Overgrow,,78,107,75,100,100,70,530,45,31,Flying,Flying,FALSE,,7,Maybe,,,1
+775,SPECIES_LITTEN,Litten,Fire,,Blaze,,45,65,40,60,40,70,320,45,31,Field,Field,FALSE,,7,Maybe,,,1
+776,SPECIES_TORRACAT,Torracat,Fire,,Blaze,,65,85,50,80,50,90,420,45,31,Field,Field,FALSE,,7,Maybe,,,1
+777,SPECIES_INCINEROAR,Incineroar,Fire,Dark,Blaze,,95,115,90,80,90,60,530,45,31,Field,Field,FALSE,,7,Maybe,,,1
+778,SPECIES_POPPLIO,Popplio,Water,,Torrent,,50,54,54,66,56,40,320,45,31,Water 1,Field,FALSE,,7,Maybe,,,1
+779,SPECIES_BRIONNE,Brionne,Water,,Torrent,,60,69,69,91,81,50,420,45,31,Water 1,Field,FALSE,,7,Maybe,,,1
+780,SPECIES_PRIMARINA,Primarina,Water,Fairy,Torrent,,80,74,74,126,116,60,530,45,31,Water 1,Field,FALSE,,7,Maybe,,,1
+781,SPECIES_PIKIPEK,Pikipek,Normal,Flying,Keen Eye,Skill Link,35,75,30,30,30,65,265,255,127,Flying,Flying,FALSE,,7,,,,1
+782,SPECIES_TRUMBEAK,Trumbeak,Normal,Flying,Keen Eye,Skill Link,55,85,50,40,50,75,355,120,127,Flying,Flying,FALSE,,7,,,,1
+783,SPECIES_TOUCANNON,Toucannon,Normal,Flying,Keen Eye,Skill Link,80,120,75,75,75,60,485,45,127,Flying,Flying,FALSE,,7,,,,1
+784,SPECIES_YUNGOOS,Yungoos,Normal,,Stakeout,Strong Jaw,48,70,30,30,30,45,253,255,127,Field,Field,FALSE,,7,,,,1
+785,SPECIES_GUMSHOOS,Gumshoos,Normal,,Stakeout,Strong Jaw,88,110,60,55,60,45,418,127,127,Field,Field,FALSE,,7,,,,1
+786,SPECIES_GRUBBIN,Grubbin,Bug,,Swarm,,47,62,45,55,45,46,300,255,127,Bug,Bug,FALSE,,7,,,,1
+787,SPECIES_CHARJABUG,Charjabug,Bug,Electric,Battery,,57,82,95,55,75,36,400,120,127,Bug,Bug,FALSE,,7,,,,1
+788,SPECIES_VIKAVOLT,Vikavolt,Bug,Electric,Levitate,,77,70,90,145,75,43,500,45,127,Bug,Bug,FALSE,,7,,,,1
+789,SPECIES_CRABRAWLER,Crabrawler,Fighting,,Hyper Cutter,Iron Fist,47,82,57,42,47,63,338,225,127,Water 3,Water 3,FALSE,,7,,,,1
+790,SPECIES_CRABOMINABLE,Crabomnabl,Fighting,Ice,Hyper Cutter,Iron Fist,97,132,77,62,67,43,478,60,127,Water 3,Water 3,FALSE,,7,,,,1
+791,SPECIES_ORICORIO,Oricorio,Fire,Flying,Dancer,,75,70,70,98,70,93,476,45,190,Flying,Flying,FALSE,,7,,,,1
+792,SPECIES_CUTIEFLY,Cutiefly,Bug,Fairy,Honey Gather,Shield Dust,40,45,40,55,40,84,304,190,127,Bug,Fairy,FALSE,,7,,,,1
+793,SPECIES_RIBOMBEE,Ribombee,Bug,Fairy,Honey Gather,Shield Dust,60,55,60,95,70,124,464,75,127,Bug,Fairy,FALSE,,7,,,,1
+794,SPECIES_ROCKRUFF,Rockruff,Rock,,Keen Eye,Vital Spirit,45,65,40,30,40,60,280,190,127,Field,Field,FALSE,,7,,,,1
+795,SPECIES_LYCANROC,Lycanroc,Rock,,Keen Eye,Sand Rush,75,115,65,55,65,112,487,90,127,Field,Field,FALSE,,7,,,,1
+796,SPECIES_WISHIWASHI,Wishiwashi,Water,,Schooling,,45,20,20,25,25,40,175,60,127,Water 2,Water 2,FALSE,,7,,,,1
+797,SPECIES_MAREANIE,Mareanie,Poison,Water,Merciless,Limber,50,53,62,43,52,45,305,190,127,Water 1,Water 1,FALSE,,7,,,,1
+798,SPECIES_TOXAPEX,Toxapex,Poison,Water,Merciless,Limber,50,63,152,53,142,35,495,75,127,Water 1,Water 1,FALSE,,7,,,,1
+799,SPECIES_MUDBRAY,Mudbray,Ground,,Own Tempo,Stamina,70,100,70,45,55,45,385,190,127,Field,Field,FALSE,,7,,,,1
+800,SPECIES_MUDSDALE,Mudsdale,Ground,,Own Tempo,Stamina,100,125,100,55,85,35,500,60,127,Field,Field,FALSE,,7,,,,1
+801,SPECIES_DEWPIDER,Dewpider,Water,Bug,Water Bubble,,38,40,52,40,72,27,269,200,127,Water 1,Bug,FALSE,,7,,,,1
+802,SPECIES_ARAQUANID,Araquanid,Water,Bug,Water Bubble,,68,70,92,50,132,42,454,100,127,Water 1,Bug,FALSE,,7,,,,1
+803,SPECIES_FOMANTIS,Fomantis,Grass,,Leaf Guard,,40,55,35,50,35,35,250,190,127,Grass,Grass,FALSE,,7,,,,1
+804,SPECIES_LURANTIS,Lurantis,Grass,,Leaf Guard,,70,105,90,80,90,45,480,75,127,Grass,Grass,FALSE,,7,,,,1
+805,SPECIES_MORELULL,Morelull,Grass,Fairy,Illuminate,Effect Spore,40,35,55,65,75,15,285,190,127,Grass,Grass,FALSE,,7,,,,1
+806,SPECIES_SHIINOTIC,Shiinotic,Grass,Fairy,Illuminate,Effect Spore,60,45,80,90,100,30,405,75,127,Grass,Grass,FALSE,,7,,,,1
+807,SPECIES_SALANDIT,Salandit,Poison,Fire,Corrosion,,48,44,40,71,40,77,320,120,31,Monster,Dragon,FALSE,,7,,,,1
+808,SPECIES_SALAZZLE,Salazzle,Poison,Fire,Corrosion,,68,64,60,111,60,117,480,45,254,Monster,Dragon,FALSE,,7,,,,1
+809,SPECIES_STUFFUL,Stufful,Normal,Fighting,Fluffy,Klutz,70,75,50,45,50,50,340,140,127,Field,Field,FALSE,,7,,,,1
+810,SPECIES_BEWEAR,Bewear,Normal,Fighting,Fluffy,Klutz,120,125,80,55,60,60,500,70,127,Field,Field,FALSE,,7,,,,1
+811,SPECIES_BOUNSWEET,Bounsweet,Grass,,Leaf Guard,Oblivious,42,30,38,30,38,32,210,235,254,Grass,Grass,FALSE,,7,Maybe,,,1
+812,SPECIES_STEENEE,Steenee,Grass,,Leaf Guard,Oblivious,52,40,48,40,48,62,290,120,254,Grass,Grass,FALSE,,7,Maybe,,,1
+813,SPECIES_TSAREENA,Tsareena,Grass,,Leaf Guard,Queenly Majesty,72,120,98,50,98,72,510,45,254,Grass,Grass,FALSE,,7,Maybe,,,1
+814,SPECIES_COMFEY,Comfey,Fairy,,Flower Veil,Triage,51,52,90,82,110,100,485,60,190,Grass,Grass,FALSE,,7,Yes,Johto,,1
+815,SPECIES_ORANGURU,Oranguru,Normal,Psychic,Inner Focus,Telepathy,90,60,80,90,110,60,490,45,127,Field,Field,FALSE,,7,,,,1
+816,SPECIES_PASSIMIAN,Passimian,Fighting,,Receiver,,100,120,90,40,60,80,490,45,127,Field,Field,FALSE,,7,,,,1
+817,SPECIES_WIMPOD,Wimpod,Bug,Water,Wimp Out,,25,35,40,20,30,80,230,90,127,Bug,Water 3,FALSE,,7,,,,1
+818,SPECIES_GOLISOPOD,Golisopod,Bug,Water,Emergency Exit,,75,125,140,60,90,40,530,45,127,Bug,Water 3,FALSE,,7,,,,1
+819,SPECIES_SANDYGAST,Sandygast,Ghost,Ground,Water Compaction,,55,55,80,70,45,15,320,140,127,Amorphous,Amorphous,FALSE,,7,,,,1
+820,SPECIES_PALOSSAND,Palossand,Ghost,Ground,Water Compaction,,85,75,110,100,75,35,480,60,127,Amorphous,Amorphous,FALSE,,7,,,,1
+821,SPECIES_PYUKUMUKU,Pyukumuku,Water,,Innards Out,,55,60,130,30,130,5,410,60,127,Water 1,Water 1,FALSE,,7,,,,1
+822,SPECIES_TYPE_NULL,Type: Null,Normal,,Battle Armor,,95,95,95,95,95,59,534,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+823,SPECIES_SILVALLY,Silvally,Normal,,Rks System,,95,95,95,95,95,95,570,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+824,SPECIES_MINIOR,Minior,Rock,Flying,Shields Down,,60,60,100,60,100,60,440,30,255,Mineral,Mineral,FALSE,,7,,,,1
+825,SPECIES_KOMALA,Komala,Normal,,Comatose,,65,115,65,75,95,65,480,45,127,Field,Field,FALSE,,7,,,,1
+826,SPECIES_TURTONATOR,Turtonator,Fire,Dragon,Shell Armor,,60,78,135,91,85,36,485,70,127,Monster,Dragon,FALSE,,7,,,,1
+827,SPECIES_TOGEDEMARU,Togedemaru,Electric,Steel,Iron Barbs,Lightning Rod,65,98,63,40,73,96,435,180,127,Field,Fairy,FALSE,,7,Maybe,,,1
+828,SPECIES_MIMIKYU,Mimikyu,Ghost,Fairy,Disguise,,55,90,80,50,105,96,476,45,127,Amorphous,Amorphous,FALSE,,7,Maybe,,,1
+829,SPECIES_BRUXISH,Bruxish,Water,Psychic,Dazzling,Strong Jaw,68,105,70,70,70,92,475,80,127,Water 2,Water 2,FALSE,,7,,,,1
+830,SPECIES_DRAMPA,Drampa,Normal,Dragon,Berserk,Sap Sipper,78,60,85,135,91,36,485,70,127,Monster,Dragon,FALSE,,7,,,,1
+831,SPECIES_DHELMISE,Dhelmise,Ghost,Grass,Steelworker,,70,131,100,86,90,40,517,25,255,Mineral,Mineral,FALSE,,7,,,,1
+832,SPECIES_JANGMO_O,Jangmo-o,Dragon,,Bulletproof,Soundproof,45,55,65,45,45,45,300,45,127,Dragon,Dragon,FALSE,,7,YEs,,,1
+833,SPECIES_HAKAMO_O,Hakamo-o,Dragon,Fighting,Bulletproof,Soundproof,55,75,90,65,70,65,420,45,127,Dragon,Dragon,FALSE,,7,Yes,,,1
+834,SPECIES_KOMMO_O,Kommo-o,Dragon,Fighting,Bulletproof,Soundproof,75,110,125,100,105,85,600,45,127,Dragon,Dragon,FALSE,,7,Yes,,,1
+835,SPECIES_TAPU_KOKO,Tapu Koko,Electric,Fairy,Electric Surge,,70,115,85,95,75,130,570,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+836,SPECIES_TAPU_LELE,Tapu Lele,Psychic,Fairy,Psychic Surge,,70,85,75,130,115,95,570,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+837,SPECIES_TAPU_BULU,Tapu Bulu,Grass,Fairy,Grassy Surge,,70,130,115,85,95,75,570,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+838,SPECIES_TAPU_FINI,Tapu Fini,Water,Fairy,Misty Surge,,70,75,115,95,130,85,570,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+839,SPECIES_COSMOG,Cosmog,Psychic,,Unaware,,43,29,31,29,31,37,200,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+840,SPECIES_COSMOEM,Cosmoem,Psychic,,Sturdy,,43,29,131,29,131,37,400,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+841,SPECIES_SOLGALEO,Solgaleo,Psychic,Steel,Full Metal Body,,137,137,107,113,89,97,680,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+842,SPECIES_LUNALA,Lunala,Psychic,Ghost,Shadow Shield,,137,113,89,137,107,97,680,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+843,SPECIES_NIHILEGO,Nihilego,Rock,Poison,Beast Boost,,109,53,47,127,131,103,570,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+844,SPECIES_BUZZWOLE,Buzzwole,Bug,Fighting,Beast Boost,,107,139,139,53,53,79,570,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+845,SPECIES_PHEROMOSA,Pheromosa,Bug,Fighting,Beast Boost,,71,137,37,137,37,151,570,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+846,SPECIES_XURKITREE,Xurkitree,Electric,,Beast Boost,,83,89,71,173,71,83,570,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+847,SPECIES_CELESTEELA,Celesteela,Steel,Flying,Beast Boost,,97,101,103,107,101,61,570,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+848,SPECIES_KARTANA,Kartana,Grass,Steel,Beast Boost,,59,181,131,59,31,109,570,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+849,SPECIES_GUZZLORD,Guzzlord,Dark,Dragon,Beast Boost,,223,101,53,97,53,43,570,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+850,SPECIES_NECROZMA,Necrozma,Psychic,,Prism Armor,,97,107,101,127,89,79,600,255,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+851,SPECIES_MAGEARNA,Magearna,Steel,Fairy,Soul Heart,,80,95,115,130,115,65,600,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+852,SPECIES_MARSHADOW,Marshadow,Fighting,Ghost,Technician,,90,125,80,90,90,125,600,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+853,SPECIES_POIPOLE,Poipole,Poison,,Beast Boost,,67,73,67,73,67,73,420,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+854,SPECIES_NAGANADEL,Naganadel,Poison,Dragon,Beast Boost,,73,73,73,127,73,121,540,45,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+855,SPECIES_STAKATAKA,Stakataka,Rock,Steel,Beast Boost,,61,131,211,53,101,13,570,30,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+856,SPECIES_BLACEPHALON,Blacefalon,Fire,Ghost,Beast Boost,,53,127,53,151,79,107,570,30,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+857,SPECIES_ZERAORA,Zeraora,Electric,,Volt Absorb,,88,112,75,102,80,143,600,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+858,SPECIES_MELTAN,Meltan,Steel,,Magnet Pull,,46,65,65,55,35,34,300,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+859,SPECIES_MELMETAL,Melmetal,Steel,,Iron Fist,,135,143,143,80,65,34,600,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+860,SPECIES_GROOKEY,Grookey,Grass,,Overgrow,,50,65,50,40,40,65,310,45,31,Field,Grass,FALSE,,8,Maybe,,,1
+861,SPECIES_THWACKEY,Thwackey,Grass,,Overgrow,,70,85,70,55,60,80,420,45,31,Field,Grass,FALSE,,8,Maybe,,,1
+862,SPECIES_RILLABOOM,Rillaboom,Grass,,Overgrow,,100,125,90,60,70,85,530,45,31,Field,Grass,FALSE,,8,Maybe,,,1
+863,SPECIES_SCORBUNNY,Scorbunny,Fire,,Blaze,,50,71,40,40,40,69,310,45,31,Field,Human Like,FALSE,,8,Maybe,,,1
+864,SPECIES_RABOOT,Raboot,Fire,,Blaze,,65,86,60,55,60,94,420,45,31,Field,Human Like,FALSE,,8,Maybe,,,1
+865,SPECIES_CINDERACE,Cinderace,Fire,,Blaze,,80,116,75,65,75,119,530,45,31,Field,Human Like,FALSE,,8,Maybe,,,1
+866,SPECIES_SOBBLE,Sobble,Water,,Torrent,,50,40,40,70,40,70,310,45,31,Water 1,Field,FALSE,,8,Maybe,,,1
+867,SPECIES_DRIZZILE,Drizzile,Water,,Torrent,,65,60,55,95,55,90,420,45,31,Water 1,Field,FALSE,,8,Maybe,,,1
+868,SPECIES_INTELEON,Inteleon,Water,,Torrent,,70,85,65,125,65,120,530,45,31,Water 1,Field,FALSE,,8,Maybe,,,1
+869,SPECIES_SKWOVET,Skwovet,Normal,,Cheek Pouch,,70,55,55,35,35,25,275,255,127,Field,Field,FALSE,,8,,,,1
+870,SPECIES_GREEDENT,Greedent,Normal,,Cheek Pouch,,120,95,95,55,75,20,460,90,127,Field,Field,FALSE,,8,,,,1
+871,SPECIES_ROOKIDEE,Rookidee,Flying,,Keen Eye,Unnerve,38,47,35,33,35,57,245,255,127,Flying,Flying,FALSE,,8,,,,1
+872,SPECIES_CORVISQUIRE,Corvsquire,Flying,,Keen Eye,Unnerve,68,67,55,43,55,77,365,120,127,Flying,Flying,FALSE,,8,,,,1
+873,SPECIES_CORVIKNIGHT,Corviknite,Flying,Steel,Pressure,Unnerve,98,87,105,53,85,67,495,45,127,Flying,Flying,FALSE,,8,,,,1
+874,SPECIES_BLIPBUG,Blipbug,Bug,,Swarm,Compound Eyes,25,20,20,25,45,45,180,255,127,Bug,Bug,FALSE,,8,,,,1
+875,SPECIES_DOTTLER,Dottler,Bug,Psychic,Swarm,Compound Eyes,50,35,80,50,90,30,335,120,127,Bug,Bug,FALSE,,8,,,,1
+876,SPECIES_ORBEETLE,Orbeetle,Bug,Psychic,Swarm,Frisk,60,45,110,80,120,90,505,45,127,Bug,Bug,FALSE,,8,,,,1
+877,SPECIES_NICKIT,Nickit,Dark,,Run Away,Unburden,40,28,28,47,52,50,245,255,127,Field,Field,FALSE,,8,,,,1
+878,SPECIES_THIEVUL,Thievul,Dark,,Run Away,Unburden,70,58,58,87,92,90,455,127,127,Field,Field,FALSE,,8,,,,1
+879,SPECIES_GOSSIFLEUR,Gossifleur,Grass,,Cotton Down,Regenerator,40,40,60,40,60,10,250,190,127,Grass,Grass,FALSE,,8,,,,1
+880,SPECIES_ELDEGOSS,Eldegoss,Grass,,Cotton Down,Regenerator,60,50,90,80,120,60,460,75,127,Grass,Grass,FALSE,,8,,,,1
+881,SPECIES_WOOLOO,Wooloo,Normal,,Fluffy,Run Away,42,40,55,40,45,48,270,255,127,Field,Field,FALSE,,8,,,,1
+882,SPECIES_DUBWOOL,Dubwool,Normal,,Fluffy,Steadfast,72,80,100,60,90,88,490,127,127,Field,Field,FALSE,,8,,,,1
+883,SPECIES_CHEWTLE,Chewtle,Water,,Strong Jaw,Shell Armor,50,64,50,38,38,44,284,255,127,Monster,Water 1,FALSE,,8,,,,1
+884,SPECIES_DREDNAW,Drednaw,Water,Rock,Strong Jaw,Shell Armor,90,115,90,48,68,74,485,75,127,Monster,Water 1,FALSE,,8,,,,1
+885,SPECIES_YAMPER,Yamper,Electric,,Ball Fetch,,59,45,50,40,50,26,270,255,127,Field,Field,FALSE,,8,,,,1
+886,SPECIES_BOLTUND,Boltund,Electric,,Strong Jaw,,69,90,60,90,60,121,490,45,127,Field,Field,FALSE,,8,,,,1
+887,SPECIES_ROLYCOLY,Rolycoly,Rock,,Steam Engine,Heatproof,30,40,50,40,50,30,240,255,127,Mineral,Mineral,FALSE,,8,,,,1
+888,SPECIES_CARKOL,Carkol,Rock,Fire,Steam Engine,Flame Body,80,60,90,60,70,50,410,120,127,Mineral,Mineral,FALSE,,8,,,,1
+889,SPECIES_COALOSSAL,Coalossal,Rock,Fire,Steam Engine,Flame Body,110,80,120,80,90,30,510,45,127,Mineral,Mineral,FALSE,,8,,,,1
+890,SPECIES_APPLIN,Applin,Grass,Dragon,Ripen,Gluttony,40,40,80,40,40,20,260,255,127,Grass,Dragon,FALSE,,8,,,,1
+891,SPECIES_FLAPPLE,Flapple,Grass,Dragon,Ripen,Gluttony,70,110,80,95,60,70,485,45,127,Grass,Dragon,FALSE,,8,,,,1
+892,SPECIES_APPLETUN,Appletun,Grass,Dragon,Ripen,Gluttony,110,85,80,100,80,30,485,45,127,Grass,Dragon,FALSE,,8,,,,1
+893,SPECIES_SILICOBRA,Silicobra,Ground,,Sand Spit,Shed Skin,52,57,75,35,50,46,315,255,127,Field,Dragon,FALSE,,8,,,,1
+894,SPECIES_SANDACONDA,Sandaconda,Ground,,Sand Spit,Shed Skin,72,107,125,65,70,71,510,120,127,Field,Dragon,FALSE,,8,,,,1
+895,SPECIES_CRAMORANT,Cramorant,Flying,Water,Gulp Missile,,70,85,55,85,95,85,475,45,127,Water 1,Flying,FALSE,,8,,,,1
+896,SPECIES_ARROKUDA,Arrokuda,Water,,Swift Swim,,41,63,40,40,30,66,280,255,127,Water 2,Water 2,FALSE,,8,,,,1
+897,SPECIES_BARRASKEWDA,Baraskewda,Water,,Swift Swim,,61,123,60,60,50,136,490,60,127,Water 2,Water 2,FALSE,,8,,,,1
+898,SPECIES_TOXEL,Toxel,Electric,Poison,Rattled,Static,40,38,35,54,35,40,242,75,127,Undiscovered,Undiscovered,FALSE,,8,,,,1
+899,SPECIES_TOXTRICITY,Toxtricity,Electric,Poison,Punk Rock,Plus,75,98,70,114,70,75,502,45,127,Human Like,Human Like,FALSE,,8,,,,1
+900,SPECIES_SIZZLIPEDE,Sizzlipede,Fire,Bug,Flash Fire,White Smoke,50,65,45,50,50,45,305,190,127,Bug,Bug,FALSE,,8,,,,1
+901,SPECIES_CENTISKORCH,Centskorch,Fire,Bug,Flash Fire,White Smoke,100,115,65,90,90,65,525,75,127,Bug,Bug,FALSE,,8,,,,1
+902,SPECIES_CLOBBOPUS,Clobbopus,Fighting,,Limber,,50,68,60,50,50,32,310,180,127,Water 1,Human Like,FALSE,,8,,,,1
+903,SPECIES_GRAPPLOCT,Grapploct,Fighting,,Limber,,80,118,90,70,80,42,480,45,127,Water 1,Human Like,FALSE,,8,,,,1
+904,SPECIES_SINISTEA,Sinistea,Ghost,,Weak Armor,,40,45,45,74,54,50,308,120,255,Mineral,Amorphous,FALSE,,8,,,,1
+905,SPECIES_POLTEAGEIST,Poltegeist,Ghost,,Weak Armor,,60,65,65,134,114,70,508,60,255,Mineral,Amorphous,FALSE,,8,,,,1
+906,SPECIES_HATENNA,Hatenna,Psychic,,Healer,Anticipation,42,30,45,56,53,39,265,235,254,Fairy,Fairy,FALSE,,8,,,,1
+907,SPECIES_HATTREM,Hattrem,Psychic,,Healer,Anticipation,57,40,65,86,73,49,370,120,254,Fairy,Fairy,FALSE,,8,,,,1
+908,SPECIES_HATTERENE,Hatterene,Psychic,Fairy,Healer,Anticipation,57,90,95,136,103,29,510,45,254,Fairy,Fairy,FALSE,,8,,,,1
+909,SPECIES_IMPIDIMP,Impidimp,Dark,Fairy,Prankster,Frisk,45,45,30,55,40,50,265,255,0,Fairy,Human Like,FALSE,,8,,,,1
+910,SPECIES_MORGREM,Morgrem,Dark,Fairy,Prankster,Frisk,65,60,45,75,55,70,370,120,0,Fairy,Human Like,FALSE,,8,,,,1
+911,SPECIES_GRIMMSNARL,Grimmsnarl,Dark,Fairy,Prankster,Frisk,95,120,65,95,75,60,510,45,0,Fairy,Human Like,FALSE,,8,,,,1
+912,SPECIES_OBSTAGOON,Obstagoon,Dark,Normal,Reckless,Guts,93,90,101,60,81,95,520,45,127,Field,Field,FALSE,,8,,,,1
+913,SPECIES_PERRSERKER,Perrserker,Steel,,Battle Armor,Tough Claws,70,110,100,50,60,50,440,90,127,Field,Field,FALSE,,8,,,,1
+914,SPECIES_CURSOLA,Cursola,Ghost,,Weak Armor,,60,95,50,145,130,30,510,30,190,Water 1,Water 3,FALSE,,8,,,,1
+915,SPECIES_SIRFETCHD,Sirfetch’d,Fighting,,Steadfast,,62,135,95,68,82,65,507,45,127,Flying,Field,FALSE,,8,Yes,,,1
+916,SPECIES_MR_RIME,Mr. Rime,Ice,Psychic,Tangled Feet,Screen Cleaner,80,85,75,110,100,70,520,45,127,Human Like,Human Like,FALSE,,8,Yes,,,1
+917,SPECIES_RUNERIGUS,Runerigus,Ground,Ghost,Wandering Spirit,,58,95,145,50,105,30,483,90,127,Mineral,Amorphous,FALSE,,8,,,,1
+918,SPECIES_MILCERY,Milcery,Fairy,,Sweet Veil,,45,40,40,50,61,34,270,200,254,Fairy,Amorphous,FALSE,,8,Yes,Johto,,1
+919,SPECIES_ALCREMIE,Alcremie,Fairy,,Sweet Veil,,65,60,75,110,121,64,495,100,254,Fairy,Amorphous,FALSE,,8,Yes,Johto,,1
+920,SPECIES_FALINKS,Falinks,Fighting,,Battle Armor,,65,100,100,70,60,75,470,45,255,Fairy,Mineral,FALSE,,8,,,,1
+921,SPECIES_PINCURCHIN,Pincurchin,Electric,,Lightning Rod,,48,101,95,91,85,15,435,75,127,Water 1,Amorphous,FALSE,,8,,,,1
+922,SPECIES_SNOM,Snom,Ice,Bug,Shield Dust,,30,25,35,45,30,20,185,190,127,Bug,Bug,FALSE,,8,,,,1
+923,SPECIES_FROSMOTH,Frosmoth,Ice,Bug,Shield Dust,,70,65,60,125,90,65,475,75,127,Bug,Bug,FALSE,,8,,,,1
+924,SPECIES_STONJOURNER,Stonjorner,Rock,,Power Spot,,100,125,135,20,20,70,470,60,127,Mineral,Mineral,FALSE,,8,,,,1
+925,SPECIES_EISCUE,Eiscue,Ice,,Ice Face,,75,80,110,65,90,50,470,60,127,Water 1,Field,FALSE,,8,,,,1
+926,SPECIES_INDEEDEE,Indeedee,Psychic,Normal,Inner Focus,Synchronize,60,65,55,105,95,95,475,30,0,Fairy,Fairy,FALSE,,8,,,,1
+927,SPECIES_MORPEKO,Morpeko,Electric,Dark,Hunger Switch,,58,95,58,70,58,97,436,180,127,Field,Fairy,FALSE,,8,Yes,,,1
+928,SPECIES_CUFANT,Cufant,Steel,,Sheer Force,,72,80,49,40,49,40,330,190,127,Field,Mineral,FALSE,,8,Yes,,,1
+929,SPECIES_COPPERAJAH,Copperajah,Steel,,Sheer Force,,122,130,69,80,69,30,500,90,127,Field,Mineral,FALSE,,8,Yes,,,1
+930,SPECIES_DRACOZOLT,Dracozolt,Electric,Dragon,Volt Absorb,Hustle,90,100,90,80,70,75,505,45,255,Undiscovered,Undiscovered,FALSE,,8,Maybe,,,1
+931,SPECIES_ARCTOZOLT,Arctozolt,Electric,Ice,Volt Absorb,Static,90,100,90,90,80,55,505,45,255,Undiscovered,Undiscovered,FALSE,,8,Maybe,,,1
+932,SPECIES_DRACOVISH,Dracovish,Water,Dragon,Water Absorb,Strong Jaw,90,90,100,70,80,75,505,45,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+933,SPECIES_ARCTOVISH,Arctovish,Water,Ice,Water Absorb,Ice Body,90,90,100,80,90,55,505,45,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+934,SPECIES_DURALUDON,Duraludon,Steel,Dragon,Light Metal,Heavy Metal,70,95,115,120,50,85,535,45,127,Mineral,Dragon,FALSE,,8,,,,1
+935,SPECIES_DREEPY,Dreepy,Dragon,Ghost,Clear Body,Infiltrator,28,60,30,40,30,82,270,45,127,Amorphous,Dragon,FALSE,,8,Yes,,,1
+936,SPECIES_DRAKLOAK,Drakloak,Dragon,Ghost,Clear Body,Infiltrator,68,80,50,60,50,102,410,45,127,Amorphous,Dragon,FALSE,,8,Yes,,,1
+937,SPECIES_DRAGAPULT,Dragapult,Dragon,Ghost,Clear Body,Infiltrator,88,120,75,100,75,142,600,45,127,Amorphous,Dragon,FALSE,,8,Yes,,,1
+938,SPECIES_ZACIAN,Zacian,Fairy,,Intrepid Sword,,92,120,115,80,115,138,660,10,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+939,SPECIES_ZAMAZENTA,Zamazenta,Fighting,,Dauntless Shield,,92,120,115,80,115,138,660,10,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+940,SPECIES_ETERNATUS,Eternatus,Poison,Dragon,Pressure,,140,85,95,145,95,130,690,255,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+941,SPECIES_KUBFU,Kubfu,Fighting,,Inner Focus,,60,90,60,53,50,72,385,3,31,Undiscovered,Undiscovered,FALSE,,8,,,,1
+942,SPECIES_URSHIFU,Urshifu,Fighting,Dark,Unseen Fist,,100,130,100,63,60,97,550,3,31,Undiscovered,Undiscovered,FALSE,,8,,,,1
+943,SPECIES_ZARUDE,Zarude,Dark,Grass,Leaf Guard,,105,120,105,70,95,105,600,3,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+944,SPECIES_REGIELEKI,Regieleki,Electric,,Transistor,,80,100,50,100,50,200,580,3,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+945,SPECIES_REGIDRAGO,Regidrago,Dragon,,Dragons Maw,,200,100,50,100,50,80,580,3,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+946,SPECIES_GLASTRIER,Glastrier,Ice,,Chilling Neigh,,100,145,130,65,110,30,580,3,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+947,SPECIES_SPECTRIER,Spectrier,Ghost,,Grim Neigh,,100,65,60,145,80,130,580,3,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+948,SPECIES_CALYREX,Calyrex,Psychic,Grass,Unnerve,,100,80,80,80,80,80,500,3,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+949,SPECIES_WYRDEER,Wyrdeer,Normal,Psychic,Intimidate,Frisk,103,105,72,105,75,65,525,135,127,Field,Field,FALSE,,8,Yes,,,1
+950,SPECIES_KLEAVOR,Kleavor,Bug,Rock,Swarm,Sheer Force,70,135,95,45,70,85,500,115,127,Bug,Bug,FALSE,,8,Yes,,,1
+951,SPECIES_URSALUNA,Ursaluna,Ground,Normal,Guts,Bulletproof,130,140,105,45,80,50,550,75,127,Field,Field,FALSE,,8,Yes,,,1
+952,SPECIES_BASCULEGION,Basclegion,Water,Ghost,Swift Swim,Adaptability,120,112,65,80,75,78,530,135,0,Water 2,Water 2,FALSE,,8,,,,1
+953,SPECIES_SNEASLER,Sneasler,Fighting,Poison,Pressure,Unburden,80,130,60,40,80,120,510,135,127,Field,Field,FALSE,,8,,,,1
+954,SPECIES_OVERQWIL,Overqwil,Dark,Poison,Poison Point,Swift Swim,85,115,95,65,65,85,510,135,127,Water 2,Water 2,FALSE,,8,,,,1
+955,SPECIES_ENAMORUS,Enamorus,Fairy,Flying,Cute Charm,,74,115,70,135,80,106,580,3,254,Undiscovered,Undiscovered,FALSE,,8,Yes,Johto,,1
+956,SPECIES_SPRIGATITO,Sprigatito,Grass,,Overgrow,,40,61,54,45,45,65,310,45,31,Field,Grass,FALSE,,9,Maybe,,,1
+957,SPECIES_FLORAGATO,Floragato,Grass,,Overgrow,,61,80,63,60,63,83,410,45,31,Field,Grass,FALSE,,9,Maybe,,,1
+958,SPECIES_MEOWSCARADA,Mewscarada,Grass,Dark,Overgrow,,76,110,70,81,70,123,530,45,31,Field,Grass,FALSE,,9,Maybe,,,1
+959,SPECIES_FUECOCO,Fuecoco,Fire,,Blaze,,67,45,59,63,40,36,310,45,31,Field,Field,FALSE,,9,Maybe,,,1
+960,SPECIES_CROCALOR,Crocalor,Fire,,Blaze,,81,55,78,90,58,49,411,45,31,Field,Field,FALSE,,9,Maybe,,,1
+961,SPECIES_SKELEDIRGE,Skeledirge,Fire,Ghost,Blaze,,104,75,100,110,75,66,530,45,31,Field,Field,FALSE,,9,Maybe,,,1
+962,SPECIES_QUAXLY,Quaxly,Water,,Torrent,,55,65,45,50,45,50,310,45,31,Flying,Water 1,FALSE,,9,Maybe,,,1
+963,SPECIES_QUAXWELL,Quaxwell,Water,,Torrent,,70,85,65,65,60,65,410,45,31,Flying,Water 1,FALSE,,9,Maybe,,,1
+964,SPECIES_QUAQUAVAL,Quaquaval,Water,Fighting,Torrent,,85,120,80,85,75,85,530,45,31,Flying,Water 1,FALSE,,9,Maybe,,,1
+965,SPECIES_LECHONK,Lechonk,Normal,,Aroma Veil,Gluttony,54,45,40,35,45,35,254,255,127,Field,Field,FALSE,,9,,,,1
+966,SPECIES_OINKOLOGNE,Oinkologne,Normal,,Lingering Aroma,Gluttony,110,100,75,59,80,65,489,100,0,Field,Field,FALSE,,9,,,,1
+967,SPECIES_TAROUNTULA,Tarountula,Bug,,Insomnia,,35,41,45,29,40,20,210,255,127,Bug,Bug,FALSE,,9,,,,1
+968,SPECIES_SPIDOPS,Spidops,Bug,,Insomnia,,60,79,92,52,86,35,404,120,127,Bug,Bug,FALSE,,9,,,,1
+969,SPECIES_NYMBLE,Nymble,Bug,,Swarm,,33,46,40,21,25,45,210,190,127,Bug,Bug,FALSE,,9,,,,1
+970,SPECIES_LOKIX,Lokix,Bug,Dark,Swarm,,71,102,78,52,55,92,450,30,127,Bug,Bug,FALSE,,9,,,,1
+971,SPECIES_PAWMI,Pawmi,Electric,,Static,Natural Cure,45,50,20,40,25,60,240,190,127,Field,Field,FALSE,,9,,,,1
+972,SPECIES_PAWMO,Pawmo,Electric,Fighting,Volt Absorb,Natural Cure,60,75,40,50,40,85,350,80,127,Field,Field,FALSE,,9,,,,1
+973,SPECIES_PAWMOT,Pawmot,Electric,Fighting,Volt Absorb,Natural Cure,70,115,70,70,60,105,490,45,127,Field,Field,FALSE,,9,,,,1
+974,SPECIES_TANDEMAUS,Tandemaus,Normal,,Run Away,Pickup,50,50,45,40,45,75,305,150,255,Field,Fairy,FALSE,,9,,,,1
+975,SPECIES_MAUSHOLD,Maushold,Normal,,Friend Guard,Cheek Pouch,74,75,70,65,75,111,470,75,255,Field,Fairy,FALSE,,9,,,,1
+976,SPECIES_FIDOUGH,Fidough,Fairy,,Own Tempo,,37,55,70,30,55,65,312,190,127,Field,Mineral,FALSE,,9,Yes,Johto,,1
+977,SPECIES_DACHSBUN,Dachsbun,Fairy,,Well Baked Body,,57,80,115,50,80,95,477,90,127,Field,Mineral,FALSE,,9,Yes,Johto,,1
+978,SPECIES_SMOLIV,Smoliv,Grass,Normal,Early Bird,,41,35,45,58,51,30,260,255,127,Grass,Grass,FALSE,,9,,,,1
+979,SPECIES_DOLLIV,Dolliv,Grass,Normal,Early Bird,,52,53,60,78,78,33,354,120,127,Grass,Grass,FALSE,,9,,,,1
+980,SPECIES_ARBOLIVA,Arboliva,Grass,Normal,Seed Sower,,78,69,90,125,109,39,510,45,127,Grass,Grass,FALSE,,9,,,,1
+981,SPECIES_SQUAWKABILLY,Squawkbily,Normal,Flying,Intimidate,Hustle,82,96,51,45,51,92,417,190,127,Flying,Flying,FALSE,,9,,,,1
+982,SPECIES_NACLI,Nacli,Rock,,Purifying Salt,Sturdy,55,55,75,35,35,25,280,255,127,Mineral,Mineral,FALSE,,9,,,,1
+983,SPECIES_NACLSTACK,Naclstack,Rock,,Purifying Salt,Sturdy,60,60,100,35,65,35,355,120,127,Mineral,Mineral,FALSE,,9,,,,1
+984,SPECIES_GARGANACL,Garganacl,Rock,,Purifying Salt,Sturdy,100,100,130,45,90,35,500,45,127,Mineral,Mineral,FALSE,,9,,,,1
+985,SPECIES_CHARCADET,Charcadet,Fire,,Flash Fire,,40,50,40,50,40,35,255,90,127,Human Like,Human Like,FALSE,,9,,,,1
+986,SPECIES_ARMAROUGE,Armarouge,Fire,Psychic,Flash Fire,,85,60,100,125,80,75,525,25,127,Human Like,Human Like,FALSE,,9,,,,1
+987,SPECIES_CERULEDGE,Ceruledge,Fire,Ghost,Flash Fire,,75,125,80,60,100,85,525,25,127,Human Like,Human Like,FALSE,,9,,,,1
+988,SPECIES_TADBULB,Tadbulb,Electric,,Own Tempo,Static,61,31,41,59,35,45,272,190,127,Water 1,Water 1,FALSE,,9,Yes,,,1
+989,SPECIES_BELLIBOLT,Bellibolt,Electric,,Electromorphosis,Static,109,64,91,103,83,45,495,50,127,Water 1,Water 1,FALSE,,9,Yes,,,1
+990,SPECIES_WATTREL,Wattrel,Electric,Flying,Wind Power,Volt Absorb,40,40,35,55,40,70,280,180,127,Water 1,Flying,FALSE,,9,Yes,,,1
+991,SPECIES_KILOWATTREL,Kilowatrel,Electric,Flying,Wind Power,Volt Absorb,70,70,60,105,60,125,490,90,127,Water 1,Flying,FALSE,,9,Yes,,,1
+992,SPECIES_MASCHIFF,Maschiff,Dark,,Intimidate,Run Away,60,78,60,40,51,51,340,150,127,Field,Field,FALSE,,9,,,,1
+993,SPECIES_MABOSSTIFF,Mabosstiff,Dark,,Intimidate,Guard Dog,80,120,90,60,70,85,505,75,127,Field,Field,FALSE,,9,,,,1
+994,SPECIES_SHROODLE,Shroodle,Poison,Normal,Unburden,Pickpocket,40,65,35,40,35,75,290,190,127,Field,Field,FALSE,,9,,,,1
+995,SPECIES_GRAFAIAI,Grafaiai,Poison,Normal,Unburden,Poison Touch,63,95,65,80,72,110,485,90,127,Field,Field,FALSE,,9,,,,1
+996,SPECIES_BRAMBLIN,Bramblin,Grass,Ghost,Wind Rider,,40,65,30,45,35,60,275,190,127,Grass,Grass,FALSE,,9,,,,1
+997,SPECIES_BRAMBLEGHAST,Bramblgast,Grass,Ghost,Wind Rider,,55,115,70,80,70,90,480,45,127,Grass,Grass,FALSE,,9,,,,1
+998,SPECIES_TOEDSCOOL,Toedscool,Ground,Grass,Mycelium Might,,40,40,35,50,100,70,335,190,127,Grass,Grass,FALSE,,9,,,,1
+999,SPECIES_TOEDSCRUEL,Toedscruel,Ground,Grass,Mycelium Might,,80,70,65,80,120,100,515,90,127,Grass,Grass,FALSE,,9,,,,1
+1000,SPECIES_KLAWF,Klawf,Rock,,Anger Shell,Shell Armor,70,100,115,35,55,75,450,120,127,Water 3,Water 3,FALSE,,9,,,,1
+1001,SPECIES_CAPSAKID,Capsakid,Grass,,Chlorophyll,Insomnia,50,62,40,62,40,50,304,190,127,Grass,Grass,FALSE,,9,,,,1
+1002,SPECIES_SCOVILLAIN,Scovillain,Grass,Fire,Chlorophyll,Insomnia,65,108,65,108,65,75,486,75,127,Grass,Grass,FALSE,,9,,,,1
+1003,SPECIES_RELLOR,Rellor,Bug,,Compound Eyes,,41,50,60,31,58,30,270,190,127,Bug,Bug,FALSE,,9,,,,1
+1004,SPECIES_RABSCA,Rabsca,Bug,Psychic,Synchronize,,75,50,85,115,100,45,470,45,127,Bug,Bug,FALSE,,9,,,,1
+1005,SPECIES_FLITTLE,Flittle,Psychic,,Anticipation,Frisk,30,35,30,55,30,75,255,120,127,Flying,Flying,FALSE,,9,,,,1
+1006,SPECIES_ESPATHRA,Espathra,Psychic,,Opportunist,Frisk,95,60,60,101,60,105,481,60,127,Flying,Flying,FALSE,,9,,,,1
+1007,SPECIES_TINKATINK,Tinkatink,Fairy,Steel,Mold Breaker,Own Tempo,50,45,45,35,64,58,297,190,254,Fairy,Fairy,FALSE,,9,Yes,Johto,,1
+1008,SPECIES_TINKATUFF,Tinkatuff,Fairy,Steel,Mold Breaker,Own Tempo,65,55,55,45,82,78,380,90,254,Fairy,Fairy,FALSE,,9,Yes,Johto,,1
+1009,SPECIES_TINKATON,Tinkaton,Fairy,Steel,Mold Breaker,Own Tempo,85,75,77,70,105,94,506,45,254,Fairy,Fairy,FALSE,,9,Yes,Johto,,1
+1010,SPECIES_WIGLETT,Wiglett,Water,,Gooey,Rattled,10,55,25,35,25,95,245,255,127,Water 3,Water 3,FALSE,,9,,,,1
+1011,SPECIES_WUGTRIO,Wugtrio,Water,,Gooey,Rattled,35,100,50,50,70,120,425,50,127,Water 3,Water 3,FALSE,,9,,,,1
+1012,SPECIES_BOMBIRDIER,Bombirdier,Flying,Dark,Big Pecks,Keen Eye,70,103,85,60,85,82,485,25,127,Flying,Flying,FALSE,,9,,,,1
+1013,SPECIES_FINIZEN,Finizen,Water,,Water Veil,,70,45,40,45,40,75,315,200,127,Field,Water 2,FALSE,,9,,,,1
+1014,SPECIES_PALAFIN,Palafin,Water,,Zero To Hero,,100,70,72,53,62,100,457,45,127,Field,Water 2,FALSE,,9,,,,1
+1015,SPECIES_VAROOM,Varoom,Steel,Poison,Overcoat,,45,70,63,30,45,47,300,190,127,Mineral,Mineral,FALSE,,9,,,,1
+1016,SPECIES_REVAVROOM,Revavroom,Steel,Poison,Overcoat,,80,119,90,54,67,90,500,75,127,Mineral,Mineral,FALSE,,9,,,,1
+1017,SPECIES_CYCLIZAR,Cyclizar,Dragon,Normal,Shed Skin,,70,95,65,85,65,121,501,190,127,Field,Field,FALSE,,9,,,,1
+1018,SPECIES_ORTHWORM,Orthworm,Steel,,Earth Eater,,70,85,145,60,55,65,480,25,127,Field,Field,FALSE,,9,,,,1
+1019,SPECIES_GLIMMET,Glimmet,Rock,Poison,Toxic Debris,,48,35,42,105,60,60,350,70,127,Mineral,Mineral,FALSE,,9,Yes,,,1
+1020,SPECIES_GLIMMORA,Glimmora,Rock,Poison,Toxic Debris,,83,55,90,130,81,86,525,25,127,Mineral,Mineral,FALSE,,9,Yes,,,1
+1021,SPECIES_GREAVARD,Greavard,Ghost,,Pickup,,50,61,60,30,55,34,290,120,127,Field,Field,FALSE,,9,,,,1
+1022,SPECIES_HOUNDSTONE,Houndstone,Ghost,,Sand Rush,,72,101,100,50,97,68,488,60,127,Field,Field,FALSE,,9,,,,1
+1023,SPECIES_FLAMIGO,Flamigo,Flying,Fighting,Scrappy,Tangled Feet,82,115,74,75,64,90,500,100,127,Flying,Flying,FALSE,,9,,,,1
+1024,SPECIES_CETODDLE,Cetoddle,Ice,,Thick Fat,Snow Cloak,108,68,45,30,40,43,334,150,127,Field,Field,FALSE,,9,,,,1
+1025,SPECIES_CETITAN,Cetitan,Ice,,Thick Fat,Slush Rush,170,113,65,45,55,73,521,50,127,Field,Field,FALSE,,9,,,,1
+1026,SPECIES_VELUZA,Veluza,Water,Psychic,Mold Breaker,,90,102,73,78,65,70,478,100,127,Water 2,Water 2,FALSE,,9,,,,1
+1027,SPECIES_DONDOZO,Dondozo,Water,,Unaware,Oblivious,150,100,115,65,65,35,530,25,127,Water 2,Water 2,FALSE,,9,,,,1
+1028,SPECIES_TATSUGIRI,Tatsugiri,Dragon,Water,Commander,,68,50,60,120,95,82,475,100,127,Water 2,Water 2,FALSE,,9,,,,1
+1029,SPECIES_ANNIHILAPE,Annihilape,Fighting,Ghost,Vital Spirit,Inner Focus,110,115,80,50,90,90,535,45,127,Field,Field,FALSE,,9,Yes,,,1
+1030,SPECIES_CLODSIRE,Clodsire,Poison,Ground,Poison Point,Water Absorb,130,75,60,45,100,20,430,90,127,Water 1,Field,FALSE,,9,,,,1
+1031,SPECIES_FARIGIRAF,Farigiraf,Normal,Psychic,Cud Chew,Armor Tail,120,90,70,110,70,60,520,45,127,Field,Field,FALSE,,9,Yes,,,1
+1032,SPECIES_DUDUNSPARCE,Dudunspars,Normal,,Serene Grace,Run Away,125,100,80,85,75,55,520,45,127,Field,Field,FALSE,,9,Yes,,,1
+1033,SPECIES_KINGAMBIT,Kingambit,Dark,Steel,Defiant,Supreme Overlord,100,135,120,60,85,50,550,25,127,Human Like,Human Like,FALSE,,9,Maybe,,,1
+1034,SPECIES_GREAT_TUSK,Great Tusk,Ground,Fighting,Protosynthesis,,115,131,131,53,53,87,570,30,255,Undiscovered,Undiscovered,FALSE,,9,Maybe,,,1
+1035,SPECIES_SCREAM_TAIL,ScreamTail,Fairy,Psychic,Protosynthesis,,115,65,99,65,115,111,570,50,255,Undiscovered,Undiscovered,FALSE,,9,Maybe,,,1
+1036,SPECIES_BRUTE_BONNET,BruteBonet,Grass,Dark,Protosynthesis,,111,127,99,79,99,55,570,50,255,Undiscovered,Undiscovered,FALSE,,9,Maybe,,,1
+1037,SPECIES_FLUTTER_MANE,FluttrMane,Ghost,Fairy,Protosynthesis,,55,55,55,135,135,135,570,30,255,Undiscovered,Undiscovered,FALSE,,9,Maybe,,,1
+1038,SPECIES_SLITHER_WING,SlithrWing,Bug,Fighting,Protosynthesis,,85,135,79,85,105,81,570,30,255,Undiscovered,Undiscovered,FALSE,,9,Maybe,,,1
+1039,SPECIES_SANDY_SHOCKS,SandyShock,Electric,Ground,Protosynthesis,,85,81,97,121,85,101,570,30,255,Undiscovered,Undiscovered,FALSE,,9,Maybe,,,1
+1040,SPECIES_IRON_TREADS,IronTreads,Ground,Steel,Quark Drive,,90,112,120,72,70,106,570,30,255,Undiscovered,Undiscovered,FALSE,,9,Maybe,,,1
+1041,SPECIES_IRON_BUNDLE,IronBundle,Ice,Water,Quark Drive,,56,80,114,124,60,136,570,50,255,Undiscovered,Undiscovered,FALSE,,9,Maybe,,,1
+1042,SPECIES_IRON_HANDS,Iron Hands,Fighting,Electric,Quark Drive,,154,140,108,50,68,50,570,50,255,Undiscovered,Undiscovered,FALSE,,9,Maybe,,,1
+1043,SPECIES_IRON_JUGULIS,Iron Neck,Dark,Flying,Quark Drive,,94,80,86,122,80,108,570,30,255,Undiscovered,Undiscovered,FALSE,,9,Maybe,,,1
+1044,SPECIES_IRON_MOTH,Iron Moth,Fire,Poison,Quark Drive,,80,70,60,140,110,110,570,30,255,Undiscovered,Undiscovered,FALSE,,9,Maybe,,,1
+1045,SPECIES_IRON_THORNS,IronThorns,Rock,Electric,Quark Drive,,100,134,110,70,84,72,570,30,255,Undiscovered,Undiscovered,FALSE,,9,Yes,,,1
+1046,SPECIES_FRIGIBAX,Frigibax,Dragon,Ice,Thermal Exchange,,65,75,45,35,45,55,320,45,127,Dragon,Mineral,FALSE,,9,Yes,,,1
+1047,SPECIES_ARCTIBAX,Arctibax,Dragon,Ice,Thermal Exchange,,90,95,66,45,65,62,423,25,127,Dragon,Mineral,FALSE,,9,Yes,,,1
+1048,SPECIES_BAXCALIBUR,Baxcalibur,Dragon,Ice,Thermal Exchange,,115,145,92,75,86,87,600,10,127,Dragon,Mineral,FALSE,,9,Yes,,,1
+1049,SPECIES_GIMMIGHOUL,Gimmighoul,Ghost,,Rattled,,45,30,70,75,70,10,300,45,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1050,SPECIES_GHOLDENGO,Gholdengo,Steel,Ghost,Good As Gold,,87,60,95,133,91,84,550,45,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1051,SPECIES_WO_CHIEN,Wo-Chien,Dark,Grass,Tablets Of Ruin,,85,85,100,95,135,70,570,6,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1052,SPECIES_CHIEN_PAO,Chien-Pao,Dark,Ice,Sword Of Ruin,,80,120,80,90,65,135,570,6,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1053,SPECIES_TING_LU,Ting-Lu,Dark,Ground,Vessel Of Ruin,,155,110,125,55,80,45,570,6,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1054,SPECIES_CHI_YU,Chi-Yu,Dark,Fire,Beads Of Ruin,,55,80,80,135,120,100,570,6,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1055,SPECIES_ROARING_MOON,RoarinMoon,Dragon,Dark,Protosynthesis,,105,139,71,55,101,119,590,10,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1056,SPECIES_IRON_VALIANT,Iron Valor,Fairy,Fighting,Quark Drive,,74,130,90,120,60,116,590,10,255,Undiscovered,Undiscovered,FALSE,,9,Maybe,,,1
+1057,SPECIES_KORAIDON,Koraidon,Fighting,Dragon,Orichalcum Pulse,,100,135,115,85,100,135,670,3,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1058,SPECIES_MIRAIDON,Miraidon,Electric,Dragon,Hadron Engine,,100,85,100,135,115,135,670,3,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1059,SPECIES_WALKING_WAKE,WalkngWake,Water,Dragon,Protosynthesis,,99,83,91,125,83,109,590,5,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1060,SPECIES_IRON_LEAVES,IronLeaves,Grass,Psychic,Quark Drive,,90,130,88,70,108,104,590,5,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1061,SPECIES_DIPPLIN,Dipplin,Grass,Dragon,Supersweet Syrup,Gluttony,80,80,110,95,80,40,485,45,127,Grass,Dragon,FALSE,,9,,,,1
+1062,SPECIES_POLTCHAGEIST,Polchgeist,Grass,Ghost,Hospitality,,40,45,45,74,54,50,308,120,255,Mineral,Amorphous,FALSE,,9,,,,1
+1063,SPECIES_SINISTCHA,Sinistcha,Grass,Ghost,Hospitality,,71,60,106,121,80,70,508,60,255,Mineral,Amorphous,FALSE,,9,,,,1
+1064,SPECIES_OKIDOGI,Okidogi,Poison,Fighting,Toxic Chain,,88,128,115,58,86,80,555,3,0,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1065,SPECIES_MUNKIDORI,Munkidori,Poison,Psychic,Toxic Chain,,88,75,66,130,90,106,555,3,0,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1066,SPECIES_FEZANDIPITI,Fezanditi,Poison,Fairy,Toxic Chain,,88,91,82,70,125,99,555,3,0,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1067,SPECIES_OGERPON,Ogerpon,Grass,,Defiant,,80,120,84,60,96,110,550,5,254,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1068,SPECIES_ARCHALUDON,Archaludon,Steel,Dragon,Stamina,Sturdy,90,105,130,125,65,85,600,10,127,Mineral,Dragon,FALSE,,9,,,,1
+1069,SPECIES_HYDRAPPLE,Hydrapple,Grass,Dragon,Supersweet Syrup,Regenerator,106,80,110,120,80,44,540,10,127,Grass,Dragon,FALSE,,9,,,,1
+1070,SPECIES_GOUGING_FIRE,GouginFire,Fire,Dragon,Protosynthesis,,105,115,121,65,93,91,590,10,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1071,SPECIES_RAGING_BOLT,RagingBolt,Electric,Dragon,Protosynthesis,,125,73,91,137,89,75,590,10,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1072,SPECIES_IRON_BOULDER,IronBolder,Rock,Psychic,Quark Drive,,90,120,80,68,108,124,590,10,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1073,SPECIES_IRON_CROWN,Iron Crown,Steel,Psychic,Quark Drive,,90,72,100,122,108,98,590,10,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1074,SPECIES_TERAPAGOS,Terapagos,Normal,,Tera Shift,,90,65,85,65,85,60,450,255,127,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1075,SPECIES_PECHARUNT,Pecharunt,Poison,Ghost,Poison Puppeteer,,88,88,160,88,88,88,600,3,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1076,SPECIES_MEGA_VENUSAUR,Mega Venusaur,Grass,Poison,Thick Fat,Thick Fat,80,100,123,122,120,80,625,45,31,Monster,Grass,FALSE,,1,,,,1
+1077,SPECIES_MEGA_CHARIZARD_X,Mega Charizard X,Fire,Dragon,Tough Claws,Tough Claws,78,130,111,130,85,100,634,45,31,Monster,Dragon,FALSE,,1,,,,1
+1078,SPECIES_MEGA_CHARIZARD_Y,Mega Charizard Y,Fire,Flying,Drought,Drought,78,104,78,159,115,100,634,45,31,Monster,Dragon,FALSE,,1,,,,1
+1079,SPECIES_MEGA_BLASTOISE,Mega Blastoise,Water,,Mega Launcher,Mega Launcher,79,103,120,135,115,78,630,45,31,Monster,Water 1,FALSE,,1,,,,1
+1080,SPECIES_MEGA_BEEDRILL,Mega Beedrill,Bug,Poison,Adaptability,Adaptability,65,150,40,15,80,145,495,45,127,Bug,Bug,FALSE,,1,,,,1
+1081,SPECIES_MEGA_PIDGEOT,Mega Pidgeot,Normal,Flying,No Guard,No Guard,83,80,80,135,80,121,579,45,127,Flying,Flying,FALSE,,1,,,,1
+1082,SPECIES_MEGA_ALAKAZAM,Mega Alakazam,Psychic,,Trace,Trace,55,50,65,175,105,150,600,50,63,Human Like,Human Like,FALSE,,1,,,,1
+1083,SPECIES_MEGA_SLOWBRO,Mega Slowbro,Water,Psychic,Shell Armor,Shell Armor,95,75,180,130,80,30,590,75,127,Monster,Water 1,FALSE,,1,,,,1
+1084,SPECIES_MEGA_GENGAR,Mega Gengar,Ghost,Poison,Shadow Tag,Shadow Tag,60,65,80,170,95,130,600,45,127,Amorphous,Amorphous,FALSE,,1,,,,1
+1085,SPECIES_MEGA_KANGASKHAN,Mega Kangaskhan,Normal,,Parental Bond,Parental Bond,105,125,100,60,100,100,590,45,254,Monster,Monster,FALSE,,1,,,,1
+1086,SPECIES_MEGA_PINSIR,Mega Pinsir,Bug,Flying,Aerilate,Aerilate,65,155,120,65,90,105,600,45,127,Bug,Bug,FALSE,,1,,,,1
+1087,SPECIES_MEGA_GYARADOS,Mega Gyarados,Water,Dark,Mold Breaker,Mold Breaker,95,155,109,70,130,81,640,45,127,Water 2,Dragon,FALSE,,1,,,,1
+1088,SPECIES_MEGA_AERODACTYL,Mega Aerodactyl,Rock,Flying,Tough Claws,Tough Claws,80,135,85,70,95,150,615,45,31,Flying,Flying,FALSE,,1,,,,1
+1089,SPECIES_MEGA_MEWTWO_X,Mega Mewtwo X,Psychic,Fighting,Steadfast,Steadfast,106,190,100,154,100,130,780,3,255,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1090,SPECIES_MEGA_MEWTWO_Y,Mega Mewtwo Y,Psychic,,Insomnia,Insomnia,106,150,70,194,120,140,780,3,255,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1091,SPECIES_MEGA_AMPHAROS,Mega Ampharos,Electric,Dragon,Mold Breaker,Mold Breaker,90,95,105,165,110,45,610,45,127,Monster,Field,FALSE,,2,,,,1
+1092,SPECIES_MEGA_STEELIX,Mega Steelix,Steel,Ground,Sand Force,Sand Force,75,125,230,55,95,30,610,25,127,Mineral,Mineral,FALSE,,2,,,,1
+1093,SPECIES_MEGA_SCIZOR,Mega Scizor,Bug,Steel,Technician,Technician,70,150,140,65,100,75,600,25,127,Bug,Bug,FALSE,,2,,,,1
+1094,SPECIES_MEGA_HERACROSS,Mega Heracross,Bug,Fighting,Skill Link,Skill Link,80,185,115,40,105,75,600,45,127,Bug,Bug,FALSE,,2,,,,1
+1095,SPECIES_MEGA_HOUNDOOM,Mega Houndoom,Dark,Fire,Solar Power,Solar Power,75,90,90,140,90,115,600,45,127,Field,Field,FALSE,,2,,,,1
+1096,SPECIES_MEGA_TYRANITAR,Mega Tyranitar,Rock,Dark,Sand Stream,Sand Stream,100,164,150,95,120,71,700,45,127,Monster,Monster,FALSE,,2,,,,1
+1097,SPECIES_MEGA_SCEPTILE,Mega Sceptile,Grass,Dragon,Lightning Rod,Lightning Rod,70,110,75,145,85,145,630,45,31,Monster,Dragon,FALSE,,3,,,,1
+1098,SPECIES_MEGA_BLAZIKEN,Mega Blaziken,Fire,Fighting,Speed Boost,Speed Boost,80,160,80,130,80,100,630,45,31,Field,Field,FALSE,,3,,,,1
+1099,SPECIES_MEGA_SWAMPERT,Mega Swampert,Water,Ground,Swift Swim,Swift Swim,100,150,110,95,110,70,635,45,31,Monster,Water 1,FALSE,,3,,,,1
+1100,SPECIES_MEGA_GARDEVOIR,Mega Gardevoir,Psychic,Fairy,Pixilate,Pixilate,68,85,65,165,135,100,618,45,127,Amorphous,Amorphous,FALSE,,3,,,,1
+1101,SPECIES_MEGA_SABLEYE,Mega Sableye,Dark,Ghost,Magic Bounce,Magic Bounce,50,85,125,85,115,20,480,45,127,Human Like,Human Like,FALSE,,3,,,,1
+1102,SPECIES_MEGA_MAWILE,Mega Mawile,Steel,Fairy,Huge Power,Huge Power,50,105,125,55,95,50,480,45,127,Field,Fairy,FALSE,,3,,,,1
+1103,SPECIES_MEGA_AGGRON,Mega Aggron,Steel,,Filter,Filter,70,140,230,60,80,50,630,45,127,Monster,Monster,FALSE,,3,,,,1
+1104,SPECIES_MEGA_MEDICHAM,Mega Medicham,Fighting,Psychic,Pure Power,Pure Power,60,100,85,80,85,100,510,90,127,Human Like,Human Like,FALSE,,3,,,,1
+1105,SPECIES_MEGA_MANECTRIC,Mega Manectric,Electric,,Intimidate,Intimidate,70,75,80,135,80,135,575,45,127,Field,Field,FALSE,,3,,,,1
+1106,SPECIES_MEGA_SHARPEDO,Mega Sharpedo,Water,Dark,Speed Boost,Speed Boost,70,140,70,110,65,105,560,60,127,Water 2,Water 2,FALSE,,3,,,,1
+1107,SPECIES_MEGA_CAMERUPT,Mega Camerupt,Fire,Ground,Sheer Force,Sheer Force,70,120,100,145,105,20,560,150,127,Field,Field,FALSE,,3,,,,1
+1108,SPECIES_MEGA_ALTARIA,Mega Altaria,Dragon,Fairy,Pixilate,Pixilate,75,110,110,110,105,80,590,45,127,Flying,Dragon,FALSE,,3,,,,1
+1109,SPECIES_MEGA_BANETTE,Mega Banette,Ghost,,Prankster,Prankster,64,165,75,93,83,75,555,45,127,Amorphous,Amorphous,FALSE,,3,,,,1
+1110,SPECIES_MEGA_ABSOL,Mega Absol,Dark,,Magic Bounce,Magic Bounce,65,150,60,115,60,115,565,30,127,Field,Field,FALSE,,3,,,,1
+1111,SPECIES_MEGA_GLALIE,Mega Glalie,Ice,,Refrigerate,Refrigerate,80,120,80,120,80,100,580,75,127,Fairy,Mineral,FALSE,,3,,,,1
+1112,SPECIES_MEGA_SALAMENCE,Mega Salamence,Dragon,Flying,Aerilate,Aerilate,95,145,130,120,90,120,700,45,127,Dragon,Dragon,FALSE,,3,,,,1
+1113,SPECIES_MEGA_METAGROSS,Mega Metagross,Steel,Psychic,Tough Claws,Tough Claws,80,145,150,105,110,110,700,3,255,Mineral,Mineral,FALSE,,3,,,,1
+1114,SPECIES_MEGA_LATIAS,Mega Latias,Dragon,Psychic,Levitate,Levitate,80,100,120,140,150,110,700,3,254,Undiscovered,Undiscovered,FALSE,,3,,,,1
+1115,SPECIES_MEGA_LATIOS,Mega Latios,Dragon,Psychic,Levitate,Levitate,80,130,100,160,120,110,700,3,0,Undiscovered,Undiscovered,FALSE,,3,,,,1
+1116,SPECIES_MEGA_RAYQUAZA,Mega Rayquaza,Dragon,Flying,Delta Stream,Delta Stream,105,180,100,180,100,115,780,3,255,Undiscovered,Undiscovered,FALSE,,3,,,,1
+1117,SPECIES_MEGA_LOPUNNY,Mega Lopunny,Normal,Fighting,Scrappy,Scrappy,65,136,94,54,96,135,580,60,127,Field,Human Like,FALSE,,4,,,,1
+1118,SPECIES_MEGA_GARCHOMP,Mega Garchomp,Dragon,Ground,Sand Force,Sand Force,108,170,115,120,95,92,700,45,127,Dragon,Monster,FALSE,,4,,,,1
+1119,SPECIES_MEGA_LUCARIO,Mega Lucario,Fighting,Steel,Adaptability,Adaptability,70,145,88,140,70,112,625,45,31,Field,Human Like,FALSE,,4,,,,1
+1120,SPECIES_MEGA_ABOMASNOW,Mega Abomasnow,Grass,Ice,Snow Warning,Snow Warning,90,132,105,132,105,30,594,60,127,Monster,Grass,FALSE,,4,,,,1
+1121,SPECIES_MEGA_GALLADE,Mega Gallade,Psychic,Fighting,Inner Focus,Inner Focus,68,165,95,65,115,110,618,45,0,Water 1,Water 1,FALSE,,4,,,,1
+1122,SPECIES_MEGA_AUDINO,Mega Audino,Normal,Fairy,Healer,Healer,103,60,126,80,126,50,545,255,127,Fairy,Fairy,FALSE,,5,,,,1
+1123,SPECIES_MEGA_DIANCIE,Mega Diancie,Rock,Fairy,Magic Bounce,Magic Bounce,50,160,110,160,110,110,700,3,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+1124,SPECIES_KYOGRE_PRIMAL,Kyogre Primal,Water,,Primordial Sea,,100,150,90,180,160,90,770,5,255,Undiscovered,Undiscovered,FALSE,,3,,,,1
+1125,SPECIES_GROUDON_PRIMAL,Groudon Primal,Ground,Fire,Desolate Land,,100,180,160,150,90,90,770,5,255,Undiscovered,Undiscovered,FALSE,,3,,,,1
+1126,SPECIES_RATTATA_ALOLAN,Rattata Alolan,Dark,Normal,Gluttony,Hustle,30,56,35,25,35,72,253,255,127,Field,Field,FALSE,,1,,,,1
+1127,SPECIES_RATICATE_ALOLAN,Raticate Alolan,Dark,Normal,Gluttony,Hustle,75,71,70,40,80,77,413,127,127,Field,Field,FALSE,,1,,,,1
+1128,SPECIES_RAICHU_ALOLAN,Raichu Alolan,Electric,Psychic,Surge Surfer,,60,85,50,95,85,110,485,75,127,Field,Fairy,FALSE,,1,Yes,,,1
+1129,SPECIES_SANDSHREW_ALOLAN,Sandshrew Alolan,Ice,Steel,Snow Cloak,,50,75,90,10,35,40,300,255,127,Field,Field,FALSE,,1,Yes,,,1
+1130,SPECIES_SANDSLASH_ALOLAN,Sandslash Alolan,Ice,Steel,Snow Cloak,,75,100,120,25,65,65,450,90,127,Field,Field,FALSE,,1,Yes,,,1
+1131,SPECIES_VULPIX_ALOLAN,Vulpix Alolan,Ice,,Snow Cloak,,38,41,40,50,65,65,299,190,191,Field,Field,FALSE,,1,Yes,,,1
+1132,SPECIES_NINETALES_ALOLAN,Ninetales Alolan,Ice,Fairy,Snow Cloak,,73,67,75,81,100,109,505,75,191,Field,Field,FALSE,,1,Yes,,,1
+1133,SPECIES_DIGLETT_ALOLAN,Diglett Alolan,Ground,Steel,Sand Veil,Tangling Hair,10,55,30,35,45,90,265,255,127,Field,Field,FALSE,,1,,,,1
+1134,SPECIES_DUGTRIO_ALOLAN,Dugtrio Alolan,Ground,Steel,Sand Veil,Tangling Hair,35,100,60,50,70,110,425,50,127,Field,Field,FALSE,,1,,,,1
+1135,SPECIES_MEOWTH_ALOLAN,Meowth Alolan,Dark,,Pickup,Technician,40,35,35,50,40,90,290,255,127,Field,Field,FALSE,,1,,,,1
+1136,SPECIES_PERSIAN_ALOLAN,Persian Alolan,Dark,,Fur Coat,Technician,65,60,60,75,65,115,440,90,127,Field,Field,FALSE,,1,,,,1
+1137,SPECIES_GEODUDE_ALOLAN,Geodude Alolan,Rock,Electric,Magnet Pull,Sturdy,40,80,100,30,30,20,300,255,127,Mineral,Mineral,FALSE,,1,Yes,,,1
+1138,SPECIES_GRAVELER_ALOLAN,Graveler Alolan,Rock,Electric,Magnet Pull,Sturdy,55,95,115,45,45,35,390,120,127,Mineral,Mineral,FALSE,,1,Yes,,,1
+1139,SPECIES_GOLEM_ALOLAN,Golem Alolan,Rock,Electric,Magnet Pull,Sturdy,80,120,130,55,65,45,495,45,127,Mineral,Mineral,FALSE,,1,Yes,,,1
+1140,SPECIES_GRIMER_ALOLAN,Grimer Alolan,Poison,Dark,Poison Touch,Gluttony,80,80,50,40,50,25,325,190,127,Amorphous,Amorphous,FALSE,,1,Yes,,,1
+1141,SPECIES_MUK_ALOLAN,Muk Alolan,Poison,Dark,Poison Touch,Gluttony,105,105,75,65,100,50,500,75,127,Amorphous,Amorphous,FALSE,,1,Yes,,,1
+1142,SPECIES_EXEGGUTOR_ALOLAN,Exeggutor Alolan,Grass,Dragon,Frisk,,95,105,85,125,75,45,530,45,127,Grass,Grass,FALSE,,1,,,,1
+1143,SPECIES_MAROWAK_ALOLAN,Marowak Alolan,Fire,Ghost,Cursed Body,Lightning Rod,60,80,110,50,80,45,425,75,127,Monster,Monster,FALSE,,1,,,,1
+1144,SPECIES_RATICATE_ALOLAN_LARGE,Raticate Alolan Large,Dark,Normal,Thick Fat,,75,71,70,40,80,77,413,127,127,Field,Field,FALSE,,1,,,,1
+1145,SPECIES_MAROWAK_ALOLAN_LARGE,Marowak Alolan Large,Fire,Ghost,Rock Head,,60,80,110,50,80,45,425,75,127,Monster,Monster,FALSE,,1,Yes,,,1
+1146,SPECIES_GUMSHOOS_LARGE,Gumshoos Large,Normal,,Adaptability,,88,110,60,55,60,45,418,127,127,Field,Field,FALSE,,7,,,,1
+1147,SPECIES_VIKAVOLT_LARGE,Vikavolt Large,Bug,Electric,Levitate,,77,70,90,145,75,43,500,45,127,Bug,Bug,FALSE,,7,,,,1
+1148,SPECIES_RIBOMBEE_LARGE,Ribombee Large,Bug,Fairy,Sweet Veil,,60,55,60,95,70,124,464,75,127,Bug,Fairy,FALSE,,7,,,,1
+1149,SPECIES_ARAQUANID_LARGE,Araquanid Large,Water,Bug,Water Bubble,,68,70,92,50,132,42,454,100,127,Water 1,Bug,FALSE,,7,,,,1
+1150,SPECIES_LURANTIS_LARGE,Lurantis Large,Grass,,Leaf Guard,,70,105,90,80,90,45,480,75,127,Grass,Grass,FALSE,,7,,,,1
+1151,SPECIES_SALAZZLE_LARGE,Salazzle Large,Poison,Fire,Corrosion,,68,64,60,111,60,117,480,45,254,Monster,Dragon,FALSE,,7,,,,1
+1152,SPECIES_TOGEDEMARU_LARGE,Togedemaru Large,Electric,Steel,Sturdy,,65,98,63,40,73,96,435,180,127,Field,Fairy,FALSE,,7,,,,1
+1153,SPECIES_MIMIKYU_LARGE,Mimikyu Large,Ghost,Fairy,Disguise,,55,90,80,50,105,96,476,45,127,Amorphous,Amorphous,FALSE,,7,,,,1
+1154,SPECIES_MIMIKYU_BUSTED_LARGE,Mimikyu Busted Large,Ghost,Fairy,Disguise,,55,90,80,50,105,96,476,45,127,Amorphous,Amorphous,FALSE,,7,,,,1
+1155,SPECIES_KOMMO_O_LARGE,Kommo O Large,Dragon,Fighting,Overcoat,,75,110,125,100,105,85,600,45,127,Dragon,Dragon,FALSE,,7,,,,1
+1156,SPECIES_MEOWTH_GALARIAN,Meowth Galarian,Steel,,Pickup,Tough Claws,50,65,55,40,40,40,290,255,127,Field,Field,FALSE,,1,,,,1
+1157,SPECIES_PONYTA_GALARIAN,Ponyta Galarian,Psychic,,Run Away,Pastel Veil,50,85,55,65,65,90,410,190,127,Field,Field,FALSE,,1,,,,1
+1158,SPECIES_RAPIDASH_GALARIAN,Rapidash Galarian,Psychic,Fairy,Run Away,Pastel Veil,65,100,70,80,80,105,500,60,127,Field,Field,FALSE,,1,,,,1
+1159,SPECIES_SLOWPOKE_GALARIAN,Slowpoke Galarian,Psychic,,Gluttony,Own Tempo,90,65,65,40,40,15,315,190,127,Monster,Water 1,FALSE,,1,Yes,,,1
+1160,SPECIES_SLOWBRO_GALARIAN,Slowbro Galarian,Poison,Psychic,Quick Draw,Own Tempo,95,100,95,100,70,30,490,75,127,Monster,Water 1,FALSE,,1,,,,1
+1161,SPECIES_FARFETCHD_GALARIAN,Farfetchd Galarian,Fighting,,Steadfast,,52,95,55,58,62,55,377,45,127,Flying,Field,FALSE,,1,Yes,,,1
+1162,SPECIES_WEEZING_GALARIAN,Weezing Galarian,Poison,Fairy,Levitate,Neutralizing Gas,65,90,120,85,70,60,490,60,127,Amorphous,Amorphous,FALSE,,1,,,,1
+1163,SPECIES_MR_MIME_GALARIAN,Mr Mime Galarian,Ice,Psychic,Vital Spirit,Screen Cleaner,50,65,65,90,90,100,460,45,127,Human Like,Human Like,FALSE,,1,Yes,,,1
+1164,SPECIES_ARTICUNO_GALARIAN,Articuno Galarian,Psychic,Flying,Competitive,,90,85,85,125,100,95,580,3,255,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1165,SPECIES_ZAPDOS_GALARIAN,Zapdos Galarian,Fighting,Flying,Defiant,,90,125,90,85,90,100,580,3,255,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1166,SPECIES_MOLTRES_GALARIAN,Moltres Galarian,Dark,Flying,Berserk,,90,85,90,100,125,90,580,3,255,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1167,SPECIES_SLOWKING_GALARIAN,Slowking Galarian,Poison,Psychic,Curious Medicine,Own Tempo,95,65,80,110,110,30,490,70,127,Monster,Water 1,FALSE,,2,,,,1
+1168,SPECIES_CORSOLA_GALARIAN,Corsola Galarian,Ghost,,Weak Armor,,60,55,100,65,100,30,410,60,191,Water 1,Water 3,FALSE,,2,,,,1
+1169,SPECIES_ZIGZAGOON_GALARIAN,Zigzagoon Galarian,Dark,Normal,Pickup,Gluttony,38,30,41,30,41,60,240,255,127,Field,Field,FALSE,,3,,,,1
+1170,SPECIES_LINOONE_GALARIAN,Linoone Galarian,Dark,Normal,Pickup,Gluttony,78,70,61,50,61,100,420,90,127,Field,Field,FALSE,,3,,,,1
+1171,SPECIES_DARUMAKA_GALARIAN,Darumaka Galarian,Ice,,Hustle,,70,90,45,15,45,50,315,120,127,Field,Field,FALSE,,5,,,,1
+1172,SPECIES_DARMANITAN_GALARIAN,Darmanitan Galarian,Ice,,Gorilla Tactics,,105,140,55,30,55,95,480,60,127,Field,Field,FALSE,,5,,,,1
+1173,SPECIES_YAMASK_GALARIAN,Yamask Galarian,Ground,Ghost,Wandering Spirit,,38,55,85,30,65,30,303,190,127,Mineral,Amorphous,FALSE,,5,,,,1
+1174,SPECIES_STUNFISK_GALARIAN,Stunfisk Galarian,Ground,Steel,Mimicry,,109,81,99,66,84,32,471,75,127,Water 1,Amorphous,FALSE,,5,,,,1
+1175,SPECIES_PIKACHU_COSPLAY,Pikachu Cosplay,Electric,,Static,,35,55,40,50,50,90,320,190,127,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1176,SPECIES_PIKACHU_ROCK_STAR,Pikachu Rock Star,Electric,,Static,,35,55,40,50,50,90,320,190,127,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1177,SPECIES_PIKACHU_BELLE,Pikachu Belle,Electric,,Static,,35,55,40,50,50,90,320,190,127,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1178,SPECIES_PIKACHU_POP_STAR,Pikachu Pop Star,Electric,,Static,,35,55,40,50,50,90,320,190,127,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1179,SPECIES_PIKACHU_PH_D,Pikachu Ph D,Electric,,Static,,35,55,40,50,50,90,320,190,127,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1180,SPECIES_PIKACHU_LIBRE,Pikachu Libre,Electric,,Static,,35,55,40,50,50,90,320,190,127,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1181,SPECIES_PIKACHU_ORIGINAL_CAP,Pikachu Original Cap,Electric,,Static,,35,55,40,50,50,90,320,190,0,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1182,SPECIES_PIKACHU_HOENN_CAP,Pikachu Hoenn Cap,Electric,,Static,,35,55,40,50,50,90,320,190,0,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1183,SPECIES_PIKACHU_SINNOH_CAP,Pikachu Sinnoh Cap,Electric,,Static,,35,55,40,50,50,90,320,190,0,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1184,SPECIES_PIKACHU_UNOVA_CAP,Pikachu Unova Cap,Electric,,Static,,35,55,40,50,50,90,320,190,0,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1185,SPECIES_PIKACHU_KALOS_CAP,Pikachu Kalos Cap,Electric,,Static,,35,55,40,50,50,90,320,190,0,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1186,SPECIES_PIKACHU_ALOLA_CAP,Pikachu Alola Cap,Electric,,Static,,35,55,40,50,50,90,320,190,0,Undiscovered,Undiscovered,FALSE,,1,Yes,,,1
+1187,SPECIES_PIKACHU_PARTNER_CAP,Pikachu Partner Cap,Electric,,Static,,35,55,40,50,50,90,320,190,0,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1188,SPECIES_PIKACHU_WORLD_CAP,Pikachu World Cap,Electric,,Static,,35,55,40,50,50,90,320,190,0,Undiscovered,Undiscovered,FALSE,,1,,,,1
+1189,SPECIES_CASTFORM_SUNNY,Castform Sunny,Fire,,Forecast,,70,70,70,70,70,70,420,45,127,Fairy,Amorphous,FALSE,,3,,,,1
+1190,SPECIES_CASTFORM_RAINY,Castform Rainy,Water,,Forecast,,70,70,70,70,70,70,420,45,127,Fairy,Amorphous,FALSE,,3,,,,1
+1191,SPECIES_CASTFORM_SNOWY,Castform Snowy,Ice,,Forecast,,70,70,70,70,70,70,420,45,127,Fairy,Amorphous,FALSE,,3,,,,1
+1192,SPECIES_CHERRIM_SUNSHINE,Cherrim Sunshine,Grass,,Flower Gift,,70,90,70,87,117,85,519,75,127,Fairy,Grass,FALSE,,4,,,,1
+1193,SPECIES_SHELLOS_EAST_SEA,Shellos East Sea,Water,,Sticky Hold,Storm Drain,76,48,48,57,62,34,325,190,127,Water 1,Amorphous,FALSE,,4,,,,1
+1194,SPECIES_GASTRODON_EAST_SEA,Gastrodon East Sea,Water,Ground,Sticky Hold,Storm Drain,111,83,68,92,82,39,475,75,127,Water 1,Amorphous,FALSE,,4,,,,1
+1195,SPECIES_DIALGA_ORIGIN,Dialga Origin,Steel,Dragon,Pressure,,100,100,120,150,120,90,680,30,255,Undiscovered,Undiscovered,FALSE,,4,,,,1
+1196,SPECIES_PALKIA_ORIGIN,Palkia Origin,Water,Dragon,Pressure,,90,100,100,150,120,120,680,45,255,Undiscovered,Undiscovered,FALSE,,4,,,,1
+1197,SPECIES_BASCULIN_BLUE_STRIPED,Basculin Blue Striped,Water,,Rock Head,Adaptability,70,92,65,80,55,98,460,25,127,Water 2,Water 2,FALSE,,5,,,,1
+1198,SPECIES_BASCULIN_WHITE_STRIPED,Basculin White Striped,Water,,Rattled,Adaptability,70,92,65,80,55,98,460,25,127,Water 2,Water 2,FALSE,,5,,,,1
+1199,SPECIES_DARMANITAN_ZEN_MODE,Darmanitan Zen Mode,Fire,Psychic,Sheer Force,,105,30,105,140,105,55,540,60,127,Field,Field,FALSE,,5,,,,1
+1200,SPECIES_DARMANITAN_ZEN_MODE_GALARIAN,Darmanitan Zen Mode Galarian,Ice,Fire,Gorilla Tactics,,105,160,55,30,55,135,540,60,127,Field,Field,FALSE,,5,,,,1
+1201,SPECIES_DEERLING_SUMMER,Deerling Summer,Normal,Grass,Chlorophyll,Sap Sipper,60,60,50,40,50,75,335,190,127,Field,Field,FALSE,,5,,,,1
+1202,SPECIES_DEERLING_AUTUMN,Deerling Autumn,Normal,Grass,Chlorophyll,Sap Sipper,60,60,50,40,50,75,335,190,127,Field,Field,FALSE,,5,,,,1
+1203,SPECIES_DEERLING_WINTER,Deerling Winter,Normal,Grass,Chlorophyll,Sap Sipper,60,60,50,40,50,75,335,190,127,Field,Field,FALSE,,5,,,,1
+1204,SPECIES_SAWSBUCK_SUMMER,Sawsbuck Summer,Normal,Grass,Chlorophyll,Sap Sipper,80,100,70,60,70,95,475,75,127,Field,Field,FALSE,,5,,,,1
+1205,SPECIES_SAWSBUCK_AUTUMN,Sawsbuck Autumn,Normal,Grass,Chlorophyll,Sap Sipper,80,100,70,60,70,95,475,75,127,Field,Field,FALSE,,5,,,,1
+1206,SPECIES_SAWSBUCK_WINTER,Sawsbuck Winter,Normal,Grass,Chlorophyll,Sap Sipper,80,100,70,60,70,95,475,75,127,Field,Field,FALSE,,5,,,,1
+1207,SPECIES_TORNADUS_THERIAN,Tornadus Therian,Flying,,Regenerator,,79,100,80,110,90,121,580,3,0,Undiscovered,Undiscovered,FALSE,,5,,,,1
+1208,SPECIES_THUNDURUS_THERIAN,Thundurus Therian,Electric,Flying,Volt Absorb,,79,105,70,145,80,101,580,3,0,Undiscovered,Undiscovered,FALSE,,5,,,,1
+1209,SPECIES_LANDORUS_THERIAN,Landorus Therian,Ground,Flying,Intimidate,,89,145,90,105,80,91,600,3,0,Undiscovered,Undiscovered,FALSE,,5,,,,1
+1210,SPECIES_KYUREM_WHITE,Kyurem White,Dragon,Ice,Turboblaze,,125,120,90,170,100,95,700,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+1211,SPECIES_KYUREM_BLACK,Kyurem Black,Dragon,Ice,Teravolt,,125,170,100,120,90,95,700,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+1212,SPECIES_KELDEO_RESOLUTE,Keldeo Resolute,Water,Fighting,Justified,,91,72,90,129,90,108,580,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+1213,SPECIES_MELOETTA_PIROUETTE,Meloetta Pirouette,Normal,Fighting,Serene Grace,,100,128,90,77,77,128,600,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+1214,SPECIES_GENESECT_DOUSE_DRIVE,Genesect Douse Drive,Bug,Steel,Download,,71,120,95,120,95,99,600,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+1215,SPECIES_GENESECT_SHOCK_DRIVE,Genesect Shock Drive,Bug,Steel,Download,,71,120,95,120,95,99,600,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+1216,SPECIES_GENESECT_BURN_DRIVE,Genesect Burn Drive,Bug,Steel,Download,,71,120,95,120,95,99,600,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+1217,SPECIES_GENESECT_CHILL_DRIVE,Genesect Chill Drive,Bug,Steel,Download,,71,120,95,120,95,99,600,3,255,Undiscovered,Undiscovered,FALSE,,5,,,,1
+1218,SPECIES_GRENINJA_BATTLE_BOND,Greninja Battle Bond,Water,Dark,Battle Bond,,72,95,67,103,71,122,530,45,0,Undiscovered,Undiscovered,FALSE,,6,,,,1
+1219,SPECIES_GRENINJA_ASH,Greninja Ash,Water,Dark,Battle Bond,,72,145,67,153,71,132,640,45,0,Undiscovered,Undiscovered,FALSE,,6,,,,1
+1220,SPECIES_VIVILLON_POLAR,Vivillon Polar,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1221,SPECIES_VIVILLON_TUNDRA,Vivillon Tundra,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1222,SPECIES_VIVILLON_CONTINENTAL,Vivillon Continental,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1223,SPECIES_VIVILLON_GARDEN,Vivillon Garden,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1224,SPECIES_VIVILLON_ELEGANT,Vivillon Elegant,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1225,SPECIES_VIVILLON_MEADOW,Vivillon Meadow,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1226,SPECIES_VIVILLON_MODERN,Vivillon Modern,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1227,SPECIES_VIVILLON_MARINE,Vivillon Marine,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1228,SPECIES_VIVILLON_ARCHIPELAGO,Vivillon Archipelago,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1229,SPECIES_VIVILLON_HIGH_PLAINS,Vivillon High Plains,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1230,SPECIES_VIVILLON_SANDSTORM,Vivillon Sandstorm,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1231,SPECIES_VIVILLON_RIVER,Vivillon River,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1232,SPECIES_VIVILLON_MONSOON,Vivillon Monsoon,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1233,SPECIES_VIVILLON_SAVANNA,Vivillon Savanna,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1234,SPECIES_VIVILLON_SUN,Vivillon Sun,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1235,SPECIES_VIVILLON_OCEAN,Vivillon Ocean,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1236,SPECIES_VIVILLON_JUNGLE,Vivillon Jungle,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1237,SPECIES_VIVILLON_FANCY,Vivillon Fancy,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1238,SPECIES_VIVILLON_POKE_BALL,Vivillon Poke Ball,Bug,Flying,Shield Dust,Compound Eyes,80,52,50,90,50,89,411,45,127,Bug,Bug,FALSE,,6,,,,1
+1239,SPECIES_FLABEBE_YELLOW_FLOWER,Flabebe Yellow Flower,Fairy,,Flower Veil,,44,38,39,61,79,42,303,225,254,Fairy,Fairy,FALSE,,6,No,,,1
+1240,SPECIES_FLABEBE_ORANGE_FLOWER,Flabebe Orange Flower,Fairy,,Flower Veil,,44,38,39,61,79,42,303,225,254,Fairy,Fairy,FALSE,,6,No,,,1
+1241,SPECIES_FLABEBE_BLUE_FLOWER,Flabebe Blue Flower,Fairy,,Flower Veil,,44,38,39,61,79,42,303,225,254,Fairy,Fairy,FALSE,,6,No,,,1
+1242,SPECIES_FLABEBE_WHITE_FLOWER,Flabebe White Flower,Fairy,,Flower Veil,,44,38,39,61,79,42,303,225,254,Fairy,Fairy,FALSE,,6,No,,,1
+1243,SPECIES_FLOETTE_YELLOW_FLOWER,Floette Yellow Flower,Fairy,,Flower Veil,,54,45,47,75,98,52,371,120,254,Fairy,Fairy,FALSE,,6,No,,,1
+1244,SPECIES_FLOETTE_ORANGE_FLOWER,Floette Orange Flower,Fairy,,Flower Veil,,54,45,47,75,98,52,371,120,254,Fairy,Fairy,FALSE,,6,No,,,1
+1245,SPECIES_FLOETTE_BLUE_FLOWER,Floette Blue Flower,Fairy,,Flower Veil,,54,45,47,75,98,52,371,120,254,Fairy,Fairy,FALSE,,6,No,,,1
+1246,SPECIES_FLOETTE_WHITE_FLOWER,Floette White Flower,Fairy,,Flower Veil,,54,45,47,75,98,52,371,120,254,Fairy,Fairy,FALSE,,6,No,,,1
+1247,SPECIES_FLOETTE_ETERNAL_FLOWER,Floette Eternal Flower,Fairy,,Flower Veil,,74,65,67,125,128,92,551,120,254,Undiscovered,Undiscovered,FALSE,,6,No,,,1
+1248,SPECIES_FLORGES_YELLOW_FLOWER,Florges Yellow Flower,Fairy,,Flower Veil,,78,65,68,112,154,75,552,45,254,Fairy,Fairy,FALSE,,6,No,,,1
+1249,SPECIES_FLORGES_ORANGE_FLOWER,Florges Orange Flower,Fairy,,Flower Veil,,78,65,68,112,154,75,552,45,254,Fairy,Fairy,FALSE,,6,No,,,1
+1250,SPECIES_FLORGES_BLUE_FLOWER,Florges Blue Flower,Fairy,,Flower Veil,,78,65,68,112,154,75,552,45,254,Fairy,Fairy,FALSE,,6,No,,,1
+1251,SPECIES_FLORGES_WHITE_FLOWER,Florges White Flower,Fairy,,Flower Veil,,78,65,68,112,154,75,552,45,254,Fairy,Fairy,FALSE,,6,No,,,1
+1252,SPECIES_FURFROU_HEART,Furfrou Heart,Normal,,Fur Coat,,75,80,60,65,90,102,472,160,127,Field,Field,FALSE,,6,,,,1
+1253,SPECIES_FURFROU_STAR,Furfrou Star,Normal,,Fur Coat,,75,80,60,65,90,102,472,160,127,Field,Field,FALSE,,6,,,,1
+1254,SPECIES_FURFROU_DIAMOND,Furfrou Diamond,Normal,,Fur Coat,,75,80,60,65,90,102,472,160,127,Field,Field,FALSE,,6,,,,1
+1255,SPECIES_FURFROU_DEBUTANTE,Furfrou Debutante,Normal,,Fur Coat,,75,80,60,65,90,102,472,160,127,Field,Field,FALSE,,6,,,,1
+1256,SPECIES_FURFROU_MATRON,Furfrou Matron,Normal,,Fur Coat,,75,80,60,65,90,102,472,160,127,Field,Field,FALSE,,6,,,,1
+1257,SPECIES_FURFROU_DANDY,Furfrou Dandy,Normal,,Fur Coat,,75,80,60,65,90,102,472,160,127,Field,Field,FALSE,,6,,,,1
+1258,SPECIES_FURFROU_LA_REINE,Furfrou La Reine,Normal,,Fur Coat,,75,80,60,65,90,102,472,160,127,Field,Field,FALSE,,6,,,,1
+1259,SPECIES_FURFROU_KABUKI,Furfrou Kabuki,Normal,,Fur Coat,,75,80,60,65,90,102,472,160,127,Field,Field,FALSE,,6,,,,1
+1260,SPECIES_FURFROU_PHARAOH,Furfrou Pharaoh,Normal,,Fur Coat,,75,80,60,65,90,102,472,160,127,Field,Field,FALSE,,6,,,,1
+1261,SPECIES_AEGISLASH_BLADE,Aegislash Blade,Steel,Ghost,Stance Change,,60,140,50,140,50,60,500,45,127,Mineral,Mineral,FALSE,,6,,,,1
+1262,SPECIES_PUMPKABOO_SMALL,Pumpkaboo Small,Ghost,Grass,Pickup,Frisk,44,66,70,44,55,56,335,120,127,Amorphous,Amorphous,FALSE,,6,,,,1
+1263,SPECIES_PUMPKABOO_LARGE,Pumpkaboo Large,Ghost,Grass,Pickup,Frisk,54,66,70,44,55,46,335,120,127,Amorphous,Amorphous,FALSE,,6,,,,1
+1264,SPECIES_PUMPKABOO_SUPER,Pumpkaboo Super,Ghost,Grass,Pickup,Frisk,59,66,70,44,55,41,335,120,127,Amorphous,Amorphous,FALSE,,6,,,,1
+1265,SPECIES_GOURGEIST_SMALL,Gourgeist Small,Ghost,Grass,Pickup,Frisk,55,85,122,58,75,99,494,60,127,Amorphous,Amorphous,FALSE,,6,,,,1
+1266,SPECIES_GOURGEIST_LARGE,Gourgeist Large,Ghost,Grass,Pickup,Frisk,75,95,122,58,75,69,494,60,127,Amorphous,Amorphous,FALSE,,6,,,,1
+1267,SPECIES_GOURGEIST_SUPER,Gourgeist Super,Ghost,Grass,Pickup,Frisk,85,100,122,58,75,54,494,60,127,Amorphous,Amorphous,FALSE,,6,,,,1
+1268,SPECIES_XERNEAS_ACTIVE,Xerneas Active,Fairy,,Fairy Aura,,126,131,95,131,98,99,680,45,255,Undiscovered,Undiscovered,FALSE,,6,No,,,1
+1269,SPECIES_ZYGARDE_10,Zygarde 10,Dragon,Ground,Aura Break,,54,100,71,61,85,115,486,3,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+1270,SPECIES_ZYGARDE_10_POWER_CONSTRUCT,Zygarde 10 Power Construct,Dragon,Ground,Power Construct,,54,100,71,61,85,115,486,3,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+1271,SPECIES_ZYGARDE_50_POWER_CONSTRUCT,Zygarde 50 Power Construct,Dragon,Ground,Power Construct,,108,100,121,81,95,95,600,3,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+1272,SPECIES_ZYGARDE_10_COMPLETE,Zygarde 10 Complete,Dragon,Ground,Power Construct,,216,100,121,91,95,85,708,3,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+1273,SPECIES_ZYGARDE_50_COMPLETE,Zygarde 50 Complete,Dragon,Ground,Power Construct,,216,100,121,91,95,85,708,3,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+1274,SPECIES_HOOPA_UNBOUND,Hoopa Unbound,Psychic,Dark,Magician,,80,160,60,170,130,80,680,3,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+1275,SPECIES_ORICORIO_POM_POM,Oricorio Pom Pom,Electric,Flying,Dancer,,75,70,70,98,70,93,476,45,191,Flying,Flying,FALSE,,7,,,,1
+1276,SPECIES_ORICORIO_PAU,Oricorio Pau,Psychic,Flying,Dancer,,75,70,70,98,70,93,476,45,191,Flying,Flying,FALSE,,7,,,,1
+1277,SPECIES_ORICORIO_SENSU,Oricorio Sensu,Ghost,Flying,Dancer,,75,70,70,98,70,93,476,45,191,Flying,Flying,FALSE,,7,,,,1
+1278,SPECIES_ROCKRUFF_OWN_TEMPO,Rockruff Own Tempo,Rock,,Own Tempo,,45,65,40,30,40,60,280,190,127,Field,Field,FALSE,,7,,,,1
+1279,SPECIES_LYCANROC_MIDNIGHT,Lycanroc Midnight,Rock,,Keen Eye,Vital Spirit,85,115,75,55,75,82,487,90,127,Field,Field,FALSE,,7,,,,1
+1280,SPECIES_LYCANROC_DUSK,Lycanroc Dusk,Rock,,Tough Claws,,75,117,65,55,65,110,487,90,127,Field,Field,FALSE,,7,,,,1
+1281,SPECIES_WISHIWASHI_SCHOOL,Wishiwashi School,Water,,Schooling,,45,140,130,140,135,30,620,60,127,Water 2,Water 2,FALSE,,7,,,,1
+1282,SPECIES_MINIOR_METEOR_ORANGE,Minior Meteor Orange,Rock,Flying,Shields Down,,60,60,100,60,100,60,440,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1283,SPECIES_MINIOR_METEOR_YELLOW,Minior Meteor Yellow,Rock,Flying,Shields Down,,60,60,100,60,100,60,440,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1284,SPECIES_MINIOR_METEOR_GREEN,Minior Meteor Green,Rock,Flying,Shields Down,,60,60,100,60,100,60,440,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1285,SPECIES_MINIOR_METEOR_BLUE,Minior Meteor Blue,Rock,Flying,Shields Down,,60,60,100,60,100,60,440,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1286,SPECIES_MINIOR_METEOR_INDIGO,Minior Meteor Indigo,Rock,Flying,Shields Down,,60,60,100,60,100,60,440,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1287,SPECIES_MINIOR_METEOR_VIOLET,Minior Meteor Violet,Rock,Flying,Shields Down,,60,60,100,60,100,60,440,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1288,SPECIES_MINIOR_CORE_RED,Minior Core Red,Rock,Flying,Shields Down,,60,100,60,100,60,120,500,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1289,SPECIES_MINIOR_CORE_ORANGE,Minior Core Orange,Rock,Flying,Shields Down,,60,100,60,100,60,120,500,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1290,SPECIES_MINIOR_CORE_YELLOW,Minior Core Yellow,Rock,Flying,Shields Down,,60,100,60,100,60,120,500,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1291,SPECIES_MINIOR_CORE_GREEN,Minior Core Green,Rock,Flying,Shields Down,,60,100,60,100,60,120,500,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1292,SPECIES_MINIOR_CORE_BLUE,Minior Core Blue,Rock,Flying,Shields Down,,60,100,60,100,60,120,500,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1293,SPECIES_MINIOR_CORE_INDIGO,Minior Core Indigo,Rock,Flying,Shields Down,,60,100,60,100,60,120,500,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1294,SPECIES_MINIOR_CORE_VIOLET,Minior Core Violet,Rock,Flying,Shields Down,,60,100,60,100,60,120,500,30,255,Mineral,Mineral,FALSE,,7,,,,1
+1295,SPECIES_MIMIKYU_BUSTED,Mimikyu Busted,Ghost,Fairy,Disguise,,55,90,80,50,105,96,476,45,127,Amorphous,Amorphous,FALSE,,7,,,,1
+1296,SPECIES_NECROZMA_DUSK_MANE,Necrozma Dusk Mane,Psychic,Steel,Prism Armor,,97,157,127,113,109,77,680,255,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+1297,SPECIES_NECROZMA_DAWN_WINGS,Necrozma Dawn Wings,Psychic,Ghost,Prism Armor,,97,113,109,157,127,77,680,255,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+1298,SPECIES_NECROZMA_ULTRA_DUSK_MANE,Necrozma Ultra Dusk Mane,Psychic,Dragon,Neuroforce,,97,167,97,167,97,129,754,255,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+1299,SPECIES_NECROZMA_ULTRA_DAWN_WINGS,Necrozma Ultra Dawn Wings,Psychic,Dragon,Neuroforce,,97,167,97,167,97,129,754,255,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+1300,SPECIES_MAGEARNA_ORIGINAL,Magearna Original,Steel,Fairy,Soul Heart,,80,95,115,130,115,65,600,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+1301,SPECIES_PIKACHU_PARTNER,Pikachu Partner,Electric,,Static,,45,80,50,70,60,120,425,190,127,Field,Fairy,FALSE,,1,,,,1
+1302,SPECIES_EEVEE_PARTNER,Eevee Partner,Normal,,Run Away,Adaptability,65,75,70,65,75,75,425,45,31,Field,Fairy,FALSE,,1,,,,1
+1303,SPECIES_CRAMORANT_GULPING,Cramorant Gulping,Flying,Water,Gulp Missile,,70,85,55,85,95,85,475,45,127,Water 1,Flying,FALSE,,8,,,,1
+1304,SPECIES_CRAMORANT_GORGING,Cramorant Gorging,Flying,Water,Gulp Missile,,70,85,55,85,95,85,475,45,127,Water 1,Flying,FALSE,,8,,,,1
+1305,SPECIES_TOXTRICITY_LOW_KEY,Toxtricity Low Key,Electric,Poison,Punk Rock,Minus,75,98,70,114,70,75,502,45,127,Human Like,Human Like,FALSE,,8,,,,1
+1306,SPECIES_SINISTEA_ANTIQUE,Sinistea Antique,Ghost,,Weak Armor,,40,45,45,74,54,50,308,120,255,Mineral,Amorphous,FALSE,,8,,,,1
+1307,SPECIES_POLTEAGEIST_ANTIQUE,Polteageist Antique,Ghost,,Weak Armor,,60,65,65,134,114,70,508,60,255,Mineral,Amorphous,FALSE,,8,,,,1
+1308,SPECIES_ALCREMIE_BERRY_SWEET,Alcremie Berry Sweet,Fairy,,Sweet Veil,,65,60,75,110,121,64,495,100,254,Fairy,Amorphous,FALSE,,8,No,,,1
+1309,SPECIES_ALCREMIE_LOVE_SWEET,Alcremie Love Sweet,Fairy,,Sweet Veil,,65,60,75,110,121,64,495,100,254,Fairy,Amorphous,FALSE,,8,No,,,1
+1310,SPECIES_ALCREMIE_STAR_SWEET,Alcremie Star Sweet,Fairy,,Sweet Veil,,65,60,75,110,121,64,495,100,254,Fairy,Amorphous,FALSE,,8,No,,,1
+1311,SPECIES_ALCREMIE_CLOVER_SWEET,Alcremie Clover Sweet,Fairy,,Sweet Veil,,65,60,75,110,121,64,495,100,254,Fairy,Amorphous,FALSE,,8,No,,,1
+1312,SPECIES_ALCREMIE_FLOWER_SWEET,Alcremie Flower Sweet,Fairy,,Sweet Veil,,65,60,75,110,121,64,495,100,254,Fairy,Amorphous,FALSE,,8,No,,,1
+1313,SPECIES_ALCREMIE_RIBBON_SWEET,Alcremie Ribbon Sweet,Fairy,,Sweet Veil,,65,60,75,110,121,64,495,100,254,Fairy,Amorphous,FALSE,,8,No,,,1
+1314,SPECIES_ALCREMIE_FILLER_1,Alcremie Filler 1,Fairy,,Sweet Veil,,65,60,75,110,121,64,495,100,254,Fairy,Amorphous,FALSE,,,,,,1
+1315,SPECIES_ALCREMIE_FILLER_2,Alcremie Filler 2,Fairy,,Sweet Veil,,65,60,75,110,121,64,495,100,254,Fairy,Amorphous,FALSE,,,,,,1
+1316,SPECIES_EISCUE_NOICE_FACE,Eiscue Noice Face,Ice,,Ice Face,,75,80,70,65,50,130,470,60,127,Water 1,Field,FALSE,,8,,,,1
+1317,SPECIES_MORPEKO_HANGRY,Morpeko Hangry,Electric,Dark,Hunger Switch,,58,95,58,70,58,97,436,180,127,Field,Fairy,FALSE,,8,Yes,,,1
+1318,SPECIES_ZACIAN_CROWNED,Zacian Crowned,Fairy,Steel,Intrepid Sword,,92,150,115,80,115,148,700,10,255,Undiscovered,Undiscovered,FALSE,,8,No,,,1
+1319,SPECIES_ZAMAZENTA_CROWNED,Zamazenta Crowned,Fighting,Steel,Dauntless Shield,,92,120,140,80,140,128,700,10,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+1320,SPECIES_ETERNATUS_ETERNAMAX,Eternatus Eternamax,Poison,Dragon,Pressure,,255,115,250,125,250,130,1125,255,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+1321,SPECIES_URSHIFU_RAPID_STRIKE,Urshifu Rapid Strike,Fighting,Water,Unseen Fist,,100,130,100,63,60,97,550,3,254,Undiscovered,Undiscovered,FALSE,,8,,,,1
+1322,SPECIES_ZARUDE_DADA,Zarude Dada,Dark,Grass,Leaf Guard,,105,120,105,70,95,105,600,3,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+1323,SPECIES_CALYREX_ICE_RIDER,Calyrex Ice Rider,Psychic,Ice,As One Glastrier,,100,165,150,85,130,50,680,3,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+1324,SPECIES_CALYREX_SHADOW_RIDER,Calyrex Shadow Rider,Psychic,Ghost,As One Spectrier,,100,85,80,165,100,150,680,3,255,Undiscovered,Undiscovered,FALSE,,8,,,,1
+1325,SPECIES_ENAMORUS_THERIAN,Enamorus Therian,Fairy,Flying,Overcoat,Overcoat,74,115,110,135,100,46,580,3,254,Undiscovered,Undiscovered,FALSE,,8,No,,,1
+1326,SPECIES_GROWLITHE_HISUIAN,Growlithe Hisuian,Fire,Rock,Intimidate,Flash Fire,60,75,45,65,50,55,350,235,63,Field,Field,FALSE,,1,,,,1
+1327,SPECIES_ARCANINE_HISUIAN,Arcanine Hisuian,Fire,Rock,Intimidate,Flash Fire,95,115,80,95,80,90,555,0,63,,,FALSE,,1,,,,1
+1328,SPECIES_VOLTORB_HISUIAN,Voltorb Hisuian,Electric,Grass,Soundproof,Static,40,30,50,55,55,100,330,235,255,Mineral,Mineral,FALSE,,1,,,,1
+1329,SPECIES_ELECTRODE_HISUIAN,Electrode Hisuian,Electric,Grass,Soundproof,Static,60,50,70,80,80,150,490,135,255,Mineral,Mineral,FALSE,,1,,,,1
+1330,SPECIES_TYPHLOSION_HISUIAN,Typhlosion Hisuian,Fire,Ghost,Blaze,,73,84,78,119,85,95,534,45,31,Field,Field,FALSE,,2,,,,1
+1331,SPECIES_QWILFISH_HISUIAN,Qwilfish Hisuian,Dark,Poison,Poison Point,Swift Swim,65,95,85,55,55,85,440,235,127,Water 2,Water 2,FALSE,,2,,,,1
+1332,SPECIES_SNEASEL_HISUIAN,Sneasel Hisuian,Fighting,Poison,Inner Focus,Keen Eye,55,95,55,35,75,115,430,235,127,Field,Field,FALSE,,2,,,,1
+1333,SPECIES_SAMUROTT_HISUIAN,Samurott Hisuian,Water,Dark,Torrent,Torrent,90,108,80,100,65,85,528,55,31,Field,Field,FALSE,,5,,,,1
+1334,SPECIES_LILLIGANT_HISUIAN,Lilligant Hisuian,Grass,Fighting,Chlorophyll,Hustle,70,105,75,50,75,105,480,135,254,Grass,Grass,FALSE,,5,,,,1
+1335,SPECIES_ZORUA_HISUIAN,Zorua Hisuian,Normal,Ghost,Illusion,,35,60,40,85,40,70,330,215,31,Field,Field,FALSE,,5,,,,1
+1336,SPECIES_ZOROARK_HISUIAN,Zoroark Hisuian,Normal,Ghost,Illusion,,55,100,60,125,60,110,510,115,31,Field,Field,FALSE,,5,,,,1
+1337,SPECIES_BRAVIARY_HISUIAN,Braviary Hisuian,Psychic,Flying,Keen Eye,Sheer Force,110,83,70,112,70,65,510,135,0,Flying,Flying,FALSE,,5,,,,1
+1338,SPECIES_SLIGGOO_HISUIAN,Sliggoo Hisuian,Steel,Dragon,Sap Sipper,Shell Armor,58,75,83,83,113,40,452,55,127,Dragon,Dragon,FALSE,,6,,,,1
+1339,SPECIES_GOODRA_HISUIAN,Goodra Hisuian,Steel,Dragon,Sap Sipper,Shell Armor,80,100,100,110,150,60,600,55,127,Dragon,Dragon,FALSE,,6,,,,1
+1340,SPECIES_AVALUGG_HISUIAN,Avalugg Hisuian,Ice,Rock,Strong Jaw,Ice Body,95,127,184,34,36,38,514,55,127,Monster,Mineral,FALSE,,6,,,,1
+1341,SPECIES_DECIDUEYE_HISUIAN,Decidueye Hisuian,Grass,Fighting,Overgrow,,88,112,80,95,95,60,530,55,31,Flying,Flying,FALSE,,7,,,,1
+1342,SPECIES_KLEAVOR_LORD,Kleavor Lord,Bug,Rock,Swarm,Sheer Force,70,135,95,45,70,85,500,115,127,Bug,Bug,FALSE,,8,,,,1
+1343,SPECIES_LILLIGANT_LADY,Lilligant Lady,Grass,Fighting,Chlorophyll,Hustle,70,105,75,50,75,105,480,135,254,Grass,Grass,FALSE,,5,,,,1
+1344,SPECIES_ARCANINE_LORD,Arcanine Lord,Fire,Rock,Intimidate,Flash Fire,95,115,80,95,80,90,555,0,63,,,FALSE,,1,,,,1
+1345,SPECIES_ELECTRODE_LORD,Electrode Lord,Electric,Grass,Soundproof,Static,60,50,70,80,80,150,490,135,255,Mineral,Mineral,FALSE,,1,,,,1
+1346,SPECIES_AVALUGG_LORD,Avalugg Lord,Ice,Rock,Strong Jaw,Ice Body,95,127,184,34,36,38,514,55,127,Monster,Mineral,FALSE,,6,,,,1
+1347,SPECIES_UNFEZANT_FEMALE,Unfezant Female,Normal,Flying,Big Pecks,Super Luck,80,115,80,65,55,93,488,45,254,Flying,Flying,FALSE,,5,,,,1
+1348,SPECIES_FRILLISH_FEMALE,Frillish Female,Water,Ghost,Water Absorb,Cursed Body,55,40,50,65,85,40,335,190,254,Amorphous,Amorphous,FALSE,,5,,,,1
+1349,SPECIES_JELLICENT_FEMALE,Jellicent Female,Water,Ghost,Water Absorb,Cursed Body,100,60,70,85,105,60,480,60,254,Amorphous,Amorphous,FALSE,,5,,,,1
+1350,SPECIES_PYROAR_FEMALE,Pyroar Female,Fire,Normal,Rivalry,Unnerve,86,68,72,109,66,106,507,65,254,Field,Field,FALSE,,6,,,,1
+1351,SPECIES_MEOWSTIC_FEMALE,Meowstic Female,Psychic,,Keen Eye,Infiltrator,74,48,76,83,81,104,466,75,254,Field,Field,FALSE,,6,,,,1
+1352,SPECIES_INDEEDEE_FEMALE,Indeedee Female,Psychic,Normal,Inner Focus,Synchronize,60,55,65,95,105,85,465,30,254,Fairy,Fairy,FALSE,,8,,,,1
+1353,SPECIES_BASCULEGION_FEMALE,Basculegion Female,Water,Ghost,Swift Swim,Adaptability,120,92,65,100,75,78,530,135,254,Water 2,Water 2,FALSE,,8,,,,1
+1354,SPECIES_MAUSHOLD_FAMILY_OF_THREE,Maushold Family Of Three,Normal,,Friend Guard,Cheek Pouch,74,75,70,65,75,111,470,75,255,Field,Fairy,FALSE,,9,,,,1
+1355,SPECIES_SQUAWKABILLY_BLUE_PLUMAGE,Squawkabilly Blue Plumage,Normal,Flying,Intimidate,Hustle,82,96,51,45,51,92,417,190,127,Flying,Flying,FALSE,,9,,,,1
+1356,SPECIES_SQUAWKABILLY_YELLOW_PLUMAGE,Squawkabilly Yellow Plumage,Normal,Flying,Intimidate,Hustle,82,96,51,45,51,92,417,190,127,Flying,Flying,FALSE,,9,,,,1
+1357,SPECIES_SQUAWKABILLY_WHITE_PLUMAGE,Squawkabilly White Plumage,Normal,Flying,Intimidate,Hustle,82,96,51,45,51,92,417,190,127,Flying,Flying,FALSE,,9,,,,1
+1358,SPECIES_PALAFIN_HERO,Palafin Hero,Water,,Zero To Hero,,100,160,97,106,87,100,650,45,127,Field,Water 2,FALSE,,9,,,,1
+1359,SPECIES_TATSUGIRI_DROOPY,Tatsugiri Droopy,Dragon,Water,Commander,,68,50,60,120,95,82,475,100,127,Water 2,Water 2,FALSE,,9,,,,1
+1360,SPECIES_TATSUGIRI_STRETCHY,Tatsugiri Stretchy,Dragon,Water,Commander,,68,50,60,120,95,82,475,100,127,Water 2,Water 2,FALSE,,9,,,,1
+1361,SPECIES_DUDUNSPARCE_THREE_SEGMENT,Dudunsparce Three Segment,Normal,,Serene Grace,Run Away,125,100,80,85,75,55,520,45,127,Field,Field,FALSE,,9,,,,1
+1362,SPECIES_GIMMIGHOUL_ROAMING,Gimmighoul Roaming,Ghost,,Rattled,,45,30,25,75,45,80,300,45,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1363,SPECIES_WOOPER_PALDEAN,Wooper Paldean,Poison,Ground,Damp,Water Absorb,55,45,45,25,25,15,210,255,127,Water 1,Field,FALSE,,2,,,,1
+1364,SPECIES_TAUROS_COMBAT,Tauros Combat,Fighting,,Intimidate,Anger Point,75,110,105,30,70,100,490,45,0,Field,Field,FALSE,,1,,,,1
+1365,SPECIES_TAUROS_BLAZE,Tauros Blaze,Fighting,Fire,Intimidate,Anger Point,75,110,105,30,70,100,490,45,0,Field,Field,FALSE,,1,,,,1
+1366,SPECIES_TAUROS_AQUA,Tauros Aqua,Fighting,Water,Intimidate,Anger Point,75,110,105,30,70,100,490,45,0,Field,Field,FALSE,,1,,,,1
+1367,SPECIES_OINKOLOGNE_FEMALE,Oinkologne Female,Normal,,Lingering Aroma,Gluttony,110,100,75,59,80,65,489,100,254,Field,Field,FALSE,,9,,,,1
+1368,SPECIES_REVAVROOM_SEGIN,Revavroom Segin,Steel,Poison,Overcoat,,80,119,90,54,67,90,500,75,127,Mineral,Mineral,FALSE,,9,,,,1
+1369,SPECIES_REVAVROOM_SCHEDAR,Revavroom Schedar,Steel,Poison,Overcoat,,80,119,90,54,67,90,500,75,127,Mineral,Mineral,FALSE,,9,,,,1
+1370,SPECIES_REVAVROOM_NAVI,Revavroom Navi,Steel,Poison,Overcoat,,80,119,90,54,67,90,500,75,127,Mineral,Mineral,FALSE,,9,,,,1
+1371,SPECIES_REVAVROOM_RUCHBAH,Revavroom Ruchbah,Steel,Poison,Overcoat,,80,119,90,54,67,90,500,75,127,Mineral,Mineral,FALSE,,9,,,,1
+1372,SPECIES_REVAVROOM_CAPH,Revavroom Caph,Steel,Poison,Overcoat,,80,119,90,54,67,90,500,75,127,Mineral,Mineral,FALSE,,9,,,,1
+1373,SPECIES_KORAIDON_LIMITED_BUILD,Koraidon Limited Build,Fighting,Dragon,Orichalcum Pulse,,100,135,115,85,100,135,670,3,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1374,SPECIES_KORAIDON_SPRINTING_BUILD,Koraidon Sprinting Build,Fighting,Dragon,Orichalcum Pulse,,100,135,115,85,100,135,670,3,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1375,SPECIES_KORAIDON_SWIMMING_BUILD,Koraidon Swimming Build,Fighting,Dragon,Orichalcum Pulse,,100,135,115,85,100,135,670,3,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1376,SPECIES_KORAIDON_GLIDING_BUILD,Koraidon Gliding Build,Fighting,Dragon,Orichalcum Pulse,,100,135,115,85,100,135,670,3,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1377,SPECIES_MIRAIDON_LOW_POWER_MODE,Miraidon Low Power Mode,Electric,Dragon,Hadron Engine,,100,85,100,135,115,135,670,3,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1378,SPECIES_MIRAIDON_DRIVE_MODE,Miraidon Drive Mode,Electric,Dragon,Hadron Engine,,100,85,100,135,115,135,670,3,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1379,SPECIES_MIRAIDON_AQUATIC_MODE,Miraidon Aquatic Mode,Electric,Dragon,Hadron Engine,,100,85,100,135,115,135,670,3,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1380,SPECIES_MIRAIDON_GLIDE_MODE,Miraidon Glide Mode,Electric,Dragon,Hadron Engine,,100,85,100,135,115,135,670,3,255,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1381,SPECIES_POLTCHAGEIST_MASTERPIECE,Poltchageist Masterpiece,Grass,Ghost,Hospitality,,40,45,45,74,54,50,308,120,255,Mineral,Amorphous,FALSE,,9,,,,1
+1382,SPECIES_SINISTCHA_MASTERPIECE,Sinistcha Masterpiece,Grass,Ghost,Hospitality,,71,60,106,121,80,70,508,60,255,Mineral,Amorphous,FALSE,,9,,,,1
+1383,SPECIES_OGERPON_WELLSPRING_MASK,Ogerpon Wellspring Mask,Grass,Water,Water Absorb,,80,120,84,60,96,110,550,5,254,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1384,SPECIES_OGERPON_HEARTHFLAME_MASK,Ogerpon Hearthflame Mask,Grass,Fire,Mold Breaker,,80,120,84,60,96,110,550,5,254,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1385,SPECIES_OGERPON_CORNERSTONE_MASK,Ogerpon Cornerstone Mask,Grass,Rock,Sturdy,,80,120,84,60,96,110,550,5,254,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1386,SPECIES_OGERPON_TEAL_MASK_TERASTAL,Ogerpon Teal Mask Terastal,Grass,,Embody Aspect,,80,120,84,60,96,110,550,5,254,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1387,SPECIES_OGERPON_WELLSPRING_MASK_TERASTAL,Ogerpon Wellspring Mask Terastal,Grass,Water,Embody Aspect 2,,80,120,84,60,96,110,550,5,254,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1388,SPECIES_OGERPON_HEARTHFLAME_MASK_TERASTAL,Ogerpon Hearthflame Mask Terastal,Grass,Fire,Embody Aspect 3,,80,120,84,60,96,110,550,5,254,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1389,SPECIES_OGERPON_CORNERSTONE_MASK_TERASTAL,Ogerpon Cornerstone Mask Terastal,Grass,Rock,Embody Aspect 4,,80,120,84,60,96,110,550,5,254,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1390,SPECIES_URSALUNA_BLOODMOON,Ursaluna Bloodmoon,Ground,Normal,Minds Eye,,113,70,120,135,65,52,555,20,127,Undiscovered,Undiscovered,FALSE,,8,,,,1
+1391,SPECIES_TERAPAGOS_TERASTAL,Terapagos Terastal,Normal,,Tera Shell,,95,95,110,105,110,85,600,255,127,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1392,SPECIES_TERAPAGOS_STELLAR,Terapagos Stellar,Normal,,Teraform Zero,,160,105,110,130,110,85,700,255,127,Undiscovered,Undiscovered,FALSE,,9,,,,1
+1393,SPECIES_GIGANTAMAX_VENUSAUR,Gigantamax Venusaur,Grass,Poison,Overgrow,,80,82,83,100,100,80,525,45,31,Monster,Grass,FALSE,,1,,,,1
+1394,SPECIES_GIGANTAMAX_CHARIZARD,Gigantamax Charizard,Fire,Flying,Blaze,,78,84,78,109,85,100,534,45,31,Monster,Dragon,FALSE,,1,,,,1
+1395,SPECIES_GIGANTAMAX_BLASTOISE,Gigantamax Blastoise,Water,,Torrent,,79,83,100,85,105,78,530,45,31,Monster,Water 1,FALSE,,1,,,,1
+1396,SPECIES_GIGANTAMAX_BUTTERFREE,Gigantamax Butterfree,Bug,Flying,Compound Eyes,,60,45,50,90,80,70,395,45,127,Bug,Bug,FALSE,,1,,,,1
+1397,SPECIES_GIGANTAMAX_PIKACHU,Gigantamax Pikachu,Electric,,Static,,35,55,40,50,50,90,320,190,127,Field,Fairy,FALSE,,1,,,,1
+1398,SPECIES_GIGANTAMAX_MEOWTH,Gigantamax Meowth,Normal,,Pickup,Technician,40,45,35,40,40,90,290,255,127,Field,Field,FALSE,,1,,,,1
+1399,SPECIES_GIGANTAMAX_MACHAMP,Gigantamax Machamp,Fighting,,Guts,No Guard,90,130,80,65,85,55,505,45,63,Human Like,Human Like,FALSE,,1,,,,1
+1400,SPECIES_GIGANTAMAX_GENGAR,Gigantamax Gengar,Ghost,Poison,Cursed Body,,60,65,60,130,75,110,500,45,127,Amorphous,Amorphous,FALSE,,1,,,,1
+1401,SPECIES_GIGANTAMAX_KINGLER,Gigantamax Kingler,Water,,Hyper Cutter,Shell Armor,55,130,115,50,50,75,475,60,127,Water 3,Water 3,FALSE,,1,,,,1
+1402,SPECIES_GIGANTAMAX_LAPRAS,Gigantamax Lapras,Water,Ice,Water Absorb,Shell Armor,130,85,80,85,95,60,535,45,127,Monster,Water 1,FALSE,,1,,,,1
+1403,SPECIES_GIGANTAMAX_EEVEE,Gigantamax Eevee,Normal,,Run Away,Adaptability,55,55,50,45,65,55,325,45,31,Field,Field,FALSE,,1,,,,1
+1404,SPECIES_GIGANTAMAX_SNORLAX,Gigantamax Snorlax,Normal,,Immunity,Thick Fat,160,110,65,65,110,30,540,25,31,Monster,Monster,FALSE,,1,,,,1
+1405,SPECIES_GIGANTAMAX_GARBODOR,Gigantamax Garbodor,Poison,,Stench,Weak Armor,80,95,82,60,82,75,474,60,127,Mineral,Mineral,FALSE,,5,,,,1
+1406,SPECIES_GIGANTAMAX_MELMETAL,Gigantamax Melmetal,Steel,,Iron Fist,,135,143,143,80,65,34,600,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+1407,SPECIES_GIGANTAMAX_RILLABOOM,Gigantamax Rillaboom,Grass,,Overgrow,,100,125,90,60,70,85,530,45,31,Field,Grass,FALSE,,8,,,,1
+1408,SPECIES_GIGANTAMAX_CINDERACE,Gigantamax Cinderace,Fire,,Blaze,,80,116,75,65,75,119,530,45,31,Field,Human Like,FALSE,,8,,,,1
+1409,SPECIES_GIGANTAMAX_INTELEON,Gigantamax Inteleon,Water,,Torrent,,70,85,65,125,65,120,530,45,31,Water 1,Field,FALSE,,8,,,,1
+1410,SPECIES_GIGANTAMAX_CORVIKNIGHT,Gigantamax Corviknight,Flying,Steel,Pressure,Unnerve,98,87,105,53,85,67,495,45,127,Flying,Flying,FALSE,,8,,,,1
+1411,SPECIES_GIGANTAMAX_ORBEETLE,Gigantamax Orbeetle,Bug,Psychic,Swarm,Frisk,60,45,110,80,120,90,505,45,127,Bug,Bug,FALSE,,8,,,,1
+1412,SPECIES_GIGANTAMAX_DREDNAW,Gigantamax Drednaw,Water,Rock,Strong Jaw,Shell Armor,90,115,90,48,68,74,485,75,127,Monster,Water 1,FALSE,,8,,,,1
+1413,SPECIES_GIGANTAMAX_COALOSSAL,Gigantamax Coalossal,Rock,Fire,Steam Engine,Flame Body,110,80,120,80,90,30,510,45,127,Mineral,Mineral,FALSE,,8,,,,1
+1414,SPECIES_GIGANTAMAX_FLAPPLE,Gigantamax Flapple,Grass,Dragon,Ripen,Gluttony,70,110,80,95,60,70,485,45,127,Grass,Dragon,FALSE,,8,,,,1
+1415,SPECIES_GIGANTAMAX_APPLETUN,Gigantamax Appletun,Grass,Dragon,Ripen,Gluttony,110,85,80,100,80,30,485,45,127,Grass,Dragon,FALSE,,8,,,,1
+1416,SPECIES_GIGANTAMAX_SANDACONDA,Gigantamax Sandaconda,Ground,,Sand Spit,Shed Skin,72,107,125,65,70,71,510,120,127,Field,Dragon,FALSE,,8,,,,1
+1417,SPECIES_GIGANTAMAX_TOXTRICITY,Gigantamax Toxtricity,Electric,Poison,Punk Rock,Plus,75,98,70,114,70,75,502,45,127,Human Like,Human Like,FALSE,,8,,,,1
+1418,SPECIES_GIGANTAMAX_TOXTRICITY_LOW_KEY,Gigantamax Toxtricity Low Key,Electric,Poison,Punk Rock,Minus,75,98,70,114,70,75,502,45,127,Human Like,Human Like,FALSE,,8,,,,1
+1419,SPECIES_GIGANTAMAX_CENTISKORCH,Gigantamax Centiskorch,Fire,Bug,Flash Fire,White Smoke,100,115,65,90,90,65,525,75,127,Bug,Bug,FALSE,,8,,,,1
+1420,SPECIES_GIGANTAMAX_HATTERENE,Gigantamax Hatterene,Psychic,Fairy,Healer,Anticipation,57,90,95,136,103,29,510,45,254,Fairy,Fairy,FALSE,,8,,,,1
+1421,SPECIES_GIGANTAMAX_GRIMMSNARL,Gigantamax Grimmsnarl,Dark,Fairy,Prankster,Frisk,95,120,65,95,75,60,510,45,0,Fairy,Human Like,FALSE,,8,,,,1
+1422,SPECIES_GIGANTAMAX_ALCREMIE,Gigantamax Alcremie,Fairy,,Sweet Veil,,65,60,75,110,121,64,495,100,254,Fairy,Amorphous,FALSE,,8,No,,,1
+1423,SPECIES_GIGANTAMAX_COPPERAJAH,Gigantamax Copperajah,Steel,,Sheer Force,,122,130,69,80,69,30,500,90,127,Field,Mineral,FALSE,,8,,,,1
+1424,SPECIES_GIGANTAMAX_DURALUDON,Gigantamax Duraludon,Steel,Dragon,Light Metal,Heavy Metal,70,95,115,120,50,85,535,45,127,Mineral,Dragon,FALSE,,8,,,,1
+1425,SPECIES_GIGANTAMAX_URSHIFU,Gigantamax Urshifu,Fighting,Dark,Unseen Fist,,100,130,100,63,60,97,550,3,31,Undiscovered,Undiscovered,FALSE,,8,,,,1
+1426,SPECIES_GIGANTAMAX_URSHIFU_RAPID_STRIKE,Gigantamax Urshifu Rapid Strike,Fighting,Water,Unseen Fist,,100,130,100,63,60,97,550,3,31,Undiscovered,Undiscovered,FALSE,,8,,,,1
+1427,SPECIES_MEGA_RAICHU_X,Mega Raichu X,Electric,,Electric Surge,Electric Surge,60,135,95,90,95,110,585,75,127,Field,Fairy,FALSE,,1,,,,1
+1428,SPECIES_MEGA_RAICHU_Y,Mega Raichu Y,Electric,,No Guard,No Guard,60,100,55,160,80,130,585,75,127,Field,Fairy,FALSE,,1,,,,1
+1429,SPECIES_MEGA_CLEFABLE,Mega Clefable,Fairy,Flying,Magic Bounce,Magic Bounce,95,80,93,135,110,70,583,25,190,Fairy,Fairy,FALSE,,1,Maybe,,,1
+1430,SPECIES_MEGA_VICTREEBEL,Mega Victreebel,Grass,Poison,Innards Out,Innards Out,80,125,85,135,95,70,590,45,127,Grass,Grass,FALSE,,1,,,,1
+1431,SPECIES_MEGA_STARMIE,Mega Starmie,Water,Psychic,Huge Power,Huge Power,60,100,105,130,105,120,620,60,255,Water 3,Water 3,FALSE,,1,,,,1
+1432,SPECIES_MEGA_DRAGONITE,Mega Dragonite,Dragon,Flying,Multiscale,Multiscale,91,124,115,145,125,100,700,45,127,Water 1,Dragon,FALSE,,1,,,,1
+1433,SPECIES_MEGA_MEGANIUM,Mega Meganium,Grass,Fairy,Mega Sol,Mega Sol,80,92,115,143,115,80,625,45,31,Monster,Grass,FALSE,,2,,,,1
+1434,SPECIES_MEGA_FERALIGATR,Mega Feraligatr,Water,Dragon,Dragonize,Dragonize,85,160,100,89,93,78,605,45,31,Monster,Water 1,FALSE,,2,,,,1
+1435,SPECIES_MEGA_SKARMORY,Mega Skarmory,Steel,Flying,Stalwart,Stalwart,85,140,110,40,100,110,585,25,127,Flying,Flying,FALSE,,2,,,,1
+1436,SPECIES_MEGA_CHIMECHO,Mega Chimecho,Psychic,Steel,Levitate,Levitate,75,50,110,135,120,65,555,45,127,Amorphous,Amorphous,FALSE,,3,,,,1
+1437,SPECIES_MEGA_ABSOL_Z,Mega Absol Z,Dark,Ghost,Pressure,Pressure,65,154,60,75,60,151,565,30,127,Field,Field,FALSE,,3,,,,1
+1438,SPECIES_MEGA_STARAPTOR,Mega Staraptor,Fighting,Flying,Contrary,Contrary,85,140,100,60,90,110,585,45,127,Flying,Flying,FALSE,,4,,,,1
+1439,SPECIES_MEGA_GARCHOMP_Z,Mega Garchomp Z,Dragon,,Sand Veil,Sand Veil,108,130,95,141,85,151,710,45,127,Monster,Dragon,FALSE,,4,,,,1
+1440,SPECIES_MEGA_LUCARIO_Z,Mega Lucario Z,Fighting,Steel,Steadfast,Steadfast,70,100,70,164,70,151,625,45,31,Field,Human Like,FALSE,,4,,,,1
+1441,SPECIES_MEGA_FROSLASS,Mega Froslass,Ice,Ghost,Snow Warning,Snow Warning,70,80,70,140,100,120,580,75,254,Fairy,Mineral,FALSE,,4,,,,1
+1442,SPECIES_MEGA_HEATRAN,Mega Heatran,Fire,Steel,Flash Fire,Flash Fire,91,120,106,175,141,67,700,3,127,Undiscovered,Undiscovered,FALSE,,4,,,,1
+1443,SPECIES_MEGA_DARKRAI,Mega Darkrai,Dark,,Bad Dreams,Bad Dreams,70,120,130,165,130,85,700,3,255,Undiscovered,Undiscovered,FALSE,,4,,,,1
+1444,SPECIES_MEGA_EMBOAR,Mega Emboar,Fire,Fighting,Mold Breaker,Mold Breaker,110,148,75,110,110,75,628,45,31,Field,Field,FALSE,,5,,,,1
+1445,SPECIES_MEGA_EXCADRILL,Mega Excadrill,Ground,Steel,Piercing Drill,Piercing Drill,110,165,100,65,65,103,608,60,127,Field,Field,FALSE,,5,,,,1
+1446,SPECIES_MEGA_SCOLIPEDE,Mega Scolipede,Bug,Poison,Shell Armor,Shell Armor,60,140,149,75,99,62,585,45,127,Bug,Bug,FALSE,,5,,,,1
+1447,SPECIES_MEGA_SCRAFTY,Mega Scrafty,Dark,Fighting,Intimidate,Intimidate,65,130,135,55,135,68,588,90,127,Field,Dragon,FALSE,,5,,,,1
+1448,SPECIES_MEGA_EELEKTROSS,Mega Eelektross,Electric,,Eelevate,Eelevate,85,145,80,135,90,80,615,30,127,Amorphous,Amorphous,FALSE,,5,,,,1
+1449,SPECIES_MEGA_CHANDELURE,Mega Chandelure,Ghost,Fire,Infiltrator,Infiltrator,60,75,110,175,110,90,620,45,127,Amorphous,Amorphous,FALSE,,5,,,,1
+1450,SPECIES_MEGA_GOLURK,Mega Golurk,Ground,Ghost,Unseen Fist,Unseen Fist,89,159,105,70,105,55,583,90,255,Mineral,Mineral,FALSE,,5,,,,1
+1451,SPECIES_MEGA_CHESNAUGHT,Mega Chesnaught,Grass,Fighting,Bulletproof,Bulletproof,88,137,172,74,115,44,630,45,31,Field,Field,FALSE,,6,,,,1
+1452,SPECIES_MEGA_DELPHOX,Mega Delphox,Fire,Psychic,Levitate,Levitate,75,69,72,159,125,134,634,45,31,Field,Field,FALSE,,6,,,,1
+1453,SPECIES_MEGA_GRENINJA,Mega Greninja,Water,Dark,Protean,Protean,72,125,77,133,81,142,630,45,31,Water 1,Water 1,FALSE,,6,,,,1
+1454,SPECIES_MEGA_PYROAR,Mega Pyroar,Fire,Normal,Fire Mane,Fire Mane,86,88,92,129,86,126,607,65,0,Field,Field,FALSE,,6,,,,1
+1455,SPECIES_MEGA_FLOETTE,Mega Floette,Fairy,,Fairy Aura,Fairy Aura,74,85,87,155,148,102,651,120,254,Undiscovered,Undiscovered,FALSE,,6,Maybe,,,1
+1456,SPECIES_MEGA_MEOWSTIC,Mega Meowstic,Psychic,,Trace,Trace,74,48,76,143,101,124,566,75,0,Field,Field,FALSE,,6,,,,1
+1457,SPECIES_MEGA_MEOWSTIC_FEMALE,Mega Meowstic Female,Psychic,,Trace,Trace,74,48,76,143,101,124,566,75,0,Field,Field,FALSE,,6,,,,1
+1458,SPECIES_MEGA_MALAMAR,Mega Malamar,Dark,Psychic,Contrary,Contrary,86,102,88,98,120,88,582,80,127,Water 1,Water 2,FALSE,,6,,,,1
+1459,SPECIES_MEGA_BARBARACLE,Mega Barbaracle,Rock,Fighting,Tough Claws,Tough Claws,72,140,130,64,106,88,600,45,127,Water 3,Water 3,FALSE,,6,,,,1
+1460,SPECIES_MEGA_DRAGALGE,Mega Dragalge,Poison,Dragon,Regenerator,Regenerator,65,85,105,132,163,44,594,55,127,Water 1,Dragon,FALSE,,6,,,,1
+1461,SPECIES_MEGA_HAWLUCHA,Mega Hawlucha,Fighting,Flying,No Guard,No Guard,78,137,100,74,93,118,600,100,127,Flying,Human Like,FALSE,,6,,,,1
+1462,SPECIES_MEGA_ZYGARDE,Mega Zygarde,Dragon,Ground,Power Construct,Power Construct,216,70,91,216,85,100,778,3,255,Undiscovered,Undiscovered,FALSE,,6,,,,1
+1463,SPECIES_MEGA_CRABOMINABLE,Mega Crabominable,Fighting,Ice,Iron Fist,Iron Fist,97,157,122,62,107,33,578,60,127,Water 3,Water 3,FALSE,,7,,,,1
+1464,SPECIES_MEGA_GOLISOPOD,Mega Golisopod,Bug,Steel,Emergency Exit,Emergency Exit,75,150,175,70,120,40,630,45,127,Bug,Water 3,FALSE,,7,,,,1
+1465,SPECIES_MEGA_DRAMPA,Mega Drampa,Normal,Dragon,Berserk,Berserk,78,85,110,160,116,36,585,70,127,Monster,Dragon,FALSE,,7,,,,1
+1466,SPECIES_MEGA_MAGEARNA,Mega Magearna,Steel,Fairy,Soul Heart,Soul Heart,80,125,115,170,115,95,700,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+1467,SPECIES_MEGA_MAGEARNA_ORIGINAL,Mega Magearna Original,Steel,Fairy,Soul Heart,Soul Heart,80,125,115,170,115,95,700,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+1468,SPECIES_MEGA_ZERAORA,Mega Zeraora,Electric,,Volt Absorb,Volt Absorb,88,157,75,147,80,153,700,3,255,Undiscovered,Undiscovered,FALSE,,7,,,,1
+1469,SPECIES_MEGA_FALINKS,Mega Falinks,Fighting,,Defiant,Defiant,65,135,135,70,65,100,570,45,255,Fairy,Mineral,FALSE,,8,,,,1
+1470,SPECIES_MEGA_SCOVILLAIN,Mega Scovillain,Grass,Fire,Spicy Spray,Spicy Spray,65,138,85,138,85,75,586,75,127,Grass,Grass,FALSE,,9,,,,1
+1471,SPECIES_MEGA_GLIMMORA,Mega Glimmora,Rock,Poison,Adaptability,Adaptability,83,90,105,150,96,101,625,25,127,Mineral,Mineral,FALSE,,9,,,,1
+1472,SPECIES_MEGA_TATSUGIRI,Mega Tatsugiri,Dragon,Water,Commander,Commander,68,65,90,135,125,92,575,100,127,Water 2,Water 2,FALSE,,9,,,,1
+1473,SPECIES_MEGA_TATSUGIRI_DROOPY,Mega Tatsugiri Droopy,Dragon,Water,Commander,Commander,68,65,90,135,125,92,575,100,127,Water 2,Water 2,FALSE,,9,,,,1
+1474,SPECIES_MEGA_TATSUGIRI_STRETCHY,Mega Tatsugiri Stretchy,Dragon,Water,Commander,Commander,68,65,90,135,125,92,575,100,127,Water 2,Water 2,FALSE,,9,,,,1
+1475,SPECIES_MEGA_BAXCALIBUR,Mega Baxcalibur,Dragon,Ice,Thermal Exchange,Thermal Exchange,115,175,117,105,101,87,700,10,127,Dragon,Mineral,FALSE,,9,,,,1

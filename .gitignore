@@ -104,7 +104,12 @@ tools/swav2swar.exe
 *.4bpp
 changelog
 
-/data/generated/
+/data/generated/*
+# Exception: species_dex_meta.csv is a manual export of the external "VG - Pokedex" curation
+# sheet (see scripts/apply_regional_dex_curation.py), not script-regenerated build output like
+# the rest of this directory -- it's the sole source of truth for regional dex membership, so
+# it's git-tracked despite living under generated/.
+!/data/generated/species_dex_meta.csv
 /armips/include/generated/
 /include/constants/generated/
 test_logs.txt
