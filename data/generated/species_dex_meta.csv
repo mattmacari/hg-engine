@@ -78,7 +78,7 @@ dex_index,species_key,name,type1,type2,ability1,ability2,hp,attack,defense,sp_at
 76,SPECIES_GOLEM,Golem,Rock,Ground,Rock Head,Sturdy,80,120,130,55,65,45,495,45,127,Mineral,Mineral,TRUE,36,1,Yes,Johto,,1
 77,SPECIES_PONYTA,Ponyta,Fire,,Run Away,Flash Fire,50,85,55,65,65,90,410,190,127,Field,Field,TRUE,206,1,Yes,Johto,,1
 78,SPECIES_RAPIDASH,Rapidash,Fire,,Run Away,Flash Fire,65,100,70,80,80,105,500,60,127,Field,Field,TRUE,207,1,Yes,Johto,,1
-79,SPECIES_SLOWPOKE,Slowpoke,Water,Psychic,Oblivious,Own Tempo,90,65,65,40,40,15,315,190,127,Monster,Water 1,TRUE,80,1,No,,,1
+79,SPECIES_SLOWPOKE,Slowpoke,Water,Psychic,Oblivious,Own Tempo,90,65,65,40,40,15,315,190,127,Monster,Water 1,TRUE,80,1,Yes,,,1
 80,SPECIES_SLOWBRO,Slowbro,Water,Psychic,Oblivious,Own Tempo,95,75,110,100,80,30,490,75,127,Monster,Water 1,TRUE,81,1,Yes,,,1
 81,SPECIES_MAGNEMITE,Magnemite,Electric,Steel,Magnet Pull,Sturdy,25,35,70,95,55,45,325,190,255,Mineral,Mineral,TRUE,119,1,Yes,Kanto,,1
 82,SPECIES_MAGNETON,Magneton,Electric,Steel,Magnet Pull,Sturdy,50,60,95,120,70,70,465,60,255,Mineral,Mineral,TRUE,120,1,Yes,Kanto,,1
@@ -126,7 +126,7 @@ dex_index,species_key,name,type1,type2,ability1,ability2,hp,attack,defense,sp_at
 124,SPECIES_JYNX,Jynx,Ice,Psychic,Oblivious,Forewarn,65,50,35,115,95,95,455,45,254,Human Like,Human Like,TRUE,155,1,Yes,Kanto,,1
 125,SPECIES_ELECTABUZZ,Electabuzz,Electric,,Static,,65,83,57,95,85,105,490,45,63,Human Like,Human Like,TRUE,157,1,Yes,Kanto,,1
 126,SPECIES_MAGMAR,Magmar,Fire,,Flame Body,,65,95,57,100,85,93,495,45,63,Human Like,Human Like,TRUE,153,1,Yes,Kanto,,1
-127,SPECIES_PINSIR,Pinsir,Bug,,Hyper Cutter,Mold Breaker,65,125,100,55,70,85,500,45,127,Bug,Bug,TRUE,113,1,No,Kanto,,1
+127,SPECIES_PINSIR,Pinsir,Bug,,Hyper Cutter,Mold Breaker,65,125,100,55,70,85,500,45,127,Bug,Bug,TRUE,113,1,Yes,Kanto,Moved to Johto (Ilex Forest headbutt tree) for Bugsy's bug-variety pass; not Kanto-exclusive here,1
 128,SPECIES_TAUROS,Tauros,Normal,,Intimidate,Anger Point,75,100,95,40,70,110,490,45,0,Field,Field,TRUE,150,1,No,Kanto,,1
 129,SPECIES_MAGIKARP,Magikarp,Water,,Swift Swim,,20,10,55,15,20,80,200,255,127,Water 2,Dragon,TRUE,76,1,Yes,Johto,Maybe replace with another fish?,1
 130,SPECIES_GYARADOS,Gyarados,Water,Flying,Intimidate,,95,125,79,60,100,81,540,45,127,Water 2,Dragon,TRUE,77,1,Yes,Johto,,1
