@@ -217,7 +217,7 @@ on the way in, and where that plausibly comes from.
 | Trainer | Type | Archetype | Biome rationale | Counter-access note |
 |---|---|---|---|---|
 | **Falkner** (Violet City) | Flying | Speed-control hit-and-run (Tailwind/priority support around fast bird sweepers) | Violet sits at the forest/cliff edge of Route 30–32; birds (Pidgey/Hoothoot line) already fit this transition zone | Rock/Electric/Ice needed. Rock via Geodude (Dark Cave/Route 31, already vanilla-natural). Consider pulling Mareep earlier onto Route 32's farmland edge for an Electric option too — fits pastoral biome and gives a second counter path. |
-| **Bugsy** (Azalea Town) | Bug | Hazard-setting swarm (Sticky Web/Spikes support into paralysis-inducing attackers) | Ilex Forest is already a deep-forest biome — canon-correct, just deepen bug variety (Scyther/Pinsir via Headbutt trees) | Fire/Flying/Rock needed. Flying already covered from Falkner-approach routes. Consider an earlier Fire option (e.g. Growlithe pulled forward) so Fire isn't first available much later. |
+| **Bugsy** (Azalea Town) | Bug | Hazard-setting swarm: Metapod leads with Sticky Web, Kakuna backs it up with String Shot, Scyther closes as the fast attacker benefiting from both Speed drops — canon roster (Scyther/Kakuna/Metapod) has no natural paralysis-inducing Bug move at this level, so the archetype landed on stacked Speed control into a sweeper rather than literal paralysis support | Ilex Forest is already a deep-forest biome — canon-correct, just deepen bug variety (Scyther/Pinsir via Headbutt trees) — **done**, see `documentation/areas/Ilex-Forest.md` | Fire/Flying/Rock needed. Flying already covered from Falkner-approach routes. Fire closed via Growlithe added to Route 33 (see `documentation/areas/Route-33.md`) — **done**. |
 | **Whitney** (Goldenrod City) | Normal | Bulky pivot / status-stall around a hard-hitting wallbreaker (keep Miltank as the signature threat, build real support around it) | Goldenrod's surrounding farmland (Route 34 / National Park edge) fits Normal-type livestock/common-critter ecology well already | Fighting needed (Normal's only weakness). Ensure Mankey or another Fighting-type is genuinely available on the Route 32–34 corridor before Goldenrod, not just after. |
 | **Morty** (Ecruteak City) | Ghost | Trick Room / status-stall (Will-O-Wisp burn stall, trapping) | Burned Tower / old-town lore is already a strong ghost biome, no change needed | Dark needed (Ghost's other weakness besides Ghost itself). Murkrow (Dark/Flying) already spawns near National Park at night in vanilla — confirm it's reachable *before* Ecruteak, not after. |
 | **Chuck** (Cianwood City) | Fighting | Bulky rain-abuse (Rain Dance + Swift Swim, keep Poliwrath as signature) | Cianwood is a stormy coastal island reached by Surf — genuinely fits a rain/ocean archetype | Flying/Psychic/Fairy needed. Flying already covered (Zubat/Golbat on the water route). Fairy is a good fit here too — Jigglypuff/Igglybuff already spawn on the Route 47/48 approach; confirm availability before Cianwood. |
@@ -246,6 +246,9 @@ in reserve as options if a Phase 2/3 rematch tier wants its own double-battle sh
 
 Kanto post-game (Phase 2) and the new story (Phase 3) get their own milestone lists once each
 phase starts — not drafted yet, see Phased approach above.
+
+Per-gym progress on Milestones 2–4 (biome map → dex curation → gym rebuild) is tracked in
+`documentation/Gym-Biome-Tracker.md`, not here — check that doc for what's done and what's next.
 
 1. **Foundation**: confirm `CONFIG.md` toggle list for v1; get a clean baseline `test.nds`
    building from current `main`.
