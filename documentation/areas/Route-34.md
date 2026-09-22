@@ -30,12 +30,12 @@ areas.
 
 | Slot | % | Level | Species |
 |---|---|---|---|
-| 1 | 20 | 10 | Drowzee |
+| 1 | 20 | 10 | Miltank |
 | 2 | 20 | 11 | Rattata |
-| 3 | 10 | 10 | Drowzee |
+| 3 | 10 | 10 | Miltank |
 | 4 | 10 | 11 | Mankey |
-| 5 | 10 | 12 | Drowzee |
-| 6 | 10 | 12 | Drowzee |
+| 5 | 10 | 12 | Miltank |
+| 6 | 10 | 12 | Miltank |
 | 7 | 5 | 10 | Abra |
 | 8 | 5 | 10 | Abra |
 | 9 | 4 | 13 | Rattata |
@@ -72,10 +72,10 @@ areas.
 | Ditto | Normal | 75 | Walk | Morning/Day/Night |
 | Abra | Psychic | 72 | Walk | Morning/Day/Night |
 | Mankey | Fighting | 104 | Walk | Morning/Day/Night |
+| Miltank | Normal | 112 | Walk | Morning/Day/Night |
 | Staryu | Water | 125 | Fish (night) | — |
 | Corsola | Water/Rock | 129 | Fish | — |
 | Ralts | Psychic/Fairy | **not in regional dex** | Swarm (land, active) | — |
-| Drowzee | Psychic | **not in regional dex** | Walk | Morning/Day/Night |
 | Rattata | Normal | **not in regional dex** | Walk | Morning/Day/Night |
 | Tentacool | Water/Poison | **not in regional dex** | Surf | — |
 | Tentacruel | Water/Poison | **not in regional dex** | Surf | — |
@@ -91,12 +91,18 @@ dex is renumbered again before this route's table is finalized.
 
 ## Notes
 
-- Drowzee/Rattata/Tentacool line/Krabby line/Whismur/Linoone/Buizel/Bidoof dex-less here is the
-  same routine curation-sheet cut (`keep = No`) seen throughout every other approach doc so far.
+- Rattata/Tentacool line/Krabby line/Whismur/Linoone/Buizel/Bidoof dex-less here is the same
+  routine curation-sheet cut (`keep = No`) seen throughout every other approach doc so far.
 - **Resolved — Fighting-type coverage gap closed here.** Replaced one of the four Rattata slots
   (slot 4, 10%, all-day, already dex-cut and contributing nothing) with Mankey. This is the last
   route before Goldenrod/Whitney, so it's genuinely available before the gym. No curation-sheet
   change was needed — Mankey was already regional-dex-tracked (#104).
+- **Resolved — Drowzee removed from this table entirely.** Unlike the routine dex-cut fillers
+  elsewhere on this route, Drowzee was flagged for outright removal rather than being left as a
+  dex-less encounter. It occupied 4 of 12 slots (50% of the table — slots 1/3/5/6), so this wasn't
+  a simple deletion; replaced with **Miltank**, which is already regional-dex-tracked (#112) and is
+  actually vanilla Route 34's flagship wild encounter in HeartGold/SoulSilver — a strong thematic
+  fit given it also foreshadows Whitney's own signature Pokémon one route later.
 - `MAP_R34` being an *active* swarm map (unlike the mostly-inert swarm fields seen on the
   Falkner/Bugsy corridor) means the Ralts land swarm is a real, working alternate encounter here —
   worth remembering if a future pass wants a Psychic/Fairy pickup on this route without touching
