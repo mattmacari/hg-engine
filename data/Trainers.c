@@ -1249,7 +1249,7 @@ const TrainerData sTrainerData[] = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_WHITNEY,
             .items = { ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE, ITEM_NONE },
-            .aiFlags = F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS,
+            .aiFlags = F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_PRIORITIZE_STATUS_MOVES,
             .battleType = SINGLE_BATTLE,
         },
         .party = {
@@ -1259,7 +1259,7 @@ const TrainerData sTrainerData[] = {
                 .level = 17,
                 .species = SPECIES_CLEFAIRY,
                 .item = ITEM_NONE,
-                .moves = { MOVE_DOUBLE_SLAP, MOVE_MIMIC, MOVE_ENCORE, MOVE_METRONOME },
+                .moves = { MOVE_SING, MOVE_CHARM, MOVE_ENCORE, MOVE_DISARMING_VOICE },
                 .ballSeal = 0,
             },
             {
