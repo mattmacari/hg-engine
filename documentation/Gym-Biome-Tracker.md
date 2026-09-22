@@ -21,7 +21,7 @@ Per-gym steps (see `HACK_PLAN.md` Technical Approach + Milestones for what each 
 |---|---|---|---|---|---|---|---|
 | 1 | **Falkner** (Violet City) | Flying — Tailwind speed control | [Sprout Tower](areas/Sprout-Tower.md), [Violet City](areas/Violet-City.md), [Route 29](areas/Route-29.md), [Route 30](areas/Route-30.md), [Route 31](areas/Route-31.md), [Dark Cave (Route 31 entrance)](areas/Dark-Cave-Route-31-Entrance.md) | ✅ | ✅ | ✅ (per commit log) | ✅ |
 | 2 | **Bugsy** (Azalea Town) | Bug — hazard-setting swarm | [Route 32](areas/Route-32.md), [Ruins of Alph](areas/Ruins-of-Alph.md), [Union Cave](areas/Union-Cave.md), [Route 33](areas/Route-33.md), [Slowpoke Well](areas/Slowpoke-Well.md), [Ilex Forest](areas/Ilex-Forest.md) | ✅ | ✅ | ✅ | ✅ |
-| 3 | **Whitney** (Goldenrod City) | Normal — bulky pivot / status-stall | — | ⬜ | ⬜ | ⬜ | ⬜ |
+| 3 | **Whitney** (Goldenrod City) | Normal — bulky pivot / status-stall | [Route 34](areas/Route-34.md) | ✅ | ✅ (no change needed) | ✅ | ✅ |
 | 4 | **Morty** (Ecruteak City) | Ghost — Trick Room / burn stall | — | ⬜ | ⬜ | ⬜ | ⬜ |
 | 5 | **Chuck** (Cianwood City) | Fighting — rain abuse | — | ⬜ | ⬜ | ⬜ | ⬜ |
 | 6 | **Jasmine** (Olivine City) | Steel — defensive wall core + signature double (Steel/Electric) | — | ⬜ | ⬜ | ⬜ | ⬜ |
