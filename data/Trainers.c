@@ -1320,9 +1320,9 @@ const TrainerData sTrainerData[] = {
                 .ivs = 100,
                 .abilitySlot = TRAINER_POKEMON_ABILITY_1,
                 .level = 23,
-                .species = SPECIES_HAUNTER,
+                .species = SPECIES_MISDREAVUS,
                 .item = ITEM_NONE,
-                .moves = { MOVE_CURSE, MOVE_MEAN_LOOK, MOVE_SUCKER_PUNCH, MOVE_NIGHT_SHADE },
+                .moves = { MOVE_PERISH_SONG, MOVE_MEAN_LOOK, MOVE_CONFUSE_RAY, MOVE_ASTONISH },
                 .ballSeal = 0,
             },
             {
