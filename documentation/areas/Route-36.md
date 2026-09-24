@@ -33,10 +33,10 @@ areas.
 
 | Slot | % | Level | Morning | Day | Night |
 |---|---|---|---|---|---|
-| 1 | 20 | 12 | Nidoran♂ | Nidoran♂ | Nidoran♂ |
-| 2 | 20 | 12 | Nidoran♀ | Nidoran♀ | Nidoran♀ |
-| 3 | 10 | 12 | Nidoran♂ | Nidoran♂ | Nidoran♂ |
-| 4 | 10 | 12 | Nidoran♀ | Nidoran♀ | **Murkrow** |
+| 1 | 20 | 12 | Teddiursa | Teddiursa | Teddiursa |
+| 2 | 20 | 12 | Woobat | Woobat | Woobat |
+| 3 | 10 | 12 | Teddiursa | Teddiursa | Teddiursa |
+| 4 | 10 | 12 | Woobat | Woobat | **Murkrow** |
 | 5 | 10 | 13 | Pidgey | Pidgey | Hoothoot |
 | 6 | 10 | 13 | Pidgey | Pidgey | Hoothoot |
 | 7 | 5 | 13 | Growlithe | Growlithe | Growlithe |
@@ -58,7 +58,7 @@ Murkrow (see Notes).
 
 ## Swarm
 
-- `landSwarm = SPECIES_NIDORAN_M`.
+- `landSwarm = SPECIES_TEDDIURSA`.
 - **Inert:** `MAP_R36` is not in `sSwarmMapLUT` (`src/swarms.c`).
 
 ## Species summary
@@ -70,11 +70,11 @@ Murkrow (see Notes).
 | Growlithe | Fire | 99 | Walk | Morning/Day/Night |
 | Stantler | Normal | 101 | Walk | Morning/Day/Night |
 | Murkrow | Dark/Flying | 161 | Walk | Night (slot 4 only) |
+| Teddiursa | Normal | 151 | Walk, Swarm (land, inert) | Morning/Day/Night |
+| Woobat | Psychic/Flying | 276 | Walk | Morning/Day (slot 4 night is now Murkrow) |
 | Plusle | Electric | 219 | Rustling grass (Hoenn) | — |
 | Minun | Electric | 220 | Rustling grass (Hoenn) | — |
 | Shinx | Electric | 235 | Rustling grass (Sinnoh) | — |
-| Nidoran♂ | Poison | **not in regional dex** | Walk, Swarm (land, inert) | Morning/Day/Night |
-| Nidoran♀ | Poison | **not in regional dex** | Walk | Morning/Day (slot 4 night is now Murkrow) |
 
 Dex numbers as of the full sheet-sync pass (`data/RegionalDex.c`, 368 entries) — re-`grep` if the
 dex is renumbered again before this route's table is finalized.
@@ -90,8 +90,11 @@ dex is renumbered again before this route's table is finalized.
 - Growlithe here was already present in the base data (separate from the Growlithe this project
   added to Route 33 for Bugsy's Fire-coverage gap) — no relation, just a coincidental pre-existing
   Fire-type on this route.
-- Nidoran♂/♀ (60% of the table between them, minus the one slot now split with Murkrow) are the
-  same dex-less curation-sheet cut seen on Route 35 and throughout the game — routine, not a bug.
+- **Resolved — Nidoran♂/♀ replaced (60% of the table before the Murkrow split).** Replaced with
+  **Teddiursa** and **Woobat**, both already regional-dex-tracked (#151/#276) and not spawning
+  anywhere else in the build. Teddiursa echoes the forest biome of National Park one area south;
+  Woobat continues the Psychic thread running through this whole corridor (Abra on Route 34/35,
+  Wynaut on Route 35). Slot 4's night-only Murkrow (resolved separately, see below) is untouched.
 - This route's Dark gap mirrors Bugsy's Fire gap and Whitney's Fighting gap almost exactly: the
   fix lands on the last route before the gym, replacing part of an already-dex-cut, high-share
   filler species rather than introducing a new slot or removing something outright.

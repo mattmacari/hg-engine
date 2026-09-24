@@ -44,7 +44,7 @@ areas.
 
 ## Water/rod tables
 
-**Surf (rate 15):** Psyduck ×2 (15/10%), Golduck ×3 (15/15/31%, all level 25–31).
+**Surf (rate 15):** Tympole ×5 (15/10/15/15/31%, all level 25–31).
 **Old Rod (10/10/10/10/10):** Magikarp ×3, Poliwag ×2 (all level 10).
 **Good Rod (20/20/20/20/20):** Magikarp, Poliwag ×4 (all level 20).
 **Super Rod (40/40/40/40/40):** Poliwag ×3, Magikarp ×2 (all level 40).
@@ -58,7 +58,7 @@ areas.
 
 ## Swarm
 
-- `landSwarm = SPECIES_YANMA`, `surfSwarm = SPECIES_PSYDUCK`, `nightFish = SPECIES_POLIWAG`,
+- `landSwarm = SPECIES_YANMA`, `surfSwarm = SPECIES_TYMPOLE`, `nightFish = SPECIES_POLIWAG`,
   `fishSwarm = SPECIES_MAGIKARP`.
 - **Active:** `MAP_R35` **is** in `sSwarmMapLUT` (`src/swarms.c:24`, `SWARM_GRASS`) — the Yanma
   land-swarm event actually functions here.
@@ -75,8 +75,7 @@ areas.
 | Shroomish | Grass | 213 | Walk | Morning/Day/Night |
 | Slakoth | Normal | 215 | Walk | Morning/Day/Night |
 | Wynaut | Psychic | 229 | Walk | Morning/Day/Night |
-| Psyduck | Water | **not in regional dex** | Surf | — |
-| Golduck | Water | **not in regional dex** | Surf | — |
+| Tympole | Water | 281 | Surf, Swarm (surf) | — |
 | Poliwag | Water | 346 | Fish | — |
 | Magikarp | Water | 65 | Fish, Swarm (fish, inert) | — |
 | Whismur | Normal | **not in regional dex** | Rustling grass (Hoenn) | — |
@@ -97,12 +96,15 @@ dex is renumbered again before this route's table is finalized.
   Slakoth fills the "common everyday critter" filler role Nidoran had; Wynaut keeps this route's
   existing Psychic thread (alongside Abra) and ties into Wobbuffet's separate shaking-grass rare
   encounter elsewhere in the game.
-- Psyduck/Golduck (Surf) and the Hoenn/Sinnoh rustling-grass species (Whismur/Linoone,
-  Buizel/Bidoof) are still dex-less — left as-is. No Gen3+ Water-type alternative for the surf
-  slot is currently `keep = Yes` in `data/RegionalDex.c` in this build's curation, and the
-  rustling-grass fillers are the same routine `keep = No` cut seen throughout the rest of the game
-  (see National Park's Cherubi for the same category), per
-  [[feedback_dex_encounter_mismatches]]. Revisit if the regional dex curation itself changes.
+- **Resolved — Psyduck/Golduck replaced on Surf (100% of the water table).** Replaced with
+  **Tympole**, already regional-dex-tracked (#281) and not spawning anywhere else in the build.
+  (An earlier pass on this route wrongly concluded no dex-tracked Water-type was available — that
+  was a search bug that missed anything only used in Surf/Rod slot syntax, not an actual dead end.)
+- The Hoenn/Sinnoh rustling-grass species (Whismur/Linoone, Buizel/Bidoof) are still dex-less —
+  left as-is. Unlike Psyduck/Golduck, there's no same-family dex'd replacement available; fixing
+  this would mean swapping in an unrelated species pair, not a straightforward same-line swap. Same
+  routine `keep = No` cut seen throughout the rest of the game (see National Park's Cherubi for the
+  same category), per [[feedback_dex_encounter_mismatches]].
 - No Dark-type on this route. Not treated as this route's problem to fix — see Route-36.md, the
   last leg before Ecruteak, for where the Morty-row Dark-coverage gap actually gets closed.
 - `surfSwarm`/`fishSwarm`/`nightFish` fields are populated but `SWARM_SURF`/fish swarm categories
