@@ -31,16 +31,16 @@ areas.
 | Slot | % | Level | Species |
 |---|---|---|---|
 | 1 | 20 | 10 | Miltank |
-| 2 | 20 | 11 | Rattata |
+| 2 | 20 | 11 | Ledyba |
 | 3 | 10 | 10 | Miltank |
 | 4 | 10 | 11 | Mankey |
 | 5 | 10 | 12 | Miltank |
 | 6 | 10 | 12 | Miltank |
 | 7 | 5 | 10 | Abra |
 | 8 | 5 | 10 | Abra |
-| 9 | 4 | 13 | Rattata |
+| 9 | 4 | 13 | Ledyba |
 | 10 | 4 | 10 | Ditto |
-| 11 | 1 | 13 | Rattata |
+| 11 | 1 | 13 | Ledyba |
 | 12 | 1 | 10 | Ditto |
 
 ## Water/rod tables
@@ -76,7 +76,7 @@ areas.
 | Staryu | Water | 125 | Fish (night) | — |
 | Corsola | Water/Rock | 129 | Fish | — |
 | Ralts | Psychic/Fairy | **not in regional dex** | Swarm (land, active) | — |
-| Rattata | Normal | **not in regional dex** | Walk | Morning/Day/Night |
+| Ledyba | Bug/Flying | 26 | Walk | Morning/Day/Night |
 | Tentacool | Water/Poison | **not in regional dex** | Surf | — |
 | Tentacruel | Water/Poison | **not in regional dex** | Surf | — |
 | Krabby | Water | **not in regional dex** | Fish | — |
@@ -91,12 +91,18 @@ dex is renumbered again before this route's table is finalized.
 
 ## Notes
 
-- Rattata/Tentacool line/Krabby line/Whismur/Linoone/Buizel/Bidoof dex-less here is the same
-  routine curation-sheet cut (`keep = No`) seen throughout every other approach doc so far.
-- **Resolved — Fighting-type coverage gap closed here.** Replaced one of the four Rattata slots
-  (slot 4, 10%, all-day, already dex-cut and contributing nothing) with Mankey. This is the last
-  route before Goldenrod/Whitney, so it's genuinely available before the gym. No curation-sheet
-  change was needed — Mankey was already regional-dex-tracked (#104).
+- **Resolved — Rattata replaced.** Rattata occupied slots 2/9/11 (25% of the table) while sitting
+  dex-less. Replaced with **Ledyba**, already regional-dex-tracked (#26) and not spawning anywhere
+  else in the build (checked both `Encounters.c` and `Headbutt.c`) — also adds real type diversity
+  to a route that otherwise leans heavily Normal (Miltank ×4, Ditto ×2), and nods to Ilex Forest
+  just south of here.
+- Tentacool line/Krabby line/Whismur/Linoone/Buizel/Bidoof dex-less here is still the same routine
+  curation-sheet cut (`keep = No`) seen throughout every other approach doc so far — left as-is.
+- **Resolved — Fighting-type coverage gap closed here.** Slot 4 (10%, all-day) was originally a
+  fourth Rattata slot, replaced with Mankey in an earlier pass — separate from the Rattata cleanup
+  above, which covers the three slots that remained Rattata (2/9/11). This is the last route before
+  Goldenrod/Whitney, so Mankey is genuinely available before the gym. No curation-sheet change was
+  needed — Mankey was already regional-dex-tracked (#104).
 - **Resolved — Drowzee removed from this table entirely.** Unlike the routine dex-cut fillers
   elsewhere on this route, Drowzee was flagged for outright removal rather than being left as a
   dex-less encounter. It occupied 4 of 12 slots (50% of the table — slots 1/3/5/6), so this wasn't
