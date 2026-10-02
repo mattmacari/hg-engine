@@ -115,8 +115,8 @@ dex_index,species_key,name,type1,type2,ability1,ability2,hp,attack,defense,sp_at
 113,SPECIES_CHANSEY,Chansey,Normal,,Natural Cure,Serene Grace,250,5,5,35,105,50,450,30,254,Fairy,Fairy,TRUE,222,1,Yes,Johto,,1
 114,SPECIES_TANGELA,Tangela,Grass,,Chlorophyll,Leaf Guard,65,55,115,100,40,60,435,45,127,Grass,Grass,TRUE,182,1,Yes,Johto,,1
 115,SPECIES_KANGASKHAN,Kangaskhan,Normal,,Early Bird,Scrappy,105,95,80,40,80,90,490,45,254,Monster,Monster,TRUE,210,1,No,Kanto,,1
-116,SPECIES_HORSEA,Horsea,Water,,Swift Swim,Sniper,30,40,70,70,25,60,295,225,127,Water 1,Dragon,TRUE,190,1,No,Kanto,,1
-117,SPECIES_SEADRA,Seadra,Water,,Poison Point,Sniper,55,65,95,95,45,85,440,75,127,Water 1,Dragon,TRUE,191,1,No,Kanto,,1
+116,SPECIES_HORSEA,Horsea,Water,,Swift Swim,Sniper,30,40,70,70,25,60,295,225,127,Water 1,Dragon,TRUE,190,1,Yes,Johto,Added for Clair: Kingdra line is her signature; Horsea placed on Route 44 rods,1
+117,SPECIES_SEADRA,Seadra,Water,,Poison Point,Sniper,55,65,95,95,45,85,440,75,127,Water 1,Dragon,TRUE,191,1,Yes,Johto,Added with Horsea/Kingdra for Clair's signature line,1
 118,SPECIES_GOLDEEN,Goldeen,Water,,Swift Swim,Water Veil,45,67,60,35,50,63,320,225,127,Water 2,Water 2,TRUE,78,1,No,Kanto,,1
 119,SPECIES_SEAKING,Seaking,Water,,Swift Swim,Water Veil,80,92,65,65,80,68,450,60,127,Water 2,Water 2,TRUE,79,1,No,Kanto,,1
 120,SPECIES_STARYU,Staryu,Water,,Illuminate,Natural Cure,30,45,55,70,55,85,340,225,255,Water 3,Water 3,TRUE,169,1,Yes,Kanto,,1
@@ -229,7 +229,7 @@ dex_index,species_key,name,type1,type2,ability1,ability2,hp,attack,defense,sp_at
 227,SPECIES_SKARMORY,Skarmory,Steel,Flying,Keen Eye,Sturdy,65,80,140,40,70,70,465,25,127,Flying,Flying,TRUE,203,2,Yes,Johto,,1
 228,SPECIES_HOUNDOUR,Houndour,Dark,Fire,Early Bird,Flash Fire,45,60,30,80,50,65,330,120,127,Field,Field,TRUE,214,2,Yes,Johto,,1
 229,SPECIES_HOUNDOOM,Houndoom,Dark,Fire,Early Bird,Flash Fire,75,90,50,110,80,95,500,45,127,Field,Field,TRUE,215,2,Yes,Johto,,1
-230,SPECIES_KINGDRA,Kingdra,Water,Dragon,Swift Swim,Sniper,75,95,95,95,95,85,540,45,127,Water 1,Dragon,TRUE,192,2,No,Johto,,1
+230,SPECIES_KINGDRA,Kingdra,Water,Dragon,Swift Swim,Sniper,75,95,95,95,95,85,540,45,127,Water 1,Dragon,TRUE,192,2,Yes,Johto,Added as Clair's signature ace (Blackthorn gym),1
 231,SPECIES_PHANPY,Phanpy,Ground,,Pickup,,90,60,60,40,40,40,330,120,127,Field,Field,TRUE,200,2,Yes,Johto,,1
 232,SPECIES_DONPHAN,Donphan,Ground,,Sturdy,,90,120,120,60,60,50,500,60,127,Field,Field,TRUE,201,2,Yes,Johto,,1
 233,SPECIES_PORYGON2,Porygon2,Normal,,Trace,Download,85,80,90,105,95,60,515,45,255,Mineral,Mineral,TRUE,221,2,Yes,Johto,,1
@@ -332,8 +332,8 @@ dex_index,species_key,name,type1,type2,ability1,ability2,hp,attack,defense,sp_at
 330,SPECIES_FLYGON,Flygon,Ground,Dragon,Levitate,,80,100,80,80,80,100,520,45,127,Bug,Dragon,FALSE,,3,,,,1
 331,SPECIES_CACNEA,Cacnea,Grass,,Sand Veil,,50,85,40,85,40,35,335,190,127,Grass,Human Like,FALSE,,3,,,,1
 332,SPECIES_CACTURNE,Cacturne,Grass,Dark,Sand Veil,,70,115,60,115,60,55,475,60,127,Grass,Human Like,FALSE,,3,,,,1
-333,SPECIES_SWABLU,Swablu,Normal,Flying,Natural Cure,,45,40,60,40,75,50,310,255,127,Flying,Dragon,FALSE,,3,,,,1
-334,SPECIES_ALTARIA,Altaria,Dragon,Flying,Natural Cure,,75,70,90,70,105,80,490,45,127,Flying,Dragon,FALSE,,3,,,,1
+333,SPECIES_SWABLU,Swablu,Normal,Flying,Natural Cure,,45,40,60,40,75,50,310,255,127,Flying,Dragon,FALSE,,3,Yes,Johto,Added for Route 45 swarm (pre-Clair); Altaria gives Dragon counter-access,1
+334,SPECIES_ALTARIA,Altaria,Dragon,Flying,Natural Cure,,75,70,90,70,105,80,490,45,127,Flying,Dragon,FALSE,,3,Yes,Johto,Added with Swablu; Dragon counter-access for Clair via Route 45 swarm,1
 335,SPECIES_ZANGOOSE,Zangoose,Normal,,Immunity,,73,115,60,60,60,90,458,90,127,Field,Field,FALSE,,3,,,,1
 336,SPECIES_SEVIPER,Seviper,Poison,,Shed Skin,,73,100,60,100,60,65,458,90,127,Field,Dragon,FALSE,,3,,,,1
 337,SPECIES_LUNATONE,Lunatone,Rock,Psychic,Levitate,,90,55,65,95,85,70,460,45,255,Mineral,Mineral,FALSE,,3,,,,1
