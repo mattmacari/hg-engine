@@ -22,10 +22,10 @@ Per-gym steps (see `HACK_PLAN.md` Technical Approach + Milestones for what each 
 | 1 | **Falkner** (Violet City) | Flying — Tailwind speed control | [Sprout Tower](areas/Sprout-Tower.md), [Violet City](areas/Violet-City.md), [Route 29](areas/Route-29.md), [Route 30](areas/Route-30.md), [Route 31](areas/Route-31.md), [Dark Cave (Route 31 entrance)](areas/Dark-Cave-Route-31-Entrance.md) | ✅ | ✅ | ✅ (per commit log) | ✅ |
 | 2 | **Bugsy** (Azalea Town) | Bug — hazard-setting swarm | [Route 32](areas/Route-32.md), [Ruins of Alph](areas/Ruins-of-Alph.md), [Union Cave](areas/Union-Cave.md), [Route 33](areas/Route-33.md), [Slowpoke Well](areas/Slowpoke-Well.md), [Ilex Forest](areas/Ilex-Forest.md) | ✅ | ✅ | ✅ | ✅ |
 | 3 | **Whitney** (Goldenrod City) | Normal — bulky pivot / status-stall | [Route 34](areas/Route-34.md) | ✅ | ✅ (no change needed) | ✅ | ✅ |
-| 4 | **Morty** (Ecruteak City) | Ghost — Will-O-Wisp burn stall / trapping | [Route 35](areas/Route-35.md), [National Park](areas/National-Park.md), [Route 36](areas/Route-36.md), [Ecruteak City](areas/Ecruteak-City.md), [Burned Tower](areas/Burned-Tower.md) | ✅ | ✅ (no change needed) | ✅ | ✅ |
+| 4 | **Morty** (Ecruteak City) | Ghost — Will-O-Wisp burn stall / trapping | [Route 35](areas/Route-35.md), [National Park](areas/National-Park.md), [Route 36](areas/Route-36.md), [Ecruteak City](areas/Ecruteak-City.md), [Burned Tower](areas/Burned-Tower.md), [Route 37](areas/Route-37.md) | ✅ | ✅ (no change needed) | ✅ | ✅ |
 | 5 | **Chuck** (Cianwood City) | Fighting — rain abuse | [Route 40](areas/Route-40.md), [Route 41](areas/Route-41.md), [Cianwood City](areas/Cianwood-City.md) | ✅ | ✅ | ✅ | ⬜ |
 | 6 | **Jasmine** (Olivine City) | Steel — defensive wall core + signature double (Steel/Electric) | [Route 38](areas/Route-38.md), [Route 39](areas/Route-39.md), [Olivine City](areas/Olivine-City.md); optional west-of-Cianwood side areas: [Cliff Edge Gate](areas/Cliff-Edge-Gate.md), [Route 47](areas/Route-47.md), [Cliff Cave](areas/Cliff-Cave.md), [Route 48](areas/Route-48.md) | ✅ | ✅ | ✅ | ✅ |
-| 7 | **Pryce** (Mahogany Town) | Ice — hail support / bulky wall | — | ⬜ | ⬜ | ⬜ | ⬜ |
+| 7 | **Pryce** (Mahogany Town) | Ice — hail support / bulky wall | [Route 42](areas/Route-42.md), [Mt. Mortar](areas/Mt-Mortar.md), [Route 43](areas/Route-43.md), [Lake of Rage](areas/Lake-of-Rage.md) | ✅ | ✅ (no change needed) | ✅ | ⬜ |
 | 8 | **Clair** (Blackthorn City) | Dragon — Dragon Dance power core + signature double (Dragon/Fairy-Steel) | — | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ## Elite Four, Champion, Rival

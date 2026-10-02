@@ -7,10 +7,11 @@ areas.
 
 - **ENCDATA constant:** `ENCDATA_R36_ROUTE_36` (`data/Encounters.c:2509`)
 - **Map constant:** `MAP_R36` (`include/constants/maps.h:44`)
-- **Connects:** National Park (south) ↔ Ecruteak City (north). (Route 37 also branches off this
-  route, but it leads onward past Ecruteak toward Olivine — not part of the approach to Morty.)
-- **Leads toward:** Morty (Ecruteak City) — this is the last route before the gym, same role
-  Route 33 played for Bugsy and Route 34 played for Whitney.
+- **Connects:** National Park (south) and Violet City (east) ↔ Route 37 (north), which leads on
+  to Ecruteak City. (An earlier version of this line said Route 37 wasn't part of the Morty
+  approach. It is: Route 36 → Route 37 → Ecruteak — see Route-37.md.)
+- **Leads toward:** Morty (Ecruteak City) — the main grass route before the gym, with Route 37
+  as a short final leg. Same role Route 33 played for Bugsy and Route 34 played for Whitney.
 - **Biome Map tie-in:** `HACK_PLAN.md`'s Morty row counter-access note: "Dark needed (Ghost's
   other weakness besides Ghost itself)." The plan's original text assumed "Murkrow already spawns
   near National Park at night in vanilla" — that assumption doesn't hold in this codebase's
