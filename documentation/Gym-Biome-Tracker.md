@@ -40,12 +40,13 @@ above.
 | **Koga** | Poison — trapping/hazard stall | ✅ | ✅ |
 | **Bruno** | Fighting — physical power core, priority + setup | ✅ | ✅ |
 | **Karen** | Dark — mixed-attacker pressure core | ✅ | ✅ |
-| **Lance** (Champion) | Dragon — apex power core, showcase Mega | ⬜ | ⬜ |
+| **Lance** (Champion) | Dragon — apex power core, showcase Mega | ✅ | ✅ |
 | **Silver** (Rival) | Mixed, adapts to counter the player | ⬜ | ⬜ (recurring — multiple encounters, see `HACK_PLAN.md`) |
 
 ## Notes
 
 - **Elite Four level curve (agreed):** Will 40–44 → Koga 42–46 → Bruno 44–48 → Karen 46–50 → Lance 48–52. Clair tops out at 41, and vanilla Lance's ace is Lv50.
+- **Team size (agreed):** every Elite Four member and Lance fields 6. Going in stocked with healing items is the player's job; there are no external heals between fights.
 - Full rationale (biome fit, archetype reasoning, counter-access notes) for every row lives in
   `HACK_PLAN.md`'s Biome Map table — this doc is just the *progress* view, don't duplicate the
   reasoning here.
