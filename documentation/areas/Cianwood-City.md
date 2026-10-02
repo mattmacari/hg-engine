@@ -79,13 +79,14 @@ dex is renumbered again before this area's table is finalized.
     Golbat themselves are dex-less, same routine cut as everywhere — doesn't block catching them,
     just won't register a dex entry.)
   - **Psychic:** Abra has been available since Route 34/35 (pre-Whitney). Already covered.
-  - **Fairy:** Route 47/48 is real content but it's deep post-Mt.-Silver Kanto — nowhere near
-    reachable before Cianwood, so that specific claim was wrong. The actual pre-Cianwood Fairy
-    access is **Snubbull on Route 38** (1% slot, night-excluded — see `data/Encounters.c:3809`),
-    which the player does pass through en route to Olivine before Surfing to Cianwood. Snubbull is
-    dex-tracked (#95). It's a thin single-slot foothold rather than a robust option — worth a
-    dedicated Jasmine-corridor pass later if it needs strengthening, but the coverage technically
-    exists and isn't a gap that blocks the fight.
+  - **Fairy:** the Route 47/48 claim was wrong — neither route has a Jigglypuff line or any
+    Fairy type. (An earlier version of this note also called Route 47/48 "deep post-Mt.-Silver
+    Kanto"; that was wrong too. They're Johto routes west of Cianwood via Cliff Edge Gate — see
+    Route-47.md.) The actual pre-Cianwood Fairy access is **Snubbull on Route 38** (slot 12, 1%,
+    all times of day, plus an active land swarm — see Route-38.md). The player passes through
+    Route 38 en route to Olivine before Surfing to Cianwood. Snubbull is dex-tracked (#95). It's
+    a thin foothold rather than a robust option. The Jasmine-corridor pass left it as-is, and it
+    isn't a gap that blocks the fight.
   - **Net result:** no new species needs to be introduced anywhere in this corridor for Chuck's
     counter-access — all three types are already reachable pre-gym. `HACK_PLAN.md`'s Chuck row
     should be updated to reflect the corrected sourcing (done alongside this doc).

@@ -373,4 +373,5 @@ const u16 UNUSED RegionalDex[] =
     [SPECIES_MR_MIME_GALARIAN] = 366,
     [SPECIES_SLOWPOKE] = 367,
     [SPECIES_PINSIR] = 368,
+    [SPECIES_TAUROS] = 369,
 };
