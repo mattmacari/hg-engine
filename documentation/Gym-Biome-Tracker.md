@@ -24,7 +24,7 @@ Per-gym steps (see `HACK_PLAN.md` Technical Approach + Milestones for what each 
 | 3 | **Whitney** (Goldenrod City) | Normal — bulky pivot / status-stall | [Route 34](areas/Route-34.md) | ✅ | ✅ (no change needed) | ✅ | ✅ |
 | 4 | **Morty** (Ecruteak City) | Ghost — Will-O-Wisp burn stall / trapping | [Route 35](areas/Route-35.md), [National Park](areas/National-Park.md), [Route 36](areas/Route-36.md), [Ecruteak City](areas/Ecruteak-City.md), [Burned Tower](areas/Burned-Tower.md) | ✅ | ✅ (no change needed) | ✅ | ✅ |
 | 5 | **Chuck** (Cianwood City) | Fighting — rain abuse | [Route 40](areas/Route-40.md), [Route 41](areas/Route-41.md), [Cianwood City](areas/Cianwood-City.md) | ✅ | ✅ | ✅ | ⬜ |
-| 6 | **Jasmine** (Olivine City) | Steel — defensive wall core + signature double (Steel/Electric) | [Route 38](areas/Route-38.md), [Route 39](areas/Route-39.md), [Olivine City](areas/Olivine-City.md); optional west-of-Cianwood side areas: [Cliff Edge Gate](areas/Cliff-Edge-Gate.md), [Route 47](areas/Route-47.md), [Cliff Cave](areas/Cliff-Cave.md), [Route 48](areas/Route-48.md) | ✅ | ✅ | ✅ | ⬜ |
+| 6 | **Jasmine** (Olivine City) | Steel — defensive wall core + signature double (Steel/Electric) | [Route 38](areas/Route-38.md), [Route 39](areas/Route-39.md), [Olivine City](areas/Olivine-City.md); optional west-of-Cianwood side areas: [Cliff Edge Gate](areas/Cliff-Edge-Gate.md), [Route 47](areas/Route-47.md), [Cliff Cave](areas/Cliff-Cave.md), [Route 48](areas/Route-48.md) | ✅ | ✅ | ✅ | ✅ |
 | 7 | **Pryce** (Mahogany Town) | Ice — hail support / bulky wall | — | ⬜ | ⬜ | ⬜ | ⬜ |
 | 8 | **Clair** (Blackthorn City) | Dragon — Dragon Dance power core + signature double (Dragon/Fairy-Steel) | — | ⬜ | ⬜ | ⬜ | ⬜ |
 
