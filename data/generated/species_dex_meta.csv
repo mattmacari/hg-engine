@@ -279,9 +279,9 @@ dex_index,species_key,name,type1,type2,ability1,ability2,hp,attack,defense,sp_at
 277,SPECIES_SWELLOW,Swellow,Normal,Flying,Guts,,60,85,60,75,50,125,455,45,127,Flying,Flying,FALSE,,3,Yes,,,1
 278,SPECIES_WINGULL,Wingull,Water,Flying,Keen Eye,Hydration,40,30,30,55,30,85,270,190,127,Water 1,Flying,FALSE,,3,Yes,,,1
 279,SPECIES_PELIPPER,Pelipper,Water,Flying,Keen Eye,Drizzle,60,50,100,95,70,65,440,45,127,Water 1,Flying,FALSE,,3,Yes,,,1
-280,SPECIES_RALTS,Ralts,Psychic,Fairy,Synchronize,Trace,28,25,25,45,35,40,198,235,127,Human Like,Amorphous,FALSE,,3,No,,,1
-281,SPECIES_KIRLIA,Kirlia,Psychic,Fairy,Synchronize,Trace,38,35,35,65,55,50,278,120,127,Human Like,Amorphous,FALSE,,3,No,,,1
-282,SPECIES_GARDEVOIR,Gardevoir,Psychic,Fairy,Synchronize,Trace,68,65,65,125,115,80,518,45,127,Human Like,Amorphous,FALSE,,3,No,,,1
+280,SPECIES_RALTS,Ralts,Psychic,Fairy,Synchronize,Trace,28,25,25,45,35,40,198,235,127,Human Like,Amorphous,FALSE,,3,Yes,Johto,Added for Route 34 active swarm: early Psychic/Fairy pickup before Morty/Chuck,1
+281,SPECIES_KIRLIA,Kirlia,Psychic,Fairy,Synchronize,Trace,38,35,35,65,55,50,278,120,127,Human Like,Amorphous,FALSE,,3,Yes,Johto,Added with Ralts (Route 34 swarm line),1
+282,SPECIES_GARDEVOIR,Gardevoir,Psychic,Fairy,Synchronize,Trace,68,65,65,125,115,80,518,45,127,Human Like,Amorphous,FALSE,,3,Yes,Johto,Added with Ralts (Route 34 swarm line),1
 283,SPECIES_SURSKIT,Surskit,Bug,Water,Swift Swim,,40,30,32,50,52,65,269,200,127,Water 1,Bug,FALSE,,3,Yes,,,1
 284,SPECIES_MASQUERAIN,Masquerain,Bug,Flying,Intimidate,,70,60,62,100,82,80,454,75,127,Water 1,Bug,FALSE,,3,Yes,,,1
 285,SPECIES_SHROOMISH,Shroomish,Grass,,Effect Spore,Poison Heal,60,40,60,40,60,35,295,255,127,Fairy,Grass,FALSE,,3,Yes,,,1

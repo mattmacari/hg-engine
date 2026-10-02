@@ -16,7 +16,7 @@ areas.
 
 | Method | Rate | Active? |
 |---|---|---|
-| Walk | 0 | No — town, no grass |
+| Walk | 0 | No |
 | Surf | 15 | Yes |
 | Rock Smash | 0 | No |
 | Old Rod | 25 | Yes |
@@ -25,38 +25,36 @@ areas.
 
 ## Water/rod tables
 
-**Surf (rate 15):** Poliwag ×2 (60/30%, levels 15–25/10–20), Poliwhirl ×3 (5/4/1%, all levels
-15–25). Slightly different from Route 30/31's surf table, where the rarest (1%) slot narrows to a
-fixed level 32 — here all three Poliwhirl slots keep the wider 15–25 range.
-**Old Rod (60/30/5/4/1):** Magikarp ×3, Poliwag ×2 (all level 10)
-**Good Rod (40/40/15/4/1):** Magikarp, Poliwag ×4 (all level 20)
-**Super Rod (40/40/15/4/1):** Poliwag ×2, Magikarp ×2, Poliwag (all level 40)
+**Surf (rate 15):** Poliwag (15–25), Poliwag (10–20), Poliwhirl (15–25), Poliwhirl (15–25), Poliwhirl (15–25).
+**Old Rod (rate 25):** Magikarp (10), Magikarp (10), Magikarp (10), Poliwag (10), Poliwag (10).
+**Good Rod (rate 50):** Magikarp (20), Poliwag (20), Poliwag (20), Poliwag (20), Poliwag (20).
+**Super Rod (rate 75):** Poliwag (40), Poliwag (40), Magikarp (40), Poliwag (40), Magikarp (40).
 
-Fishing tables are otherwise the same Poliwag/Poliwhirl/Magikarp shape as Routes 30/31 — this is
-the same river system running through town.
+## Rustling grass (Hoenn/Sinnoh sound species)
+
+Not populated — no land tile here.
 
 ## Swarm
 
-- `landSwarm = SPECIES_NONE`, `surfSwarm = SPECIES_POLIWAG`, `nightFish = SPECIES_POLIWAG`,
-  `fishSwarm = SPECIES_WHISCASH`
-- **Active:** `MAP_T22` **is** in `sSwarmMapLUT` (`src/swarms.c`, `SWARM_FISHING` type) — on the
-  days this map rolls, the swarm gives Whiscash via `fishSwarm`, not the usual fishing-rod table.
-  Second area found so far (after the Dark Cave Route 31 entrance) where this field is live.
+- `landSwarm = SPECIES_NONE`, `surfSwarm = SPECIES_POLIWAG`, `nightFish = SPECIES_POLIWAG`, `fishSwarm = SPECIES_POLIWHIRL`.
+- **Active (fishing):** this map is in `sSwarmMapLUT` (`src/swarms.c:33`) — the Poliwhirl swarm fires here.
 
 ## Species summary
 
 | Species | Type(s) | Regional Dex # | Method | Time |
 |---|---|---|---|---|
-| Poliwag | Water | 346 | Surf/Fish | — |
-| Poliwhirl | Water | 347 | Surf | — |
 | Magikarp | Water | 65 | Fish | — |
-| Whiscash | Water/Ground | **not in regional dex** | Fish swarm only | — |
+| Poliwag | Water | 346 | Surf, Fish, Swarm (surf), Fish (night) | — |
+| Poliwhirl | Water | 347 | Surf, Swarm (fish) | — |
 
-Dex numbers as of the full sheet-sync pass (`data/RegionalDex.c`, 366 entries) — re-`grep` if the
-dex is renumbered again before this area's table is finalized.
+Dex numbers as of `data/RegionalDex.c` with 377 entries —
+re-`grep` if the dex is renumbered.
 
 ## Notes
 
+- **Resolved — early-game cleanup pass (after the Clair pass).** The active fishing swarm was
+  Whiscash (dex-less); it's now **Poliwhirl**, matching Violet's existing Poliwag pond. Barboach/
+  Whiscash stay out of the dex. Earlier notes below that describe these species as dex-less or intentionally kept are superseded.
 - No land encounters at all — nothing to rework here for Pillar 2/3 purposes beyond the water
   table, which mirrors Route 30/31 and needs no separate decision unless those get changed.
 - Whiscash dex-less is a `keep=No` sheet decision, not yet checked against this specific

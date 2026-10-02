@@ -74,10 +74,10 @@ dex is renumbered again before this area's table is finalized.
   availability before Cianwood." Both guesses were wrong in the specifics (same pattern as the
   Morty-row Murkrow assumption that also didn't hold) — checked against the actual data:
   - **Flying:** Zubat/Golbat don't spawn on Route 40/41 at all, but they're not needed to —
-    Zubat is already available from **Union Cave** and **Slowpoke Well**, both visited well before
-    Bugsy, let alone Chuck. Flying coverage has been available since the *second* gym. (Zubat/
-    Golbat themselves are dex-less, same routine cut as everywhere — doesn't block catching them,
-    just won't register a dex entry.)
+    a Flying type is already available from **Union Cave** and **Slowpoke Well**, both visited
+    well before Bugsy, let alone Chuck. Flying coverage has been available since the *second*
+    gym. (Originally that was dex-less Zubat. The early-game cleanup pass after Clair replaced it
+    with dex-tracked **Woobat**, which is Psychic/Flying, so it covers both Flying and Psychic.)
   - **Psychic:** Abra has been available since Route 34/35 (pre-Whitney). Already covered.
   - **Fairy:** the Route 47/48 claim was wrong — neither route has a Jigglypuff line or any
     Fairy type. (An earlier version of this note also called Route 47/48 "deep post-Mt.-Silver

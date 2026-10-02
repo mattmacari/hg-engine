@@ -37,25 +37,24 @@ areas.
 | Slot | % | Level | Morning | Day | Night |
 |---|---|---|---|---|---|
 | 1 | 20 | 6 | Bellsprout | Bellsprout | Wooper |
-| 2 | 20 | 4 | Rattata | Rattata | Rattata |
+| 2 | 20 | 4 | Ekans | Ekans | Ekans |
 | 3 | 10 | 6 | Bellsprout | Bellsprout | Wooper |
-| 4 | 10 | 4 | Rattata | Rattata | Rattata |
-| 5 | 10 | 6 | **Mareep** | **Mareep** | Bellsprout |
-| 6 | 10 | 6 | **Mareep** | **Mareep** | Bellsprout |
-| 7 | 5 | 6 | Hoppip | Hoppip | **Mareep** |
-| 8 | 5 | 6 | Hoppip | Hoppip | **Mareep** |
-| 9 | 4 | 6 | Rattata | Rattata | Wooper |
-| 10 | 4 | 4 | Zubat | Rattata | Zubat |
-| 11 | 1 | 6 | Rattata | Rattata | Wooper |
-| 12 | 1 | 4 | Zubat | Rattata | Zubat |
+| 4 | 10 | 4 | Ekans | Ekans | Ekans |
+| 5 | 10 | 6 | Mareep | Mareep | Bellsprout |
+| 6 | 10 | 6 | Mareep | Mareep | Bellsprout |
+| 7 | 5 | 6 | Hoppip | Hoppip | Mareep |
+| 8 | 5 | 6 | Hoppip | Hoppip | Mareep |
+| 9 | 4 | 6 | Ekans | Ekans | Wooper |
+| 10 | 4 | 4 | Woobat | Ekans | Woobat |
+| 11 | 1 | 6 | Ekans | Ekans | Wooper |
+| 12 | 1 | 4 | Woobat | Ekans | Woobat |
 
 ## Water/rod tables
 
-**Surf (rate 15):** Tentacool (10–20, 60%), Quagsire (15–25, 30%), Tentacruel ×3 (15–25/15–25/36,
-5/4/1%).
-**Old Rod (60/30/5/4/1):** Magikarp ×3, Tentacool ×2 (all level 10).
-**Good Rod (40/40/15/4/1):** Magikarp, Tentacool ×3, Qwilfish (all level 20).
-**Super Rod (40/40/15/4/1):** Tentacool ×2, Magikarp, Qwilfish, Magikarp (all level 40).
+**Surf (rate 15):** Staryu (10–20), Quagsire (15–25), Starmie (15–25), Starmie (15–25), Starmie (36).
+**Old Rod (rate 25):** Magikarp (10), Magikarp (10), Magikarp (10), Staryu (10), Staryu (10).
+**Good Rod (rate 50):** Magikarp (20), Staryu (20), Staryu (20), Staryu (20), Qwilfish (20).
+**Super Rod (rate 75):** Staryu (40), Staryu (40), Magikarp (40), Qwilfish (40), Magikarp (40).
 
 ## Rustling grass (Hoenn/Sinnoh sound species)
 
@@ -66,38 +65,40 @@ areas.
 
 ## Swarm
 
-- `landSwarm = SPECIES_BELLSPROUT`, `surfSwarm = SPECIES_TENTACOOL`, `nightFish = SPECIES_TENTACOOL`,
-  `fishSwarm = SPECIES_QWILFISH`.
-- **Active:** `MAP_R32` **is** in `sSwarmMapLUT` (`src/swarms.c`) as a `SWARM_FISHING` entry — the
-  daily swarm mechanic can actually put a Qwilfish swarm on this route's fishing spots. First area
-  in the Bugsy-approach set (so far) where the swarm field isn't inert — worth remembering if
-  `fishSwarm` ever gets rebalanced here, since it's live.
+- `landSwarm = SPECIES_BELLSPROUT`, `surfSwarm = SPECIES_STARYU`, `nightFish = SPECIES_STARYU`, `fishSwarm = SPECIES_QWILFISH`.
+- **Inert:** this map is not in `sSwarmMapLUT` (`src/swarms.c`).
 
 ## Species summary
 
 | Species | Type(s) | Regional Dex # | Method | Time |
 |---|---|---|---|---|
-| Bellsprout | Grass/Poison | 57 | Walk | Morning/Day/Night |
+| Ekans | Poison | 43 | Walk | Morning/Day/Night |
 | Mareep | Electric | 46 | Walk | Morning/Day/Night |
-| Hoppip | Grass/Flying | 60 | Walk | Morning/Day |
 | Wooper | Water/Ground | 49 | Walk | Night |
-| Rattata | Normal | **not in regional dex** | Walk | Morning/Day/Night |
-| Zubat | Poison/Flying | **not in regional dex** | Walk | Morning/Night |
-| Tentacool | Water/Poison | **not in regional dex** | Surf/Fish | — |
-| Tentacruel | Water/Poison | **not in regional dex** | Surf | — |
 | Quagsire | Water/Ground | 50 | Surf | — |
-| Qwilfish | Water/Poison | 123 | Fish | — |
+| Bellsprout | Grass/Poison | 57 | Walk, Swarm (land) | Morning/Day/Night |
+| Hoppip | Grass/Flying | 60 | Walk | Morning/Day |
 | Magikarp | Water | 65 | Fish | — |
-| Whismur | Normal | **not in regional dex** | Rustling grass (Hoenn) | — |
-| Linoone | Normal | **not in regional dex** | Rustling grass (Hoenn) | — |
-| Buizel | Water | **not in regional dex** | Rustling grass (Sinnoh) | — |
-| Bidoof | Normal | **not in regional dex** | Rustling grass (Sinnoh) | — |
+| Qwilfish | Water/Poison | 123 | Fish, Swarm (fish) | — |
+| Staryu | Water | 125 | Surf, Fish, Swarm (surf), Fish (night) | — |
+| Starmie | Water/Psychic | 126 | Surf | — |
+| Woobat | Psychic/Flying | 276 | Walk | Morning/Night |
+| Bidoof | Normal | **not in dex** | Rustling grass (Sinnoh) | — |
+| Buizel | Water | **not in dex** | Rustling grass (Sinnoh) | — |
+| Linoone | Normal | **not in dex** | Rustling grass (Hoenn) | — |
+| Whismur | Normal | **not in dex** | Rustling grass (Hoenn) | — |
 
-Dex numbers as of the full sheet-sync pass (`data/RegionalDex.c`, 366 entries) — re-`grep` if the
-dex is renumbered again before this route's table is finalized.
+Dex numbers as of `data/RegionalDex.c` with 377 entries —
+re-`grep` if the dex is renumbered.
 
 ## Notes
 
+- **Resolved — early-game cleanup pass (after the Clair pass).** All remaining dex-less species
+  are replaced:
+  - Rattata → **Ekans** (#43, the canon Gold Route 32 species).
+  - Zubat → **Woobat** (#276, the bat stand-in used across Johto caves).
+  - Tentacool/Tentacruel → **Staryu/Starmie**, matching the Route 40/41/Cianwood sea mapping.
+  Earlier notes below that describe these species as dex-less or intentionally kept are superseded.
 - Rattata/Zubat/Tentacool/Tentacruel dex-less here is the routine curation-sheet cut already seen
   across the Falkner-area docs (`keep = No` in `data/generated/species_dex_meta.csv`), not a bug —
   see the memory note on this convention.

@@ -26,29 +26,29 @@ areas.
 | Good Rod | 50 | Yes |
 | Super Rod | 75 | Yes |
 
-## Land encounter table (walk, rate 25) — identical morning/day/night
+## Land encounter table (walk, rate 25)
 
-| Slot | % | Level | Species |
-|---|---|---|---|
-| 1 | 20 | 10 | Miltank |
-| 2 | 20 | 11 | Ledyba |
-| 3 | 10 | 10 | Miltank |
-| 4 | 10 | 11 | Mankey |
-| 5 | 10 | 12 | Miltank |
-| 6 | 10 | 12 | Miltank |
-| 7 | 5 | 10 | Abra |
-| 8 | 5 | 10 | Abra |
-| 9 | 4 | 13 | Ledyba |
-| 10 | 4 | 10 | Ditto |
-| 11 | 1 | 13 | Ledyba |
-| 12 | 1 | 10 | Ditto |
+| Slot | % | Level | Morning | Day | Night |
+|---|---|---|---|---|---|
+| 1 | 20 | 10 | Miltank | Miltank | Miltank |
+| 2 | 20 | 11 | Ledyba | Ledyba | Ledyba |
+| 3 | 10 | 10 | Miltank | Miltank | Miltank |
+| 4 | 10 | 11 | Mankey | Mankey | Mankey |
+| 5 | 10 | 12 | Miltank | Miltank | Miltank |
+| 6 | 10 | 12 | Miltank | Miltank | Miltank |
+| 7 | 5 | 10 | Abra | Abra | Abra |
+| 8 | 5 | 10 | Abra | Abra | Abra |
+| 9 | 4 | 13 | Ledyba | Ledyba | Ledyba |
+| 10 | 4 | 10 | Ditto | Ditto | Ditto |
+| 11 | 1 | 13 | Ledyba | Ledyba | Ledyba |
+| 12 | 1 | 10 | Ditto | Ditto | Ditto |
 
 ## Water/rod tables
 
-**Surf (rate 15):** Tentacool ×2 (60/30%), Tentacruel ×3 (5/4/1%).
-**Old Rod (60/30/5/4/1):** Magikarp ×3, Krabby ×2 (all level 10).
-**Good Rod (40/40/15/4/1):** Magikarp, Krabby ×3, Corsola (all level 20).
-**Super Rod (40/40/15/4/1):** Krabby ×3, Corsola, Kingler (all level 40).
+**Surf (rate 15):** Staryu (15–25), Staryu (10–20), Starmie (15–25), Starmie (15–25), Starmie (29).
+**Old Rod (rate 25):** Magikarp (10), Magikarp (10), Magikarp (10), Shellder (10), Shellder (10).
+**Good Rod (rate 50):** Magikarp (20), Shellder (20), Shellder (20), Corsola (20), Shellder (20).
+**Super Rod (rate 75):** Shellder (40), Corsola (40), Shellder (40), Cloyster (40), Shellder (40).
 
 ## Rustling grass (Hoenn/Sinnoh sound species)
 
@@ -59,38 +59,42 @@ areas.
 
 ## Swarm
 
-- `landSwarm = SPECIES_RALTS`, `surfSwarm = SPECIES_TENTACOOL`, `nightFish = SPECIES_STARYU`,
-  `fishSwarm = SPECIES_MAGIKARP`.
-- **Active, unlike most areas documented so far:** `MAP_R34` **is** in `sSwarmMapLUT`
-  (`src/swarms.c:23`, `SWARM_GRASS`) — the Ralts land-swarm event actually functions here when
-  triggered, not inert.
+- `landSwarm = SPECIES_RALTS`, `surfSwarm = SPECIES_STARYU`, `nightFish = SPECIES_STARYU`, `fishSwarm = SPECIES_MAGIKARP`.
+- **Active (land):** this map is in `sSwarmMapLUT` (`src/swarms.c:23`) — the Ralts swarm fires here.
 
 ## Species summary
 
 | Species | Type(s) | Regional Dex # | Method | Time |
 |---|---|---|---|---|
-| Ditto | Normal | 75 | Walk | Morning/Day/Night |
+| Ledyba | Bug/Flying | 26 | Walk | Morning/Day/Night |
+| Magikarp | Water | 65 | Fish, Swarm (fish) | — |
 | Abra | Psychic | 72 | Walk | Morning/Day/Night |
+| Ditto | Normal | 75 | Walk | Morning/Day/Night |
 | Mankey | Fighting | 104 | Walk | Morning/Day/Night |
 | Miltank | Normal | 112 | Walk | Morning/Day/Night |
-| Staryu | Water | 125 | Fish (night) | — |
+| Staryu | Water | 125 | Surf, Swarm (surf), Fish (night) | — |
+| Starmie | Water/Psychic | 126 | Surf | — |
+| Shellder | Water | 127 | Fish | — |
+| Cloyster | Water/Ice | 128 | Fish | — |
 | Corsola | Water/Rock | 129 | Fish | — |
-| Ralts | Psychic/Fairy | **not in regional dex** | Swarm (land, active) | — |
-| Ledyba | Bug/Flying | 26 | Walk | Morning/Day/Night |
-| Tentacool | Water/Poison | **not in regional dex** | Surf | — |
-| Tentacruel | Water/Poison | **not in regional dex** | Surf | — |
-| Krabby | Water | **not in regional dex** | Fish | — |
-| Kingler | Water | **not in regional dex** | Fish | — |
-| Whismur | Normal | **not in regional dex** | Rustling grass (Hoenn) | — |
-| Linoone | Normal | **not in regional dex** | Rustling grass (Hoenn) | — |
-| Buizel | Water | **not in regional dex** | Rustling grass (Sinnoh) | — |
-| Bidoof | Normal | **not in regional dex** | Rustling grass (Sinnoh) | — |
+| Ralts | Psychic/Fairy | 375 | Swarm (land) | — |
+| Bidoof | Normal | **not in dex** | Rustling grass (Sinnoh) | — |
+| Buizel | Water | **not in dex** | Rustling grass (Sinnoh) | — |
+| Linoone | Normal | **not in dex** | Rustling grass (Hoenn) | — |
+| Whismur | Normal | **not in dex** | Rustling grass (Hoenn) | — |
 
-Dex numbers as of the full sheet-sync pass (`data/RegionalDex.c`, 368 entries) — re-`grep` if the
-dex is renumbered again before this route's table is finalized.
+Dex numbers as of `data/RegionalDex.c` with 377 entries —
+re-`grep` if the dex is renumbered.
 
 ## Notes
 
+- **Resolved — early-game cleanup pass (after the Clair pass).**
+  - Water: Tentacool/Tentacruel → **Staryu/Starmie**, Krabby/Kingler → **Shellder/Cloyster** (the
+    Cianwood mapping).
+  - **Ralts/Kirlia/Gardevoir added to the regional dex (#375–377)**, so the active Ralts swarm is
+    now a real, dex-tracked early Psychic/Fairy pickup. Gallade is left out for now; Kirlia needs a
+    Dawn Stone to evolve into it.
+  Earlier notes below that describe these species as dex-less or intentionally kept are superseded.
 - **Resolved — Rattata replaced.** Rattata occupied slots 2/9/11 (25% of the table) while sitting
   dex-less. Replaced with **Ledyba**, already regional-dex-tracked (#26) and not spawning anywhere
   else in the build (checked both `Encounters.c` and `Headbutt.c`) — also adds real type diversity

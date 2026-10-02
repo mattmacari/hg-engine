@@ -35,22 +35,21 @@ areas.
 | 2 | 20 | 6 | Metapod | Caterpie | Oddish |
 | 3 | 10 | 5 | Caterpie | Caterpie | Oddish |
 | 4 | 10 | 6 | Metapod | Caterpie | Oddish |
-| 5 | 10 | 6 | Caterpie | Metapod | Zubat |
-| 6 | 10 | 6 | Caterpie | Metapod | Zubat |
+| 5 | 10 | 6 | Caterpie | Metapod | Woobat |
+| 6 | 10 | 6 | Caterpie | Metapod | Woobat |
 | 7 | 5 | 5 | Paras | Metapod | Paras |
 | 8 | 5 | 5 | Paras | Metapod | Paras |
-| 9 | 4 | 5 | Zubat | Zubat | Zubat |
+| 9 | 4 | 5 | Woobat | Woobat | Woobat |
 | 10 | 4 | 6 | Paras | Paras | Paras |
-| 11 | 1 | 5 | Zubat | Zubat | Zubat |
+| 11 | 1 | 5 | Woobat | Woobat | Woobat |
 | 12 | 1 | 6 | Paras | Paras | Paras |
 
 ## Water/rod tables
 
-**Surf (rate 15):** Psyduck ×2 (10–20/5–15, 60/30%), Golduck ×3 (10–20/10–20/10–20, 5/4/1%) — this
-table is entirely the Psyduck line.
-**Old Rod (60/30/5/4/1):** Magikarp ×3, Poliwag ×2 (all level 10).
-**Good Rod (40/40/15/4/1):** Magikarp, Poliwag ×4 (all level 20).
-**Super Rod (40/40/15/4/1):** Poliwag ×2, Magikarp, Poliwag, Magikarp (all level 40).
+**Surf (rate 15):** Marill (10–20), Marill (5–15), Azumarill (10–20), Azumarill (10–20), Azumarill (10–20).
+**Old Rod (rate 25):** Magikarp (10), Magikarp (10), Magikarp (10), Poliwag (10), Poliwag (10).
+**Good Rod (rate 50):** Magikarp (20), Poliwag (20), Poliwag (20), Poliwag (20), Poliwag (20).
+**Super Rod (rate 75):** Poliwag (40), Poliwag (40), Magikarp (40), Poliwag (40), Magikarp (40).
 
 ## Rustling grass (Hoenn/Sinnoh sound species)
 
@@ -61,61 +60,38 @@ table is entirely the Psyduck line.
 
 ## Swarm
 
-- `landSwarm = SPECIES_CATERPIE`, `surfSwarm = SPECIES_PSYDUCK`.
-- **Inert:** `MAP_D36R0101` is not in `sSwarmMapLUT` (`src/swarms.c`).
-
-## Headbutt trees (`data/Headbutt.c`, `HeadbuttFile_117_Ilex_Forest`)
-
-56 normal trees, 0 special trees.
-
-| Slot | Level | Species |
-|---|---|---|
-| 1 | 3–5 | Hoothoot |
-| 2 | 3–5 | Caterpie |
-| 3 | 3–5 | Caterpie |
-| 4 | 3–5 | Hoothoot |
-| 5 | 3–5 | Metapod |
-| 6 | 3–5 | Metapod |
-| 7 | 6–8 | Hoothoot |
-| 8 | 6–8 | Scyther |
-| 9 | 6–8 | Pinsir |
-| 10 | 6–8 | Noctowl |
-| 11 | 6–8 | Butterfree |
-| 12 | 6–8 | Butterfree |
-
-**Resolved — Bug-variety deepening per `HACK_PLAN.md`'s Bugsy row.** Replaced the two duplicate
-Pineco slots (8/9, level 6–8) with Scyther and Pinsir. Both are already Bug/canon Ilex Forest
-headbutt-tree species in the mainline games (version-exclusive there; not version-locked here since
-this is a single build). Pinsir required a dex-curation change — see Notes.
+- `landSwarm = SPECIES_CATERPIE`, `surfSwarm = SPECIES_MARILL`, `nightFish = SPECIES_POLIWAG`, `fishSwarm = SPECIES_MAGIKARP`.
+- **Inert:** this map is not in `sSwarmMapLUT` (`src/swarms.c`).
 
 ## Species summary
 
 | Species | Type(s) | Regional Dex # | Method | Time |
 |---|---|---|---|---|
-| Caterpie | Bug | 20 | Walk/Headbutt | Morning/Day |
-| Metapod | Bug | 21 | Walk/Headbutt | Morning/Day |
+| Caterpie | Bug | 20 | Walk, Swarm (land) | Morning/Day |
+| Metapod | Bug | 21 | Walk | Morning/Day |
 | Paras | Bug/Grass | 63 | Walk | Morning/Day/Night |
+| Magikarp | Water | 65 | Fish, Swarm (fish) | — |
 | Oddish | Grass/Poison | 68 | Walk | Night |
-| Poliwag | Water | 346 | Fish | — |
-| Magikarp | Water | 65 | Fish | — |
+| Marill | Water/Fairy | 102 | Surf, Swarm (surf) | — |
+| Azumarill | Water/Fairy | 103 | Surf | — |
 | Spoink | Psychic | 224 | Rustling grass (Hoenn) | — |
-| Hoothoot | Normal/Flying | 13 | Headbutt | — |
-| Noctowl | Normal/Flying | 14 | Headbutt | — |
-| Butterfree | Bug/Flying | 22 | Headbutt | — |
-| Scyther | Bug/Flying | 86 | Headbutt | — |
-| Pinsir | Bug | 368 | Headbutt | — |
-| Zubat | Poison/Flying | **not in regional dex** | Walk | Night (also slots 9/11 day/morning) |
-| Psyduck | Water | **not in regional dex** | Surf | — |
-| Golduck | Water | **not in regional dex** | Surf | — |
-| Numel | Fire/Ground | **not in regional dex** | Rustling grass (Hoenn) | — |
-| Budew | Grass/Poison | **not in regional dex** | Rustling grass (Sinnoh) | — |
-| Carnivine | Grass | **not in regional dex** | Rustling grass (Sinnoh) | — |
+| Woobat | Psychic/Flying | 276 | Walk | Morning/Day/Night |
+| Poliwag | Water | 346 | Fish, Fish (night) | — |
+| Budew | Grass/Poison | **not in dex** | Rustling grass (Sinnoh) | — |
+| Carnivine | Grass | **not in dex** | Rustling grass (Sinnoh) | — |
+| Numel | Fire/Ground | **not in dex** | Rustling grass (Hoenn) | — |
 
-Dex numbers as of the full sheet-sync pass (`data/RegionalDex.c`, 368 entries) — re-`grep` if the
-dex is renumbered again before this area's table is finalized.
+Dex numbers as of `data/RegionalDex.c` with 377 entries —
+re-`grep` if the dex is renumbered.
 
 ## Notes
 
+- **Resolved — early-game cleanup pass (after the Clair pass).**
+  - Zubat → **Woobat** (#276).
+  - Psyduck/Golduck → **Marill/Azumarill** (#102/#103) on surf and the surf swarm, a freshwater
+    forest pond pairing that matches the Route 42/Mt. Mortar pool.
+  - Ilex Forest's water is no longer 100% dex-less.
+  Earlier notes below that describe these species as dex-less or intentionally kept are superseded.
 - Zubat/Psyduck/Golduck dex-less here is the same routine curation-sheet cut seen throughout the
   Bugsy approach (`keep = No`) — not a bug. Worth noting the surf table specifically: with both
   Psyduck and Golduck cut, Ilex Forest's entire water-encounter method is currently 100% dex-less.

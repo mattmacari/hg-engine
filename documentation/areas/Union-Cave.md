@@ -20,128 +20,224 @@ to fully collapse like Sprout Tower's floors, so each floor gets its own table.
   Forest and the Fire/Flying/Rock counter-access note). This is a Rock/Ground cave biome, so it's
   more relevant as a *counter-access* source for later Rock-weak fights than as Bugsy's own theme.
 
-## Encounter methods active (all three floors)
+## 1F
+
+### Encounter methods active
 
 | Method | Rate | Active? |
 |---|---|---|
-| Walk | 10 (1F) / 15 (B1F) / 15 (B2F) | Yes |
+| Walk | 10 | Yes |
 | Surf | 15 | Yes |
 | Rock Smash | 0 | No |
 | Old Rod | 25 | Yes |
 | Good Rod | 50 | Yes |
 | Super Rod | 75 | Yes |
 
-## Land encounter table
+### Land encounter table (walk, rate 10)
 
-### 1F (walk, rate 10)
+| Slot | % | Level | Morning | Day | Night |
+|---|---|---|---|---|---|
+| 1 | 20 | 6 | Geodude | Geodude | Geodude |
+| 2 | 20 | 6 | Sandshrew | Sandshrew | Sandshrew |
+| 3 | 10 | 6 | Geodude | Geodude | Geodude |
+| 4 | 10 | 6 | Sandshrew | Sandshrew | Sandshrew |
+| 5 | 10 | 5 | Woobat | Woobat | Woobat |
+| 6 | 10 | 5 | Woobat | Woobat | Woobat |
+| 7 | 5 | 4 | Dunsparce | Dunsparce | Dunsparce |
+| 8 | 5 | 4 | Dunsparce | Dunsparce | Dunsparce |
+| 9 | 4 | 7 | Woobat | Woobat | Woobat |
+| 10 | 4 | 6 | Onix | Onix | Onix |
+| 11 | 1 | 7 | Woobat | Woobat | Woobat |
+| 12 | 1 | 6 | Onix | Onix | Onix |
 
-| Slot | % | Level | Morning/Day/Night |
-|---|---|---|---|
-| 1 | 20 | 6 | Geodude |
-| 2 | 20 | 6 | Sandshrew |
-| 3 | 10 | 6 | Geodude |
-| 4 | 10 | 6 | Sandshrew |
-| 5 | 10 | 5 | Zubat |
-| 6 | 10 | 5 | Zubat |
-| 7 | 5 | 4 | Rattata |
-| 8 | 5 | 4 | Rattata |
-| 9 | 4 | 7 | Zubat |
-| 10 | 4 | 6 | Onix |
-| 11 | 1 | 7 | Zubat |
-| 12 | 1 | 6 | Onix |
+### Water/rod tables
 
-No morning/day/night variation on any floor of this cave.
+**Surf (rate 15):** Wooper (10–20), Quagsire (15–25), Quagsire (10–20), Quagsire (10–20), Quagsire (10–20).
+**Old Rod (rate 25):** Magikarp (10), Magikarp (10), Magikarp (10), Wooper (10), Wooper (10).
+**Good Rod (rate 50):** Magikarp (20), Wooper (20), Wooper (20), Wooper (20), Wooper (20).
+**Super Rod (rate 75):** Wooper (40), Wooper (40), Magikarp (40), Quagsire (40), Magikarp (40).
 
-### B1F (walk, rate 15)
-
-| Slot | % | Level | Morning/Day/Night |
-|---|---|---|---|
-| 1 | 20 | 8 | Geodude |
-| 2 | 20 | 8 | Sandshrew |
-| 3 | 10 | 8 | Geodude |
-| 4 | 10 | 8 | Sandshrew |
-| 5 | 10 | 7 | Zubat |
-| 6 | 10 | 7 | Zubat |
-| 7 | 5 | 8 | Onix |
-| 8 | 5 | 8 | Onix |
-| 9 | 4 | 9 | Zubat |
-| 10 | 4 | 6 | Rattata |
-| 11 | 1 | 9 | Zubat |
-| 12 | 1 | 6 | Rattata |
-
-### B2F (walk, rate 15)
-
-| Slot | % | Level | Morning/Day/Night |
-|---|---|---|---|
-| 1 | 20 | 22 | Zubat |
-| 2 | 20 | 22 | Raticate |
-| 3 | 10 | 22 | Zubat |
-| 4 | 10 | 22 | Raticate |
-| 5 | 10 | 22 | Golbat |
-| 6 | 10 | 22 | Golbat |
-| 7 | 5 | 21 | Geodude |
-| 8 | 5 | 21 | Geodude |
-| 9 | 4 | 20 | Rattata |
-| 10 | 4 | 23 | Onix |
-| 11 | 1 | 20 | Rattata |
-| 12 | 1 | 23 | Onix |
-
-## Water/rod tables
-
-**1F/B1F surf (rate 15):** Wooper (10–20, 60%), Quagsire ×4 (15–25/10–20/10–20/10–20, 30/5/4/1%).
-**1F/B1F old/good/super rod:** Magikarp ×3 + Goldeen ×2 (old, level 10); Magikarp + Goldeen ×4
-(good, level 20); Goldeen ×2, Magikarp, Seaking, Magikarp (super, level 40).
-
-**B2F surf (rate 15):** Tentacool (10–20, 60%), Quagsire (15–25, 30%), Tentacruel ×3
-(15–25/15–25/15–25, 5/4/1%). **B2F rod:** Magikarp ×3 + Krabby ×2 (old, level 10); Magikarp +
-Krabby ×3 + Corsola (good, level 20); Krabby ×3, Corsola, Kingler (super, level 40) — B2F is the
-one floor that swaps to the Krabby/Corsola/Kingler fishing line instead of Goldeen/Seaking.
-
-## Rustling grass (Hoenn/Sinnoh sound species, all three floors)
+### Rustling grass (Hoenn/Sinnoh sound species)
 
 | Region | Slot 1 | Slot 2 |
 |---|---|---|
 | Hoenn | Absol | Makuhita |
 | Sinnoh | Bronzor | Chingling |
 
-## Swarm
+### Swarm
 
-- `landSwarm = SPECIES_GEODUDE` (1F/B1F) / `SPECIES_ZUBAT` (B2F); `surfSwarm = SPECIES_WOOPER`
-  (1F/B1F) / `SPECIES_TENTACOOL` (B2F).
-- **Inert:** none of `MAP_D25R0101`/`MAP_D25R0102`/`MAP_D25R0103` are in `sSwarmMapLUT`
-  (`src/swarms.c`).
+- `landSwarm = SPECIES_GEODUDE`, `surfSwarm = SPECIES_WOOPER`, `nightFish = SPECIES_WOOPER`, `fishSwarm = SPECIES_MAGIKARP`.
+- **Inert:** this map is not in `sSwarmMapLUT` (`src/swarms.c`).
 
-## Species summary
+### Species summary
 
-| Species | Type(s) | Regional Dex # | Floor(s) | Method |
+| Species | Type(s) | Regional Dex # | Method | Time |
 |---|---|---|---|---|
-| Geodude | Rock/Ground | 30 | 1F/B1F/B2F | Walk |
-| Sandshrew | Ground | 41 | 1F/B1F | Walk |
-| Onix | Rock/Ground | 55 | 1F/B1F/B2F | Walk |
-| Wooper | Water/Ground | 49 | 1F/B1F | Surf |
-| Quagsire | Water/Ground | 50 | 1F/B1F/B2F | Surf |
-| Corsola | Water/Rock | 129 | B2F | Fish |
-| Absol | Dark | 228 | All | Rustling grass (Hoenn) |
-| Zubat | Poison/Flying | **not in regional dex** | 1F/B1F/B2F | Walk |
-| Golbat | Poison/Flying | **not in regional dex** | B2F | Walk |
-| Rattata | Normal | **not in regional dex** | 1F/B1F/B2F | Walk |
-| Raticate | Normal | **not in regional dex** | B2F | Walk |
-| Magikarp | Water | 65 | All | Fish |
-| Goldeen | Water | **not in regional dex** | 1F/B1F | Fish |
-| Seaking | Water | **not in regional dex** | 1F/B1F | Fish |
-| Tentacool | Water/Poison | **not in regional dex** | B2F | Surf |
-| Tentacruel | Water/Poison | **not in regional dex** | B2F | Surf |
-| Krabby | Water | **not in regional dex** | B2F | Fish |
-| Kingler | Water | **not in regional dex** | B2F | Fish |
-| Makuhita | Fighting | **not in regional dex** | All | Rustling grass (Hoenn) |
-| Bronzor | Steel/Psychic | **not in regional dex** | All | Rustling grass (Sinnoh) |
-| Chingling | Psychic | **not in regional dex** | All | Rustling grass (Sinnoh) |
+| Geodude | Rock/Ground | 30 | Walk, Swarm (land) | Morning/Day/Night |
+| Sandshrew | Ground | 41 | Walk | Morning/Day/Night |
+| Dunsparce | Normal | 45 | Walk | Morning/Day/Night |
+| Wooper | Water/Ground | 49 | Surf, Fish, Swarm (surf), Fish (night) | — |
+| Quagsire | Water/Ground | 50 | Surf, Fish | — |
+| Onix | Rock/Ground | 55 | Walk | Morning/Day/Night |
+| Magikarp | Water | 65 | Fish, Swarm (fish) | — |
+| Absol | Dark | 228 | Rustling grass (Hoenn) | — |
+| Woobat | Psychic/Flying | 276 | Walk | Morning/Day/Night |
+| Bronzor | Steel/Psychic | **not in dex** | Rustling grass (Sinnoh) | — |
+| Chingling | Psychic | **not in dex** | Rustling grass (Sinnoh) | — |
+| Makuhita | Fighting | **not in dex** | Rustling grass (Hoenn) | — |
 
-Dex numbers as of the full sheet-sync pass (`data/RegionalDex.c`, 366 entries) — re-`grep` if the
-dex is renumbered again before this area's tables are finalized.
+
+## B1F
+
+### Encounter methods active
+
+| Method | Rate | Active? |
+|---|---|---|
+| Walk | 15 | Yes |
+| Surf | 15 | Yes |
+| Rock Smash | 0 | No |
+| Old Rod | 25 | Yes |
+| Good Rod | 50 | Yes |
+| Super Rod | 75 | Yes |
+
+### Land encounter table (walk, rate 15)
+
+| Slot | % | Level | Morning | Day | Night |
+|---|---|---|---|---|---|
+| 1 | 20 | 8 | Geodude | Geodude | Geodude |
+| 2 | 20 | 8 | Sandshrew | Sandshrew | Sandshrew |
+| 3 | 10 | 8 | Geodude | Geodude | Geodude |
+| 4 | 10 | 8 | Sandshrew | Sandshrew | Sandshrew |
+| 5 | 10 | 7 | Woobat | Woobat | Woobat |
+| 6 | 10 | 7 | Woobat | Woobat | Woobat |
+| 7 | 5 | 8 | Onix | Onix | Onix |
+| 8 | 5 | 8 | Onix | Onix | Onix |
+| 9 | 4 | 9 | Woobat | Woobat | Woobat |
+| 10 | 4 | 6 | Dunsparce | Dunsparce | Dunsparce |
+| 11 | 1 | 9 | Woobat | Woobat | Woobat |
+| 12 | 1 | 6 | Dunsparce | Dunsparce | Dunsparce |
+
+### Water/rod tables
+
+**Surf (rate 15):** Wooper (10–20), Quagsire (15–25), Quagsire (10–20), Quagsire (10–20), Quagsire (10–20).
+**Old Rod (rate 25):** Magikarp (10), Magikarp (10), Magikarp (10), Wooper (10), Wooper (10).
+**Good Rod (rate 50):** Magikarp (20), Wooper (20), Wooper (20), Wooper (20), Wooper (20).
+**Super Rod (rate 75):** Wooper (40), Wooper (40), Magikarp (40), Quagsire (40), Magikarp (40).
+
+### Rustling grass (Hoenn/Sinnoh sound species)
+
+| Region | Slot 1 | Slot 2 |
+|---|---|---|
+| Hoenn | Absol | Makuhita |
+| Sinnoh | Bronzor | Chingling |
+
+### Swarm
+
+- `landSwarm = SPECIES_GEODUDE`, `surfSwarm = SPECIES_WOOPER`, `nightFish = SPECIES_WOOPER`, `fishSwarm = SPECIES_MAGIKARP`.
+- **Inert:** this map is not in `sSwarmMapLUT` (`src/swarms.c`).
+
+### Species summary
+
+| Species | Type(s) | Regional Dex # | Method | Time |
+|---|---|---|---|---|
+| Geodude | Rock/Ground | 30 | Walk, Swarm (land) | Morning/Day/Night |
+| Sandshrew | Ground | 41 | Walk | Morning/Day/Night |
+| Dunsparce | Normal | 45 | Walk | Morning/Day/Night |
+| Wooper | Water/Ground | 49 | Surf, Fish, Swarm (surf), Fish (night) | — |
+| Quagsire | Water/Ground | 50 | Surf, Fish | — |
+| Onix | Rock/Ground | 55 | Walk | Morning/Day/Night |
+| Magikarp | Water | 65 | Fish, Swarm (fish) | — |
+| Absol | Dark | 228 | Rustling grass (Hoenn) | — |
+| Woobat | Psychic/Flying | 276 | Walk | Morning/Day/Night |
+| Bronzor | Steel/Psychic | **not in dex** | Rustling grass (Sinnoh) | — |
+| Chingling | Psychic | **not in dex** | Rustling grass (Sinnoh) | — |
+| Makuhita | Fighting | **not in dex** | Rustling grass (Hoenn) | — |
+
+
+## B2F
+
+### Encounter methods active
+
+| Method | Rate | Active? |
+|---|---|---|
+| Walk | 15 | Yes |
+| Surf | 15 | Yes |
+| Rock Smash | 0 | No |
+| Old Rod | 25 | Yes |
+| Good Rod | 50 | Yes |
+| Super Rod | 75 | Yes |
+
+### Land encounter table (walk, rate 15)
+
+| Slot | % | Level | Morning | Day | Night |
+|---|---|---|---|---|---|
+| 1 | 20 | 22 | Woobat | Woobat | Woobat |
+| 2 | 20 | 22 | Dunsparce | Dunsparce | Dunsparce |
+| 3 | 10 | 22 | Woobat | Woobat | Woobat |
+| 4 | 10 | 22 | Dunsparce | Dunsparce | Dunsparce |
+| 5 | 10 | 22 | Swoobat | Swoobat | Swoobat |
+| 6 | 10 | 22 | Swoobat | Swoobat | Swoobat |
+| 7 | 5 | 21 | Geodude | Geodude | Geodude |
+| 8 | 5 | 21 | Geodude | Geodude | Geodude |
+| 9 | 4 | 20 | Dunsparce | Dunsparce | Dunsparce |
+| 10 | 4 | 23 | Onix | Onix | Onix |
+| 11 | 1 | 20 | Dunsparce | Dunsparce | Dunsparce |
+| 12 | 1 | 23 | Onix | Onix | Onix |
+
+### Water/rod tables
+
+**Surf (rate 15):** Staryu (10–20), Quagsire (15–25), Starmie (15–25), Starmie (15–25), Starmie (15–25).
+**Old Rod (rate 25):** Magikarp (10), Magikarp (10), Magikarp (10), Shellder (10), Shellder (10).
+**Good Rod (rate 50):** Magikarp (20), Shellder (20), Shellder (20), Corsola (20), Shellder (20).
+**Super Rod (rate 75):** Shellder (40), Corsola (40), Shellder (40), Cloyster (40), Shellder (40).
+
+### Rustling grass (Hoenn/Sinnoh sound species)
+
+| Region | Slot 1 | Slot 2 |
+|---|---|---|
+| Hoenn | Absol | Makuhita |
+| Sinnoh | Bronzor | Chingling |
+
+### Swarm
+
+- `landSwarm = SPECIES_WOOBAT`, `surfSwarm = SPECIES_STARYU`, `nightFish = SPECIES_STARYU`, `fishSwarm = SPECIES_MAGIKARP`.
+- **Inert:** this map is not in `sSwarmMapLUT` (`src/swarms.c`).
+
+### Species summary
+
+| Species | Type(s) | Regional Dex # | Method | Time |
+|---|---|---|---|---|
+| Geodude | Rock/Ground | 30 | Walk | Morning/Day/Night |
+| Dunsparce | Normal | 45 | Walk | Morning/Day/Night |
+| Quagsire | Water/Ground | 50 | Surf | — |
+| Onix | Rock/Ground | 55 | Walk | Morning/Day/Night |
+| Magikarp | Water | 65 | Fish, Swarm (fish) | — |
+| Staryu | Water | 125 | Surf, Swarm (surf), Fish (night) | — |
+| Starmie | Water/Psychic | 126 | Surf | — |
+| Shellder | Water | 127 | Fish | — |
+| Cloyster | Water/Ice | 128 | Fish | — |
+| Corsola | Water/Rock | 129 | Fish | — |
+| Absol | Dark | 228 | Rustling grass (Hoenn) | — |
+| Woobat | Psychic/Flying | 276 | Walk, Swarm (land) | Morning/Day/Night |
+| Swoobat | Psychic/Flying | 277 | Walk | Morning/Day/Night |
+| Bronzor | Steel/Psychic | **not in dex** | Rustling grass (Sinnoh) | — |
+| Chingling | Psychic | **not in dex** | Rustling grass (Sinnoh) | — |
+| Makuhita | Fighting | **not in dex** | Rustling grass (Hoenn) | — |
+
+
+Dex numbers as of `data/RegionalDex.c` with 377 entries — re-`grep` if the dex is renumbered.
 
 ## Notes
 
+- **Resolved — early-game cleanup pass (after the Clair pass).** Every dex-less species is
+  replaced:
+  - Zubat/Golbat → **Woobat/Swoobat** (#276/#277), including B2F's inert land swarm.
+  - Rattata/Raticate → **Dunsparce** (#45), the cave dweller from Dark Cave.
+  - Goldeen/Seaking (1F/B1F rods) → **Wooper/Quagsire**, matching Dark Cave's water.
+  - B2F's sea-connected water: Tentacool/Tentacruel → **Staryu/Starmie**, Krabby/Kingler →
+    **Shellder/Cloyster** (the Cianwood mapping).
+  - Chuck's Flying counter-access that cited Union Cave Zubat now comes from Woobat (Psychic/Flying).
+  Earlier notes below that describe these species as dex-less or intentionally kept are superseded.
 - Zubat/Golbat/Rattata/Raticate/Goldeen/Seaking/Tentacool/Tentacruel/Krabby/Kingler dex-less here
   is the same routine curation-sheet cut convention as the other Falkner/Bugsy-approach docs
   (`keep = No` in `data/generated/species_dex_meta.csv`) — not a bug. Notably this leaves the whole

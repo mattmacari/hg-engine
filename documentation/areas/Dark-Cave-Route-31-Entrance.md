@@ -21,41 +21,35 @@ areas.
 |---|---|---|
 | Walk | 10 | Yes |
 | Surf | 10 | Yes |
-| Rock Smash | 50 | Yes (highest rate of any Falkner-approach area) |
+| Rock Smash | 50 | Yes |
 | Old Rod | 25 | Yes |
 | Good Rod | 50 | Yes |
 | Super Rod | 75 | Yes |
 
-Notably lower walk rate (10, vs. 25 on the routes) but a much higher Rock Smash rate — consistent
-with a cave interior where wall-cracking is the primary interaction, not grass-walking.
-
 ## Land encounter table (walk, rate 10)
 
-Identical across morning/day/night — caves have no time-of-day variation here.
-
-| Slot | % | Level | Species |
-|---|---|---|---|
-| 1 | 20 | 3 | Geodude |
-| 2 | 20 | 2 | Zubat |
-| 3 | 10 | 3 | Geodude |
-| 4 | 10 | 2 | Zubat |
-| 5 | 10 | 2 | Geodude |
-| 6 | 10 | 2 | Geodude |
-| 7 | 5 | 4 | Geodude |
-| 8 | 5 | 4 | Geodude |
-| 9 | 4 | 3 | Zubat |
-| 10 | 4 | 4 | Zubat |
-| 11 | 1 | 3 | Zubat |
-| 12 | 1 | 4 | Dunsparce |
+| Slot | % | Level | Morning | Day | Night |
+|---|---|---|---|---|---|
+| 1 | 20 | 3 | Geodude | Geodude | Geodude |
+| 2 | 20 | 2 | Woobat | Woobat | Woobat |
+| 3 | 10 | 3 | Geodude | Geodude | Geodude |
+| 4 | 10 | 2 | Woobat | Woobat | Woobat |
+| 5 | 10 | 2 | Geodude | Geodude | Geodude |
+| 6 | 10 | 2 | Geodude | Geodude | Geodude |
+| 7 | 5 | 4 | Geodude | Geodude | Geodude |
+| 8 | 5 | 4 | Geodude | Geodude | Geodude |
+| 9 | 4 | 3 | Woobat | Woobat | Woobat |
+| 10 | 4 | 4 | Woobat | Woobat | Woobat |
+| 11 | 1 | 3 | Woobat | Woobat | Woobat |
+| 12 | 1 | 4 | Dunsparce | Dunsparce | Dunsparce |
 
 ## Water/rod tables
 
-**Surf (rate 10):** Magikarp in all 5 slots (60/30/5/4/1%, levels 10–20/5–15/2–10/2–10/2–10) —
-a small underground stream, not a real water route.
-**Rock Smash (rate 50, 90/10):** Dunsparce (4–8), Geodude (8–14)
-**Old Rod (60/30/5/4/1):** Magikarp ×3, Wooper ×2 (all level 10)
-**Good Rod (40/40/15/4/1):** Magikarp, Wooper ×4 (all level 20)
-**Super Rod (40/40/15/4/1):** Wooper ×2, Magikarp, Quagsire, Magikarp (all level 40)
+**Surf (rate 10):** Magikarp (10–20), Magikarp (5–15), Magikarp (2–10), Magikarp (2–10), Magikarp (2–10).
+**Rock Smash (rate 50):** Dunsparce (4–8), Geodude (8–14).
+**Old Rod (rate 25):** Magikarp (10), Magikarp (10), Magikarp (10), Wooper (10), Wooper (10).
+**Good Rod (rate 50):** Magikarp (20), Wooper (20), Wooper (20), Wooper (20), Wooper (20).
+**Super Rod (rate 75):** Wooper (40), Wooper (40), Magikarp (40), Quagsire (40), Magikarp (40).
 
 ## Rustling grass (Hoenn/Sinnoh sound species)
 
@@ -64,39 +58,35 @@ a small underground stream, not a real water route.
 | Hoenn | Absol | Makuhita |
 | Sinnoh | Bronzor | Chingling |
 
-Same mechanic as the outdoor routes despite being a cave interior — "grass" rustling here is a
-vanilla quirk of this being the map's registered sound-encounter table, not a literal patch of
-grass underground.
-
 ## Swarm
 
-- `landSwarm = SPECIES_DUNSPARCE`, `surfSwarm = SPECIES_MAGIKARP`, `fishSwarm = SPECIES_MAGIKARP`,
-  `nightFish = SPECIES_WOOPER`
-- **Active, unlike every other Falkner-approach area documented so far:** `MAP_D42R0102` **is** in
-  `sSwarmMapLUT` (`src/swarms.c`, `SWARM_GRASS` type). On the days this map rolls for the swarm,
-  wild Geodude/Zubat/Dunsparce encounters here are replaced with a Dunsparce swarm. Worth knowing
-  before touching `landSwarm` — it isn't dead weight here.
+- `landSwarm = SPECIES_DUNSPARCE`, `surfSwarm = SPECIES_MAGIKARP`, `nightFish = SPECIES_WOOPER`, `fishSwarm = SPECIES_MAGIKARP`.
+- **Active (land):** this map is in `sSwarmMapLUT` (`src/swarms.c:30`) — the Dunsparce swarm fires here.
 
 ## Species summary
 
 | Species | Type(s) | Regional Dex # | Method | Time |
 |---|---|---|---|---|
-| Geodude | Rock/Ground | 30 | Walk/Rock Smash | All |
-| Zubat | Poison/Flying | **not in regional dex** | Walk | All |
-| Dunsparce | Normal | 45 | Walk/Rock Smash | All |
-| Magikarp | Water | 65 | Surf/Fish | — |
-| Wooper | Water/Ground | 49 | Fish | — |
+| Geodude | Rock/Ground | 30 | Walk, Rock Smash | Morning/Day/Night |
+| Dunsparce | Normal | 45 | Walk, Rock Smash, Swarm (land) | Morning/Day/Night |
+| Wooper | Water/Ground | 49 | Fish, Fish (night) | — |
 | Quagsire | Water/Ground | 50 | Fish | — |
+| Magikarp | Water | 65 | Surf, Fish, Swarm (surf), Swarm (fish) | — |
 | Absol | Dark | 228 | Rustling grass (Hoenn) | — |
-| Makuhita | Fighting | **not in regional dex** | Rustling grass (Hoenn) | — |
-| Bronzor | Steel/Psychic | **not in regional dex** | Rustling grass (Sinnoh) | — |
-| Chingling | Psychic | **not in regional dex** | Rustling grass (Sinnoh) | — |
+| Woobat | Psychic/Flying | 276 | Walk | Morning/Day/Night |
+| Bronzor | Steel/Psychic | **not in dex** | Rustling grass (Sinnoh) | — |
+| Chingling | Psychic | **not in dex** | Rustling grass (Sinnoh) | — |
+| Makuhita | Fighting | **not in dex** | Rustling grass (Hoenn) | — |
 
-Dex numbers as of the full sheet-sync pass (`data/RegionalDex.c`, 366 entries) — re-`grep` if the
-dex is renumbered again before this area's table is finalized.
+Dex numbers as of `data/RegionalDex.c` with 377 entries —
+re-`grep` if the dex is renumbered.
 
 ## Notes
 
+- **Resolved — early-game cleanup pass (after the Clair pass).** Zubat → **Woobat** (#276).
+  This reverses the earlier decision (below) to keep Zubat dex-less here because its line is
+  `keep=No`. Later passes replaced Zubat with Woobat in every other cave, so this side now matches
+  the Route 45 entrance (Dark-Cave-Route-45-Entrance.md).
 - **Zubat is dex-less, and this is a resolved evolution-chain question, not an open one:** the
   curation sheet marks `keep=No` for the entire Zubat → Golbat → Crobat line. Before the
   [[dex-curation]] sync fix this session, Crobat was still sitting in `data/RegionalDex.c` despite

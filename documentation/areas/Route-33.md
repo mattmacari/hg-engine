@@ -19,7 +19,7 @@ areas.
 | Method | Rate | Active? |
 |---|---|---|
 | Walk | 25 | Yes |
-| Surf | 0 | No — no water on this route |
+| Surf | 0 | No |
 | Rock Smash | 0 | No |
 | Old Rod | 0 | No |
 | Good Rod | 0 | No |
@@ -29,52 +29,50 @@ areas.
 
 | Slot | % | Level | Morning | Day | Night |
 |---|---|---|---|---|---|
-| 1 | 20 | 6 | Hoppip | Hoppip | Zubat |
-| 2 | 20 | 7 | Rattata | Rattata | Rattata |
-| 3 | 10 | 6 | Hoppip | Hoppip | Zubat |
-| 4 | 10 | 7 | Rattata | Rattata | Rattata |
-| 5 | 10 | 6 | Growlithe | Growlithe | Rattata |
-| 6 | 10 | 6 | Growlithe | Growlithe | Rattata |
-| 7 | 5 | 6 | Rattata | Rattata | Rattata |
-| 8 | 5 | 6 | Rattata | Rattata | Rattata |
-| 9 | 4 | 8 | Hoppip | Hoppip | Zubat |
-| 10 | 4 | 4 | Zubat | Rattata | Zubat |
-| 11 | 1 | 8 | Hoppip | Hoppip | Zubat |
-| 12 | 1 | 4 | Zubat | Rattata | Zubat |
-
-## Water/rod tables
-
-None — all methods disabled (no water on this route).
+| 1 | 20 | 6 | Hoppip | Hoppip | Woobat |
+| 2 | 20 | 7 | Ekans | Ekans | Ekans |
+| 3 | 10 | 6 | Hoppip | Hoppip | Woobat |
+| 4 | 10 | 7 | Ekans | Ekans | Ekans |
+| 5 | 10 | 6 | Growlithe | Growlithe | Ekans |
+| 6 | 10 | 6 | Growlithe | Growlithe | Ekans |
+| 7 | 5 | 6 | Ekans | Ekans | Ekans |
+| 8 | 5 | 6 | Ekans | Ekans | Ekans |
+| 9 | 4 | 8 | Hoppip | Hoppip | Woobat |
+| 10 | 4 | 4 | Woobat | Ekans | Woobat |
+| 11 | 1 | 8 | Hoppip | Hoppip | Woobat |
+| 12 | 1 | 4 | Woobat | Ekans | Woobat |
 
 ## Rustling grass (Hoenn/Sinnoh sound species)
 
 | Region | Slot 1 | Slot 2 |
 |---|---|---|
 | Hoenn | Plusle | Minun |
-| Sinnoh | Shinx | Shinx (both slots) |
+| Sinnoh | Shinx | Shinx |
 
 ## Swarm
 
-- `landSwarm = SPECIES_HOPPIP`.
-- **Inert:** `MAP_R33` is not in `sSwarmMapLUT` (`src/swarms.c`).
+- `landSwarm = SPECIES_HOPPIP`, `surfSwarm = SPECIES_NONE`, `nightFish = SPECIES_NONE`, `fishSwarm = SPECIES_NONE`.
+- **Inert:** this map is not in `sSwarmMapLUT` (`src/swarms.c`).
 
 ## Species summary
 
 | Species | Type(s) | Regional Dex # | Method | Time |
 |---|---|---|---|---|
-| Hoppip | Grass/Flying | 60 | Walk | Morning/Day (also Night at slots 9/11) |
+| Ekans | Poison | 43 | Walk | Morning/Day/Night |
+| Hoppip | Grass/Flying | 60 | Walk, Swarm (land) | Morning/Day |
+| Growlithe | Fire | 99 | Walk | Morning/Day |
 | Plusle | Electric | 219 | Rustling grass (Hoenn) | — |
 | Minun | Electric | 220 | Rustling grass (Hoenn) | — |
 | Shinx | Electric | 235 | Rustling grass (Sinnoh) | — |
-| Rattata | Normal | **not in regional dex** | Walk | Morning/Day/Night |
-| Growlithe | Fire | 99 | Walk | Morning/Day |
-| Zubat | Poison/Flying | **not in regional dex** | Walk | Morning/Night |
+| Woobat | Psychic/Flying | 276 | Walk | Morning/Night |
 
-Dex numbers as of the full sheet-sync pass (`data/RegionalDex.c`, 368 entries) — re-`grep` if the
-dex is renumbered again before this route's table is finalized.
+Dex numbers as of `data/RegionalDex.c` with 377 entries —
+re-`grep` if the dex is renumbered.
 
 ## Notes
 
+- **Resolved — early-game cleanup pass (after the Clair pass).** Rattata → **Ekans** (#43,
+  continuing from Route 32 through Union Cave), Zubat → **Woobat** (#276). Earlier notes below that describe these species as dex-less or intentionally kept are superseded.
 - Rattata/Zubat dex-less here is the routine curation-sheet cut (`keep = No` in
   `data/generated/species_dex_meta.csv`), consistent with every other Falkner/Bugsy-approach doc.
 - **Resolved — Fire-type coverage gap closed here.** Replaced Spearow (already dex-cut, contributing

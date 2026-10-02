@@ -18,99 +18,143 @@ the missing "B1F").
   entirely Slowpoke-branded by name and vanilla lore — see Notes for why that's a live tension
   with the current regional dex curation.
 
-## Encounter methods active
+## 1F
+
+### Encounter methods active
 
 | Method | Rate | Active? |
 |---|---|---|
-| Walk | 5 (1F) / 15 (B2F) | Yes |
+| Walk | 5 | Yes |
 | Surf | 10 | Yes |
 | Rock Smash | 0 | No |
 | Old Rod | 25 | Yes |
 | Good Rod | 50 | Yes |
 | Super Rod | 75 | Yes |
 
-## Land encounter table
+### Land encounter table (walk, rate 5)
 
-### 1F (walk, rate 5)
+| Slot | % | Level | Morning | Day | Night |
+|---|---|---|---|---|---|
+| 1 | 20 | 5 | Woobat | Woobat | Woobat |
+| 2 | 20 | 6 | Woobat | Woobat | Woobat |
+| 3 | 10 | 5 | Woobat | Woobat | Woobat |
+| 4 | 10 | 6 | Woobat | Woobat | Woobat |
+| 5 | 10 | 7 | Woobat | Woobat | Woobat |
+| 6 | 10 | 7 | Woobat | Woobat | Woobat |
+| 7 | 5 | 6 | Slowpoke | Slowpoke | Slowpoke |
+| 8 | 5 | 6 | Slowpoke | Slowpoke | Slowpoke |
+| 9 | 4 | 8 | Woobat | Woobat | Woobat |
+| 10 | 4 | 8 | Slowpoke | Slowpoke | Slowpoke |
+| 11 | 1 | 8 | Woobat | Woobat | Woobat |
+| 12 | 1 | 8 | Slowpoke | Slowpoke | Slowpoke |
 
-| Slot | % | Level | Morning/Day/Night |
-|---|---|---|---|
-| 1 | 20 | 5 | Zubat |
-| 2 | 20 | 6 | Zubat |
-| 3 | 10 | 5 | Zubat |
-| 4 | 10 | 6 | Zubat |
-| 5 | 10 | 7 | Zubat |
-| 6 | 10 | 7 | Zubat |
-| 7 | 5 | 6 | Slowpoke |
-| 8 | 5 | 6 | Slowpoke |
-| 9 | 4 | 8 | Zubat |
-| 10 | 4 | 8 | Slowpoke |
-| 11 | 1 | 8 | Zubat |
-| 12 | 1 | 8 | Slowpoke |
+### Water/rod tables
 
-No morning/day/night variation on either floor.
+**Surf (rate 10):** Slowpoke (10–20), Slowpoke (15–25), Slowpoke (5–15), Slowpoke (5–15), Slowpoke (5–15).
+**Old Rod (rate 25):** Magikarp (10), Magikarp (10), Magikarp (10), Wooper (10), Wooper (10).
+**Good Rod (rate 50):** Magikarp (20), Wooper (20), Wooper (20), Wooper (20), Wooper (20).
+**Super Rod (rate 75):** Wooper (40), Wooper (40), Magikarp (40), Quagsire (40), Magikarp (40).
 
-### B2F (walk, rate 15)
-
-| Slot | % | Level | Morning/Day/Night |
-|---|---|---|---|
-| 1 | 20 | 21 | Zubat |
-| 2 | 20 | 23 | Zubat |
-| 3 | 10 | 21 | Zubat |
-| 4 | 10 | 23 | Zubat |
-| 5 | 10 | 19 | Zubat |
-| 6 | 10 | 19 | Zubat |
-| 7 | 5 | 21 | Slowpoke |
-| 8 | 5 | 21 | Slowpoke |
-| 9 | 4 | 23 | Golbat |
-| 10 | 4 | 23 | Slowpoke |
-| 11 | 1 | 23 | Golbat |
-| 12 | 1 | 23 | Slowpoke |
-
-## Water/rod tables
-
-**1F surf (rate 10):** Slowpoke ×5, at declining level ranges (10–20/15–25/5–15/5–15/5–15,
-60/30/5/4/1%) — this floor's surf table is 100% Slowpoke.
-**B2F surf (rate 10):** Slowpoke ×2 (10–20/15–25, 60/30%), Slowbro ×3 (15–25/15–25/30, 5/4/1%).
-**Both floors, old/good/super rod:** Magikarp ×3 + Goldeen ×2 (old, level 10); Magikarp + Goldeen
-×4 (good, level 20); Goldeen ×2, Magikarp, Seaking, Magikarp (super, level 40) — identical to
-Union Cave 1F/B1F's fishing tables.
-
-## Rustling grass (Hoenn/Sinnoh sound species, both floors)
+### Rustling grass (Hoenn/Sinnoh sound species)
 
 | Region | Slot 1 | Slot 2 |
 |---|---|---|
 | Hoenn | Absol | Makuhita |
 | Sinnoh | Bronzor | Chingling |
 
-Identical to Union Cave's rustling-grass pool.
+### Swarm
 
-## Swarm
+- `landSwarm = SPECIES_WOOBAT`, `surfSwarm = SPECIES_SLOWPOKE`, `nightFish = SPECIES_WOOPER`, `fishSwarm = SPECIES_MAGIKARP`.
+- **Inert:** this map is not in `sSwarmMapLUT` (`src/swarms.c`).
 
-- `landSwarm = SPECIES_ZUBAT` (both floors), `surfSwarm = SPECIES_SLOWPOKE` (both floors).
-- **Inert:** neither `MAP_D26R0102` nor `MAP_D26R0103` is in `sSwarmMapLUT` (`src/swarms.c`).
+### Species summary
 
-## Species summary
-
-| Species | Type(s) | Regional Dex # | Floor(s) | Method |
+| Species | Type(s) | Regional Dex # | Method | Time |
 |---|---|---|---|---|
-| Slowbro | Water/Psychic | 349 | B2F | Surf |
-| Absol | Dark | 228 | Both | Rustling grass (Hoenn) |
-| Magikarp | Water | 65 | Both | Fish |
-| Zubat | Poison/Flying | **not in regional dex** | Both | Walk |
-| Golbat | Poison/Flying | **not in regional dex** | B2F | Walk |
-| Slowpoke | Water/Psychic | 367 | Both | Walk/Surf |
-| Goldeen | Water | **not in regional dex** | Both | Fish |
-| Seaking | Water | **not in regional dex** | Both | Fish |
-| Makuhita | Fighting | **not in regional dex** | Both | Rustling grass (Hoenn) |
-| Bronzor | Steel/Psychic | **not in regional dex** | Both | Rustling grass (Sinnoh) |
-| Chingling | Psychic | **not in regional dex** | Both | Rustling grass (Sinnoh) |
+| Wooper | Water/Ground | 49 | Fish, Fish (night) | — |
+| Quagsire | Water/Ground | 50 | Fish | — |
+| Magikarp | Water | 65 | Fish, Swarm (fish) | — |
+| Absol | Dark | 228 | Rustling grass (Hoenn) | — |
+| Woobat | Psychic/Flying | 276 | Walk, Swarm (land) | Morning/Day/Night |
+| Slowpoke | Water/Psychic | 367 | Walk, Surf, Swarm (surf) | Morning/Day/Night |
+| Bronzor | Steel/Psychic | **not in dex** | Rustling grass (Sinnoh) | — |
+| Chingling | Psychic | **not in dex** | Rustling grass (Sinnoh) | — |
+| Makuhita | Fighting | **not in dex** | Rustling grass (Hoenn) | — |
 
-Dex numbers as of the full sheet-sync pass (`data/RegionalDex.c`, 368 entries) — re-`grep` if the
-dex is renumbered again before this area's tables are finalized.
+
+## B2F
+
+### Encounter methods active
+
+| Method | Rate | Active? |
+|---|---|---|
+| Walk | 15 | Yes |
+| Surf | 10 | Yes |
+| Rock Smash | 0 | No |
+| Old Rod | 25 | Yes |
+| Good Rod | 50 | Yes |
+| Super Rod | 75 | Yes |
+
+### Land encounter table (walk, rate 15)
+
+| Slot | % | Level | Morning | Day | Night |
+|---|---|---|---|---|---|
+| 1 | 20 | 21 | Woobat | Woobat | Woobat |
+| 2 | 20 | 23 | Woobat | Woobat | Woobat |
+| 3 | 10 | 21 | Woobat | Woobat | Woobat |
+| 4 | 10 | 23 | Woobat | Woobat | Woobat |
+| 5 | 10 | 19 | Woobat | Woobat | Woobat |
+| 6 | 10 | 19 | Woobat | Woobat | Woobat |
+| 7 | 5 | 21 | Slowpoke | Slowpoke | Slowpoke |
+| 8 | 5 | 21 | Slowpoke | Slowpoke | Slowpoke |
+| 9 | 4 | 23 | Swoobat | Swoobat | Swoobat |
+| 10 | 4 | 23 | Slowpoke | Slowpoke | Slowpoke |
+| 11 | 1 | 23 | Swoobat | Swoobat | Swoobat |
+| 12 | 1 | 23 | Slowpoke | Slowpoke | Slowpoke |
+
+### Water/rod tables
+
+**Surf (rate 10):** Slowpoke (10–20), Slowpoke (15–25), Slowbro (15–25), Slowbro (15–25), Slowbro (30).
+**Old Rod (rate 25):** Magikarp (10), Magikarp (10), Magikarp (10), Wooper (10), Wooper (10).
+**Good Rod (rate 50):** Magikarp (20), Wooper (20), Wooper (20), Wooper (20), Wooper (20).
+**Super Rod (rate 75):** Wooper (40), Wooper (40), Magikarp (40), Quagsire (40), Magikarp (40).
+
+### Rustling grass (Hoenn/Sinnoh sound species)
+
+| Region | Slot 1 | Slot 2 |
+|---|---|---|
+| Hoenn | Absol | Makuhita |
+| Sinnoh | Bronzor | Chingling |
+
+### Swarm
+
+- `landSwarm = SPECIES_WOOBAT`, `surfSwarm = SPECIES_SLOWPOKE`, `nightFish = SPECIES_WOOPER`, `fishSwarm = SPECIES_MAGIKARP`.
+- **Inert:** this map is not in `sSwarmMapLUT` (`src/swarms.c`).
+
+### Species summary
+
+| Species | Type(s) | Regional Dex # | Method | Time |
+|---|---|---|---|---|
+| Wooper | Water/Ground | 49 | Fish, Fish (night) | — |
+| Quagsire | Water/Ground | 50 | Fish | — |
+| Magikarp | Water | 65 | Fish, Swarm (fish) | — |
+| Absol | Dark | 228 | Rustling grass (Hoenn) | — |
+| Woobat | Psychic/Flying | 276 | Walk, Swarm (land) | Morning/Day/Night |
+| Swoobat | Psychic/Flying | 277 | Walk | Morning/Day/Night |
+| Slowbro | Water/Psychic | 349 | Surf | — |
+| Slowpoke | Water/Psychic | 367 | Walk, Surf, Swarm (surf) | Morning/Day/Night |
+| Bronzor | Steel/Psychic | **not in dex** | Rustling grass (Sinnoh) | — |
+| Chingling | Psychic | **not in dex** | Rustling grass (Sinnoh) | — |
+| Makuhita | Fighting | **not in dex** | Rustling grass (Hoenn) | — |
+
+
+Dex numbers as of `data/RegionalDex.c` with 377 entries — re-`grep` if the dex is renumbered.
 
 ## Notes
 
+- **Resolved — early-game cleanup pass (after the Clair pass).** Zubat/Golbat →
+  **Woobat/Swoobat** (#276/#277), including the inert land swarm. Goldeen/Seaking →
+  **Wooper/Quagsire**, matching Union Cave and Dark Cave. Earlier notes below that describe these species as dex-less or intentionally kept are superseded.
 - **Resolved — Slowpoke's dex-cut-while-Slowbro-was-kept was a curation oversight, now fixed.**
   Flipped `keep` to `Yes` for `SPECIES_SLOWPOKE` in `data/generated/species_dex_meta.csv` and added
   `[SPECIES_SLOWPOKE] = 367` to `data/RegionalDex.c` (appended per the existing file's append-order
