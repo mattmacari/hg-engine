@@ -25,7 +25,7 @@ Per-gym steps (see `HACK_PLAN.md` Technical Approach + Milestones for what each 
 | 4 | **Morty** (Ecruteak City) | Ghost — Will-O-Wisp burn stall / trapping | [Route 35](areas/Route-35.md), [National Park](areas/National-Park.md), [Route 36](areas/Route-36.md), [Ecruteak City](areas/Ecruteak-City.md), [Burned Tower](areas/Burned-Tower.md), [Route 37](areas/Route-37.md) | ✅ | ✅ (no change needed) | ✅ | ✅ |
 | 5 | **Chuck** (Cianwood City) | Fighting — rain abuse | [Route 40](areas/Route-40.md), [Route 41](areas/Route-41.md), [Cianwood City](areas/Cianwood-City.md) | ✅ | ✅ | ✅ | ⬜ |
 | 6 | **Jasmine** (Olivine City) | Steel — defensive wall core + signature double (Steel/Electric) | [Route 38](areas/Route-38.md), [Route 39](areas/Route-39.md), [Olivine City](areas/Olivine-City.md); optional west-of-Cianwood side areas: [Cliff Edge Gate](areas/Cliff-Edge-Gate.md), [Route 47](areas/Route-47.md), [Cliff Cave](areas/Cliff-Cave.md), [Route 48](areas/Route-48.md) | ✅ | ✅ | ✅ | ✅ |
-| 7 | **Pryce** (Mahogany Town) | Ice — hail support / bulky wall | [Route 42](areas/Route-42.md), [Mt. Mortar](areas/Mt-Mortar.md), [Route 43](areas/Route-43.md), [Lake of Rage](areas/Lake-of-Rage.md) | ✅ | ✅ (no change needed) | ✅ | ⬜ |
+| 7 | **Pryce** (Mahogany Town) | Ice — hail support / bulky wall | [Route 42](areas/Route-42.md), [Mt. Mortar](areas/Mt-Mortar.md), [Route 43](areas/Route-43.md), [Lake of Rage](areas/Lake-of-Rage.md) | ✅ | ✅ (no change needed) | ✅ | ✅ |
 | 8 | **Clair** (Blackthorn City) | Dragon — Dragon Dance power core + signature double (Dragon/Fairy-Steel) | — | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ## Elite Four, Champion, Rival
