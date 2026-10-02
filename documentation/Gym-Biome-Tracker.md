@@ -39,7 +39,7 @@ above.
 | **Will** | Psychic — bulky special core, Calm Mind | ✅ | ✅ |
 | **Koga** | Poison — trapping/hazard stall | ✅ | ✅ |
 | **Bruno** | Fighting — physical power core, priority + setup | ✅ | ✅ |
-| **Karen** | Dark — mixed-attacker pressure core | ⬜ | ⬜ |
+| **Karen** | Dark — mixed-attacker pressure core | ✅ | ✅ |
 | **Lance** (Champion) | Dragon — apex power core, showcase Mega | ⬜ | ⬜ |
 | **Silver** (Rival) | Mixed, adapts to counter the player | ⬜ | ⬜ (recurring — multiple encounters, see `HACK_PLAN.md`) |
 
