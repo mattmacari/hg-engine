@@ -26,7 +26,7 @@ Per-gym steps (see `HACK_PLAN.md` Technical Approach + Milestones for what each 
 | 5 | **Chuck** (Cianwood City) | Fighting — rain abuse | [Route 40](areas/Route-40.md), [Route 41](areas/Route-41.md), [Cianwood City](areas/Cianwood-City.md) | ✅ | ✅ | ✅ | ✅ |
 | 6 | **Jasmine** (Olivine City) | Steel — defensive wall core + signature double (Steel/Electric) | [Route 38](areas/Route-38.md), [Route 39](areas/Route-39.md), [Olivine City](areas/Olivine-City.md); optional west-of-Cianwood side areas: [Cliff Edge Gate](areas/Cliff-Edge-Gate.md), [Route 47](areas/Route-47.md), [Cliff Cave](areas/Cliff-Cave.md), [Route 48](areas/Route-48.md) | ✅ | ✅ | ✅ | ✅ |
 | 7 | **Pryce** (Mahogany Town) | Ice — hail support / bulky wall | [Route 42](areas/Route-42.md), [Mt. Mortar](areas/Mt-Mortar.md), [Route 43](areas/Route-43.md), [Lake of Rage](areas/Lake-of-Rage.md) | ✅ | ✅ (no change needed) | ✅ | ✅ |
-| 8 | **Clair** (Blackthorn City) | Dragon — Dragon Dance power core + signature double (Dragon/Fairy-Steel) | [Route 44](areas/Route-44.md), [Ice Path](areas/Ice-Path.md), [Blackthorn City](areas/Blackthorn-City.md), [Dragon's Den](areas/Dragons-Den.md); optional south-of-Blackthorn: [Route 45](areas/Route-45.md), [Dark Cave (Route 45 entrance)](areas/Dark-Cave-Route-45-Entrance.md) | ✅ | ✅ | ✅ | ⬜ |
+| 8 | **Clair** (Blackthorn City) | Dragon — Dragon Dance power core + signature double (Dragon/Fairy-Steel) | [Route 44](areas/Route-44.md), [Ice Path](areas/Ice-Path.md), [Blackthorn City](areas/Blackthorn-City.md), [Dragon's Den](areas/Dragons-Den.md); optional south-of-Blackthorn: [Route 45](areas/Route-45.md), [Dark Cave (Route 45 entrance)](areas/Dark-Cave-Route-45-Entrance.md) | ✅ | ✅ | ✅ | ✅ |
 
 ## Elite Four, Champion, Rival
 
