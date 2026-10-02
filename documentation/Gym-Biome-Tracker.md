@@ -36,7 +36,7 @@ above.
 
 | Trainer | Type / Archetype | Coverage audit | Trainer rebuild |
 |---|---|---|---|
-| **Will** | Psychic — bulky special core, Calm Mind | ⬜ | ⬜ |
+| **Will** | Psychic — bulky special core, Calm Mind | ✅ | ✅ |
 | **Koga** | Poison — trapping/hazard stall | ⬜ | ⬜ |
 | **Bruno** | Fighting — physical power core, priority + setup | ⬜ | ⬜ |
 | **Karen** | Dark — mixed-attacker pressure core | ⬜ | ⬜ |
@@ -45,6 +45,7 @@ above.
 
 ## Notes
 
+- **Elite Four level curve (agreed):** Will 40–44 → Koga 42–46 → Bruno 44–48 → Karen 46–50 → Lance 48–52. Clair tops out at 41, and vanilla Lance's ace is Lv50.
 - Full rationale (biome fit, archetype reasoning, counter-access notes) for every row lives in
   `HACK_PLAN.md`'s Biome Map table — this doc is just the *progress* view, don't duplicate the
   reasoning here.
